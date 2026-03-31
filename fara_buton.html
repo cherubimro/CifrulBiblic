@@ -37,11 +37,13 @@
         .stats table { font-size: 0.9em; }
         .stats th { background: #555; }
         .footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 2px solid #8B0000; color: #888; font-size: 0.9em; }
-        @media print { th { position: static; } body { font-size: 0.8em; } }
+        @media print { th { position: static; } body { font-size: 0.8em; } .sidenav, .sidenav-tab { display:none; } }
 
         
 
-        
+        /* Mobile adjustments */
+        @media (max-width: 600px) {
+            body { font-size: 0.7em; }
             .sidenav { width: 80vw; left: -80vw; top: 0 !important; height: 100vh !important; position: fixed !important; }
             .sidenav.open { left: 0 !important; }
             .sidenav a { font-size: 0.8em; padding: 8px 12px; }
@@ -52,6 +54,10 @@
     </style>
 </head>
 <body>
+
+
+
+
 
 
 
@@ -2984,6 +2990,12 @@ Total concepte enoice în VT: 22 versete.
 
 <p>Stăpânii nu vor ca norodul să cunoască diferența dintre teologia narativă și realitatea istorică, și nici să decripteze mecanismele și interesele retorice din spate, iar lupii în haine de oaie îi atrag la gândul și adunările lor.</p>
 
+<p style="text-align:center; font-size:1.05em; margin:20px 0; padding:12px; background:#fffff0; border:2px solid #8B0000; border-radius:8px;">
+<em>«<strong>Perversi difficile corriguntur, et stultorum infinitus est numerus.</strong>»</em><br/>
+<span style="font-size:0.9em; color:#555;">Cei perverși cu greu se îndreaptă, și numărul proștilor este infinit.</span><br/>
+<span style="font-size:0.85em; color:#888;">— Ecclesiastul 1:15, Vulgata</span>
+</p>
+
 <p style="text-align:center; font-style:italic; color:#8B0000; font-size:1.1em; margin:25px 0;"><em>«Dă unui om un pește, și va fi iar flămând. Învață-l să pescuiască, și nu va mai flămânzi niciodată.»</em></p>
 
 <hr style="margin-top:50px; border:2px solid #8B0000;">
@@ -3192,7 +3204,7 @@ Total concepte enoice în VT: 22 versete.
 
 <p>Aceasta este o relație <strong>«peste timp»</strong>: niciun evanghelist individual nu o putea construi, deoarece fiecare scria independent — Matei nu știa câte ori va folosi Luca titlul, iar Luca nu știa câte ori îl va folosi Ioan. Canonul celor patru Evanghelii a fost fixat abia la sinoadele din sec. IV (Laodicea ~363, Cartagina 397). Și totuși, produsul coșurilor din două minuni diferite — relatate de autori diferiți — dă exact frecvența titlului mesianic central al Noului Testament.</p>
 
-<p>Ioan relatează singura pescuire de după Înviere (<a href="https://bibliaortodoxa.ro/carte.php?id=35&amp;cap=21#11" target="_blank" rel="noopener">Ioan 21:11</a>), în care sunt exact <strong>153 de pești mari</strong>. Acest număr are proprietăți matematice unice:</p>
+<p>Ioan relatează singura pescuire de după Înviere (<a href="https://bibliaortodoxa.ro/carte.php?id=35&amp;cap=21#11" target="_blank" rel="noopener">Ioan 21:11</a>), în care sunt exact <strong>153 de pești mari</strong> (gr. μεγάλων). De ce precizează Ioan că sunt <strong>mari</strong>? Pentru că 153 = בני האלהים (Fiii lui Dumnezeu) — iar în <a href="https://bibliaortodoxa.ro/carte.php?id=25&amp;cap=6#4" target="_blank" rel="noopener" style="color:#8B0000;">Facerea 6:4</a>, din unirea Fiilor lui Dumnezeu cu fiicele oamenilor se nasc <strong>uriașii</strong> (Nephilim, γίγαντες). Peștii sunt „mari" pentru că fac referire la aceeași tradiție din care vin „uriașii" — narativa Veghetorilor pe care 1 Enoh o dezvoltă. Acest număr are proprietăți matematice unice:</p>
 
 <ul style="margin-left:20px; line-height:2;">
 <li><strong>153 = 1³ + 5³ + 3³</strong> = 1 + 125 + 27 — suma cuburilor propriilor cifre (proprietate extrem de rară: doar 4 numere de 3 cifre o au)</li>
@@ -3244,6 +3256,110 @@ Total concepte enoice în VT: 22 versete.
 <h4 style="color:#8B0000;">De ce hexagonale? Steaua lui David și mântuirea din iudei</h4>
 
 <p>Un <strong>număr hexagonal</strong> H(n) = n × (2n − 1) reprezintă puncte aranjate în inele concentrice de formă hexagonală — adică în forma <strong>Stelei lui David</strong> (✡). Iată primele valori: H(1)=1, H(2)=6, H(3)=15, H(4)=28... Fiecare inel adaugă un strat hexagonal în jurul nucleului:</p>
+
+<div style="text-align:center; margin:20px auto; width:90%;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" width="700" height="500" style="max-width:100%;">
+<rect width="700" height="500" fill="#fffff8" rx="8" stroke="#ddd" stroke-width="1"/>
+
+<!-- Title -->
+<text x="350" y="30" text-anchor="middle" fill="#8B0000" font-size="16" font-weight="bold" font-family="Georgia,serif">Numerele hexagonale — Steaua lui David (✡)</text>
+<text x="350" y="50" text-anchor="middle" fill="#555" font-size="12" font-family="monospace">H(n) = n × (2n − 1) : puncte aranjate în inele hexagonale</text>
+
+<!-- H(4) = 28 puncte - left -->
+<text x="130" y="80" text-anchor="middle" fill="#8B0000" font-size="14" font-weight="bold" font-family="Georgia,serif">H(4) = 28</text>
+<!-- Ring 1: center -->
+<circle cx="130" cy="175" r="4" fill="#8B0000"/>
+<!-- Ring 2 -->
+<circle cx="130" cy="155" r="3" fill="#c44"/>
+<circle cx="147" cy="165" r="3" fill="#c44"/>
+<circle cx="147" cy="185" r="3" fill="#c44"/>
+<circle cx="130" cy="195" r="3" fill="#c44"/>
+<circle cx="113" cy="185" r="3" fill="#c44"/>
+<circle cx="113" cy="165" r="3" fill="#c44"/>
+<!-- Ring 3 -->
+<circle cx="130" cy="135" r="2.5" fill="#d88"/>
+<circle cx="147" cy="145" r="2.5" fill="#d88"/>
+<circle cx="164" cy="155" r="2.5" fill="#d88"/>
+<circle cx="164" cy="175" r="2.5" fill="#d88"/>
+<circle cx="164" cy="195" r="2.5" fill="#d88"/>
+<circle cx="147" cy="205" r="2.5" fill="#d88"/>
+<circle cx="130" cy="215" r="2.5" fill="#d88"/>
+<circle cx="113" cy="205" r="2.5" fill="#d88"/>
+<circle cx="96" cy="195" r="2.5" fill="#d88"/>
+<circle cx="96" cy="175" r="2.5" fill="#d88"/>
+<circle cx="96" cy="155" r="2.5" fill="#d88"/>
+<circle cx="113" cy="145" r="2.5" fill="#d88"/>
+<!-- Ring 4 -->
+<circle cx="130" cy="115" r="2" fill="#eaa"/>
+<circle cx="147" cy="125" r="2" fill="#eaa"/>
+<circle cx="164" cy="135" r="2" fill="#eaa"/>
+<circle cx="181" cy="145" r="2" fill="#eaa"/>
+<circle cx="181" cy="165" r="2" fill="#eaa"/>
+<circle cx="181" cy="185" r="2" fill="#eaa"/>
+<circle cx="181" cy="205" r="2" fill="#eaa"/>
+<circle cx="164" cy="215" r="2" fill="#eaa"/>
+<circle cx="147" cy="225" r="2" fill="#eaa"/>
+<circle cx="130" cy="235" r="2" fill="#eaa"/>
+<circle cx="113" cy="225" r="2" fill="#eaa"/>
+<circle cx="96" cy="215" r="2" fill="#eaa"/>
+<circle cx="79" cy="205" r="2" fill="#eaa"/>
+<circle cx="79" cy="185" r="2" fill="#eaa"/>
+<circle cx="79" cy="165" r="2" fill="#eaa"/>
+<circle cx="79" cy="145" r="2" fill="#eaa"/>
+<circle cx="96" cy="135" r="2" fill="#eaa"/>
+<circle cx="113" cy="125" r="2" fill="#eaa"/>
+<text x="130" y="265" text-anchor="middle" fill="#555" font-size="11" font-family="monospace">1 + 5 + 9 + 13 = 28</text>
+
+<!-- H(9) = 153 - center -->
+<text x="370" y="80" text-anchor="middle" fill="#8B0000" font-size="14" font-weight="bold" font-family="Georgia,serif">H(9) = 153 ✡</text>
+<!-- Star of David -->
+<polygon points="370,95 445,138 445,225 370,268 295,225 295,138" fill="none" stroke="#8B0000" stroke-width="2"/>
+<line x1="370" y1="95" x2="295" y2="225" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="370" y1="95" x2="445" y2="225" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="295" y1="138" x2="445" y2="138" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="295" y1="138" x2="445" y2="225" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="445" y1="138" x2="295" y2="225" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="370" y1="268" x2="295" y2="138" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="370" y1="268" x2="445" y2="138" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="295" y1="225" x2="445" y2="225" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<circle cx="370" cy="181" r="5" fill="#8B0000"/>
+<text x="370" y="290" text-anchor="middle" fill="#8B0000" font-size="13" font-weight="bold" font-family="Georgia,serif">9 = 3² (Treimea²)</text>
+<text x="370" y="308" text-anchor="middle" fill="#555" font-size="11" font-family="monospace">153 = 9 × 17 = בני האלהים</text>
+
+<!-- H(12) = 276 - right -->
+<text x="590" y="80" text-anchor="middle" fill="#8B0000" font-size="14" font-weight="bold" font-family="Georgia,serif">H(12) = 276 ✡</text>
+<!-- Larger Star of David -->
+<polygon points="590,90 670,136 670,229 590,275 510,229 510,136" fill="none" stroke="#8B0000" stroke-width="2.5"/>
+<line x1="590" y1="90" x2="510" y2="229" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="590" y1="90" x2="670" y2="229" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="510" y1="136" x2="670" y2="136" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="510" y1="136" x2="670" y2="229" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="670" y1="136" x2="510" y2="229" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="590" y1="275" x2="510" y2="136" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="590" y1="275" x2="670" y2="136" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<line x1="510" y1="229" x2="670" y2="229" stroke="#8B0000" stroke-width="1" opacity="0.3"/>
+<polygon points="590,110 650,148 650,223 590,260 530,223 530,148" fill="none" stroke="#8B0000" stroke-width="1" opacity="0.2"/>
+<polygon points="590,130 630,160 630,215 590,245 550,215 550,160" fill="none" stroke="#8B0000" stroke-width="0.5" opacity="0.15"/>
+<circle cx="590" cy="182" r="5" fill="#8B0000"/>
+<text x="590" y="290" text-anchor="middle" fill="#8B0000" font-size="13" font-weight="bold" font-family="Georgia,serif">12 = Apostolii / Semințiile</text>
+<text x="590" y="308" text-anchor="middle" fill="#555" font-size="11" font-family="monospace">276 = 12 × 23 = salvați</text>
+
+<!-- Bottom text -->
+<text x="350" y="350" text-anchor="middle" fill="#333" font-size="13" font-family="Georgia,serif" font-style="italic">«Mântuirea este din iudei» (Ioan 4:22)</text>
+<text x="350" y="372" text-anchor="middle" fill="#333" font-size="13" font-family="Georgia,serif" font-style="italic">Ambele numere formează Steaua lui David</text>
+
+<!-- Arrows -->
+<text x="240" y="180" text-anchor="middle" fill="#8B0000" font-size="24" font-family="serif">→</text>
+<text x="490" y="180" text-anchor="middle" fill="#8B0000" font-size="24" font-family="serif">→</text>
+
+<!-- Formula at bottom -->
+<text x="350" y="410" text-anchor="middle" fill="#555" font-size="12" font-family="monospace">153 = H(9) = H(3²)  ;  276 = H(12)  ;  276 − 153 = 123</text>
+<text x="350" y="435" text-anchor="middle" fill="#555" font-size="12" font-family="monospace">666 − 276 = 390 (Iezechiel 4:5)  ;  666 = ΛΑΤΕΙΝΟΣ (LATEINOS/LATINII/ROMANII)</text>
+
+<!-- Frame for formulas -->
+<rect x="60" y="390" width="580" height="60" fill="none" stroke="#ddd" stroke-width="0.5" rx="4"/>
+</svg>
+</div>
 
 <p>Ambele numere ale mântuirii — <strong>153</strong> (peștii) și <strong>276</strong> (sufletele) — se aranjează în forma <strong>Stelei lui David</strong> (✡), simbolul lui Israel. Parametrii lor (9 = Treimea², 12 = apostolii/semințiile) sunt numerele-cheie ale credinței. Iar Iisus Hristos spune limpede femeii samarinence la fântâna lui Iacov: <em>«<strong>Mântuirea este din iudei</strong>»</em> (<a href="https://bibliaortodoxa.ro/carte.php?id=35&amp;cap=4#22" target="_blank" rel="noopener" style="color:#8B0000;">Ioan 4:22</a>). Numerele confirmă: mântuirea vine prin David, prin Israel, prin forma hexagonală care poartă Steaua regelui uns.</p>
 
@@ -5358,8 +5474,8 @@ Sursa: <a href="https://3d-asteroids.space/comets/1P-Halley" target="_blank" rel
 <li><strong>Faza 2</strong> (3 feb – 25 mar): 51 zile vizibile, din care <strong>19 staționare</strong> — cometa reapare și traversează Săgetătorul și Scorpionul</li>
 <li><strong>Total: 14 + 19 = 33 zile staționare</strong> — câte o noapte pentru fiecare an al vieții lui Iisus Hristos</li>
 </ul>
-<div id="skyMapContainer" style="text-align:center; margin:20px auto; width:84%; overflow:visible; border:1px solid #333; border-radius:8px;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="900" height="550" style="max-width:100%;">
+<div id="skyMapContainer" style="text-align:center; margin:20px auto; width:98%; overflow:visible; border:1px solid #333; border-radius:8px;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="100%" style="height:auto;">
 <rect width="900" height="550" fill="#0a0a1a" rx="8"/>
 <text x="450" y="22" text-anchor="middle" fill="#d4a84b" font-size="15" font-weight="bold" font-family="Georgia,serif">Traiectoria Cometei Halley/1P pe cerul Ierusalimului — 66 d.Hr.</text>
 <text x="450" y="40" text-anchor="middle" fill="#506580" font-size="11" font-family="monospace">66 zile vizibile, din care 33 staționare (&lt;0.6°/zi = mai puțin decât diametrul Lunii)</text>
@@ -5492,7 +5608,6 @@ Sursa: <a href="https://3d-asteroids.space/comets/1P-Halley" target="_blank" rel
 <line x1="686" y1="109" x2="700" y2="109" stroke="#555" stroke-dasharray="4,4"/>
 <text x="706" y="113" fill="#888" font-size="10" font-family="monospace">Invizibilă (periheliu)</text>
 <text x="690" y="128" fill="#506580" font-size="9" font-family="monospace">Dimensiune = strălucire</text>
-<div style="position:absolute;bottom:8px;right:12px;font-size:11px;color:#506580;pointer-events:none;">Scroll: zoom · Drag: panoramare · Dublu-click: reset</div>
 </svg>
 </div>
 
@@ -5524,6 +5639,7 @@ Sursa: <a href="https://3d-asteroids.space/comets/1P-Halley" target="_blank" rel
 <p>Text biblic: Biblia Ortodoxă în limba română (cu diacritice, sursă: bibliaortodoxa.ro)</p>
 <p>Toate traducerile și notele sunt în limba română.</p>
 </div>
+
 
 </body>
 </html>
