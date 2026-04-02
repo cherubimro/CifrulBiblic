@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="800" viewbox="0 0 950 800" width="950" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+      text { font-family: Georgia, 'Times New Roman', serif; }
+    </style>
+</defs>
+<rect fill="#ffffff" height="800" rx="8" width="950"></rect>
+<!-- Titlu -->
+<text fill="#8B0000" font-size="24" font-weight="bold" text-anchor="middle" x="475" y="38">VESICA PISCIS și cei 153 de pești (Ioan 21:11)</text>
+<text fill="#666" font-size="15" font-style="italic" text-anchor="middle" x="475" y="60">Pitagoreici → Euclid → Arhimede — Măsura Peștelui</text>
+<!-- STÂNGA: Două cercuri -->
+<circle cx="175" cy="250" fill="none" opacity="0.6" r="110" stroke="#8B0000" stroke-width="2"></circle>
+<circle cx="175" cy="250" fill="#8B0000" r="3"></circle>
+<text fill="#8B0000" font-size="14" text-anchor="middle" x="145" y="255">A</text>
+<circle cx="285" cy="250" fill="none" opacity="0.6" r="110" stroke="#8B0000" stroke-width="2"></circle>
+<circle cx="285" cy="250" fill="#8B0000" r="3"></circle>
+<text fill="#8B0000" font-size="14" text-anchor="middle" x="315" y="255">B</text>
+<!-- Vesica: doar arcele albastre, fără fill -->
+<path d="M 230 154.7 A 110 110 0 0 1 230 345.3" fill="none" stroke="#0055aa" stroke-width="3"></path>
+<path d="M 230 154.7 A 110 110 0 0 0 230 345.3" fill="none" stroke="#0055aa" stroke-width="3"></path>
+<!-- Lățime: sub cercuri -->
+<line stroke="#cc0000" stroke-width="1.5" x1="175" x2="285" y1="380" y2="380"></line>
+<line stroke="#cc0000" stroke-width="1.5" x1="175" x2="175" y1="375" y2="385"></line>
+<line stroke="#cc0000" stroke-width="1.5" x1="285" x2="285" y1="375" y2="385"></line>
+<text fill="#cc0000" font-size="14" font-weight="bold" text-anchor="middle" x="230" y="398">r (lățime)</text>
+<!-- Înălțime: la stânga -->
+<line stroke="#006600" stroke-width="1.5" x1="80" x2="80" y1="154.7" y2="345.3"></line>
+<line stroke="#006600" stroke-width="1.5" x1="75" x2="85" y1="154.7" y2="154.7"></line>
+<line stroke="#006600" stroke-width="1.5" x1="75" x2="85" y1="345.3" y2="345.3"></line>
+<text fill="#006600" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90, 62, 255)" x="62" y="255">r√3 (înălțime)</text>
+<!-- Etichetă stânga -->
+<text fill="#333" font-size="16" font-weight="bold" text-anchor="middle" x="230" y="425">Vesica Piscis</text>
+<text fill="#333" font-size="14" text-anchor="middle" x="230" y="445">Două cercuri de rază egală</text>
+<!-- DREAPTA: Pește simplu -->
+<g transform="translate(660, 250)">
+<path d="M 110 0 Q 20 -100, -110 0 Q 20 100, 110 0 Z" fill="#ffffff" stroke="#0055aa" stroke-width="3"></path>
+<path d="M 110 0 L 155 -50 M 110 0 L 155 50" fill="none" stroke="#0055aa" stroke-linecap="round" stroke-width="3"></path>
+<circle cx="-55" cy="-10" fill="#0055aa" r="6"></circle>
+</g>
+<!-- Lățime sub pește -->
+<line stroke="#cc0000" stroke-width="1.5" x1="550" x2="770" y1="380" y2="380"></line>
+<line stroke="#cc0000" stroke-width="1.5" x1="550" x2="550" y1="375" y2="385"></line>
+<line stroke="#cc0000" stroke-width="1.5" x1="770" x2="770" y1="375" y2="385"></line>
+<text fill="#cc0000" font-size="14" font-weight="bold" text-anchor="middle" x="660" y="398">w = 265</text>
+<!-- Înălțime la stânga peștelui -->
+<line stroke="#006600" stroke-width="1.5" x1="500" x2="500" y1="150" y2="350"></line>
+<line stroke="#006600" stroke-width="1.5" x1="495" x2="505" y1="150" y2="150"></line>
+<line stroke="#006600" stroke-width="1.5" x1="495" x2="505" y1="350" y2="350"></line>
+<text fill="#006600" font-size="14" font-weight="bold" text-anchor="middle" transform="rotate(-90, 482, 255)" x="482" y="255">h = 153</text>
+<!-- Etichetă dreapta -->
+<text fill="#333" font-size="16" font-weight="bold" text-anchor="middle" x="660" y="425">ΙΧΘΥΣ — Peștele creștin</text>
+<text fill="#333" font-size="14" text-anchor="middle" x="660" y="445">Formă derivată din vesica piscis</text>
+<!-- Separator -->
+<line stroke="#ddd" stroke-width="1" x1="40" x2="910" y1="470" y2="470"></line>
+<!-- STÂNGA JOS: Formula -->
+<rect fill="#fffff0" height="130" rx="6" stroke="#ddd" width="420" x="40" y="490"></rect>
+<text fill="#222" font-size="18" text-anchor="middle" x="250" y="520">Raportul vesicii piscis:</text>
+<text fill="#8B0000" font-size="26" font-weight="bold" text-anchor="middle" x="250" y="558">w / h = √3 ≈ 265 / 153</text>
+<text fill="#333" font-size="14" text-anchor="middle" x="250" y="585">Arhimede, Măsurarea cercului (sec. III î.Hr.)</text>
+<text fill="#888" font-size="12" text-anchor="middle" x="250" y="606">265/153 = 1.73202...     √3 = 1.73205...</text>
+<!-- DREAPTA JOS: ΙΧΘΥΣ -->
+<rect fill="#f0f8f0" height="130" rx="6" stroke="#ddd" width="420" x="490" y="490"></rect>
+<text fill="#8B0000" font-size="32" font-weight="bold" letter-spacing="10" text-anchor="middle" x="700" y="520">ΙΧΘΥΣ</text>
+<text fill="#555" font-size="14" text-anchor="middle" x="700" y="542">= ichthys = PEȘTE (gr. ἰχθύς)</text>
+<text fill="#555" font-size="14" text-anchor="start" x="530" y="568">Ι — Ἰησοῦς (Iisus)</text>
+<text fill="#555" font-size="14" text-anchor="start" x="530" y="586">Χ — Χριστός (Hristos)</text>
+<text fill="#555" font-size="14" text-anchor="start" x="530" y="604">Θ — Θεοῦ (al lui Dumnezeu)</text>
+<text fill="#555" font-size="14" text-anchor="start" x="740" y="568">Υ — Υἱός (Fiul)</text>
+<text fill="#555" font-size="14" text-anchor="start" x="740" y="586">Σ — Σωτήρ (Mântuitorul)</text>
+<!-- JOS: Explicație -->
+<rect fill="#fff8f0" height="145" rx="6" stroke="#8B0000" stroke-width="1.5" width="870" x="40" y="640"></rect>
+<text fill="#8B0000" font-size="15" font-weight="bold" text-anchor="middle" x="450" y="668">Ioan 21:11 — „Și a tras mreaja la țărm, plină de pești mari: o sută cincizeci și trei."</text>
+<text fill="#333" font-size="14" text-anchor="middle" x="450" y="698">153 = 1³ + 5³ + 3³ = 1 + 125 + 27 (suma cuburilor propriilor cifre)</text>
+<text fill="#333" font-size="14" text-anchor="middle" x="450" y="720">153 = 1 + 2 + 3 + ... + 17 (număr triunghiular), unde 17 = 12 + 5 (coșuri + pâini)</text>
+<text fill="#8B0000" font-size="14" font-weight="bold" text-anchor="middle" x="450" y="748">Numărul de pești de după Înviere codifică hrănirea de dinainte de Înviere.</text>
+<text fill="#888" font-size="12" text-anchor="middle" x="450" y="774">Raportul √3 ≈ 265/153 era cunoscut în mediul elenistic alexandrin în care s-a redactat Evanghelia lui Ioan.</text>
+</svg>

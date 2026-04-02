@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="500" style="max-width:100%;" viewbox="0 0 700 500" width="700" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#fffff8" height="500" rx="8" stroke="#ddd" stroke-width="1" width="700"></rect>
+<!-- Title -->
+<text fill="#8B0000" font-family="Georgia,serif" font-size="16" font-weight="bold" text-anchor="middle" x="350" y="30">Numerele hexagonale — Steaua lui David (✡)</text>
+<text fill="#555" font-family="monospace" font-size="12" text-anchor="middle" x="350" y="50">H(n) = n × (2n − 1) : puncte aranjate în inele hexagonale</text>
+<!-- H(4) = 28 puncte - left -->
+<text fill="#8B0000" font-family="Georgia,serif" font-size="14" font-weight="bold" text-anchor="middle" x="130" y="80">H(4) = 28</text>
+<!-- Ring 1: center -->
+<circle cx="130" cy="175" fill="#8B0000" r="4"></circle>
+<!-- Ring 2 -->
+<circle cx="130" cy="155" fill="#c44" r="3"></circle>
+<circle cx="147" cy="165" fill="#c44" r="3"></circle>
+<circle cx="147" cy="185" fill="#c44" r="3"></circle>
+<circle cx="130" cy="195" fill="#c44" r="3"></circle>
+<circle cx="113" cy="185" fill="#c44" r="3"></circle>
+<circle cx="113" cy="165" fill="#c44" r="3"></circle>
+<!-- Ring 3 -->
+<circle cx="130" cy="135" fill="#d88" r="2.5"></circle>
+<circle cx="147" cy="145" fill="#d88" r="2.5"></circle>
+<circle cx="164" cy="155" fill="#d88" r="2.5"></circle>
+<circle cx="164" cy="175" fill="#d88" r="2.5"></circle>
+<circle cx="164" cy="195" fill="#d88" r="2.5"></circle>
+<circle cx="147" cy="205" fill="#d88" r="2.5"></circle>
+<circle cx="130" cy="215" fill="#d88" r="2.5"></circle>
+<circle cx="113" cy="205" fill="#d88" r="2.5"></circle>
+<circle cx="96" cy="195" fill="#d88" r="2.5"></circle>
+<circle cx="96" cy="175" fill="#d88" r="2.5"></circle>
+<circle cx="96" cy="155" fill="#d88" r="2.5"></circle>
+<circle cx="113" cy="145" fill="#d88" r="2.5"></circle>
+<!-- Ring 4 -->
+<circle cx="130" cy="115" fill="#eaa" r="2"></circle>
+<circle cx="147" cy="125" fill="#eaa" r="2"></circle>
+<circle cx="164" cy="135" fill="#eaa" r="2"></circle>
+<circle cx="181" cy="145" fill="#eaa" r="2"></circle>
+<circle cx="181" cy="165" fill="#eaa" r="2"></circle>
+<circle cx="181" cy="185" fill="#eaa" r="2"></circle>
+<circle cx="181" cy="205" fill="#eaa" r="2"></circle>
+<circle cx="164" cy="215" fill="#eaa" r="2"></circle>
+<circle cx="147" cy="225" fill="#eaa" r="2"></circle>
+<circle cx="130" cy="235" fill="#eaa" r="2"></circle>
+<circle cx="113" cy="225" fill="#eaa" r="2"></circle>
+<circle cx="96" cy="215" fill="#eaa" r="2"></circle>
+<circle cx="79" cy="205" fill="#eaa" r="2"></circle>
+<circle cx="79" cy="185" fill="#eaa" r="2"></circle>
+<circle cx="79" cy="165" fill="#eaa" r="2"></circle>
+<circle cx="79" cy="145" fill="#eaa" r="2"></circle>
+<circle cx="96" cy="135" fill="#eaa" r="2"></circle>
+<circle cx="113" cy="125" fill="#eaa" r="2"></circle>
+<text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="130" y="265">1 + 5 + 9 + 13 = 28</text>
+<!-- H(9) = 153 - center -->
+<text fill="#8B0000" font-family="Georgia,serif" font-size="14" font-weight="bold" text-anchor="middle" x="370" y="80">H(9) = 153 ✡</text>
+<!-- Star of David -->
+<polygon fill="none" points="370,95 445,138 445,225 370,268 295,225 295,138" stroke="#8B0000" stroke-width="2"></polygon>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="295" y1="95" y2="225"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="445" y1="95" y2="225"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="138" y2="138"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="138" y2="225"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="445" x2="295" y1="138" y2="225"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="295" y1="268" y2="138"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="445" y1="268" y2="138"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="225" y2="225"></line>
+<circle cx="370" cy="181" fill="#8B0000" r="5"></circle>
+<text fill="#8B0000" font-family="Georgia,serif" font-size="13" font-weight="bold" text-anchor="middle" x="370" y="290">9 = 3² (Treimea²)</text>
+<text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="370" y="308">153 = 9 × 17 = בני האלהים</text>
+<!-- H(12) = 276 - right -->
+<text fill="#8B0000" font-family="Georgia,serif" font-size="14" font-weight="bold" text-anchor="middle" x="590" y="80">H(12) = 276 ✡</text>
+<!-- Larger Star of David -->
+<polygon fill="none" points="590,90 670,136 670,229 590,275 510,229 510,136" stroke="#8B0000" stroke-width="2.5"></polygon>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="510" y1="90" y2="229"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="670" y1="90" y2="229"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="136" y2="136"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="136" y2="229"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="670" x2="510" y1="136" y2="229"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="510" y1="275" y2="136"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="670" y1="275" y2="136"></line>
+<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="229" y2="229"></line>
+<polygon fill="none" opacity="0.2" points="590,110 650,148 650,223 590,260 530,223 530,148" stroke="#8B0000" stroke-width="1"></polygon>
+<polygon fill="none" opacity="0.15" points="590,130 630,160 630,215 590,245 550,215 550,160" stroke="#8B0000" stroke-width="0.5"></polygon>
+<circle cx="590" cy="182" fill="#8B0000" r="5"></circle>
+<text fill="#8B0000" font-family="Georgia,serif" font-size="13" font-weight="bold" text-anchor="middle" x="590" y="290">12 = Apostolii / Semințiile</text>
+<text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="590" y="308">276 = 12 × 23 = salvați</text>
+<!-- Bottom text -->
+<text fill="#333" font-family="Georgia,serif" font-size="13" font-style="italic" text-anchor="middle" x="350" y="350">«Mântuirea este din iudei» (Ioan 4:22)</text>
+<text fill="#333" font-family="Georgia,serif" font-size="13" font-style="italic" text-anchor="middle" x="350" y="372">Ambele numere formează Steaua lui David</text>
+<!-- Arrows -->
+<text fill="#8B0000" font-family="serif" font-size="24" text-anchor="middle" x="240" y="180">→</text>
+<text fill="#8B0000" font-family="serif" font-size="24" text-anchor="middle" x="490" y="180">→</text>
+<!-- Formula at bottom -->
+<text fill="#555" font-family="monospace" font-size="12" text-anchor="middle" x="350" y="410">153 = H(9) = H(3²)  ;  276 = H(12)  ;  276 − 153 = 123</text>
+<text fill="#555" font-family="monospace" font-size="12" text-anchor="middle" x="350" y="435">666 − 276 = 390 (Iezechiel 4:5)  ;  666 = ΛΑΤΕΙΝΟΣ (LATEINOS/LATINII/ROMANII)</text>
+<!-- Frame for formulas -->
+<rect fill="none" height="60" rx="4" stroke="#ddd" stroke-width="0.5" width="580" x="60" y="390"></rect>
+</svg>

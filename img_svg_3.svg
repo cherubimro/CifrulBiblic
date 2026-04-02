@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg style="height:auto;" viewbox="0 0 900 550" width="100%" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#0a0a1a" height="550" rx="8" width="900"></rect>
+<text fill="#d4a84b" font-family="Georgia,serif" font-size="15" font-weight="bold" text-anchor="middle" x="450" y="22">Traiectoria Cometei Halley/1P pe cerul Ierusalimului — 66 d.Hr.</text>
+<text fill="#506580" font-family="monospace" font-size="11" text-anchor="middle" x="450" y="40">66 zile vizibile, din care 33 staționare (&lt;0.6°/zi = mai puțin decât diametrul Lunii)</text>
+<line stroke="#151525" stroke-width="0.5" x1="753.3333333333333" x2="753.3333333333333" y1="60" y2="450"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="middle" x="753.3333333333333" y="465">240°</text>
+<line stroke="#151525" stroke-width="0.5" x1="666.6666666666666" x2="666.6666666666666" y1="60" y2="450"></line>
+<line stroke="#151525" stroke-width="0.5" x1="580.0" x2="580.0" y1="60" y2="450"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="middle" x="580.0" y="465">260°</text>
+<line stroke="#151525" stroke-width="0.5" x1="493.33333333333337" x2="493.33333333333337" y1="60" y2="450"></line>
+<line stroke="#151525" stroke-width="0.5" x1="406.66666666666663" x2="406.66666666666663" y1="60" y2="450"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="middle" x="406.66666666666663" y="465">280°</text>
+<line stroke="#151525" stroke-width="0.5" x1="320.0" x2="320.0" y1="60" y2="450"></line>
+<line stroke="#151525" stroke-width="0.5" x1="233.33333333333331" x2="233.33333333333331" y1="60" y2="450"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="middle" x="233.33333333333331" y="465">300°</text>
+<line stroke="#151525" stroke-width="0.5" x1="146.66666666666666" x2="146.66666666666666" y1="60" y2="450"></line>
+<line stroke="#151525" stroke-width="0.5" x1="60.0" x2="60.0" y1="60" y2="450"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="middle" x="60.0" y="465">320°</text>
+<line stroke="#151525" stroke-width="0.5" x1="60" x2="840" y1="442.22222222222223" y2="442.22222222222223"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="end" x="55" y="446.22222222222223">-40°</text>
+<line stroke="#151525" stroke-width="0.5" x1="60" x2="840" y1="346.66666666666663" y2="346.66666666666663"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="end" x="55" y="350.66666666666663">-30°</text>
+<line stroke="#151525" stroke-width="0.5" x1="60" x2="840" y1="251.11111111111111" y2="251.11111111111111"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="end" x="55" y="255.11111111111111">-20°</text>
+<line stroke="#151525" stroke-width="0.5" x1="60" x2="840" y1="155.55555555555554" y2="155.55555555555554"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="end" x="55" y="159.55555555555554">-10°</text>
+<line stroke="#151525" stroke-width="0.5" x1="60" x2="840" y1="60.0" y2="60.0"></line>
+<text fill="#445" font-family="monospace" font-size="10" text-anchor="end" x="55" y="64.0">0°</text>
+<text fill="#1e2e3e" font-family="Georgia,serif" font-size="18" font-style="italic" text-anchor="middle" x="623.3333333333334" y="232.0">Scorpionul</text>
+<text fill="#1e2e3e" font-family="Georgia,serif" font-size="18" font-style="italic" text-anchor="middle" x="406.66666666666663" y="346.66666666666663">Săgetătorul</text>
+<text fill="#1e2e3e" font-family="Georgia,serif" font-size="16" font-style="italic" text-anchor="middle" x="172.66666666666666" y="107.77777777777777">Acvila</text>
+<circle cx="253.26666666666677" cy="145.04444444444442" fill="#ffffff" opacity="0.6" r="2.7"></circle>
+<text fill="#556" font-family="monospace" font-size="9" x="260.26666666666677" y="148.04444444444442">Altair</text>
+<circle cx="689.1999999999999" cy="312.26666666666665" fill="#ffffff" opacity="0.6" r="2.4"></circle>
+<text fill="#556" font-family="monospace" font-size="9" x="696.1999999999999" y="315.26666666666665">Antares</text>
+<circle cx="550.5333333333335" cy="414.5111111111111" fill="#ffffff" opacity="0.6" r="1.9"></circle>
+<text fill="#556" font-family="monospace" font-size="9" x="557.5333333333335" y="417.5111111111111">Shaula</text>
+<circle cx="373.73333333333323" cy="311.31111111111113" fill="#ffffff" opacity="0.6" r="1.5"></circle>
+<text fill="#556" font-family="monospace" font-size="9" x="380.73333333333323" y="314.31111111111113">Nunki</text>
+<circle cx="441.3333333333333" cy="388.71111111111105" fill="#ffffff" opacity="0.6" r="1.7"></circle>
+<text fill="#556" font-family="monospace" font-size="9" x="448.3333333333333" y="391.71111111111105">Kaus Austr.</text>
+<path d="M 112.1,153.1 L 116.4,154.8 L 120.6,156.4 L 124.9,158.0 L 129.0,159.6 L 133.2,161.2 L 137.4,162.8 L 141.5,164.4 L 145.7,166.0 L 149.8,167.6 L 154.0,169.3 L 158.2,170.9 L 162.4,172.6 L 166.6,174.3 L 170.9,176.1" fill="none" opacity="0.7" stroke="#d4a84b" stroke-width="2"></path>
+<circle cx="112.14247967485161" cy="153.14999980636188" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<text fill="#d4a84b" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="112.14247967485161" y="145.14999980636188">Ian 01</text>
+<circle cx="116.41436758481309" cy="154.77433877408797" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="120.64860580725369" cy="156.38624591901527" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="124.85300183870409" cy="157.9897203715573" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="129.0348669348566" cy="159.58859656728694" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="133.20101930024788" cy="161.18655140187127" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="137.3577818823763" cy="162.78710880009095" fill="#d4a84b" opacity="0.9" r="2.08790876341945"></circle>
+<circle cx="141.5109750829643" cy="164.39364172512083" fill="#d4a84b" opacity="0.9" r="2.214717631989468"></circle>
+<circle cx="145.6659047551948" cy="166.00937166358426" fill="#d4a84b" opacity="0.9" r="2.340398194586464"></circle>
+<circle cx="149.82734605757025" cy="167.63736566990264" fill="#d4a84b" opacity="0.9" r="2.464421044864972"></circle>
+<circle cx="153.9995239014077" cy="169.28053110174028" fill="#d4a84b" opacity="0.9" r="2.5862130026071077"></circle>
+<circle cx="158.1860909584746" cy="170.94160825076017" fill="#d4a84b" opacity="0.9" r="2.7051585116602612"></circle>
+<circle cx="162.39010448251562" cy="172.62316117032373" fill="#d4a84b" opacity="0.9" r="2.8206024400484013"></circle>
+<circle cx="166.61400343026807" cy="174.3275670993234" fill="#d4a84b" opacity="0.9" r="2.9318545134826337"></circle>
+<circle cx="170.85958771118422" cy="176.05700501820507" fill="#d4a84b" opacity="0.9" r="3.038195584927807"></circle>
+<text fill="#d4a84b" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="170.85958771118422" y="168.05700501820507">Ian 15</text>
+<path d="M 253.9,215.0 L 258.2,217.4 L 262.4,219.8 L 266.7,222.2 L 270.9,224.7 L 275.1,227.2 L 279.3,229.8 L 283.5,232.4 L 287.7,235.0 L 291.9,237.7 L 296.1,240.4 L 300.3,243.2 L 304.5,246.0 L 308.8,248.9 L 313.1,251.8 L 317.5,254.8 L 321.9,257.9 L 326.4,261.1 L 331.0,264.3 L 335.7,267.6 L 340.5,271.0 L 345.4,274.6 L 350.5,278.2 L 355.8,281.9 L 361.3,285.8 L 367.0,289.8 L 373.0,294.0 L 379.2,298.3 L 385.7,302.7 L 392.6,307.3 L 399.9,312.1 L 407.5,317.1 L 415.7,322.3 L 424.4,327.7 L 433.7,333.4 L 443.6,339.2 L 454.3,345.3 L 465.7,351.6 L 478.1,358.2 L 491.5,365.0 L 505.9,372.0 L 521.7,379.2 L 538.7,386.6 L 557.3,394.1 L 577.6,401.6 L 599.7,409.1 L 623.7,416.5 L 649.9,423.7 L 678.2,430.4 L 708.9,436.4 L 741.8,441.6" fill="none" opacity="0.7" stroke="#c75d5d" stroke-width="2"></path>
+<circle cx="253.87532581462386" cy="214.99219666166636" fill="#d4a84b" opacity="0.9" r="3.3644396906089726"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="253.87532581462386" y="206.99219666166636">Feb 03</text>
+<circle cx="258.166528992017" cy="217.3697096980813" fill="#d4a84b" opacity="0.9" r="3.2831545576951386"></circle>
+<circle cx="262.43554030921104" cy="219.77991080617346" fill="#d4a84b" opacity="0.9" r="3.1948285579566624"></circle>
+<circle cx="266.68338681833495" cy="222.22353808944237" fill="#d4a84b" opacity="0.9" r="3.1002165505212202"></circle>
+<circle cx="270.91188918196065" cy="224.7016009839784" fill="#d4a84b" opacity="0.9" r="3.000074540051605"></circle>
+<circle cx="275.12366512806545" cy="227.2153943961766" fill="#d4a84b" opacity="0.9" r="2.895147532776023"></circle>
+<circle cx="279.3221264454403" cy="229.76650954289016" fill="#d4a84b" opacity="0.9" r="2.7861594039129516"></circle>
+<circle cx="283.51147214008233" cy="232.3568421672569" fill="#d4a84b" opacity="0.9" r="2.673804813055014"></circle>
+<circle cx="287.6966802379772" cy="234.9885988202033" fill="#d4a84b" opacity="0.9" r="2.5587430938898583"></circle>
+<circle cx="291.8835005312551" cy="237.66430187710478" fill="#d4a84b" opacity="0.9" r="2.4415939642471307"></circle>
+<circle cx="296.07845033895757" cy="240.38679390695222" fill="#d4a84b" opacity="0.9" r="2.3229348505829974"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="296.07845033895757" y="232.38679390695222">Feb 13</text>
+<circle cx="300.2888150958172" cy="243.15924193246755" fill="#d4a84b" opacity="0.9" r="2.2032995940707227"></circle>
+<circle cx="304.5226553741388" cy="245.9851420337407" fill="#d4a84b" opacity="0.9" r="2.0831782984722347"></circle>
+<circle cx="308.78882172385136" cy="248.86832464581687" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="313.0969786093506" cy="251.8129608081219" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="317.45763858868116" cy="254.8235695142831" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="321.8822078935019" cy="257.9050262160063" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="326.3830445349705" cy="261.0625724166547" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="330.9735301987208" cy="264.3018261834686" fill="#d4a84b" opacity="0.9" r="2"></circle>
+<circle cx="335.6681572770728" cy="267.6287932668159" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="340.48263258382156" cy="271.0498783619183" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="340.48263258382156" y="263.0498783619183">Feb 23</text>
+<circle cx="345.43399954871313" cy="274.57189586163577" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="350.540780934113" cy="278.2020792078572" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="355.82314449112977" cy="281.94808765662697" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="361.3030942903653" cy="285.81800888354064" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="367.00469093852155" cy="289.8203553730132" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="372.9543042695709" cy="293.96405189640086" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="379.1809026076706" cy="298.25841057659386" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="385.71638309232895" cy="302.71308898783917" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="392.5959479674249" cy="307.3380254033509" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="399.8585319500185" cy="312.14334359247607" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="399.8585319500185" y="304.14334359247607">Mar 05</text>
+<circle cx="407.5472857819606" cy="317.1392174012671" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="415.71012062261724" cy="322.33568261817777" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="424.40031676808906" cy="327.7423802193317" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="433.6771979226227" cy="333.3682108939214" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="443.6068682347505" cy="339.2208756879687" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="454.26300276735475" cy="345.30627164511935" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="465.72767163997037" cy="351.6277045957745" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="478.0921621664427" cy="358.18487410268426" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="491.4577394374056" cy="364.9725788555516" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="505.9362511025898" cy="371.97908602406864" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="505.9362511025898" y="363.97908602406864">Mar 15</text>
+<circle cx="521.6504328285893" cy="379.1841079540962" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="538.7337033669323" cy="386.5563384552432" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="557.3291494846076" cy="394.05052544001705" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="577.5872917473822" cy="401.60410633193055" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="599.6621008365183" cy="409.13351963026486" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="623.7046245118348" cy="416.5304438672179" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="649.8535369187981" cy="423.6584141106108" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="678.2220200618463" cy="430.35052410786375" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="708.8807553634822" cy="436.4092088108268" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<circle cx="741.8375794706686" cy="441.60933934963595" fill="#c75d5d" opacity="0.9" r="2"></circle>
+<text fill="#c75d5d" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle" x="741.8375794706686" y="433.60933934963595">Mar 25</text>
+<line opacity="0.5" stroke="#555" stroke-dasharray="4,4" stroke-width="1" x1="170.85958771118422" x2="253.87532581462386" y1="176.05700501820507" y2="214.99219666166636"></line>
+<text fill="#c75d5d" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle" x="212.36745676290406" y="180.52460083993572">☀ PERIHELIU 25 Ian</text>
+<text fill="#888" font-family="monospace" font-size="10" text-anchor="middle" x="212.36745676290406" y="195.52460083993572">invizibilă 18 zile</text>
+<text fill="#888" font-family="monospace" font-size="9" text-anchor="middle" x="212.36745676290406" y="208.52460083993572">(elongație &lt;15° de Soare)</text>
+<rect fill="#0f0f1f" height="48" rx="4" stroke="#222" width="780" x="60" y="495"></rect>
+<text fill="#d4a84b" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle" x="450" y="513">33 zile staționare = 14 zile (Faza 1: Ian 2–15) + 19 zile (Faza 2: Feb 3–21)</text>
+<text fill="#888" font-family="monospace" font-size="10" text-anchor="middle" x="450" y="530">Câte o noapte pentru fiecare an al vieții pământești a lui Iisus Hristos</text>
+<text fill="#334" font-family="monospace" font-size="10" text-anchor="middle" x="450" y="545">← Est (răsărit)          Vest (apus) →</text>
+<rect fill="#0a0a1a" height="72" rx="4" stroke="#222" width="205" x="682" y="60"></rect>
+<circle cx="690" cy="73" fill="#d4a84b" r="4"></circle>
+<text fill="#aaa" font-family="monospace" font-size="10" x="700" y="77">Staționară (&lt;0.6°/zi)</text>
+<circle cx="690" cy="91" fill="#c75d5d" r="4"></circle>
+<text fill="#aaa" font-family="monospace" font-size="10" x="700" y="95">În mișcare</text>
+<line stroke="#555" stroke-dasharray="4,4" x1="686" x2="700" y1="109" y2="109"></line>
+<text fill="#888" font-family="monospace" font-size="10" x="706" y="113">Invizibilă (periheliu)</text>
+<text fill="#506580" font-family="monospace" font-size="9" x="690" y="128">Dimensiune = strălucire</text>
+</svg>
