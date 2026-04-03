@@ -50,33 +50,22 @@
 <text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="130" y="265">1 + 5 + 9 + 13 = 28</text>
 <!-- H(9) = 153 - center -->
 <text fill="#8B0000" font-family="Georgia,serif" font-size="14" font-weight="bold" text-anchor="middle" x="370" y="80">H(9) = 153 ✡</text>
-<!-- Star of David -->
-<polygon fill="none" points="370,95 445,138 445,225 370,268 295,225 295,138" stroke="#8B0000" stroke-width="2"></polygon>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="295" y1="95" y2="225"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="445" y1="95" y2="225"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="138" y2="138"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="138" y2="225"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="445" x2="295" y1="138" y2="225"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="295" y1="268" y2="138"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="370" x2="445" y1="268" y2="138"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="295" x2="445" y1="225" y2="225"></line>
+<!-- Star of David — două triunghiuri suprapuse (steaua bold, perimetrul subțire) -->
+<polygon fill="none" points="370,95 445,225 295,225" stroke="#8B0000" stroke-width="2.5"></polygon>
+<polygon fill="none" points="295,138 445,138 370,268" stroke="#8B0000" stroke-width="2.5"></polygon>
+<polygon fill="none" points="370,95 445,138 445,225 370,268 295,225 295,138" stroke="#8B0000" stroke-width="0.7" opacity="0.4"></polygon>
 <circle cx="370" cy="181" fill="#8B0000" r="5"></circle>
 <text fill="#8B0000" font-family="Georgia,serif" font-size="13" font-weight="bold" text-anchor="middle" x="370" y="290">9 = 3² (Treimea²)</text>
 <text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="370" y="308">153 = 9 × 17 = בני האלהים</text>
 <!-- H(12) = 276 - right -->
 <text fill="#8B0000" font-family="Georgia,serif" font-size="14" font-weight="bold" text-anchor="middle" x="590" y="80">H(12) = 276 ✡</text>
-<!-- Larger Star of David -->
-<polygon fill="none" points="590,90 670,136 670,229 590,275 510,229 510,136" stroke="#8B0000" stroke-width="2.5"></polygon>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="510" y1="90" y2="229"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="670" y1="90" y2="229"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="136" y2="136"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="136" y2="229"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="670" x2="510" y1="136" y2="229"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="510" y1="275" y2="136"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="590" x2="670" y1="275" y2="136"></line>
-<line opacity="0.3" stroke="#8B0000" stroke-width="1" x1="510" x2="670" y1="229" y2="229"></line>
-<polygon fill="none" opacity="0.2" points="590,110 650,148 650,223 590,260 530,223 530,148" stroke="#8B0000" stroke-width="1"></polygon>
-<polygon fill="none" opacity="0.15" points="590,130 630,160 630,215 590,245 550,215 550,160" stroke="#8B0000" stroke-width="0.5"></polygon>
+<!-- Larger Star of David — două triunghiuri suprapuse -->
+<polygon fill="none" points="590,90 670,229 510,229" stroke="#8B0000" stroke-width="2.5"></polygon>
+<polygon fill="none" points="510,136 670,136 590,275" stroke="#8B0000" stroke-width="2.5"></polygon>
+<polygon fill="none" points="590,90 670,136 670,229 590,275 510,229 510,136" stroke="#8B0000" stroke-width="0.7" opacity="0.4"></polygon>
+<!-- Inele interioare (straturi hexagonale) -->
+<polygon fill="none" opacity="0.3" points="590,110 650,148 650,223 590,260 530,223 530,148" stroke="#8B0000" stroke-width="0.7"></polygon>
+<polygon fill="none" opacity="0.2" points="590,130 630,160 630,215 590,245 550,215 550,160" stroke="#8B0000" stroke-width="0.5"></polygon>
 <circle cx="590" cy="182" fill="#8B0000" r="5"></circle>
 <text fill="#8B0000" font-family="Georgia,serif" font-size="13" font-weight="bold" text-anchor="middle" x="590" y="290">12 = Apostolii / Semințiile</text>
 <text fill="#555" font-family="monospace" font-size="11" text-anchor="middle" x="590" y="308">276 = 12 × 23 = salvați</text>
