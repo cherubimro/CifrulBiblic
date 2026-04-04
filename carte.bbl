@@ -41,6 +41,49 @@
       \field{title}{De viris illustribus}
       \true{nocite}
     \endentry
+    \entry{iuvenal}{book}{}
+      \name{author}{1}{}{%
+        {{hash=58dc2840f9f64b432e6a42616aef5eb1}{%
+           family={(Juvenal)},
+           familyi={(\bibinitperiod},
+           given={Iuvenal},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \strng{fullhash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \strng{bibnamehash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \strng{authorbibnamehash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \strng{authornamehash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \strng{authorfullhash}{58dc2840f9f64b432e6a42616aef5eb1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~I--II d.Hr.}
+      \field{title}{Satirae}
+      \true{nocite}
+    \endentry
+    \entry{vega1986}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=729cdb87ce3664bcf279d28c3e2d8c30}{%
+           family={{Agenția Spațială Sovietică}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \strng{fullhash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \strng{bibnamehash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \strng{authorbibnamehash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \strng{authornamehash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \strng{authorfullhash}{729cdb87ce3664bcf279d28c3e2d8c30}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Primele imagini apropiate ale nucleului cometei}
+      \field{title}{Misiunea Vega 1 și Vega 2 la Cometa 1P/Halley}
+      \field{year}{1986}
+      \true{nocite}
+    \endentry
     \entry{na28}{book}{}
       \name{editor}{5}{}{%
         {{hash=7de2075b073019db503c8c607a67f4a1}{%
@@ -89,6 +132,32 @@
       \field{note}{Textul critic standard al Noului Testament grecesc}
       \field{title}{Novum {Testamentum Graece} ({NA28})}
       \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{alexander1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c7f30391dd344d9be6c2b24c8c798228}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Loveday},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{c7f30391dd344d9be6c2b24c8c798228}
+      \strng{fullhash}{c7f30391dd344d9be6c2b24c8c798228}
+      \strng{bibnamehash}{c7f30391dd344d9be6c2b24c8c798228}
+      \strng{authorbibnamehash}{c7f30391dd344d9be6c2b24c8c798228}
+      \strng{authornamehash}{c7f30391dd344d9be6c2b24c8c798228}
+      \strng{authorfullhash}{c7f30391dd344d9be6c2b24c8c798228}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{SNTS Monograph Series 78}
+      \field{title}{The Preface to {Luke's} Gospel: Literary Convention and Social Context in {Luke} 1:1--4 and {Acts} 1:1}
+      \field{year}{1993}
       \true{nocite}
     \endentry
     \entry{atanasie}{book}{}
@@ -194,6 +263,82 @@
       \field{year}{2022}
       \true{nocite}
     \endentry
+    \entry{barber2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5ba9eab74e039b017457f9e6db452616}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{5ba9eab74e039b017457f9e6db452616}
+      \strng{fullhash}{5ba9eab74e039b017457f9e6db452616}
+      \strng{bibnamehash}{5ba9eab74e039b017457f9e6db452616}
+      \strng{authorbibnamehash}{5ba9eab74e039b017457f9e6db452616}
+      \strng{authornamehash}{5ba9eab74e039b017457f9e6db452616}
+      \strng{authorfullhash}{5ba9eab74e039b017457f9e6db452616}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Figure and Likeness: On the Limits of Representation in {Byzantine} Iconoclasm}
+      \field{year}{2002}
+      \true{nocite}
+    \endentry
+    \entry{barker2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0f320d4144537e6ceb0257f384a6cbf1}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {T\&T Clark}%
+      }
+      \strng{namehash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \strng{fullhash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \strng{bibnamehash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \strng{authorbibnamehash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \strng{authornamehash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \strng{authorfullhash}{0f320d4144537e6ceb0257f384a6cbf1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Legătura dintre iconografia creștină și simbolismul Templului}
+      \field{title}{The Great High Priest: The Temple Roots of Christian Liturgy}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{belting1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4404ca9d753d5bfbdbd424b61e86679a}{%
+           family={Belting},
+           familyi={B\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \strng{fullhash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \strng{bibnamehash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \strng{authorbibnamehash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \strng{authornamehash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \strng{authorfullhash}{4404ca9d753d5bfbdbd424b61e86679a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Likeness and Presence: A History of the Image before the Era of Art}
+      \field{year}{1994}
+      \true{nocite}
+    \endentry
     \entry{betz1979}{book}{}
       \name{author}{1}{}{%
         {{hash=676424bda51dbe18f8b86b13e6ddc478}{%
@@ -263,6 +408,31 @@
       \field{title}{Liber de {Haeresibus}}
       \true{nocite}
     \endentry
+    \entry{brown1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{fullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{bibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to the New Testament}
+      \field{year}{1997}
+      \true{nocite}
+    \endentry
     \entry{bullinger1898}{book}{}
       \name{author}{1}{}{%
         {{hash=4ef685d70b585b2235c89623cc4b48da}{%
@@ -289,6 +459,31 @@
       \field{year}{1898}
       \true{nocite}
     \endentry
+    \entry{bynum2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=68cc380fdac0197202380ed363d22854}{%
+           family={Bynum},
+           familyi={B\bibinitperiod},
+           given={Caroline\bibnamedelima Walker},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Pennsylvania Press}%
+      }
+      \strng{namehash}{68cc380fdac0197202380ed363d22854}
+      \strng{fullhash}{68cc380fdac0197202380ed363d22854}
+      \strng{bibnamehash}{68cc380fdac0197202380ed363d22854}
+      \strng{authorbibnamehash}{68cc380fdac0197202380ed363d22854}
+      \strng{authornamehash}{68cc380fdac0197202380ed363d22854}
+      \strng{authorfullhash}{68cc380fdac0197202380ed363d22854}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wonderful Blood: Theology and Practice in Late Medieval Northern Europe and Beyond}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
     \entry{campbell2007}{book}{}
       \name{author}{1}{}{%
         {{hash=71011334ccd32956d0fd746df445bd68}{%
@@ -313,6 +508,30 @@
       \field{series}{Studies in Biblical Literature 14}
       \field{title}{The ``We'' Passages in the Acts of the Apostles}
       \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{cangemi2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=50af21709c57a353562fa0463db7f5ee}{%
+           family={Cangemi},
+           familyi={C\bibinitperiod},
+           given={Livia},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{50af21709c57a353562fa0463db7f5ee}
+      \strng{fullhash}{50af21709c57a353562fa0463db7f5ee}
+      \strng{bibnamehash}{50af21709c57a353562fa0463db7f5ee}
+      \strng{authorbibnamehash}{50af21709c57a353562fa0463db7f5ee}
+      \strng{authornamehash}{50af21709c57a353562fa0463db7f5ee}
+      \strng{authorfullhash}{50af21709c57a353562fa0463db7f5ee}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IKON}
+      \field{number}{9}
+      \field{title}{Aeiparthenos: Metaphors and Symbols of Virginity in Italian, Dutch and {Byzantine} Representations of the Annunciation around 1400}
+      \field{year}{2016}
       \true{nocite}
     \endentry
     \entry{ciprian}{book}{}
@@ -371,6 +590,32 @@
       \field{title}{Istoria romană}
       \true{nocite}
     \endentry
+    \entry{cavarnos1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8347f1d95a8fe9f25bdaf54c253fbebd}{%
+           family={Cavarnos},
+           familyi={C\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Holy Transfiguration Monastery}%
+      }
+      \strng{namehash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \strng{fullhash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \strng{bibnamehash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \strng{authorbibnamehash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \strng{authornamehash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \strng{authorfullhash}{8347f1d95a8fe9f25bdaf54c253fbebd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guide to {Byzantine} Iconography}
+      \field{volume}{2}
+      \field{year}{1993}
+      \true{nocite}
+    \endentry
     \entry{alba24_salarii}{misc}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -393,18 +638,20 @@
     \endentry
     \entry{celarc2021}{article}{}
       \name{author}{1}{}{%
-        {{hash=05c4096d95230226477c99b32c9c0b08}{%
+        {{hash=abc5a274fb2f08916aad733dbad331eb}{%
            family={Celarc},
            familyi={C\bibinitperiod},
-           given={Maksimiljan},
-           giveni={M\bibinitperiod}}}%
+           given={doi\bibnamedelimb =\bibnamedelima {10.34291/BV2021/02/Celarc}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Maksimiljan},
+           suffixi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{05c4096d95230226477c99b32c9c0b08}
-      \strng{fullhash}{05c4096d95230226477c99b32c9c0b08}
-      \strng{bibnamehash}{05c4096d95230226477c99b32c9c0b08}
-      \strng{authorbibnamehash}{05c4096d95230226477c99b32c9c0b08}
-      \strng{authornamehash}{05c4096d95230226477c99b32c9c0b08}
-      \strng{authorfullhash}{05c4096d95230226477c99b32c9c0b08}
+      \strng{namehash}{abc5a274fb2f08916aad733dbad331eb}
+      \strng{fullhash}{abc5a274fb2f08916aad733dbad331eb}
+      \strng{bibnamehash}{abc5a274fb2f08916aad733dbad331eb}
+      \strng{authorbibnamehash}{abc5a274fb2f08916aad733dbad331eb}
+      \strng{authornamehash}{abc5a274fb2f08916aad733dbad331eb}
+      \strng{authorfullhash}{abc5a274fb2f08916aad733dbad331eb}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -469,6 +716,44 @@
       \field{title}{The {Book} of {Enoch}, or 1~{Enoch}}
       \field{year}{1912}
       \true{nocite}
+    \endentry
+    \entry{chatzidakis2005}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=27d4ebee8ff045bdbec2678cd00d4e4b}{%
+           family={Chatzidakis},
+           familyi={C\bibinitperiod},
+           given={Nano},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=2a5f0d5f36bdf20d37e44d5bdb2ee724}{%
+           family={Vassilaki},
+           familyi={V\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ashgate}%
+      }
+      \strng{namehash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{fullhash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{bibnamehash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{authorbibnamehash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{authornamehash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{authorfullhash}{27d4ebee8ff045bdbec2678cd00d4e4b}
+      \strng{editorbibnamehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{editornamehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{editorfullhash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Images of the Mother of God}
+      \field{title}{A {Byzantine} Icon of the {Dexiokratousa Hodegetria} from {Crete} at the {Benaki Museum}}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{337\bibrangedash 355}
+      \range{pages}{19}
     \endentry
     \entry{codex_alexandrinus}{misc}{}
       \field{sortinit}{C}
@@ -590,6 +875,31 @@
       \field{title}{Didahia ({Didache} --- Învățătura celor doisprezece Apostoli)}
       \true{nocite}
     \endentry
+    \entry{dionysius1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a5b2b67f107559acd9cd22fec70d9585}{%
+           family={{Dionysius din Fourna}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oakwood Publications}%
+      }
+      \strng{namehash}{a5b2b67f107559acd9cd22fec70d9585}
+      \strng{fullhash}{a5b2b67f107559acd9cd22fec70d9585}
+      \strng{bibnamehash}{a5b2b67f107559acd9cd22fec70d9585}
+      \strng{authorbibnamehash}{a5b2b67f107559acd9cd22fec70d9585}
+      \strng{authornamehash}{a5b2b67f107559acd9cd22fec70d9585}
+      \strng{authorfullhash}{a5b2b67f107559acd9cd22fec70d9585}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{reimpr.\ 1996}
+      \field{note}{Trad.\ Paul Hetherington din \textit{Ερμηνεία της Ζωγραφικής Τέχνης} (1728--1733)}
+      \field{title}{The Painter's Manual of {Dionysius of Fourna}}
+      \field{year}{1974}
+      \true{nocite}
+    \endentry
     \entry{dornseiff1925}{book}{}
       \name{author}{1}{}{%
         {{hash=9a43c502095845d9b2f31321c9112bae}{%
@@ -672,18 +982,20 @@
     \endentry
     \entry{dunn1970}{article}{}
       \name{author}{1}{}{%
-        {{hash=0b6aac4021e954ae25afa2e800e9d069}{%
+        {{hash=0779d4d13f7e6f922bed2d44c204d607}{%
            family={Dunn},
            familyi={D\bibinitperiod},
-           given={J.\bibnamedelimi D.\bibnamedelimi G.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           given={doi\bibnamedelimb =\bibnamedelima {10.53751/001c.30666}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={J.\bibnamedelimi D.\bibnamedelimi G.},
+           suffixi={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{0b6aac4021e954ae25afa2e800e9d069}
-      \strng{fullhash}{0b6aac4021e954ae25afa2e800e9d069}
-      \strng{bibnamehash}{0b6aac4021e954ae25afa2e800e9d069}
-      \strng{authorbibnamehash}{0b6aac4021e954ae25afa2e800e9d069}
-      \strng{authornamehash}{0b6aac4021e954ae25afa2e800e9d069}
-      \strng{authorfullhash}{0b6aac4021e954ae25afa2e800e9d069}
+      \strng{namehash}{0779d4d13f7e6f922bed2d44c204d607}
+      \strng{fullhash}{0779d4d13f7e6f922bed2d44c204d607}
+      \strng{bibnamehash}{0779d4d13f7e6f922bed2d44c204d607}
+      \strng{authorbibnamehash}{0779d4d13f7e6f922bed2d44c204d607}
+      \strng{authornamehash}{0779d4d13f7e6f922bed2d44c204d607}
+      \strng{authorfullhash}{0779d4d13f7e6f922bed2d44c204d607}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -698,18 +1010,20 @@
     \endentry
     \entry{edwards1989}{article}{}
       \name{author}{1}{}{%
-        {{hash=ac290cc034bf4c508f14587a73c7697b}{%
+        {{hash=e0f61628ebaa6c6ab18bd3e477d9fdb9}{%
            family={Edwards},
            familyi={E\bibinitperiod},
-           given={James\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           given={doi\bibnamedelimb =\bibnamedelima {10.1163/156853689X00103}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={James\bibnamedelima R.},
+           suffixi={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{ac290cc034bf4c508f14587a73c7697b}
-      \strng{fullhash}{ac290cc034bf4c508f14587a73c7697b}
-      \strng{bibnamehash}{ac290cc034bf4c508f14587a73c7697b}
-      \strng{authorbibnamehash}{ac290cc034bf4c508f14587a73c7697b}
-      \strng{authornamehash}{ac290cc034bf4c508f14587a73c7697b}
-      \strng{authorfullhash}{ac290cc034bf4c508f14587a73c7697b}
+      \strng{namehash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
+      \strng{fullhash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
+      \strng{bibnamehash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
+      \strng{authorbibnamehash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
+      \strng{authornamehash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
+      \strng{authorfullhash}{e0f61628ebaa6c6ab18bd3e477d9fdb9}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
@@ -722,6 +1036,61 @@
       \true{nocite}
       \field{pages}{193\bibrangedash 216}
       \range{pages}{24}
+    \endentry
+    \entry{ehrman2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=81317acbfe88bb25e01d361267d16198}{%
+           family={Ehrman},
+           familyi={E\bibinitperiod},
+           given={Bart\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{fullhash}{81317acbfe88bb25e01d361267d16198}
+      \strng{bibnamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authorbibnamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authornamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authorfullhash}{81317acbfe88bb25e01d361267d16198}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{title}{The New Testament: A Historical Introduction to the Early Christian Writings}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{eknoyan2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3362cc94bb3cb3026f36ca6bedb69b18}{%
+           family={Eknoyan},
+           familyi={E\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.1046/j.1523-1755.2000.00947.x}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Garabed},
+           suffixi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \strng{fullhash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \strng{bibnamehash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \strng{authorbibnamehash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \strng{authornamehash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \strng{authorfullhash}{3362cc94bb3cb3026f36ca6bedb69b18}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Kidney International}
+      \field{number}{3}
+      \field{title}{Michelangelo: Art, Anatomy, and the Kidney}
+      \field{volume}{57}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{1190\bibrangedash 1201}
+      \range{pages}{12}
     \endentry
     \entry{bhs}{book}{}
       \name{editor}{2}{}{%
@@ -815,20 +1184,88 @@
       \field{year}{1988}
       \true{nocite}
     \endentry
+    \entry{florensky1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2f61be14129a06d5ce740a4581bc069a}{%
+           family={Florensky},
+           familyi={F\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {St.~Vladimir's Seminary Press}%
+      }
+      \strng{namehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{fullhash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{bibnamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authorbibnamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authornamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authorfullhash}{2f61be14129a06d5ce740a4581bc069a}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-881411-17-1}
+      \field{note}{Trad.\ Donald Sheehan \& Olga Andrejev; orig.\ rus.\ 1922}
+      \field{title}{Iconostasis}
+      \field{year}{1996}
+      \true{nocite}
+    \endentry
+    \entry{florensky1919}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=2f61be14129a06d5ce740a4581bc069a}{%
+           family={Florensky},
+           familyi={F\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=84372e35107a43ee0d9d77fb3ffaa41f}{%
+           family={Misler},
+           familyi={M\bibinitperiod},
+           given={Nicoletta},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Reaktion Books}%
+      }
+      \strng{namehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{fullhash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{bibnamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authorbibnamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authornamehash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{authorfullhash}{2f61be14129a06d5ce740a4581bc069a}
+      \strng{editorbibnamehash}{84372e35107a43ee0d9d77fb3ffaa41f}
+      \strng{editornamehash}{84372e35107a43ee0d9d77fb3ffaa41f}
+      \strng{editorfullhash}{84372e35107a43ee0d9d77fb3ffaa41f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Beyond Vision: Essays on the Perception of Art}
+      \field{note}{Lectură orig.\ 1919; publicată postum 1967}
+      \field{title}{Reverse Perspective}
+      \field{year}{2002}
+      \true{nocite}
+    \endentry
     \entry{forbes1986}{article}{}
       \name{author}{1}{}{%
-        {{hash=7a04aca7bb15145a1f0aef9fd2dd24f7}{%
+        {{hash=a4371f0955df1424560ea414c13ae745}{%
            family={Forbes},
            familyi={F\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
+           given={doi\bibnamedelimb =\bibnamedelima {10.1017/S0028688500019433}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Christopher},
+           suffixi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
-      \strng{fullhash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
-      \strng{bibnamehash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
-      \strng{authorbibnamehash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
-      \strng{authornamehash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
-      \strng{authorfullhash}{7a04aca7bb15145a1f0aef9fd2dd24f7}
+      \strng{namehash}{a4371f0955df1424560ea414c13ae745}
+      \strng{fullhash}{a4371f0955df1424560ea414c13ae745}
+      \strng{bibnamehash}{a4371f0955df1424560ea414c13ae745}
+      \strng{authorbibnamehash}{a4371f0955df1424560ea414c13ae745}
+      \strng{authornamehash}{a4371f0955df1424560ea414c13ae745}
+      \strng{authorfullhash}{a4371f0955df1424560ea414c13ae745}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
@@ -886,6 +1323,57 @@
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Giotto_s_comet_results
       \endverb
     \endentry
+    \entry{goulder1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4c276893bfdf866a7d89372e173b7ee0}{%
+           family={Goulder},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SPCK}%
+      }
+      \strng{namehash}{4c276893bfdf866a7d89372e173b7ee0}
+      \strng{fullhash}{4c276893bfdf866a7d89372e173b7ee0}
+      \strng{bibnamehash}{4c276893bfdf866a7d89372e173b7ee0}
+      \strng{authorbibnamehash}{4c276893bfdf866a7d89372e173b7ee0}
+      \strng{authornamehash}{4c276893bfdf866a7d89372e173b7ee0}
+      \strng{authorfullhash}{4c276893bfdf866a7d89372e173b7ee0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Midrash and Lection in Matthew}
+      \field{year}{1974}
+      \true{nocite}
+    \endentry
+    \entry{grabar1968}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e305f3b231d8471f509557ffd7f8be96}{%
+           family={Grabar},
+           familyi={G\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{e305f3b231d8471f509557ffd7f8be96}
+      \strng{fullhash}{e305f3b231d8471f509557ffd7f8be96}
+      \strng{bibnamehash}{e305f3b231d8471f509557ffd7f8be96}
+      \strng{authorbibnamehash}{e305f3b231d8471f509557ffd7f8be96}
+      \strng{authornamehash}{e305f3b231d8471f509557ffd7f8be96}
+      \strng{authorfullhash}{e305f3b231d8471f509557ffd7f8be96}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Studiu fundamental despre originile iconografiei creștine}
+      \field{title}{Christian Iconography: A Study of Its Origins}
+      \field{year}{1968}
+      \true{nocite}
+    \endentry
     \entry{green1997}{book}{}
       \name{author}{1}{}{%
         {{hash=11dadb1dce569090132d3caf2f19f26e}{%
@@ -912,6 +1400,33 @@
       \field{year}{1997}
       \true{nocite}
     \endentry
+    \entry{harnack1907}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5588e01356cbc946ca7c04426e858e68}{%
+           family={Harnack},
+           familyi={H\bibinitperiod},
+           given={Adolf},
+           giveni={A\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {G.~P.~Putnam's Sons}%
+      }
+      \strng{namehash}{5588e01356cbc946ca7c04426e858e68}
+      \strng{fullhash}{5588e01356cbc946ca7c04426e858e68}
+      \strng{bibnamehash}{5588e01356cbc946ca7c04426e858e68}
+      \strng{authorbibnamehash}{5588e01356cbc946ca7c04426e858e68}
+      \strng{authornamehash}{5588e01356cbc946ca7c04426e858e68}
+      \strng{authorfullhash}{5588e01356cbc946ca7c04426e858e68}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Luke the Physician: The Author of the Third Gospel and Acts of the Apostles}
+      \field{year}{1907}
+      \true{nocite}
+    \endentry
     \entry{harris2019}{book}{}
       \name{author}{1}{}{%
         {{hash=4cb2f56967022a6ed1679be47397f990}{%
@@ -935,20 +1450,47 @@
       \field{year}{2019}
       \true{nocite}
     \endentry
+    \entry{haskins1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=15db25ac40395f0c5b24ed2043224111}{%
+           family={Haskins},
+           familyi={H\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harcourt Brace}%
+      }
+      \strng{namehash}{15db25ac40395f0c5b24ed2043224111}
+      \strng{fullhash}{15db25ac40395f0c5b24ed2043224111}
+      \strng{bibnamehash}{15db25ac40395f0c5b24ed2043224111}
+      \strng{authorbibnamehash}{15db25ac40395f0c5b24ed2043224111}
+      \strng{authornamehash}{15db25ac40395f0c5b24ed2043224111}
+      \strng{authorfullhash}{15db25ac40395f0c5b24ed2043224111}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mary Magdalen: Myth and Metaphor}
+      \field{year}{1993}
+      \true{nocite}
+    \endentry
     \entry{heil2001}{article}{}
       \name{author}{1}{}{%
-        {{hash=320ea13629ad739617e80f09721267b4}{%
+        {{hash=4db854fd43780c6b552c2d5a54bd8b1d}{%
            family={Heil},
            familyi={H\bibinitperiod},
-           given={John\bibnamedelima Paul},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+           given={doi\bibnamedelimb =\bibnamedelima {10.2143/BIB.82.2.3199531}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={John\bibnamedelima Paul},
+           suffixi={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{320ea13629ad739617e80f09721267b4}
-      \strng{fullhash}{320ea13629ad739617e80f09721267b4}
-      \strng{bibnamehash}{320ea13629ad739617e80f09721267b4}
-      \strng{authorbibnamehash}{320ea13629ad739617e80f09721267b4}
-      \strng{authornamehash}{320ea13629ad739617e80f09721267b4}
-      \strng{authorfullhash}{320ea13629ad739617e80f09721267b4}
+      \strng{namehash}{4db854fd43780c6b552c2d5a54bd8b1d}
+      \strng{fullhash}{4db854fd43780c6b552c2d5a54bd8b1d}
+      \strng{bibnamehash}{4db854fd43780c6b552c2d5a54bd8b1d}
+      \strng{authorbibnamehash}{4db854fd43780c6b552c2d5a54bd8b1d}
+      \strng{authornamehash}{4db854fd43780c6b552c2d5a54bd8b1d}
+      \strng{authorfullhash}{4db854fd43780c6b552c2d5a54bd8b1d}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -1003,6 +1545,31 @@
       \field{labeltitlesource}{title}
       \field{note}{Sec.~IV--V d.Hr. Citări: XV.23; XVIII.38}
       \field{title}{De civitate {Dei}}
+      \true{nocite}
+    \endentry
+    \entry{hobart1882}{book}{}
+      \name{author}{1}{}{%
+        {{hash=be78b60ed25f8073bf27081a3c01d974}{%
+           family={Hobart},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima Kirk},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hodges, Figgis \& Co.}%
+      }
+      \strng{namehash}{be78b60ed25f8073bf27081a3c01d974}
+      \strng{fullhash}{be78b60ed25f8073bf27081a3c01d974}
+      \strng{bibnamehash}{be78b60ed25f8073bf27081a3c01d974}
+      \strng{authorbibnamehash}{be78b60ed25f8073bf27081a3c01d974}
+      \strng{authornamehash}{be78b60ed25f8073bf27081a3c01d974}
+      \strng{authorfullhash}{be78b60ed25f8073bf27081a3c01d974}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Medical Language of {St.\ Luke}}
+      \field{year}{1882}
       \true{nocite}
     \endentry
     \entry{homer}{book}{}
@@ -1198,6 +1765,58 @@
       \field{pages}{336\bibrangedash 343}
       \range{pages}{8}
     \endentry
+    \entry{jensen2005}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c3fbb62ffc0f601d552ea2307dd95fb2}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Robin\bibnamedelima Margaret},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{fullhash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{bibnamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authorbibnamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authornamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authorfullhash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Face to Face: Portraits of the Divine in Early Christianity}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{jensen2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c3fbb62ffc0f601d552ea2307dd95fb2}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Robin\bibnamedelima Margaret},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{fullhash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{bibnamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authorbibnamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authornamehash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \strng{authorfullhash}{c3fbb62ffc0f601d552ea2307dd95fb2}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Cross: History, Art, and Controversy}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
     \entry{jewett2007}{book}{}
       \name{author}{1}{}{%
         {{hash=5a76818027346c7f6def68ec19826c11}{%
@@ -1317,6 +1936,59 @@
       \field{labeltitlesource}{title}
       \field{title}{New Testament Interpretation through Rhetorical Criticism}
       \field{year}{1984}
+      \true{nocite}
+    \endentry
+    \entry{kessler2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d21b421b3d0acaad1578dace134fc976}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={Herbert\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Pennsylvania Press}%
+      }
+      \strng{namehash}{d21b421b3d0acaad1578dace134fc976}
+      \strng{fullhash}{d21b421b3d0acaad1578dace134fc976}
+      \strng{bibnamehash}{d21b421b3d0acaad1578dace134fc976}
+      \strng{authorbibnamehash}{d21b421b3d0acaad1578dace134fc976}
+      \strng{authornamehash}{d21b421b3d0acaad1578dace134fc976}
+      \strng{authorfullhash}{d21b421b3d0acaad1578dace134fc976}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spiritual Seeing: Picturing God's Invisibility in Medieval Art}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{kontoglou1960}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c88ab71e16bee847f49b89fe09afb927}{%
+           family={Kontoglou},
+           familyi={K\bibinitperiod},
+           given={Photios},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Athens}%
+      }
+      \list{publisher}{1}{%
+        {Aster}%
+      }
+      \strng{namehash}{c88ab71e16bee847f49b89fe09afb927}
+      \strng{fullhash}{c88ab71e16bee847f49b89fe09afb927}
+      \strng{bibnamehash}{c88ab71e16bee847f49b89fe09afb927}
+      \strng{authorbibnamehash}{c88ab71e16bee847f49b89fe09afb927}
+      \strng{authornamehash}{c88ab71e16bee847f49b89fe09afb927}
+      \strng{authorfullhash}{c88ab71e16bee847f49b89fe09afb927}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ékphrasis tes Orthodóxou Eikonographías}
+      \field{year}{1960}
       \true{nocite}
     \endentry
     \entry{lactantius}{book}{}
@@ -1516,6 +2188,31 @@
       \field{year}{2014}
       \true{nocite}
     \endentry
+    \entry{maguire1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0728875a5fe4563e8ffb996bf4889a17}{%
+           family={Maguire},
+           familyi={M\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{0728875a5fe4563e8ffb996bf4889a17}
+      \strng{fullhash}{0728875a5fe4563e8ffb996bf4889a17}
+      \strng{bibnamehash}{0728875a5fe4563e8ffb996bf4889a17}
+      \strng{authorbibnamehash}{0728875a5fe4563e8ffb996bf4889a17}
+      \strng{authornamehash}{0728875a5fe4563e8ffb996bf4889a17}
+      \strng{authorfullhash}{0728875a5fe4563e8ffb996bf4889a17}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Icons of Their Bodies: Saints and Their Images in {Byzantium}}
+      \field{year}{1996}
+      \true{nocite}
+    \endentry
     \entry{qumran}{misc}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -1523,6 +2220,65 @@
       \field{note}{Sec.~III~î.Hr.--sec.~I~d.Hr. Fragmentele aramaice ale Cărții lui Enoh (4Q201--4Q212) confirmă circulația textului în perioada celui de-al Doilea Templu}
       \field{title}{Manuscrisele de la {Marea Moartă} ({Qumran})}
       \true{nocite}
+    \endentry
+    \entry{mathews2016}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ba6553a78010104d44a7bdbec1e16846}{%
+           family={Mathews},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=55671da65a49612786f06ff2186f0836}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Getty Publications}%
+      }
+      \strng{namehash}{069d150aefdcee294b922d33fcdd4958}
+      \strng{fullhash}{069d150aefdcee294b922d33fcdd4958}
+      \strng{bibnamehash}{069d150aefdcee294b922d33fcdd4958}
+      \strng{authorbibnamehash}{069d150aefdcee294b922d33fcdd4958}
+      \strng{authornamehash}{069d150aefdcee294b922d33fcdd4958}
+      \strng{authorfullhash}{069d150aefdcee294b922d33fcdd4958}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Dawn of Christian Art in Panel Paintings and Icons}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{meshberger1990}{article}{}
+      \name{author}{1}{}{%
+        {{hash=43a90fe60a6d5af66bc1e181baa82acc}{%
+           family={Meshberger},
+           familyi={M\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.1001/jama.1990.03450140059034}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Frank\bibnamedelima Lynn},
+           suffixi={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \strng{fullhash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \strng{bibnamehash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \strng{authorbibnamehash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \strng{authornamehash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \strng{authorfullhash}{43a90fe60a6d5af66bc1e181baa82acc}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JAMA}
+      \field{number}{14}
+      \field{title}{An Interpretation of {Michelangelo's} Creation of {Adam} Based on Neuroanatomy}
+      \field{volume}{264}
+      \field{year}{1990}
+      \true{nocite}
+      \field{pages}{1837\bibrangedash 1841}
+      \range{pages}{5}
     \endentry
     \entry{mitchell1991}{book}{}
       \name{author}{1}{}{%
@@ -1573,6 +2329,32 @@
       \field{labeltitlesource}{title}
       \field{title}{Lord of the Banquet: The Literary and Theological Significance of the Lukan Travel Narrative}
       \field{year}{1989}
+      \true{nocite}
+    \endentry
+    \entry{nes2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dacf3fb7f87fda4a767a061fff6fa499}{%
+           family={Nes},
+           familyi={N\bibinitperiod},
+           given={Solrunn},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Eerdmans}%
+      }
+      \strng{namehash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \strng{fullhash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \strng{bibnamehash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \strng{authorbibnamehash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \strng{authornamehash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \strng{authorfullhash}{dacf3fb7f87fda4a767a061fff6fa499}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-802864-97-0}
+      \field{title}{The Mystical Language of Icons}
+      \field{year}{2004}
       \true{nocite}
     \endentry
     \entry{newadvent}{misc}{}
@@ -1626,6 +2408,33 @@
       \field{year}{2012}
       \true{nocite}
     \endentry
+    \entry{nutton2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b4a91ed8ce291575f1c36505df76c755}{%
+           family={Nutton},
+           familyi={N\bibinitperiod},
+           given={Vivian},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{b4a91ed8ce291575f1c36505df76c755}
+      \strng{fullhash}{b4a91ed8ce291575f1c36505df76c755}
+      \strng{bibnamehash}{b4a91ed8ce291575f1c36505df76c755}
+      \strng{authorbibnamehash}{b4a91ed8ce291575f1c36505df76c755}
+      \strng{authornamehash}{b4a91ed8ce291575f1c36505df76c755}
+      \strng{authorfullhash}{b4a91ed8ce291575f1c36505df76c755}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{note}{Ed.\ orig.\ 2004}
+      \field{title}{Ancient Medicine}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
     \entry{oug16_2024}{misc}{}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
@@ -1664,6 +2473,167 @@
       \field{labeltitlesource}{title}
       \field{note}{Sec.~III d.Hr. Citări: PSB~06--09}
       \field{title}{De {Principiis}; {Contra Celsum}; Comentariu la {Ioan}; Omilii la {Numeri}}
+      \true{nocite}
+    \endentry
+    \entry{ouspensky1992}{book}{}
+      \name{author}{1}{}{%
+        {{hash=496f340751a93833909829cf15a4ae76}{%
+           family={Ouspensky},
+           familyi={O\bibinitperiod},
+           given={Leonid},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {St.~Vladimir's Seminary Press}%
+      }
+      \strng{namehash}{496f340751a93833909829cf15a4ae76}
+      \strng{fullhash}{496f340751a93833909829cf15a4ae76}
+      \strng{bibnamehash}{496f340751a93833909829cf15a4ae76}
+      \strng{authorbibnamehash}{496f340751a93833909829cf15a4ae76}
+      \strng{authornamehash}{496f340751a93833909829cf15a4ae76}
+      \strng{authorfullhash}{496f340751a93833909829cf15a4ae76}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theology of the Icon}
+      \field{volume}{2}
+      \field{year}{1992}
+      \true{nocite}
+    \endentry
+    \entry{ouspensky1978}{book}{}
+      \name{author}{2}{}{%
+        {{hash=496f340751a93833909829cf15a4ae76}{%
+           family={Ouspensky},
+           familyi={O\bibinitperiod},
+           given={Leonid},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1a99a1859583622ec58fff378742ec53}{%
+           family={Lossky},
+           familyi={L\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {St.~Vladimir's Seminary Press}%
+      }
+      \strng{namehash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \strng{fullhash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \strng{bibnamehash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \strng{authorbibnamehash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \strng{authornamehash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \strng{authorfullhash}{6ddd5a64627b66777a9bd474c5fc6c27}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Ed.\ orig.\ 1952; ed.\ rev.\ 1982. Tratează semnificația teologică a inscripțiilor Ο~ΩΝ, ΙΣ~ΧΣ, ΜΡ~ΘΥ}
+      \field{title}{The Meaning of Icons}
+      \field{year}{1982}
+      \true{nocite}
+    \endentry
+    \entry{pelikan1990}{book}{}
+      \name{author}{1}{}{%
+        {{hash=23c4c4495fe1720f8ca023603c02b9b7}{%
+           family={Pelikan},
+           familyi={P\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{fullhash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{bibnamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authorbibnamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authornamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authorfullhash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Imago Dei: The Byzantine Apologia for Icons}
+      \field{year}{1990}
+      \true{nocite}
+    \endentry
+    \entry{pelikan1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=23c4c4495fe1720f8ca023603c02b9b7}{%
+           family={Pelikan},
+           familyi={P\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{fullhash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{bibnamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authorbibnamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authornamehash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \strng{authorfullhash}{23c4c4495fe1720f8ca023603c02b9b7}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mary Through the Centuries: Her Place in the History of Culture}
+      \field{year}{1996}
+      \true{nocite}
+    \endentry
+    \entry{pentcheva2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8687941ac347bbf869535f2adbcff0d5}{%
+           family={Pentcheva},
+           familyi={P\bibinitperiod},
+           given={Bissera\bibnamedelima V.},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Penn State University Press}%
+      }
+      \strng{namehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{fullhash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{bibnamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authorbibnamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authornamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authorfullhash}{8687941ac347bbf869535f2adbcff0d5}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Icons and Power: The Mother of God in {Byzantium}}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{pentcheva2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8687941ac347bbf869535f2adbcff0d5}{%
+           family={Pentcheva},
+           familyi={P\bibinitperiod},
+           given={Bissera\bibnamedelima V.},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Penn State University Press}%
+      }
+      \strng{namehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{fullhash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{bibnamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authorbibnamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authornamehash}{8687941ac347bbf869535f2adbcff0d5}
+      \strng{authorfullhash}{8687941ac347bbf869535f2adbcff0d5}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Sensual Icon: Space, Ritual, and the Senses in {Byzantium}}
+      \field{year}{2010}
       \true{nocite}
     \endentry
     \entry{petronius}{book}{}
@@ -1752,6 +2722,60 @@
       \field{year}{1990}
       \true{nocite}
     \endentry
+    \entry{quenot1991}{book}{}
+      \name{author}{1}{}{%
+        {{hash=345231993e899f4a16333f582dca659b}{%
+           family={Quenot},
+           familyi={Q\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {St.~Vladimir's Seminary Press}%
+      }
+      \strng{namehash}{345231993e899f4a16333f582dca659b}
+      \strng{fullhash}{345231993e899f4a16333f582dca659b}
+      \strng{bibnamehash}{345231993e899f4a16333f582dca659b}
+      \strng{authorbibnamehash}{345231993e899f4a16333f582dca659b}
+      \strng{authornamehash}{345231993e899f4a16333f582dca659b}
+      \strng{authorfullhash}{345231993e899f4a16333f582dca659b}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Icon: Window on the Kingdom}
+      \field{year}{1991}
+      \true{nocite}
+    \endentry
+    \entry{radle2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9f736f17db3d7d633fd801f80a6effb2}{%
+           family={Radle},
+           familyi={R\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.1086/705421}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Gabriel},
+           suffixi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f736f17db3d7d633fd801f80a6effb2}
+      \strng{fullhash}{9f736f17db3d7d633fd801f80a6effb2}
+      \strng{bibnamehash}{9f736f17db3d7d633fd801f80a6effb2}
+      \strng{authorbibnamehash}{9f736f17db3d7d633fd801f80a6effb2}
+      \strng{authornamehash}{9f736f17db3d7d633fd801f80a6effb2}
+      \strng{authorfullhash}{9f736f17db3d7d633fd801f80a6effb2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Speculum}
+      \field{number}{4}
+      \field{title}{The Veiling of Women in {Byzantium}: Liturgy, Hair, and Identity in a Medieval Rite of Passage}
+      \field{volume}{94}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1070\bibrangedash 1115}
+      \range{pages}{46}
+    \endentry
     \entry{lxx_rahlfs}{book}{}
       \name{editor}{2}{}{%
         {{hash=ced5907c0184b122b43b532f16612f23}{%
@@ -1786,6 +2810,35 @@
       \field{title}{Septuaginta ({LXX})}
       \field{year}{2006}
       \true{nocite}
+    \endentry
+    \entry{raynor2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=db74397a953a4fd3c2b55cd2cad539d1}{%
+           family={Raynor},
+           familyi={R\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.1179/0307013115Z.00000000059}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Ruth\bibnamedelima E.},
+           suffixi={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \strng{fullhash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \strng{bibnamehash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \strng{authorbibnamehash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \strng{authornamehash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \strng{authorfullhash}{db74397a953a4fd3c2b55cd2cad539d1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Byzantine and Modern Greek Studies}
+      \field{number}{2}
+      \field{title}{The Shaping of an Icon: {St Luke}, the Artist}
+      \field{volume}{39}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{161\bibrangedash 172}
+      \range{pages}{12}
     \endentry
     \entry{reece2025}{book}{}
       \name{author}{1}{}{%
@@ -1931,6 +2984,32 @@
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta
       \endverb
     \endentry
+    \entry{schonborn1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eee8c77bb831851ef668aeb562824d53}{%
+           family={Schönborn},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ignatius Press}%
+      }
+      \strng{namehash}{eee8c77bb831851ef668aeb562824d53}
+      \strng{fullhash}{eee8c77bb831851ef668aeb562824d53}
+      \strng{bibnamehash}{eee8c77bb831851ef668aeb562824d53}
+      \strng{authorbibnamehash}{eee8c77bb831851ef668aeb562824d53}
+      \strng{authornamehash}{eee8c77bb831851ef668aeb562824d53}
+      \strng{authorfullhash}{eee8c77bb831851ef668aeb562824d53}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Orig.\ \textit{L'icône du Christ}, 1976}
+      \field{title}{God's Human Face: The Christ-Icon}
+      \field{year}{1994}
+      \true{nocite}
+    \endentry
     \entry{sefaria}{misc}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -1981,6 +3060,31 @@
       \field{labeltitlesource}{title}
       \field{title}{The Farewell of the Word: The Johannine Call to Abide}
       \field{year}{1991}
+      \true{nocite}
+    \endentry
+    \entry{sendler1988}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bd83a26fa3f20a8276e90dad31181990}{%
+           family={Sendler},
+           familyi={S\bibinitperiod},
+           given={Egon},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oakwood Publications}%
+      }
+      \strng{namehash}{bd83a26fa3f20a8276e90dad31181990}
+      \strng{fullhash}{bd83a26fa3f20a8276e90dad31181990}
+      \strng{bibnamehash}{bd83a26fa3f20a8276e90dad31181990}
+      \strng{authorbibnamehash}{bd83a26fa3f20a8276e90dad31181990}
+      \strng{authornamehash}{bd83a26fa3f20a8276e90dad31181990}
+      \strng{authorfullhash}{bd83a26fa3f20a8276e90dad31181990}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Icon: Image of the Invisible --- Elements of Theology, Aesthetics, and Technique}
+      \field{year}{1988}
       \true{nocite}
     \endentry
     \entry{shepherd1993}{book}{}
@@ -2034,6 +3138,36 @@
       \field{year}{2008}
       \true{nocite}
     \endentry
+    \entry{sparavigna2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7dbdddb684fc605e0eb52b54f86432a1}{%
+           family={Sparavigna},
+           familyi={S\bibinitperiod},
+           given={Amelia\bibnamedelima Carolina},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6c3cbab1847c77597b856fa199a11918}{%
+           family={Baldi},
+           familyi={B\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.2139/ssrn.3739111}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Mauro\bibnamedelima Maria},
+           suffixi={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \strng{fullhash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \strng{bibnamehash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \strng{authorbibnamehash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \strng{authornamehash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \strng{authorfullhash}{0f77cdbe9ab54002d9a4ea15d331b066}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Politecnico di Torino; PhilArchive}
+      \field{title}{A Mathematical Study of a Symbol: the Vesica Piscis of Sacred Geometry}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
     \entry{spicq1952}{book}{}
       \name{author}{1}{}{%
         {{hash=19ab8ffbf9b1a4387fd04ca0944397b5}{%
@@ -2058,6 +3192,59 @@
       \field{series}{Études bibliques}
       \field{title}{L'Épître aux Hébreux}
       \field{year}{1952}
+      \true{nocite}
+    \endentry
+    \entry{vonstaden1989}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3abfe7486299a70af6e5282d2a476cad}{%
+           family={Staden},
+           familyi={S\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{3abfe7486299a70af6e5282d2a476cad}
+      \strng{fullhash}{3abfe7486299a70af6e5282d2a476cad}
+      \strng{bibnamehash}{3abfe7486299a70af6e5282d2a476cad}
+      \strng{authorbibnamehash}{3abfe7486299a70af6e5282d2a476cad}
+      \strng{authornamehash}{3abfe7486299a70af6e5282d2a476cad}
+      \strng{authorfullhash}{3abfe7486299a70af6e5282d2a476cad}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Herophilus: The Art of Medicine in Early {Alexandria}}
+      \field{year}{1989}
+      \true{nocite}
+    \endentry
+    \entry{steinberg1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=196ddc9ded6a96c1fcd54a8bba354bc1}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \strng{fullhash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \strng{bibnamehash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \strng{authorbibnamehash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \strng{authornamehash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \strng{authorfullhash}{196ddc9ded6a96c1fcd54a8bba354bc1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{The Sexuality of Christ in Renaissance Art and in Modern Oblivion}
+      \field{year}{1996}
       \true{nocite}
     \endentry
     \entry{sternberg1985}{book}{}
@@ -2180,6 +3367,40 @@
       \field{note}{Sec.~II d.Hr. Citări: Nero~31 (Domus Aurea)}
       \field{title}{Viața celor doisprezece {Cezari} ({De vita Caesarum})}
       \true{nocite}
+    \endentry
+    \entry{suk2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7dc9f3f52f91c0a8f2db06610f018072}{%
+           family={Suk},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f98bbe4f86d27d76dee716b74f0178d6}{%
+           family={Tamargo},
+           familyi={T\bibinitperiod},
+           given={doi\bibnamedelimb =\bibnamedelima {10.1227/01.NEU.0000369284.54469.C1}},
+           giveni={d\bibinitperiod\bibinitdelim =\bibinitperiod\bibinitdelim 1\bibinitperiod},
+           suffix={Rafael\bibnamedelima J.},
+           suffixi={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \strng{fullhash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \strng{bibnamehash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \strng{authorbibnamehash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \strng{authornamehash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \strng{authorfullhash}{1b952fd4241ceff48fd6ab4f0716dc2b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neurosurgery}
+      \field{number}{5}
+      \field{title}{Concealed Neuroanatomy in {Michelangelo's} Separation of Light From Darkness in the {Sistine Chapel}}
+      \field{volume}{66}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{851\bibrangedash 861}
+      \range{pages}{11}
     \endentry
     \entry{tacitus_annales}{book}{}
       \name{author}{1}{}{%
@@ -2354,6 +3575,41 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
+    \entry{uspensky1976}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cc3b7bbb4a16340d52fefd2375a60ccb}{%
+           family={Uspensky},
+           familyi={U\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=bb3793a14fdfb2bd76febf8c24f2c014}{%
+           family={Rudy},
+           familyi={R\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Peter de Ridder Press}%
+      }
+      \strng{namehash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{fullhash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{bibnamehash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{authorbibnamehash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{authornamehash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{authorfullhash}{cc3b7bbb4a16340d52fefd2375a60ccb}
+      \strng{editorbibnamehash}{bb3793a14fdfb2bd76febf8c24f2c014}
+      \strng{editornamehash}{bb3793a14fdfb2bd76febf8c24f2c014}
+      \strng{editorfullhash}{bb3793a14fdfb2bd76febf8c24f2c014}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Semiotics of the Russian Icon}
+      \field{year}{1976}
+      \true{nocite}
+    \endentry
     \entry{vankooten2025}{article}{}
       \name{author}{1}{}{%
         {{hash=9af70e9415109ca03b47171481b1f337}{%
@@ -2404,6 +3660,31 @@
       \field{series}{Studia Neotestamentica 1}
       \field{title}{La Structure littéraire de l'Épître aux Hébreux}
       \field{year}{1963}
+      \true{nocite}
+    \endentry
+    \entry{vassilaki2005}{collection}{}
+      \name{editor}{1}{}{%
+        {{hash=2a5f0d5f36bdf20d37e44d5bdb2ee724}{%
+           family={Vassilaki},
+           familyi={V\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ashgate/Routledge}%
+      }
+      \strng{namehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{fullhash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{bibnamehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{editorbibnamehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{editornamehash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \strng{editorfullhash}{2a5f0d5f36bdf20d37e44d5bdb2ee724}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Images of the Mother of God: Perceptions of the {Theotokos} in {Byzantium}}
+      \field{year}{2005}
       \true{nocite}
     \endentry
     \entry{vergiliu}{book}{}
@@ -2479,6 +3760,94 @@
       \field{title}{The Literary Devices in John's Gospel}
       \field{year}{2019}
       \true{nocite}
+    \endentry
+    \entry{weisse1838}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bf032c481b5929b536ed5fc906e4986b}{%
+           family={Weisse},
+           familyi={W\bibinitperiod},
+           given={Christian\bibnamedelima Hermann},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Breitkopf und Härtel}%
+      }
+      \strng{namehash}{bf032c481b5929b536ed5fc906e4986b}
+      \strng{fullhash}{bf032c481b5929b536ed5fc906e4986b}
+      \strng{bibnamehash}{bf032c481b5929b536ed5fc906e4986b}
+      \strng{authorbibnamehash}{bf032c481b5929b536ed5fc906e4986b}
+      \strng{authornamehash}{bf032c481b5929b536ed5fc906e4986b}
+      \strng{authorfullhash}{bf032c481b5929b536ed5fc906e4986b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Prima formulare a ipotezei sursei Q}
+      \field{title}{Die evangelische Geschichte kritisch und philosophisch bearbeitet}
+      \field{year}{1838}
+      \true{nocite}
+    \endentry
+    \entry{weissenrieder2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=572a4459530e31306ee4fdc4dd6d5947}{%
+           family={Weissenrieder},
+           familyi={W\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Mohr Siebeck}%
+      }
+      \strng{namehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{fullhash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{bibnamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authorbibnamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authornamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authorfullhash}{572a4459530e31306ee4fdc4dd6d5947}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-16-147915-1}
+      \field{series}{WUNT II/164}
+      \field{title}{Images of Illness in the Gospel of {Luke}: Insights from Ancient Medical Texts}
+      \field{year}{2003}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1628/978-3-16-157151-0
+      \endverb
+    \endentry
+    \entry{weissenrieder2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=572a4459530e31306ee4fdc4dd6d5947}{%
+           family={Weissenrieder},
+           familyi={W\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{fullhash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{bibnamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authorbibnamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authornamehash}{572a4459530e31306ee4fdc4dd6d5947}
+      \strng{authorfullhash}{572a4459530e31306ee4fdc4dd6d5947}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Religion in the Roman Empire}
+      \field{number}{2}
+      \field{title}{Disease and Healing in a Changing World: `Medical' Vocabulary and the Woman with the `Issue of Blood' in the \textit{Vetus Latina} {Mark} 5:25--34 and {Luke} 8:40--48}
+      \field{volume}{3}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{265\bibrangedash 285}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1628/219944617X15008820103414
+      \endverb
     \endentry
     \entry{whipple1950}{article}{}
       \name{author}{1}{}{%
@@ -2595,6 +3964,32 @@
       \field{labeltitlesource}{title}
       \field{title}{Das Messiasgeheimnis in den Evangelien}
       \field{year}{1901}
+      \true{nocite}
+    \endentry
+    \entry{yazykova2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=979887b3adbc8ee945814f4972991a47}{%
+           family={Yazykova},
+           familyi={Y\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {St.~Vladimir's Seminary Press}%
+      }
+      \strng{namehash}{979887b3adbc8ee945814f4972991a47}
+      \strng{fullhash}{979887b3adbc8ee945814f4972991a47}
+      \strng{bibnamehash}{979887b3adbc8ee945814f4972991a47}
+      \strng{authorbibnamehash}{979887b3adbc8ee945814f4972991a47}
+      \strng{authornamehash}{979887b3adbc8ee945814f4972991a47}
+      \strng{authorfullhash}{979887b3adbc8ee945814f4972991a47}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-557255-64-8}
+      \field{title}{Hidden and Triumphant: The Underground Struggle to Save Russian Iconography}
+      \field{year}{2010}
       \true{nocite}
     \endentry
     \entry{yeomans1981}{article}{}
