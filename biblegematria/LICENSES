@@ -1,0 +1,29 @@
+BIBLICAL TEXT LICENSES
+======================
+
+This package bundles biblical texts from the following sources.
+All are used in compliance with their respective licenses.
+
+
+1. SBLGNT — Greek New Testament
+   Source:  https://www.sblgnt.com/
+   Repo:   https://github.com/morphgnt/sblgnt
+   License: Creative Commons Attribution 4.0 International (CC-BY 4.0)
+   Credit:  Michael W. Holmes, The Greek New Testament: SBL Edition
+            (Society of Biblical Literature, 2010)
+
+2. MorphGNT — Morphological parsing and lemmatization of SBLGNT
+   Source:  https://github.com/morphgnt/sblgnt
+   License: Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0)
+   Credit:  James Tauber and contributors, MorphGNT Project
+
+3. OpenScriptures LXX Resources — Septuagint lemmatization
+   Source:  https://github.com/openscriptures/GreekResources
+   License: Creative Commons Attribution 4.0 International (CC-BY 4.0)
+   Credit:  Open Scriptures Septuagint Project
+
+4. Sefaria — Masoretic Hebrew Text
+   Source:  https://www.sefaria.org/
+   Export:  https://github.com/Sefaria/Sefaria-Export
+   License: Varies per text; Tanakh base text is Public Domain.
+   Credit:  Sefaria.org — A Living Library of Torah
