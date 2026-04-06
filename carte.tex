@@ -237,6 +237,7 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
+\raggedbottom
 \begin{document}
 
 
@@ -263,12 +264,21 @@
 {\color{primarydark}\small\sffamily Departamentul Calculatoare și Tehnologia Informației\par}
 {\color{primarydark}\small\sffamily Universitatea Politehnica Timișoara, România\par}
 \vspace{0.05cm}
-{\color{primarydark}\scriptsize\sffamily znrl.zlfkl @ djf.ik\par}
+{\color{primarydark}\scriptsize\sffamily Cifru biblic atbash: znrl.zlfkl @ djf.ik\par}
 
 \vspace{0.3cm}
 
 % Subtitle
 {\color{bodytext}\large\itshape Biblia, Parabolele lui Enoh și tradiția biblică a titlului mesianic\par}
+
+\vspace{0.3cm}
+
+% Badge
+\begin{tikzpicture}
+    \node[fill=primarylight, rounded corners=4pt, inner sep=8pt, font=\normalsize\sffamily] {
+        \color{primarydark}\textbf{Teologia narativă descifrată}
+    };
+\end{tikzpicture}
 
 \vspace{0.3cm}
 
@@ -279,21 +289,49 @@
 {\scriptsize\color{gray}\textit{Giotto di Bondone, Judecata de Apoi (c.~1306), Capela Scrovegni, Padova. Domeniu public.}}
 \end{center}
 
-\vspace{0.2cm}
-
-% Badge
-\begin{tikzpicture}
-    \node[fill=primarylight, rounded corners=4pt, inner sep=8pt, font=\normalsize\sffamily] {
-        \color{primarydark}\textbf{Teologia narativă descifrată}
-    };
-\end{tikzpicture}
-
 \vfill
 \end{titlepage}
 
-% Abstract on page 2
+% Pagină goală intenționat
 \thispagestyle{empty}
 \vspace*{\fill}
+\begin{center}
+{\small\color{gray}\textit{(pagină lăsată intenționat goală)}}
+\end{center}
+\vspace*{\fill}
+\newpage
+
+% Abstract on page 3
+\thispagestyle{empty}
+\vspace*{\fill}
+
+% Motto — Euripide, Bacantele 794 / Fapte 26:14
+\begin{center}
+\begin{minipage}{10cm}
+\raggedleft\itshape\small\color{bodytext}
+«\,Σαούλ, Σαούλ, τί με διώκεις; σκληρόν σοι \textbf{πρὸς κέντρα λακτίζειν}\,»\\[2pt]
+«\,Saule, Saule, de ce Mă prigonești? Greu îți este să lovești în \textbf{țepușă} \underline{cu piciorul}\,»\\[1pt]
+\upshape\footnotesize\color{gray}
+\href{https://bibliaortodoxa.ro/carte.php?id=26\&cap=26\#14}{\textit{Faptele Apostolilor} 26:14}\\[6pt]
+\itshape\small\color{bodytext}
+«\,\textbf{πρὸς κέντρα λακτίζοιμι} θνητὸς ὢν θεῷ\,»\\[2pt]
+«\,Să lovesc \underline{cu piciorul} în \textbf{țepușă}, muritor fiind, \underline{împotriva unui zeu}?\,»\\[1pt]
+\upshape\footnotesize\color{gray}
+Εὐριπίδης, \textit{Βάκχαι} 794 / Euripide, \textit{Bacantele} 794
+\end{minipage}
+\end{center}
+
+\vspace{0.6em}
+
+\begin{center}
+\begin{minipage}{10cm}
+\raggedleft\small\color{bodytext}
+Oare în ultimele clipe ale vieții, pe cruce și în cumplită agonie fiind, avea Mântuitorul Iisus Hristos grijă «să numere \hyperlink{pesti-cosuri}{pești și coșuri}» (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=8\#19}{Marcu 8:19--21}) și să vorbească în gematria așa cum \hyperref[strigat]{pretinde Marcu}?
+\end{minipage}
+\end{center}
+
+\vspace{0.8em}
+
 \begin{center}
 \begin{tikzpicture}
     \node[fill=codebg, rounded corners=6pt, inner sep=15pt, drop shadow=black!10] {
@@ -318,6 +356,28 @@
         \end{minipage}
     };
 \end{tikzpicture}
+\end{center}
+
+\vspace{0.8em}
+
+% Tabel paralel Bacantele / Fapte
+\begin{center}
+\small
+\begin{tabular}{|l|c|c|}
+\hline
+\rowcolor{primarylight} \textbf{Element} & \textbf{Bacantele} & \textbf{Faptele Apostolilor} \\
+\hline
+Persecutorul & Penteu & Saul \\
+\hline
+Zeul / Domnul & Dionysos & Iisus \\
+\hline
+Lumina divină & teofanie & lumina orbitoare \\
+\hline
+Proverbul & πρὸς κέντρα λακτίζειν & πρὸς κέντρα λακτίζειν \\
+\hline
+Rezistența & zadarnică & zadarnică \\
+\hline
+\end{tabular}
 \end{center}
 
 \vspace*{\fill}
@@ -409,6 +469,7 @@ Aceasta înseamnă:
 Înțelegerea teologiei narative este cheia pentru a citi corect cele 100 de paralele NT–Enoh din acest studiu: evangheliștii \textbf{activează conștient} limbajul enoic («tronul slavei», «Fiul Omului», «focul veșnic») ca instrument de persuasiune retorică, adresându-se unei audiențe care cunoștea Parabolele lui Enoh.
 
 
+\hypertarget{pesti-cosuri}{}
 \begin{contextbox}
 \textbf{Iisus Hristos} \textbf{\underline{subliniază deliberat}} (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=8\#19}{Marcu 8:19–21}): \textit{«Când am frânt cele cinci pâini la cei cinci mii — \textbf{\underline{câte coșuri?} Douăsprezece.} Când \textbf{cele șapte} la patru mii? \textbf{Șapte.} \textcolor{darkred}{\textbf{Tot nu pricepeți?}}»}
 \end{contextbox}
@@ -419,7 +480,7 @@ Aceasta înseamnă:
   \item \textbf{7 pâini + 7 coșuri = Neamurile} — 7 = plenitudinea universală, cele 7 popoare canaanite (\href{https://bibliaortodoxa.ro/carte.php?id=17\&cap=7\#1}{Deuteronom 7:1})
   \item Prima înmulțire e pe \textbf{teritoriu iudaic}, a doua pe \textbf{teritoriu păgân} (Decapole)
 \end{itemize}
-Pentru detalii sari direct la \href{\#semnatura}{Semnătura numerică a Evangheliilor}.
+Pentru detalii sari direct la \hyperref[semnatura]{Semnătura numerică a Evangheliilor}.
 
 
 \chapter{De ce contează Cartea lui Enoh?}\label{de-ce-enoh}
@@ -550,7 +611,10 @@ Toate trei confirmă cuvântul ἀστέρα (\textit{astēra}) în \href{https:
 
 • \textbf{Telnet:} \texttt{telnet horizons.jpl.nasa.gov 6775} → \texttt{1P} → \texttt{E} → \texttt{o} → \texttt{geo} → \texttt{0066-Jan-01} → \texttt{0066-Dec-31} → \texttt{1mo} \\
 
-• \textbf{API:} \texttt{curl "https://ssd.jpl.nasa.gov/api/horizons.api?COMMAND='1P'\&START\_TIME='0066-01-01'\&STOP\_TIME='0066-12-31'"} \\
+• \textbf{API:}\\
+\begin{tcolorbox}[colback=codebg, colframe=codeframe, boxrule=0.5pt, left=4pt, right=4pt, top=2pt, bottom=2pt]
+{\scriptsize\ttfamily curl "https://ssd.jpl.nasa.gov/api/horizons.api?COMMAND='1P'\&START\_TIME='0066-01-01'\&STOP\_TIME='0066-12-31'"}
+\end{tcolorbox}
 
 Periheliile relevante: \textbf{12 î.Hr.} (candidat tradițional pentru «Steaua din Betleem») și \textbf{66 d.Hr.} (vizita lui Tiridates la Nero, contemporană cu scrierea Evangheliei lui Matei).
 
@@ -717,9 +781,10 @@ Fără Enoh, creștinismul ar fi un iudaism cu Mesia — cu pedeapsă pământea
 \chapter{Evangheliștii: teologi, nu reporteri}\label{teologi}
 O întrebare de onestitate intelectuală se impune: \textbf{de unde știau evangheliștii ce s-a întâmplat?}
 
-\begin{center}
+\vspace{0.5em}
+\noindent
 \small
-\begin{tabular}{L{2.2cm}L{4.4cm}L{8.3cm}}
+\begin{tabularx}{\textwidth}{L{2.2cm}L{4cm}X}
 \toprule
 \rowcolor{primarylight}
 \textbf{Evanghelia} & \textbf{Datare convențională} & \textbf{Surse} \\
@@ -729,10 +794,11 @@ Matei & c. 80–90 d.Hr. & Marcu + sursa Q + material propriu \\
 Luca & c. 80–90 d.Hr. & Marcu + sursa Q + material propriu \\
 Ioan & c. 90–100 d.Hr. & Tradiție independentă \\
 \bottomrule
-\end{tabular}
-\end{center}
+\end{tabularx}
 \normalsize
-\textbf{Sursa Q} (din germ. \textit{Quelle} = „sursă") e o colecție ipotetică de ziceri ale lui Iisus, niciodată găsită ca manuscris, dar reconstituită din \textasciitilde{}235 de versete comune lui Matei și Luca care \textbf{nu} apar la Marcu. Ipoteza a fost formulată de Christian Hermann Weisse (1838) și dezvoltată de B.H. Streeter (\href{https://www.biblicalstudies.org.uk/pdf/4gospels_streeter/complete.pdf}{\textit{The Four Gospels}, 1924}). Streeter (cap. VII, pp. 151–153) arată explicit: Marcu are \textbf{stil și gramatică brute} și păstrează cuvinte aramaice; Matei și Luca \textbf{îmbunătățesc consistent} stilul și gramatica lui Marcu; Matei preia \textasciitilde{}90\% din Marcu, Luca preia peste jumătate. Datarea convențională de mai sus urmează consensul academic (cf. Raymond E. Brown, \textit{An Introduction to the New Testament}, Doubleday, 1997; Bart Ehrman, \textit{The New Testament: A Historical Introduction}, Oxford, ed. 7, 2020).
+\par\noindent\textbf{Sursa Q} (din germ. \textit{Quelle} = „sursă") e o colecție ipotetică de ziceri ale lui Iisus, niciodată găsită ca manuscris, dar reconstituită din \textasciitilde{}235 de versete comune lui Matei și Luca care \textbf{nu} apar la Marcu. Ipoteza a fost formulată de Christian Hermann Weisse (1838) și dezvoltată de B.H. Streeter (\href{https://www.biblicalstudies.org.uk/pdf/4gospels_streeter/complete.pdf}{\textit{The Four Gospels}, 1924}).
+
+Streeter (cap. VII, pp. 151–153) arată explicit: Marcu are \textbf{stil și gramatică brute} și păstrează cuvinte aramaice; Matei și Luca \textbf{îmbunătățesc consistent} stilul și gramatica lui Marcu; Matei preia \textasciitilde{}90\% din Marcu, Luca preia peste jumătate. Datarea convențională de mai sus urmează consensul academic (cf. Raymond E. Brown, \textit{An Introduction to the New Testament}, Doubleday, 1997; Bart Ehrman, \textit{The New Testament: A Historical Introduction}, Oxford, ed. 7, 2020).
 
 Dar datarea convențională se bazează pe o \textbf{presupunere circulară}: profețiile despre distrugerea Templului (Marcu 13, Matei 24, Luca 21) sunt prea precise, deci trebuie să fie scrise \textit{după} eveniment (\textit{vaticinium ex eventu}). Această logică presupune că profeția e imposibilă — ceea ce e o poziție filozofică, nu textuală.
 
@@ -740,26 +806,40 @@ Dacă urmăm \textbf{dovezile interne} ale textelor, cronologia arată diferit:
 
 \begin{center}
 \small
-\begin{tabular}{L{0.7cm}L{0.7cm}L{0.7cm}L{12.4cm}}
+\begin{tabularx}{\textwidth}{L{0.6cm}L{1.8cm}L{1.5cm}X}
 \toprule
 \rowcolor{primarylight}
 \textbf{Nr.} & \textbf{Cartea} & \textbf{Datare} & \textbf{Argumentul} \\
 \midrule
-1 & \textbf{Marcu} & anii 50 & Cel mai vechi lingvistic: greacă brută, paratactică, arameisme netraduse; sursă pentru Luca și Matei. Tradiția (Papias, apud Eusebiu III.39) îl identifică drept însoțitor al lui Petru — iar Marcu e singurul care relatează că la lepădarea lui Petru cocoșul a cântat \textbf{de două ori} (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=14\#72}{Marcu 14:72}), detaliu absent la ceilalți — \textbf{amprenta unui martor care își dictează propria rușine.} \\
-2 & \textbf{Evanghelia lui Luca} & anii 50–60 & Folosește Marcu; «\textit{Cuvântul cel dintâi l-am făcut, o, Teofile}» (\href{https://bibliaortodoxa.ro/carte.php?id=26\&cap=1\#1}{Fapte 1:1}) — Evanghelia e volumul I, scris înainte de Fapte \\
+1 & \textbf{Marcu} & după 33 & Cel mai vechi lingvistic: greacă brută, paratactică, arameisme netraduse; sursă pentru Luca și Matei. Tradiția (Papias, apud Eusebiu III.39) îl identifică drept însoțitor al lui Petru — iar Marcu e singurul care relatează că la lepădarea lui Petru cocoșul a cântat \textbf{de două ori} (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=14\#72}{Marcu 14:72}), detaliu absent la ceilalți — \textbf{amprenta unui martor care își dictează propria rușine.} \\
+2 & \textbf{Evanghelia lui Luca} & — & Folosește Marcu; «\textit{Cuvântul cel dintâi l-am făcut, o, Teofile}» (\href{https://bibliaortodoxa.ro/carte.php?id=26\&cap=1\#1}{Fapte 1:1}) — Evanghelia e volumul I, scris înainte de Fapte \\
 3 & \textbf{Faptele Apostolilor} & \textasciitilde{}61–62 & Se termină brusc cu Pavel în viață la Roma; omite martiriul lui Iacov (62), Petru și Pavel (64–67), distrugerea Templului (70) \\
 4 & \textbf{Ioan} & înainte de 70 & «\textbf{ESTE} (ἔστιν) în Ierusalim o scăldătoare» (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=5\#2}{Ioan 5:2}) — prezent existențial unic; toate celelalte locuri la trecut (Van Kooten, \textit{NTS} 2025) \\
 \rowcolor[HTML]{fffff0}
 5 & \textbf{Matei} & după 66 & Steaua Magilor = cometa Halley din 66 d.Hr. (v. \href{\#halley}{Anexa Halley}). Matei vorbește la \textbf{trecut}: \textit{«am \textbf{văzut} steaua Lui»} (\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=2\#2}{Matei 2:2}) — cometa a trecut deja; vizita Magilor e narată tot la trecut. Matei a văzut cometa din 66 d.Hr. și o pune retroactiv în povestea nașterii. Genealogia cu gematria דוד=14 confirmă audiență iudaică \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{center}
 \normalsize
 Marcu și Luca folosesc \textbf{independent} aceleași surse (Marcu + Q), dar Luca scrie \textbf{înainte} de Matei. Fiecare rafinează greaca lui Marcu în felul lui — Luca literar (stil clasic, educație elenistică), Matei tematic (cele 5 discursuri, structura iudaică). Rafinarea stilistică nu implică ordine cronologică:
 
-Marcu (anii 50) ──→ Luca (anii 50–60) ──→ Fapte (\textasciitilde{}61–62) \\
+\begin{center}
+\begin{tikzpicture}[
+  box/.style={draw=primaryblue, fill=primarylight, rounded corners=4pt, inner sep=5pt, minimum height=0.9cm, text=primarydark, font=\small\sffamily\bfseries, align=center},
+  arr/.style={->, >=stealth, thick, color=primaryblue}
+]
+  \node[box] (marcu) at (0,0) {Marcu\\[-2pt]{\scriptsize după 33}};
+  \node[box] (luca) at (3.8,0) {Luca\\[-2pt]{\scriptsize —}};
+  \node[box] (fapte) at (7.6,0) {Fapte\\[-2pt]{\scriptsize\textasciitilde{}61--62}};
+  \node[box] (matei) at (3.8,-1.8) {Matei\\[-2pt]{\scriptsize după 66}};
+  \node[box, draw=secondarygreen, fill=secondarylight] (ioan) at (7.6,-1.8) {Ioan\\[-2pt]{\scriptsize înainte de 70}};
 
-                   ╰──→ Matei (după 66)       Ioan (înainte de 70)
+  \draw[arr] (marcu) -- (luca);
+  \draw[arr] (luca) -- (fapte);
+  \draw[arr] (marcu.south) -- (matei);
+  \node[font=\scriptsize\color{gray}] at (7.6,-2.6) {(independent)};
+\end{tikzpicture}
+\end{center}
 
 
 \section{Eutih și Elpenor --- aggadah în Faptele Apostolilor}
@@ -974,8 +1054,8 @@ Dacă datarea de mai sus e corectă, consecința e majoră:
 \rowcolor{primarylight}
 \textbf{Autor} & \textbf{Scrie} & \textbf{Profețește distrugerea Templului?} & \textbf{Dovada datării} \\
 \midrule
-\textbf{Marcu} & anii 50 & Da — \href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=13\#2}{Marcu 13:2}: \textit{«nu va rămâne piatră pe piatră»} & Petru în viață; însoțitor al lui Petru (Papias) \\
-\textbf{Luca} & anii 50–60 & Da, \textbf{cel mai detaliat} — \href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=21\#20}{Luca 21:20–24}: \textit{«Ierusalimul înconjurat de oști... duși robi la toate neamurile»} & Fapte se termină cu Pavel în viață (\textasciitilde{}61–62); Evanghelia = vol. I, deci și mai devreme \\
+\textbf{Marcu} & după 33 & Da — \href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=13\#2}{Marcu 13:2}: \textit{«nu va rămâne piatră pe piatră»} & Petru în viață; însoțitor al lui Petru (Papias) \\
+\textbf{Luca} & — & Da, \textbf{cel mai detaliat} — \href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=21\#20}{Luca 21:20–24}: \textit{«Ierusalimul înconjurat de oști... duși robi la toate neamurile»} & Fapte se termină cu Pavel în viață (\textasciitilde{}61–62); Evanghelia = vol. I, deci și mai devreme \\
 \textbf{Ioan} & înainte de 70 & Nu descrie distrugerea & ἔστιν = „ESTE" în \href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=5\#2}{Ioan 5:2} (Van Kooten, \textit{NTS} 2025) \\
 \rowcolor[HTML]{fffff0}
 \textbf{Matei} & \textbf{după 66} & Da & Steaua Magilor = cometa Halley din 66 d.Hr. \\
@@ -2201,33 +2281,9 @@ Traficanții de Hristos, așa cum îi numește Sfântul Grigorie de Nazianz, s-a
 
 Stăpânii nu vor ca norodul să cunoască diferența dintre teologia narativă și realitatea istorică, și nici să decripteze mecanismele și interesele retorice din spate, iar lupii în haine de oaie îi atrag la gândul și adunările lor.
 
-Autorii evangheliilor nu se feresc deloc să construiască minuni în care acțiunile și cuvintele lui Iisus Hristos sunt
+Autorii evangheliilor nu se feresc deloc să construiască minuni în care acțiunile și cuvintele lui Iisus Hristos sunt \textbf{teologie narativă și mesaj criptat}, cum este la înmulțirea pâinilor și a peștilor — unde fiecare număr (5, 12, 7, 4000, 5000) codifică destinatarii mântuirii, iar Iisus Hristos \textbf{\underline{subliniază deliberat}}: \textit{«\textbf{\underline{Câte coșuri?} Douăsprezece.} Când \textbf{cele șapte} la patru mii? \textbf{Șapte.} \textcolor{darkred}{\textbf{Tot nu pricepeți?}}»}
 
-\textbf{teologie narativă și mesaj criptat}
-
-, cum este la înmulțirea pâinilor și a peștilor — unde fiecare număr (5, 12, 7, 4000, 5000) codifică destinatarii mântuirii, iar Iisus Hristos
-
-\textbf{\underline{subliniază deliberat}}
-
-:
-
-\textit{«\textbf{\underline{Câte coșuri?} Douăsprezece.} Când \textbf{cele șapte} la patru mii? \textbf{Șapte.} \textcolor{darkred}{\textbf{Tot nu pricepeți?}}»}
-
-Întrebarea e adresată ucenicilor, dar este de fapt o inversare de roluri — invitația de a pricepe e făcută
-
-\textbf{cititorilor}
-
-care cred că minunea s-a întâmplat ad-literam. Astăzi în biserici coșurile cu anafură sunt pâinea înmulțită, iar oamenii sunt peștii —
-
-\textit{«Veniți după Mine și \textbf{vă voi face pescari de oameni}»}
-
-(
-
-\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=1\#17}{Marcu 1:17}
-
-).
-
-\textcolor{darkred}{\textbf{Tot nu pricepeți?}}
+Întrebarea e adresată ucenicilor, dar este de fapt o inversare de roluri — invitația de a pricepe e făcută \textbf{cititorilor} care cred că minunea s-a întâmplat ad-literam. Astăzi în biserici coșurile cu anafură sunt pâinea înmulțită, iar oamenii sunt peștii — \textit{«Veniți după Mine și \textbf{vă voi face pescari de oameni}»} (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=1\#17}{Marcu 1:17}). \textcolor{darkred}{\textbf{Tot nu pricepeți?}}
 
 Există astăzi restaurante care comercializează peștele prins de Sfântul Petru, cu bănuțul în gură. Construcția teologică este evidentă, ironia limpede, mai ales dacă cititorul știe că Matei a fost colector de taxe. \textcolor{darkred}{\textbf{Tot nu pricepeți?}}
 
@@ -3144,7 +3200,7 @@ Tradiția atribuie Sfântului Luca atât Evanghelia și Faptele Apostolilor, câ
 \rowcolor{primarylight}
 \textbf{Centru vital} & \textbf{Grecește} & \textbf{Funcție medicală} & \textbf{Sursa antică} \\
 \midrule
-\textbf{Buricul} & ὀμφαλός (\textit{omphalos}) & Centrul vieții fetale --- legătura fizică mamă--copil & Hipocrate, \textit{De Natura Pueri} \\
+\textbf{Buricul} & ὀμφαλός (\textit{omphalos}) & Centrul corpului omenesc (geometrie); centrul vieții fetale (medicină) & Vitruviu, \textit{De Architectura} III.1 (cca. 30--15 î.Hr.); Hipocrate, \textit{De Natura Pueri} \\
 \textbf{Inima} & καρδία (\textit{kardia}) & Sediul vieții, al căldurii vitale (θερμὸν ἔμφυτον) & Aristotel; Galen: centrul arterial \\
 \textbf{Suflul} & πνεῦμα (\textit{pneuma}) & Suflul vital --- la piept/plămâni. Trei tipuri: naturală, vitală, psihică & Galen, \textit{De Usu Partium}; tradiție stoică \\
 \textbf{Creierul} & ἐγκέφαλος (\textit{enkephalos}) & Sediul inteligenței, al simțurilor & Hipocrate, \textit{De Morbo Sacro} \\
@@ -6556,6 +6612,308 @@ Diferența între cele două limbi e exact diferența teologică între cele dou
 \bigskip
 
 Iar \textbf{וישכן} (și a sălășluit) = \textbf{386} = \textbf{ישוע} (Yeshua/Iisus) = \textbf{לשון} (lashon/limbă/cuvânt). Trei cuvinte diferite — a sălășlui, Iisus, Cuvânt — aceeași gematrie. Cel care sălășluiește \textbf{este} Iisus, Care \textbf{este} Cuvântul.
+
+\chapter{Anexă: Învierea lui Lazăr — isopsefie și gematrie}\label{lazar}
+
+\section{Slava care este suferință: δόξα = עניה}
+
+Învierea lui Lazăr (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=11\#1}{Ioan 11:1--44}) are loc la \textbf{Betania} — în ebraică \textbf{בית עניה} (\textit{Beit Anya} = «Casa Suferinței»). La vestea bolii lui Lazăr, Iisus spune: \textit{«Boala aceasta nu este spre moarte, ci spre \textbf{slava} (δόξα) lui Dumnezeu»} (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=11\#4}{Ioan 11:4}).
+
+Isopsefia confirmă teologia:
+
+\begin{center}
+\large\bfseries δόξα = 135 = עניה
+\end{center}
+
+\begin{center}
+δ(4) + ο(70) + ξ(60) + α(1) = \textbf{135} = ע(70) + נ(50) + י(10) + ה(5)
+\end{center}
+
+\textbf{Slava} lui Dumnezeu (δόξα) = \textbf{suferința} (עניה) din care vine Betania. Exact teologia lui Ioan: slava se manifestă prin suferință, învierea prin moarte.
+
+\section{Dezlegarea: λύσατε = 36 × YHWH}
+
+După ce Lazăr iese din mormânt legat cu fâșii, Iisus poruncește: \textit{«\textbf{Dezlegați-l} (Λύσατε) și lăsați-l să meargă!»} (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=11\#44}{Ioan 11:44}).
+
+\begin{center}
+\large\bfseries λύσατε = 936 = 36 × 26 = 36 × יהוה
+\end{center}
+
+\begin{center}
+λ(30) + υ(400) + σ(200) + α(1) + τ(300) + ε(5) = \textbf{936}
+\end{center}
+
+Porunca de dezlegare conține \textbf{36 de ori Numele lui Dumnezeu} (יהוה = 26). Același verb \textbf{λύω} (a dezlega) apare și la Florii — \textit{«\textbf{Dezlegați} mânzul»} (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#2}{Marcu 11:2}) — legând cele două episoade: dezlegarea de moarte și dezlegarea pentru intrarea Regelui.
+
+\section{Numele protagoniștilor}
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{2.5cm}L{3cm}L{3cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Nume} & \textbf{Valoare} & \textbf{Factorizare} & \textbf{Semnificație} \\
+\midrule
+\textbf{אלעזר} (Elazar/Lazăr) & 308 & 22 × \textbf{14} (דוד) & 22 litere × David; 44 × 7 \\
+Λάζαρος (Lazăr, grec) & 379 & prim & — \\
+Μάρθα (Marta) & 111 & 3 × \textbf{37} & semnătura evanghelică \\
+Μαρία (Maria) & 112 & 8 × \textbf{14} (דוד) & 8 × David \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{אלעזר} (Elazar) = \textbf{308} = 22 × 14 = 22 × דוד. Numele lui Lazăr conține 22 de ori gematria lui David — câte una pentru fiecare literă a alfabetului ebraic. Marta codifică 37 (semnătura numerică a Evangheliilor), iar Maria codifică 14 (David).
+
+\section{Giulgiurile: תכריכים = 700}
+
+Lazăr iese din mormânt \textit{«legat la picioare și la mâini cu \textbf{fâșii} (κειρίαις), și fața lui era înfășurată cu \textbf{mahramă} (σουδαρίῳ)»} (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=11\#44}{Ioan 11:44}).
+
+Giulgiurile în ebraică: \textbf{תכריכים} = ת(400) + כ(20) + ר(200) + י(10) + כ(20) + י(10) + ם(40) = \textbf{700} = 100 × 7 = 50 × 14 (דוד).
+
+Iar \textbf{שת} (Set, fiul lui Adam) = ש(300) + ת(400) = \textbf{700}. Set este sămânța pe care Dumnezeu o rânduiește \textbf{după moarte}: \textit{«Mi-a rânduit Dumnezeu \textbf{alt sământă} în locul lui Abel, pe care l-a ucis Cain»} (\href{https://bibliaortodoxa.ro/carte.php?id=25\&cap=4\#25}{Facerea 4:25}). Giulgiurile morții (תכריכים = 700 = שת) poartă în ele sămânța vieții noi — Lazăr iese din mormânt \textbf{încă înfășurat} în giulgiuri, moartea purtând deja în ea promisiunea rânduită de Dumnezeu.
+
+Mormântul (μνημεῖον) = \textbf{273} = 3 × 7 × 13 = 39 × 7.
+
+\section{Atbash: moartea și viața}
+
+Cifrul Atbash dezvăluie conexiuni între moarte și viață:
+
+\begin{itemize}
+  \item \textbf{מת} (mort) $\xrightarrow{\text{Atbash}}$ \textbf{יא} = \textbf{11} — exact \textbf{capitolul} în care Lazăr înviază: \textbf{Ioan 11}
+  \item \textbf{חי} (viu) $\xrightarrow{\text{Atbash}}$ \textbf{סם} (\textit{sam}) — în ebraică סם înseamnă atât «otravă» (סם המוות = otrava morții) cât și «leac» (סם חיים = leacul vieții). Viața codifică prin Atbash dualitatea: ceea ce ucide și ceea ce vindecă
+  \item \textbf{מות} (moarte) $\xrightarrow{\text{Atbash}}$ \textbf{יפא} = \textbf{91}. Iar \textbf{צא} (ieși!) = צ(90) + א(1) = \textbf{91}. Porunca «\textit{Ieși!}» are aceeași gematrie ca Atbash-ul morții — ieșirea din mormânt este inversarea morții
+\end{itemize}
+
+\section{MacDonald: Bacantele și Odiseea}
+
+Dennis R. MacDonald identifică multiple paralele între Ioan 11 și literatura clasică greacă:
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{2.5cm}L{5cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Ioan 11} & \textbf{Paralela clasică} & \textbf{Tipul} \\
+\midrule
+11:1--5 & Bacantele — \textbf{The Love God}: Dionysos vine la Teba din dragoste pentru familia sa (Semele); Iisus vine la Betania din dragoste pentru Lazăr & Imitație/Paralelă \\
+11:6--44 & Bacantele — \textbf{The Life-Giver}: Dionysos = zeul vinului și al renașterii ciclice; Iisus = «\textit{Eu sunt Învierea și Viața}» & Imitație/Paralelă \\
+11:45--57 & Bacantele 352--56, 677--780 — \textbf{God-Fighters} (θεομάχοι): Penteu se opune lui Dionysos; Caiafa hotărăște moartea lui Iisus & Imitație/Paralelă \\
+11:1--44 & Odiseea 11--12 (\textit{Nekyia}): Odiseu comunică cu morții, dar \textbf{nu-i poate readuce}; Iisus \textbf{readuce} mortul & Superioritate \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Inversarea este totală: Dionysos \textbf{promite} viață prin misterele sale; Iisus o \textbf{dă} literal. Odiseu coboară în Hades și vorbește cu umbrele morților; Iisus stă la gura mormântului și \textbf{strigă}: «Lazăre, \textbf{vino afară}!» (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=11\#43}{Ioan 11:43}).
+
+\section{Lazăr în sinoptici: absența care vorbește}
+
+Învierea lui Lazăr — probabil cea mai spectaculoasă minune — \textbf{nu apare} la sinoptici. Dar numele \textbf{Lazăr} apare la Luca, în pilda bogatului nemilostiv (\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=16\#19}{Luca 16:19--31}), unde Avraam spune:
+
+\begin{contextbox}
+\textit{«\textbf{Nici dacă ar învia cineva din morți, nu vor crede.}»} (\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=16\#31}{Luca 16:31})
+\end{contextbox}
+
+Ironia: la Ioan, Lazăr chiar înviază — și autoritățile \textbf{tot nu cred}, ba chiar hotărăsc să-l ucidă și pe Lazăr (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=12\#10}{Ioan 12:10}). Ceea ce Luca lasă ca avertisment retoric, Ioan transformă în narațiune: profeția lui Avraam se împlinește literal.
+
+
+\chapter{Anexă: Floriile — Intrarea în Ierusalim}\label{floriile}
+
+\section{Adventus inversat: măgărușul și ramurile de finic}
+
+Intrarea lui Iisus în Ierusalim (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#1}{Marcu 11:1--11}, \href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=21\#1}{Matei 21:1--11}, \href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=19\#28}{Luca 19:28--40}, \href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=12\#12}{Ioan 12:12--19}) este ceea ce Dennis R. MacDonald numește \textbf{«Jesus' Untriumphal Entry»} — o \textbf{parodie anti-imperială} a ritualului greco-roman de \textit{adventus} (intrarea triumfală).
+
+\subsection{Modelul clasic: adventus}
+
+În lumea greco-romană, \textit{adventus}-ul era un ritual codificat: generalul victorios intră în oraș călare pe \textbf{cal de război}, în armură, cu armata în urmă, întâmpinat de mulțime cu aclamații. Iisus \textbf{inversează deliberat} fiecare element:
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{3cm}L{5cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Element} & \textbf{Adventus imperial} & \textbf{Intrarea lui Iisus} \\
+\midrule
+Animalul & Cal de război & \textbf{Măgăruș} necălărit (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#2}{Mc 11:2}) \\
+Escorta & Armată & Ucenici și mulțime \\
+Aclamația & «Ave Imperator!» & «Osana Fiului lui David!» \\
+Ramurile & Lauri (victoria militară) & \textbf{Finici} (victoria militară iudaică) \\
+Destinația & Palatul / Capitoliul & \textbf{Templul} — apoi pleacă (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#11}{Mc 11:11}) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{De ce măgăruș, nu asin mare?}
+
+Marcu subliniază: \textit{«pe care \textbf{n-a șezut nimeni} dintre oameni»} (ἐφ᾽ ὃν οὐδεὶς οὔπω ἀνθρώπων ἐκάθισεν, \href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#2}{Marcu 11:2}). Aceasta este o cerință sacră din Vechiul Testament — animalele destinate unui scop sacru trebuie să fie \textbf{neîntrebuințate}:
+
+\begin{itemize}
+  \item \textbf{Vaca roșie} — «peste care \textbf{nu s-a pus jug}» (\href{https://bibliaortodoxa.ro/carte.php?id=14\&cap=19\#2}{Numeri 19:2})
+  \item \textbf{Vacile Chivotului} — «\textbf{nejugate}» (\href{https://bibliaortodoxa.ro/carte.php?id=52\&cap=6\#7}{1 Samuel 6:7})
+  \item \textbf{Juncă pentru ispășire} — «care n-a tras la jug» (\href{https://bibliaortodoxa.ro/carte.php?id=17\&cap=21\#3}{Deuteronom 21:3})
+\end{itemize}
+
+Zaharia 9:9 specifică explicit un \textbf{mânz}: «Regele tău vine la tine... călare pe asin și pe \textbf{mânz}, fiul asinei» (עַל-חֲמוֹר וְעַל-\textbf{עַיִר} בֶּן-אֲתֹנוֹת). Ebraica folosește paralelism poetic — e același animal descris de două ori. Matei (\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=21\#2}{21:2--7}), citind paralelismul literal, aduce \textbf{două} animale — semn al rescrierii teologice.
+
+\subsection{Ramurile de finic codifică războiul}
+
+\textbf{Doar Ioan} (12:13) folosește termenul explicit \textbf{βαΐα τῶν φοινίκων} (ramuri de finic). Sinopticii folosesc termeni diferiți:
+
+\begin{itemize}
+  \item Marcu 11:8 — στιβάδας (crengi/frunzare de pe câmp)
+  \item Matei 21:8 — κλάδους (crengi din copaci)
+  \item Luca — \textbf{nu menționează ramuri deloc}
+\end{itemize}
+
+Ramurile de finic sunt simbol de \textbf{victorie militară} în tradiția iudaică:
+
+\begin{itemize}
+  \item \textbf{1 Macabei 13:51} — Simon Macabeul cucerește citadela Akra din Ierusalim (141 î.Hr.) și intră «cu laude și cu \textbf{ramuri de finic}, cu harpe, chimvale și alăute»
+  \item \textbf{2 Macabei 10:7} — Iuda Macabeul recucerește Templul (Hanuka, 164 î.Hr.): «purtând \textbf{ramuri} și frunze frumoase și \textbf{finici}»
+  \item \textbf{Monedele lui Simon bar Kokhba} (revolta 132--135 d.Hr.) poartă \textbf{ramura de palmier} — simbol al rezistenței militare
+\end{itemize}
+
+Când mulțimea flutură finici și strigă «Osana Fiului lui David!», ea cere un \textbf{Macabeu nou} — un eliberator militar de sub Roma. Iisus răspunde venind pe \textbf{măgăruș}. Inversarea e totală: poporul oferă simbol de \textbf{război}, Iisus răspunde cu simbol de \textbf{umilință}.
+
+\subsection{Isopsefia: βαΐα = 14 = דוד}
+
+Cuvântul \textbf{βαΐα} (ramuri de finic), așa cum apare în \href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=12\#13}{Ioan 12:13} (SBLGNT: \texttt{βαΐα βαΐα βαΐα βάϊον}), are isopsefia:
+
+\begin{center}
+β(2) + α(1) + ι(10) + α(1) = \textbf{14}
+\end{center}
+
+Iar gematria lui \textbf{דוד} (David) = ד(4) + ו(6) + ד(4) = \textbf{14}.
+
+\begin{center}
+\large\bfseries βαΐα = 14 = דוד
+\end{center}
+
+Mulțimea strigă «Osana \textbf{Fiului lui David}!» și flutură \textbf{βαΐα} = 14 = \textbf{David}. Ramurile de finic \textbf{codifică numele} pe care mulțimea îl invocă.
+
+Matei construiește genealogia lui Iisus pe structura \textbf{3 × 14 generații} (\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=1\#17}{Matei 1:17}) — aceeași gematrie davidică. Numărul 14 este semnătura lui David în întreaga narațiune.
+
+\section{Sursele din Vechiul Testament}
+
+Fiecare element al intrării în Ierusalim are un precedent explicit în Vechiul Testament:
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{2.5cm}L{3cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Element NT} & \textbf{Sursa VT} & \textbf{Textul} \\
+\midrule
+Măgărușul & \href{https://bibliaortodoxa.ro/carte.php?id=82\&cap=9\#9}{Zaharia 9:9} & \textit{«Bucură-te foarte, fiica Sionului! Iată Regele tău vine la tine drept și biruitor; smerit și călare pe asin, pe mânzul asinei.»} \\
+Măgărușul legat & \href{https://bibliaortodoxa.ro/carte.php?id=25\&cap=49\#11}{Facerea 49:11} & \textit{«Acela își leagă de viță \textbf{măgărușul} și de coardă mânzul asinei sale.»} — profeția mesianică a lui Iacov pentru Iuda \\
+Catârul regal & \href{https://bibliaortodoxa.ro/carte.php?id=68\&cap=1\#33}{3 Regi 1:33--40} & David poruncește: \textit{«Puneți pe Solomon pe \textbf{catârul meu}... să-l ungă»} — singurul precedent de rege intrat în Ierusalim pe animal \\
+Hainele pe drum & \href{https://bibliaortodoxa.ro/carte.php?id=69\&cap=9\#13}{4 Regi 9:13} & La ungerea lui Iehu: \textit{«Și-au luat fiecare \textbf{haina} și au pus-o sub el pe trepte.»} \\
+«Osana!» & \href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=117\#25}{Psalmul 117:25--26} & \textit{«\textbf{Doamne, mântuiește!} (הושיעה נא = Hoshia-na) Binecuvântat cel ce vine întru numele Domnului!»} \\
+Curățirea Templului & \href{https://bibliaortodoxa.ro/carte.php?id=31\&cap=7\#11}{Ieremia 7:11} + \href{https://bibliaortodoxa.ro/carte.php?id=43\&cap=56\#7}{Isaia 56:7} & \textit{«Casa Mea se va chema casă de rugăciune»} (Isaia) + \textit{«peșteră de tâlhari»} (Ieremia) — Iisus combină cele două citate \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\textbf{Ieremia} — profetul care folosește \textbf{cifrul Atbash}. Ieremia 25:26 scrie \textbf{ששך} (\textit{Sheshak}) în loc de \textbf{בבל} (\textit{Bavel} = Babilon), aplicând cifrul Atbash: ב→ש, ב→ש, ל→ך. Același cifru apare în Ieremia 51:1 unde \textbf{לב קמי} (\textit{Lev Qamai}) = Atbash pentru \textbf{כשדים} (\textit{Kasdim} = Caldeeni). Faptul că Iisus citează tocmai pe Ieremia — profetul cifrurilor — la curățirea Templului adaugă un strat suplimentar narațiunii.
+
+Gematria lui \textbf{עיר} (mânz, Zaharia 9:9) = ע(70) + י(10) + ר(200) = \textbf{280} = 20 × \textbf{14} = 20 × \textbf{דוד} (David).
+
+\section{Atbash: בגד (haină) = שרק (viță aleasă)}
+
+Cele două surse vetero-testamentare ale Floriilor sunt legate prin \textbf{cifrul Atbash}:
+
+\begin{center}
+\large\bfseries
+בגד $\xrightarrow{\text{Atbash}}$ שרק
+\end{center}
+
+\begin{center}
+ב→ש \quad ג→ר \quad ד→ק
+\end{center}
+
+\begin{itemize}
+  \item \textbf{בגד} (\textit{beged} = haină) — \href{https://bibliaortodoxa.ro/carte.php?id=69\&cap=9\#13}{4 Regi 9:13}: la ungerea lui Iehu, mulțimea își pune \textbf{hainele} sub el. Exact ce face mulțimea la intrarea lui Iisus: «\textit{și-au așternut \textbf{hainele} pe drum}» (\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=11\#8}{Marcu 11:8})
+  \item \textbf{שרק} (\textit{soreq} = viță aleasă) — \href{https://bibliaortodoxa.ro/carte.php?id=25\&cap=49\#11}{Facerea 49:11}: «Își leagă de viță măgărușul și de \textbf{שֹׂרֵקָה} (vița aleasă) mânzul asinei sale» — profeția mesianică a lui Iacov pentru Iuda
+\end{itemize}
+
+\textbf{Hainele} pe care mulțimea le așterne pentru Rege codifică prin Atbash \textbf{vița} de care e legat măgărușul mesianic. Iar profetul pe care Iisus îl citează la curățirea Templului — \textbf{Ieremia} — este singurul profet din Biblie despre care se știe că folosește cifrul Atbash:
+\begin{itemize}
+  \item \href{https://bibliaortodoxa.ro/carte.php?id=31\&cap=25\#26}{Ieremia 25:26}: \textbf{ששך} (\textit{Sheshak}) = Atbash pentru \textbf{בבל} (\textit{Bavel} = Babilon)
+  \item \href{https://bibliaortodoxa.ro/carte.php?id=31\&cap=51\#1}{Ieremia 51:1}: \textbf{לב קמי} (\textit{Lev Qamai}) = Atbash pentru \textbf{כשדים} (\textit{Kasdim} = Caldeeni)
+\end{itemize}
+
+\section{Atbash: פסח (Paște) = וחס (și a cruțat)}
+
+Intrarea în Ierusalim are loc chiar înainte de \textbf{Paște}. Atbash-ul cuvântului \textbf{פסח} (\textit{Pesah}) oferă o cheie de lectură:
+
+\begin{center}
+\large\bfseries
+פסח $\xrightarrow{\text{Atbash}}$ וחס
+\end{center}
+
+\begin{center}
+פ→ו \quad ס→ח \quad ח→ס
+\end{center}
+
+\textbf{וחס} = ו (și) + חס (a cruțat), de la rădăcina \textbf{חוס} = «a cruța, a avea milă» (cf. \href{https://bibliaortodoxa.ro/carte.php?id=39\&cap=4\#10}{Iona 4:10--11}: «Tu ai \textbf{cruțat} ricinul»; \href{https://bibliaortodoxa.ro/carte.php?id=33\&cap=16\#5}{Iezechiel 16:5}: «Nici un ochi nu te-a \textbf{cruțat}»). Atbash-ul lui Pesah \textbf{explică sensul} Paștelui: Dumnezeu «a trecut peste» = \textbf{a cruțat}.
+
+Gematria confirmă relația: פסח = \textbf{148}, iar וחס = \textbf{74} = exact \textbf{jumătate} (148 ÷ 2).
+
+Această cruțare se manifestă concret la curățirea Templului. MacDonald arată că Marcu modelează scena pe \textbf{Odiseea 22}, unde Odiseu se întoarce acasă și \textbf{ucide} pețitorii care i-au profanat casa. Iisus preia aceeași structură narativă — eroul intră în spațiul profanat și răstoarnă mesele — dar \textbf{inversează finalul}: în loc să ucidă, \textbf{cruță} (וחס). Îi alungă pe vânzători și schimbători, lăsându-i în viață. Răstignirea Domnului va avea loc chiar de Paște — 14 Nisan (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=19\#14}{Ioan 19:14}, când se înjunghiau mieii pascali) / 15 Nisan (sinoptici).
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{3cm}L{5.5cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Element} & \textbf{Odiseea 22} & \textbf{Marcu 11:15--17} \\
+\midrule
+Spațiul profanat & Casa lui Odiseu & Casa Tatălui (Templul) \\
+Profanatorii & Pețitorii & Vânzătorii și schimbătorii \\
+Gestul & Răstoarnă \textbf{τράπεζαν} & Răstoarnă \textbf{τράπεζας} \\
+\rowcolor{warninglight}
+Finalul & \textbf{Ucide} pe toți & \textbf{Cruță} — îi alungă vii \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Odiseu ucide. Iisus \textbf{cruță} (וחס). Aceasta este inversarea pascală: \textbf{פסח} → Atbash → \textbf{וחס}. Paștele \textbf{este} cruțarea.
+
+\section{Stratul greco-roman: MacDonald și Odiseea}
+
+Peste fundamentul vetero-testamentar, MacDonald identifică un al doilea strat — paralele cu \textbf{literatura clasică greacă}:
+
+\subsection{Trimitere și descoperire (Mc 11:1--4 / Odiseea 10.97--103)}
+
+Iisus \textbf{ἀποστέλλει} (trimite) doi ucenici care \textbf{εὑρίσκω} (găsesc) mânzul legat. MacDonald identifică (paralela \#92) același tipar narativ la Homer: Odiseu trimite iscoade care găsesc fiica lui Laistrygon. Structura \textit{trimitere → descoperire} este un motiv homeric recurent.
+
+\subsection{Mesele răsturnate (Mc 11:15 / Odiseea 22.18--21)}
+
+Marcu scrie: «\textbf{τὰς τραπέζας} τῶν κολλυβιστῶν \textbf{κατέστρεψεν}» (a răsturnat \textbf{mesele} schimbătorilor de bani). În Odiseea 22.18--21, Odiseu răstoarnă \textbf{τράπεζαν} (masa) la începutul masacrului pețitorilor. Același gest fizic — eroul intră în spațiul profanat și răstoarnă mese. Paralela structurală:
+
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{L{3cm}L{5.5cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{Element} & \textbf{Odiseea 22} & \textbf{Marcu 11:15--17} \\
+\midrule
+Eroul & Odiseu se întoarce \textbf{acasă} & Iisus intră în \textbf{casa Tatălui} \\
+Profanarea & Pețitorii consumă averea & Negustorii profanează Templul \\
+Gestul & Răstoarnă \textbf{τράπεζαν} & Răstoarnă \textbf{τράπεζας} \\
+Alungarea & Îi \textbf{ucide} pe toți & Îi \textbf{alungă} (ἐκβάλλειν) \\
+Dreptul & Proprietarul legitim & Fiul proprietarului \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Inspectarea spațiului (Mc 11:11 / Odiseea 7.133)}
+
+Marcu 11:11: Iisus intră în Templu și \textbf{περιβλεψάμενος πάντα} (privind în jur la toate), apoi \textbf{pleacă} — se întoarce a doua zi să curețe. La Homer, Odiseu inspectează palatul lui Alkinoos (Od. 7.133--134) înainte de a acționa — recunoașterea spațiului înaintea intervenției.
+
+\subsection{Intrarea triumfală la Euripide (Ioan 12:12--19 / Bacantele)}
+
+MacDonald conectează intrarea din \textbf{Ioan} cu \textbf{Bacantele} lui Euripide: Dionysos ajunge la Teba, orașul lui natal, ca zeu nerecunoscut. Orașul îl respinge prin Penteu. Iisus vine la Ierusalim — «\textit{Întru ale Sale a venit, dar ai Săi nu L-au primit}» (\href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=1\#11}{Ioan 1:11}).
+
 
 \chapter{Anexă: Strigătul de pe Cruce — gematria aramaică și ebraică}\label{strigat}
 
