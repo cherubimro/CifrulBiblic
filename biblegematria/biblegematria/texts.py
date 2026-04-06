@@ -1,32 +1,51 @@
-"""Load biblical texts: SBLGNT (Greek NT), Masoretic (Hebrew VT), LXX."""
+"""Load biblical texts: SBLGNT (Greek NT), Masoretic (Hebrew VT), LXX.
+
+Data is bundled as data.zip in the package. On first use, it's extracted to ~/.biblegematria/.
+If data.zip is missing, falls back to downloading from GitHub/Sefaria.
+"""
 
 import os
 import re
+import zipfile
+
+_PACKAGE_DIR = os.path.dirname(__file__)
+_DATA_ZIP = os.path.join(_PACKAGE_DIR, 'data.zip')
+_DEFAULT_DATA = os.path.join(os.path.expanduser('~'), '.biblegematria')
 
 
-def _find_data_dir():
-    """Find the biblical texts directory relative to this package or in common locations."""
-    candidates = [
-        os.path.join(os.path.dirname(__file__), '..', '..'),  # biblegematria/../..
-        os.path.expanduser('~/Documents/Biblia'),
-        '.',
-    ]
-    for c in candidates:
-        if os.path.isdir(os.path.join(c, 'sblgnt')):
-            return os.path.abspath(c)
-    return None
+def _ensure_data(data_dir: str = None) -> str:
+    """Ensure biblical texts are available. Extract from ZIP or download."""
+    base = data_dir or _DEFAULT_DATA
+
+    # Check if already extracted
+    sblgnt_dir = os.path.join(base, 'sblgnt')
+    if os.path.isdir(sblgnt_dir) and len(os.listdir(sblgnt_dir)) >= 27:
+        return base
+
+    # Try extracting from bundled ZIP
+    if os.path.exists(_DATA_ZIP):
+        print(f'Extracting biblical texts from data.zip to {base}/ ...')
+        os.makedirs(base, exist_ok=True)
+        with zipfile.ZipFile(_DATA_ZIP, 'r') as zf:
+            zf.extractall(base)
+        print(f'  Done: SBLGNT + Masoretic + LXX extracted.')
+        return base
+
+    # Fallback: download
+    from .download import download_all
+    print('data.zip not found. Downloading texts from internet...')
+    download_all(data_dir=base)
+    return base
 
 
-def load_sblgnt(book: str = None, chapter: int = None, verse: int = None) -> list:
+def load_sblgnt(book: str = None, chapter: int = None, verse: int = None,
+                data_dir: str = None) -> list:
     """Load SBLGNT morphologically tagged Greek NT.
 
     Returns list of dicts with keys: ref, book, chapter, verse, word, lemma.
     If book is specified, filters to that book (e.g., '64-Jn', '62-Mk').
     """
-    base = _find_data_dir()
-    if not base:
-        raise FileNotFoundError("Cannot find sblgnt/ directory")
-
+    base = _ensure_data(data_dir)
     sblgnt_dir = os.path.join(base, 'sblgnt')
     results = []
 
@@ -64,15 +83,12 @@ def load_sblgnt(book: str = None, chapter: int = None, verse: int = None) -> lis
     return results
 
 
-def load_masoretic(book: str = None) -> list:
+def load_masoretic(book: str = None, data_dir: str = None) -> list:
     """Load Masoretic Hebrew text.
 
-    Returns list of dicts with keys: book, chapter, verse, word.
+    Returns list of dicts with keys: book, chapter, verse, text, words.
     """
-    base = _find_data_dir()
-    if not base:
-        raise FileNotFoundError("Cannot find textul_masoretic/ directory")
-
+    base = _ensure_data(data_dir)
     mas_dir = os.path.join(base, 'textul_masoretic')
     results = []
 
@@ -88,49 +104,60 @@ def load_masoretic(book: str = None) -> list:
                 if not line or line.startswith('#'):
                     continue
                 parts = line.split('\t')
-                if len(parts) >= 3:
+                if len(parts) >= 2:
                     ref_parts = parts[0].split(':')
                     ch = int(ref_parts[0]) if ref_parts[0].isdigit() else 0
                     vs = int(ref_parts[1]) if len(ref_parts) > 1 and ref_parts[1].isdigit() else 0
                     text = parts[-1]
-                    for word in text.split():
-                        word = re.sub(r'[\u0591-\u05C7]', '', word)  # strip cantillation
-                        if word:
-                            results.append({
-                                'book': fname.replace('.txt', ''),
-                                'chapter': ch,
-                                'verse': vs,
-                                'word': word,
-                            })
+                    # Strip cantillation marks, keep consonants + vowels
+                    words = []
+                    for w in text.split():
+                        clean = re.sub(r'[\u0591-\u05AF\u05BD\u05BF\u05C0\u05C3-\u05C7]', '', w)
+                        if clean:
+                            words.append(clean)
+                    results.append({
+                        'book': fname.replace('.txt', ''),
+                        'chapter': ch,
+                        'verse': vs,
+                        'text': text,
+                        'words': words,
+                    })
     return results
 
 
-def load_lxx(book: str = None) -> list:
+def load_lxx(book: str = None, data_dir: str = None) -> list:
     """Load LXX (Septuagint) text.
 
-    Returns list of dicts with keys: book, chapter, verse, word.
+    Returns list of dicts with keys: ref, word, lemma.
     """
-    base = _find_data_dir()
-    if not base:
-        raise FileNotFoundError("Cannot find lxx/ directory")
+    import json
 
+    base = _ensure_data(data_dir)
     lxx_dir = os.path.join(base, 'lxx')
     results = []
 
     for fname in sorted(os.listdir(lxx_dir)):
+        if not fname.endswith('.js'):
+            continue
         if book and book.lower() not in fname.lower():
             continue
+
         fpath = os.path.join(lxx_dir, fname)
-        if os.path.isfile(fpath) and fname.endswith(('.txt', '.json', '.js')):
-            with open(fpath, 'r', encoding='utf-8') as f:
-                content = f.read()
-                # Basic word extraction — adapt based on actual format
-                words = re.findall(r'[\u0370-\u03FF\u1F00-\u1FFF]+', content)
-                for w in words:
-                    results.append({
-                        'book': fname,
-                        'chapter': 0,
-                        'verse': 0,
-                        'word': w,
-                    })
+        with open(fpath, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+
+        try:
+            data = json.loads(content)
+            for ref, words in data.items():
+                if isinstance(words, list):
+                    for entry in words:
+                        if isinstance(entry, dict):
+                            results.append({
+                                'ref': ref,
+                                'word': entry.get('key', ''),
+                                'lemma': entry.get('lemma', ''),
+                            })
+        except json.JSONDecodeError:
+            pass
+
     return results
