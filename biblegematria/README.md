@@ -2,6 +2,8 @@
 
 Cross-language gematria, isopsephy, and cipher analysis for biblical texts.
 
+Software care acompaniază cartea [„Fiul Omului": de la Enoh și Daniel la Iisus Hristos — Teologia narativă descifrată](https://github.com/cherubimro/CifrulBiblic).
+
 ## Features
 
 - **23 Hebrew gematria methods** (via `hebrew` library): standard, gadol, katan, ordinal, atbash, albam, avgad, plenară, triunghiulară, pătratică, etc.
