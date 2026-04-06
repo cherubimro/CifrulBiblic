@@ -2,6 +2,7 @@ README.md
 pyproject.toml
 biblegematria/__init__.py
 biblegematria/ciphers.py
+biblegematria/combo.py
 biblegematria/crosslang.py
 biblegematria/gematria.py
 biblegematria/texts.py
