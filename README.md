@@ -2,9 +2,7 @@
 
 **Teologia narativă descifrată**
 
-Alin-Adrian Anton  
-Departamentul Calculatoare și Tehnologia Informației  
-Universitatea Politehnica Timișoara, România
+Alin-Adrian Anton
 
 ## Abstract
 
