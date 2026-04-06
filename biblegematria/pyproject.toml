@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biblegematria"
+version = "0.1.0"
+description = "Cross-language gematria, isopsephy, and cipher analysis for biblical texts (Hebrew VT ↔ Greek NT)"
+readme = "README.md"
+license = {text = "CC0-1.0"}
+requires-python = ">=3.9"
+authors = [{name = "Alin-Adrian Anton"}]
+keywords = ["gematria", "isopsephy", "atbash", "bible", "hebrew", "greek", "cross-language"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Religion",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "hebrew>=0.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/cherubimro/CifrulBiblic"

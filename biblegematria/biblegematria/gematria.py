@@ -20,7 +20,7 @@ def isopsephy(word: str, archaic: bool = False) -> int:
     table = _ISO_ARCHAIC if archaic else _ISO
     total = 0
     for ch in word:
-        base = unicodedata.normalize('NFD', ch)
+        base = unicodedata.normalize('NFD', ch.lower())
         for c in base:
             if c in table:
                 total += table[c]
@@ -49,7 +49,7 @@ def isopsephy_detail(word: str) -> list:
     """Return letter-by-letter isopsephy breakdown."""
     result = []
     for ch in word:
-        base = unicodedata.normalize('NFD', ch)
+        base = unicodedata.normalize('NFD', ch.lower())
         for c in base:
             if c in _ISO:
                 result.append((ch, _ISO[c]))

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+biblegematria/__init__.py
+biblegematria/ciphers.py
+biblegematria/crosslang.py
+biblegematria/gematria.py
+biblegematria/texts.py
+biblegematria.egg-info/PKG-INFO
+biblegematria.egg-info/SOURCES.txt
+biblegematria.egg-info/dependency_links.txt
+biblegematria.egg-info/requires.txt
+biblegematria.egg-info/top_level.txt
