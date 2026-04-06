@@ -15,7 +15,9 @@ Software care acompaniază cartea [„Fiul Omului": de la Enoh și Daniel la Iis
 ## Install
 
 ```bash
-pip install biblegematria
+git clone https://github.com/cherubimro/CifrulBiblic.git
+cd CifrulBiblic/biblegematria
+pip install -e .
 ```
 
 ## Quick start
