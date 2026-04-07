@@ -89,18 +89,22 @@ def _clean_hebrew(word):
 
 
 def extract_greek_vocabulary(book=None):
-    """Extract unique Greek lemmas with first occurrence reference."""
-    words = load_sblgnt(book=book)
-    lemmas = {}
-    for w in words:
-        lemma = w['lemma']
-        if lemma and lemma not in lemmas:
-            val = isopsephy(lemma)
+    """Extract unique Greek word forms (not lemmas!) with first occurrence reference.
+
+    Classical isopsephy uses the exact word from the manuscript, not the dictionary form.
+    E.g., βαΐα (plural, as written) = 14 = David, but βάϊον (lemma) = 133.
+    """
+    all_words = load_sblgnt(book=book)
+    forms = {}  # {word_form: (isopsephy, ref, lemma)}
+    for w in all_words:
+        word = w['word']
+        if word and word not in forms:
+            val = isopsephy(word)
             if val > 0:
                 bk = _NT_BOOKS.get(w['book'], w['book'])
                 ref = f"{bk} {w['chapter']}:{w['verse']}"
-                lemmas[lemma] = (val, ref)
-    return lemmas
+                forms[word] = (val, ref, w['lemma'])
+    return forms
 
 
 def extract_hebrew_vocabulary(book=None):
@@ -171,11 +175,14 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
     return results
 
 
-def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4, strict=False):
+def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict=False):
     """Run cross-language scan with parallel workers and progress bar."""
 
     greek_by_value = {}
-    for gw, (gv, gref) in greek_lemmas.items():
+    for gw, info in greek_forms.items():
+        gv = info[0]  # isopsephy value
+        gref = info[1]  # reference
+        # info[2] = lemma (for display)
         if gv >= min_value:
             greek_by_value.setdefault(gv, []).append((gw, gref))
 
