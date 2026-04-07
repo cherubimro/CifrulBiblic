@@ -1,4 +1,18 @@
-"""Greek→Romanian and Hebrew→Romanian biblical lexicon for scan output."""
+"""Greek→Romanian and Hebrew→Romanian biblical lexicon for scan output.
+
+Chain: manuscript form → lemma (MorphGNT) → Romanian (manual dict) or English (Strong's).
+Strong's Concordance (1890) is public domain.
+"""
+
+import os
+import json
+
+# Load Strong's Greek dictionary (lemma → short English definition)
+_STRONGS_PATH = os.path.join(os.path.dirname(__file__), 'strongs_greek.json')
+_STRONGS = {}
+if os.path.exists(_STRONGS_PATH):
+    with open(_STRONGS_PATH, 'r', encoding='utf-8') as f:
+        _STRONGS = json.load(f)
 
 # Greek NT → Romanian (common words)
 GREEK_RO = {
@@ -136,9 +150,23 @@ HEBREW_RO = {
 }
 
 
-def greek_to_ro(word: str) -> str:
-    """Translate a Greek word to Romanian. Returns '' if not found."""
-    return GREEK_RO.get(word, '')
+def greek_to_ro(word: str, lemma: str = '') -> str:
+    """Translate a Greek word to Romanian (or English via Strong's).
+
+    Tries: exact form in Romanian dict → lemma in Romanian dict → lemma in Strong's.
+    """
+    # Try Romanian dict first (exact form)
+    if word in GREEK_RO:
+        return GREEK_RO[word]
+    # Try Romanian dict with lemma
+    if lemma and lemma in GREEK_RO:
+        return GREEK_RO[lemma]
+    # Fallback to Strong's (English)
+    if lemma and lemma in _STRONGS:
+        return _STRONGS[lemma]
+    if word in _STRONGS:
+        return _STRONGS[word]
+    return ''
 
 
 def hebrew_to_ro(word: str) -> str:

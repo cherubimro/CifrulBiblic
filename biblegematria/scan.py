@@ -290,8 +290,8 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
         mshort = method.replace('MISPAR_', '')
 
-        # Romanian translations from lexicon (try form first, then lemma)
-        gw_ro = greek_to_ro(gw) or greek_to_ro(lemma)
+        # Romanian translations from lexicon (form → lemma → Strong's)
+        gw_ro = greek_to_ro(gw, lemma)
         hw_clean = hw.split('→')[0] if '→' in hw else hw
         hw_ro = hebrew_to_ro(hw_clean)
 
