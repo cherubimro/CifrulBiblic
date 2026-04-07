@@ -260,11 +260,13 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
 
     lines = []
 
+    from biblegematria.lexicon import greek_to_ro, hebrew_to_ro
+
     # Header
-    hdr = (f"{'TIP':<8} {'GREACĂ':<18} {'ROMÂNĂ':<30} {'REF':>9} {'VAL':>5} "
-           f"{'EBRAICĂ':<20} {'REF':>9} {'METODA':<10} {'FACTORI'}")
+    hdr = (f"{'TIP':<8} {'GREACĂ':<16} {'(ro)':<14} {'REF':>9} {'VAL':>5} "
+           f"{'EBRAICĂ':<16} {'(ro)':<14} {'REF':>9} {'METODA':<10} {'FACTORI'}")
     lines.append(hdr)
-    lines.append("─" * 145)
+    lines.append("─" * 130)
 
     seen = set()
     for rtype, gw, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
@@ -276,21 +278,22 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
         mshort = method.replace('MISPAR_', '')
 
-        # Get Romanian verse and extract a snippet
-        ro_verse = ''
-        if show_romanian and full_bk:
-            ro_verse = get_verse(full_bk, ch, vs, max_len=28)
+        # Romanian translations from lexicon
+        gw_ro = greek_to_ro(gw)
+        hw_clean = hw.split('→')[0] if '→' in hw else hw
+        hw_ro = hebrew_to_ro(hw_clean)
 
-        line = (f"{rtype:<8} {gw:<18} {ro_verse:<30} {gref:>9} {val:>5} "
-                f"{hw:<20} {href:>9} {mshort:<10} {fstr}")
+        line = (f"{rtype:<8} {gw:<16} {gw_ro:<14} {gref:>9} {val:>5} "
+                f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr}")
         lines.append(line)
 
     for rtype, gw, gref, val_unused, hw, href, method in cipher_word_results:
         key = f"{hw}-{method}"
         if key not in seen:
             seen.add(key)
-            line = (f"{'C_WORD':<8} {'—':<18} {'—':<30} {'—':>9} {'—':>5} "
-                    f"{hw:<20} {href:>9} {method:<10} {'—'}")
+            hw_ro = hebrew_to_ro(hw)
+            line = (f"{'C_WORD':<8} {'—':<16} {'—':<14} {'—':>9} {'—':>5} "
+                    f"{hw:<16} {hw_ro:<14} {href:>9} {method:<10} {'—'}")
             lines.append(line)
 
     if top:

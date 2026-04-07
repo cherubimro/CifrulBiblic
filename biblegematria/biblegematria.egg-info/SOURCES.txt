@@ -9,6 +9,7 @@ biblegematria/combo.py
 biblegematria/crosslang.py
 biblegematria/download.py
 biblegematria/gematria.py
+biblegematria/lexicon.py
 biblegematria/romanian.py
 biblegematria/texts.py
 biblegematria.egg-info/PKG-INFO
