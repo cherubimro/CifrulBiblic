@@ -135,23 +135,64 @@ def main():
                 lines.append(f"{v:>6}     —     —     —")
 
     else:
-        # Default: show summary
+        # Default: show all numbers with references and Romanian context
+        from biblegematria.romanian import get_verse, parse_ref
+
         idx = build_number_index(args.min)
-        lines = [f"Index numere biblice (≥{args.min}):", f"{'═'*70}"]
-        lines.append(f"Valori distincte: {len(idx)}")
+        lines = [f"Index numere biblice (≥{args.min}):", f"{'═'*80}"]
 
         total_nt = sum(len(d['nt']) for d in idx.values())
         total_lxx = sum(len(d['lxx']) for d in idx.values())
         total_mas = sum(len(d['mas']) for d in idx.values())
-        lines.append(f"Apariții: NT={total_nt}, LXX={total_lxx}, Masoretic={total_mas}")
-        lines.append(f"")
-        lines.append(f"{'VAL':>6} {'NT':>5} {'LXX':>5} {'MAS':>5}")
-        lines.append(f"{'─'*30}")
+        lines.append(f"Valori distincte: {len(idx)}, Apariții: NT={total_nt}, LXX={total_lxx}, Masoretic={total_mas}")
+        lines.append("")
+
+        # NT book short→full for Romanian lookup
+        nt_short_to_full = {
+            'Matei':'Matei','Marcu':'Marcu','Luca':'Luca','Ioan':'Ioan','Fapte':'Fapte',
+            'Romani':'Romani','1Cor':'1Cor','2Cor':'2Cor','Galateni':'Galateni',
+            'Efeseni':'Efeseni','Filipeni':'Filipeni','Coloseni':'Coloseni',
+            'Evrei':'Evrei','Iacov':'Iacov','1Petru':'1Petru','2Petru':'2Petru',
+            '1Ioan':'1Ioan','Iuda':'Iuda','Apocalipsa':'Apocalipsa',
+        }
+
         for v in sorted(idx.keys()):
             d = idx[v]
+            if not (v in _SIGNIFICANT or (len(d['nt']) + len(d['lxx']) + len(d['mas'])) >= 5):
+                continue
+
             sig = " ★" if v in _SIGNIFICANT else ""
-            if v in _SIGNIFICANT or (len(d['nt']) + len(d['lxx']) + len(d['mas'])) >= 5:
-                lines.append(f"{v:>6} {len(d['nt']):>5} {len(d['lxx']):>5} {len(d['mas']):>5}{sig}")
+            lines.append(f"\033[1;33m{v}{sig}\033[0m")
+
+            if d['nt']:
+                for ref, desc in d['nt'][:3]:
+                    # Get Romanian verse
+                    ro = ''
+                    parts = ref.split()
+                    if len(parts) >= 2:
+                        bk = parts[0]
+                        ch_vs = parts[1].split(':')
+                        if len(ch_vs) == 2 and bk in nt_short_to_full:
+                            ro = get_verse(nt_short_to_full[bk], int(ch_vs[0]), int(ch_vs[1]), max_len=60)
+                    lines.append(f"  NT:  {ref:<22} {desc}")
+                    if ro:
+                        lines.append(f"       \033[2m{ro}\033[0m")
+                if len(d['nt']) > 3:
+                    lines.append(f"       ... și încă {len(d['nt'])-3} apariții NT")
+
+            if d['lxx']:
+                for ref, desc in d['lxx'][:2]:
+                    lines.append(f"  LXX: {ref:<22} {desc}")
+                if len(d['lxx']) > 2:
+                    lines.append(f"       ... și încă {len(d['lxx'])-2} apariții LXX")
+
+            if d['mas']:
+                for ref, desc in d['mas'][:2]:
+                    lines.append(f"  Mas: {ref:<22} {desc}")
+                if len(d['mas']) > 2:
+                    lines.append(f"       ... și încă {len(d['mas'])-2} apariții Masoretic")
+
+            lines.append("")
 
     # Output
     if args.output:
