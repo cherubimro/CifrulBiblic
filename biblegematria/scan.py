@@ -104,12 +104,13 @@ def _clean_hebrew(word):
     w = w.replace('׀', ' ')                    # paseq → space
     w = re.sub(r'[\u0591-\u05C7]', '', w)      # cantillation + vowels
     w = re.sub(r'[׃]', '', w)                  # sof pasuq
-    # Split into individual words
+    w = re.sub(r'[(){}\[\]*\u034F]', '', w)    # brackets, asterisks, CGJ
+    # Split and keep only pure Hebrew consonants (א-ת)
     parts = []
     for p in w.split():
-        p = p.strip()
-        if p and len(p) >= 2:
-            parts.append(p)
+        clean = ''.join(c for c in p if '\u05D0' <= c <= '\u05EA')
+        if clean and 2 <= len(clean) <= 8:
+            parts.append(clean)
     return parts
 
 
@@ -203,7 +204,7 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
                                 continue
                         for gw, gref, full_bk, ch, vs, lemma in greek_by_value[hv]:
                             results.append(('CIPHER', gw, lemma, gref, full_bk, ch, vs, hv,
-                                          f"{hw}→{cipher_name}→{cipher_result}",
+                                          f"{hw}\u200E→{cipher_name}→{cipher_result}\u200E",
                                           hw_ref, gt.name))
                 except Exception:
                     pass
@@ -230,14 +231,17 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
     hebrew_list = [(hw, info[1]) for hw, info in hebrew_words.items()]
     all_results = []
 
-    # Cipher word matches
+    # Cipher word matches — only if result is a REAL word in Masoretic
+    # Filter: both input and output must be pure Hebrew consonants (2-8 letters)
     cipher_word_results = []
-    heb_set = set(hebrew_words.keys())
-    for hw, (_, hw_ref) in hebrew_words.items():
+    heb_clean = {hw for hw in hebrew_words.keys()
+                 if 2 <= len(hw) <= 8 and all('\u05D0' <= c <= '\u05EA' for c in hw)}
+    for hw in heb_clean:
+        hw_ref = hebrew_words[hw][1]
         for cipher_name, cipher_fn in _CIPHERS.items():
             try:
                 result = cipher_fn(hw)
-                if result in heb_set and result != hw:
+                if result in heb_clean and result != hw:
                     r_ref = hebrew_words[result][1]
                     cipher_word_results.append(
                         ('CIPHER_WORD', '', '', 0, hw, hw_ref,
@@ -406,8 +410,17 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
             gw_ro_col = f"\033[1;33m{gw_ro}\033[0m" + ' ' * max(0, pad)
         else:
             gw_ro_col = ' ' * 14
+        # Color Hebrew: bright green for words, dark green for cipher names
+        if '→' in hw:
+            parts = hw.split('→')
+            hw_colored = f"\033[92m{parts[0]}\u200E\033[32m→{parts[1]}→\033[92m{parts[2]}\u200E\033[0m"
+            hw_display_len = len(parts[0]) + 1 + len(parts[1]) + 1 + len(parts[2])
+        else:
+            hw_colored = f"\033[92m{hw}\u200E\033[0m"
+            hw_display_len = len(hw)
+
         line = (f"{rtype:<8} {gw:<16} {gw_ro_col} {gref:>9} {val:>5} "
-                f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr:<22} "
+                f"{hw_colored}{' ' * max(0, 16-hw_display_len)} {hw_ro:<14} {href:>9} {mshort:<10} {fstr:<22} "
                 f"{ro_context}")
         lines.append(line)
 
@@ -423,7 +436,7 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
             seen.add(key)
             hw_ro = hebrew_to_ro(hw)
             line = (f"{'C_WORD':<8} {'—':<16} {'—':<14} {'—':>9} {'—':>5} "
-                    f"{hw:<16} {hw_ro:<14} {href:>9} {method:<10} {'—':<22}")
+                    f"{hw}\u200E{' ' * max(0, 16-len(hw))} {hw_ro:<14} {href:>9} {method:<10} {'—':<22}")
             lines.append(line)
 
     if top:
@@ -594,6 +607,10 @@ def main():
 
     direct, cipher_words = run_scan_parallel(
         greek, hebrew, args.min_value, args.workers, args.strict)
+
+    # --single: drop cipher_word_results (they use all ciphers regardless)
+    if args.single:
+        cipher_words = []
 
     # Filter by --range (cannot combine with --numbers)
     if args.range and args.numbers is not None:
