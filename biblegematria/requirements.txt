@@ -1,0 +1,5 @@
+hebrew>=0.8.0
+PyStemmer>=2.0
+rowordnet>=1.0
+tqdm>=4.0
+deep-translator>=1.0
