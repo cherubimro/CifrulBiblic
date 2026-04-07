@@ -7,12 +7,18 @@ Strong's Concordance (1890) is public domain.
 import os
 import json
 
-# Load Strong's Greek dictionary (lemma → short English definition)
-_STRONGS_PATH = os.path.join(os.path.dirname(__file__), 'strongs_greek.json')
-_STRONGS = {}
-if os.path.exists(_STRONGS_PATH):
-    with open(_STRONGS_PATH, 'r', encoding='utf-8') as f:
-        _STRONGS = json.load(f)
+# Load Strong's dictionaries (lemma → definition)
+# Prefer Romanian translation, fallback to English
+_STRONGS_RO_PATH = os.path.join(os.path.dirname(__file__), 'strongs_ro.json')
+_STRONGS_EN_PATH = os.path.join(os.path.dirname(__file__), 'strongs_greek.json')
+_STRONGS_RO = {}
+_STRONGS_EN = {}
+if os.path.exists(_STRONGS_RO_PATH):
+    with open(_STRONGS_RO_PATH, 'r', encoding='utf-8') as f:
+        _STRONGS_RO = json.load(f)
+if os.path.exists(_STRONGS_EN_PATH):
+    with open(_STRONGS_EN_PATH, 'r', encoding='utf-8') as f:
+        _STRONGS_EN = json.load(f)
 
 # Greek NT → Romanian (common words)
 GREEK_RO = {
@@ -155,17 +161,21 @@ def greek_to_ro(word: str, lemma: str = '') -> str:
 
     Tries: exact form in Romanian dict → lemma in Romanian dict → lemma in Strong's.
     """
-    # Try Romanian dict first (exact form)
+    # Try manual Romanian dict first (exact form, then lemma)
     if word in GREEK_RO:
         return GREEK_RO[word]
-    # Try Romanian dict with lemma
     if lemma and lemma in GREEK_RO:
         return GREEK_RO[lemma]
-    # Fallback to Strong's (English)
-    if lemma and lemma in _STRONGS:
-        return _STRONGS[lemma]
-    if word in _STRONGS:
-        return _STRONGS[word]
+    # Fallback to Strong's Romanian translation
+    if lemma and lemma in _STRONGS_RO:
+        return _STRONGS_RO[lemma]
+    if word in _STRONGS_RO:
+        return _STRONGS_RO[word]
+    # Last resort: Strong's English
+    if lemma and lemma in _STRONGS_EN:
+        return _STRONGS_EN[lemma]
+    if word in _STRONGS_EN:
+        return _STRONGS_EN[word]
     return ''
 
 

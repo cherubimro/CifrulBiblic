@@ -26,13 +26,29 @@ Cross-language gematria, isopsephy, and cipher analysis for biblical texts.
 
 Software care acompaniază cartea [„Fiul Omului": de la Enoh și Daniel la Iisus Hristos — Teologia narativă descifrată](https://github.com/cherubimro/CifrulBiblic).
 
+## Formă vs. Lemmă
+
+Isopsefia clasică se calculează pe **forma exactă din manuscris** (nu pe lemma/forma de dicționar). Autorul antic a ales forma precisă tocmai pentru valoarea ei numerică:
+
+| Forma (manuscris) | Isopsefie | Lemma (dicționar) | Isopsefie |
+|---|---|---|---|
+| **βαΐα** (pl. acuz.) | **14 = דוד (David)** | βάϊον | 133 |
+| **λύσατε** (imp. aor.) | **936 = 36 × YHWH** | λύω | 830 |
+| **σινδόνα** (acuz.) | **385 = שכינה** | σινδών | 1054 |
+
+`biblegematria` folosește **forma din manuscris** pentru isopsefie (ce a codificat autorul) și **lemma** pentru traducere (ce găsim în dicționar). Textul SBLGNT/MorphGNT conține ambele.
+
+NT local: **19,409 forme unice** → **5,461 lemme unice**. Traducere automată prin Strong's Concordance (1890, public domain): **88.6% acoperire** (restul sunt nume proprii).
+
 ## Features
 
 - **23 Hebrew gematria methods** (via `hebrew` library): standard, gadol, katan, ordinal, atbash, albam, avgad, plenară, triunghiulară, pătratică, etc.
 - **Greek isopsephy** (standard + archaic with digamma/koppa/sampi)
 - **Substitution ciphers**: Atbash, Albam, Avgad, Atbach, Romanian Atbash (31 letters)
 - **Cross-language scan**: Greek NT isopsephy ↔ Hebrew VT gematria (all 23 methods)
-- **Biblical text loaders**: SBLGNT (Greek NT), Masoretic Hebrew, LXX
+- **Combinatorial analysis**: cipher × 23 methods × cross-language (unique!)
+- **Biblical text loaders**: SBLGNT (Greek NT), Masoretic Hebrew, LXX, Biblia Ortodoxă (română)
+- **Lexicon**: Strong's Greek (5,512 lemme) + dicționar manual grec-român + ebraic-român
 
 ## Install
 
