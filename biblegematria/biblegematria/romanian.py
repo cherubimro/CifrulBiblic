@@ -1,11 +1,34 @@
-"""Load Romanian Bible text from local bibliaortodoxa.ro HTML files."""
+"""Load Romanian Bible text from local bibliaortodoxa.ro HTML files.
+
+Data is bundled as data_ro.zip. On first use, extracted to ~/.biblegematria/.
+"""
 
 import os
 import re
+import zipfile
 
 _PACKAGE_DIR = os.path.dirname(__file__)
-_DEFAULT_BIBLE_DIR = os.path.join(
-    os.path.dirname(_PACKAGE_DIR), '..', 'biblia_ortodoxa_html', 'carti')
+_DATA_RO_ZIP = os.path.join(_PACKAGE_DIR, 'data_ro.zip')
+_DEFAULT_DATA = os.path.join(os.path.expanduser('~'), '.biblegematria')
+_DEFAULT_BIBLE_DIR = os.path.join(_DEFAULT_DATA, 'biblia_ortodoxa_html', 'carti')
+
+
+def _ensure_romanian():
+    """Extract Romanian Bible from ZIP if not already present."""
+    if os.path.isdir(_DEFAULT_BIBLE_DIR) and len(os.listdir(_DEFAULT_BIBLE_DIR)) > 100:
+        return _DEFAULT_BIBLE_DIR
+    if os.path.exists(_DATA_RO_ZIP):
+        print(f'Extracting Romanian Bible from data_ro.zip to {_DEFAULT_DATA}/ ...')
+        os.makedirs(_DEFAULT_DATA, exist_ok=True)
+        with zipfile.ZipFile(_DATA_RO_ZIP, 'r') as zf:
+            zf.extractall(_DEFAULT_DATA)
+        print(f'  Done.')
+        return _DEFAULT_BIBLE_DIR
+    # Fallback: check local development path
+    dev_path = os.path.join(os.path.dirname(_PACKAGE_DIR), '..', 'biblia_ortodoxa_html', 'carti')
+    if os.path.isdir(dev_path):
+        return os.path.abspath(dev_path)
+    return _DEFAULT_BIBLE_DIR
 
 # Map our book names to HTML filename prefixes
 _BOOK_TO_FILE = {
@@ -43,7 +66,7 @@ _cache = {}
 
 def _load_chapter(book: str, chapter: int, bible_dir: str = None) -> dict:
     """Load a chapter from the Romanian Bible HTML. Returns {verse_num: text}."""
-    bdir = bible_dir or _DEFAULT_BIBLE_DIR
+    bdir = bible_dir or _ensure_romanian()
     bdir = os.path.abspath(bdir)
 
     file_prefix = _BOOK_TO_FILE.get(book, book)
