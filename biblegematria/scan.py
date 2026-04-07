@@ -275,9 +275,10 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
 
     # Header
     hdr = (f"{'TIP':<8} {'GREACĂ':<16} {'(ro)':<14} {'REF':>9} {'VAL':>5} "
-           f"{'EBRAICĂ':<16} {'(ro)':<14} {'REF':>9} {'METODA':<10} {'FACTORI'}")
+           f"{'EBRAICĂ':<16} {'(ro)':<14} {'REF':>9} {'METODA':<10} {'FACTORI':<22} "
+           f"{'VERSETUL (Biblia Ortodoxă)'}")
     lines.append(hdr)
-    lines.append("─" * 130)
+    lines.append("─" * 200)
 
     seen = set()
     for rtype, gw, lemma, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
@@ -294,8 +295,14 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         hw_clean = hw.split('→')[0] if '→' in hw else hw
         hw_ro = hebrew_to_ro(hw_clean)
 
+        # Romanian verse from Biblia Ortodoxă
+        ro_verse = ''
+        if show_romanian and full_bk:
+            ro_verse = get_verse(full_bk, ch, vs, max_len=50)
+
         line = (f"{rtype:<8} {gw:<16} {gw_ro:<14} {gref:>9} {val:>5} "
-                f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr}")
+                f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr:<22} "
+                f"{ro_verse}")
         lines.append(line)
 
     for rtype, gw, gref, val_unused, hw, href, method in cipher_word_results:
@@ -304,7 +311,7 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
             seen.add(key)
             hw_ro = hebrew_to_ro(hw)
             line = (f"{'C_WORD':<8} {'—':<16} {'—':<14} {'—':>9} {'—':>5} "
-                    f"{hw:<16} {hw_ro:<14} {href:>9} {method:<10} {'—'}")
+                    f"{hw:<16} {hw_ro:<14} {href:>9} {method:<10} {'—':<22}")
             lines.append(line)
 
     if top:
