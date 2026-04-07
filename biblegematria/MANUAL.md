@@ -181,18 +181,6 @@ from biblegematria.ciphers import avgad
 avgad('דוד')  # David +1
 ```
 
-### Atbash (Romanian)
-
-31-letter Romanian alphabet, center at 'm':
-
-```python
-from biblegematria.ciphers import atbash_romanian
-
-atbash_romanian('alin.anton')  # 'znrl.zlfkl'
-atbash_romanian('upt.ro')     # 'djf.ik'
-atbash_romanian('șpăgară')    # 'gjyșziy'
-```
-
 ## 7. Cross-language matching (NT ↔ VT)
 
 The unique feature: match Greek NT isopsephy against Hebrew VT gematria using all 23 methods.
