@@ -316,7 +316,7 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
                     snippet = words_list[start:end]
                     # Bold the matched word
                     rel_idx = found_idx - start
-                    snippet[rel_idx] = f"**{snippet[rel_idx]}**"
+                    snippet[rel_idx] = f"\033[1;33m{snippet[rel_idx]}\033[0m"
                     ro_context = '…' + ' '.join(snippet) + '…'
                 else:
                     # No root match — show first 40 chars
