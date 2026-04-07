@@ -17,10 +17,12 @@ All are used in compliance with their respective licenses.
    License: Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0)
    Credit:  James Tauber and contributors, MorphGNT Project
 
-3. OpenScriptures LXX Resources — Septuagint lemmatization
-   Source:  https://github.com/openscriptures/GreekResources
-   License: Creative Commons Attribution 4.0 International (CC-BY 4.0)
-   Credit:  Open Scriptures Septuagint Project
+3. LXX Rahlfs 1935 — Septuaginta (text complet cu forme accentuate + lemme)
+   Source:  https://github.com/eliranwong/LXX-Rahlfs-1935
+   Text:    Alfred Rahlfs, Septuaginta, Stuttgart, 1935. 59 cărți, 623.424 cuvinte.
+   License: Public Domain. Alfred Rahlfs (†1935), copyright expirat 70 ani post-mortem (2006).
+            Ediția revizuită Rahlfs-Hanhart 2006 (Deutsche Bibelgesellschaft) NU e inclusă.
+   Credit:  Alfred Rahlfs; digitizare CCAT/CATSS (UPenn); procesare Eliran Wong
 
 4. Sefaria — Masoretic Hebrew Text
    Source:  https://www.sefaria.org/
