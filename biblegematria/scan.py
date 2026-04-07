@@ -91,15 +91,24 @@ _STRICT_FACTORS = {7, 14, 26, 37}
 
 
 def _clean_hebrew(word):
-    """Strip vowels, cantillation, maqaf, and HTML artifacts from Hebrew word."""
-    w = word.replace('&nbsp;', '').replace('&thinsp;', '')
-    w = w.replace('\u00a0', '').replace('\u2009', '')  # non-breaking space, thin space
-    w = re.sub(r'&[a-z]+;', '', w)             # any remaining HTML entities
+    """Strip vowels, cantillation, and HTML artifacts from Hebrew word.
+    Returns a LIST of clean consonantal words (splits on maqaf).
+    """
+    w = word.replace('&nbsp;', ' ').replace('&thinsp;', ' ')
+    w = w.replace('\u00a0', ' ').replace('\u2009', ' ')
+    w = re.sub(r'&[a-z]+;', ' ', w)            # HTML entities → space
     w = re.sub(r'\{[^}]*\}', '', w)            # remove {פ} etc.
+    w = w.replace('\u05BE', ' ')               # maqaf → space (split words!)
+    w = w.replace('׀', ' ')                    # paseq → space
     w = re.sub(r'[\u0591-\u05C7]', '', w)      # cantillation + vowels
-    w = w.replace('\u05BE', '')                 # maqaf
-    w = w.strip()
-    return w
+    w = re.sub(r'[׃]', '', w)                  # sof pasuq
+    # Split into individual words
+    parts = []
+    for p in w.split():
+        p = p.strip()
+        if p and len(p) >= 2:
+            parts.append(p)
+    return parts
 
 
 # SBLGNT editorial marks to strip (not part of the original manuscript)
@@ -121,7 +130,7 @@ def extract_greek_vocabulary(book=None):
     SBLGNT editorial marks (⸀⸁⸂⸃) are stripped — they are modern annotations.
     """
     all_words = load_sblgnt(book=book)
-    forms = {}  # {word_form: (isopsephy, short_ref, full_book, chapter, verse)}
+    forms = {}  # {word_form: (isopsephy, short_ref, full_book, chapter, verse, lemma)}
     for w in all_words:
         word = _clean_greek(w['word'])
         if word and word not in forms:
@@ -129,7 +138,8 @@ def extract_greek_vocabulary(book=None):
             if val > 0:
                 full, short = _NT_BOOKS.get(w['book'], (w['book'], w['book']))
                 ref = f"{short}{w['chapter']}:{w['verse']}"
-                forms[word] = (val, ref, full, w['chapter'], w['verse'])
+                lemma = _clean_greek(w.get('lemma', ''))
+                forms[word] = (val, ref, full, w['chapter'], w['verse'], lemma)
     return forms
 
 
@@ -139,16 +149,16 @@ def extract_hebrew_vocabulary(book=None):
     words = {}
     for v in verses:
         for w in v['words']:
-            clean = _clean_hebrew(w)
-            if clean and len(clean) >= 2 and clean not in words:
-                try:
-                    val = Hebrew(clean).gematria(GematriaTypes.MISPAR_HECHRACHI)
-                    if val > 0:
-                        full, short = _VT_BOOKS.get(v['book'], (v['book'], v['book']))
-                        ref = f"{short}{v['chapter']}:{v['verse']}"
-                        words[clean] = (val, ref)
-                except Exception:
-                    pass
+            for clean in _clean_hebrew(w):  # now returns list
+                if clean not in words:
+                    try:
+                        val = Hebrew(clean).gematria(GematriaTypes.MISPAR_HECHRACHI)
+                        if val > 0:
+                            full, short = _VT_BOOKS.get(v['book'], (v['book'], v['book']))
+                            ref = f"{short}{v['chapter']}:{v['verse']}"
+                            words[clean] = (val, ref)
+                    except Exception:
+                        pass
     return words
 
 
@@ -171,8 +181,8 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
                         has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
                         if not has_factor:
                             continue
-                for gw, gref, full_bk, ch, vs in greek_by_value[hv]:
-                    results.append(('DIRECT', gw, gref, full_bk, ch, vs, hv, hw, hw_ref, gt.name))
+                for gw, gref, full_bk, ch, vs, lemma in greek_by_value[hv]:
+                    results.append(('DIRECT', gw, lemma, gref, full_bk, ch, vs, hv, hw, hw_ref, gt.name))
         except Exception:
             pass
 
@@ -189,8 +199,8 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
                             has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
                             if not has_factor:
                                 continue
-                        for gw, gref, full_bk, ch, vs in greek_by_value[hv]:
-                            results.append(('CIPHER', gw, gref, full_bk, ch, vs, hv,
+                        for gw, gref, full_bk, ch, vs, lemma in greek_by_value[hv]:
+                            results.append(('CIPHER', gw, lemma, gref, full_bk, ch, vs, hv,
                                           f"{hw}→{cipher_name}→{cipher_result}",
                                           hw_ref, gt.name))
                 except Exception:
@@ -211,8 +221,9 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
         full_bk = info[2] # full book name (for Romanian lookup)
         ch = info[3]      # chapter
         vs = info[4]      # verse
+        lemma = info[5]   # lemma (for lexicon lookup)
         if gv >= min_value:
-            greek_by_value.setdefault(gv, []).append((gw, gref, full_bk, ch, vs))
+            greek_by_value.setdefault(gv, []).append((gw, gref, full_bk, ch, vs, lemma))
 
     hebrew_list = [(hw, info[1]) for hw, info in hebrew_words.items()]
     all_results = []
@@ -269,7 +280,7 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
     lines.append("─" * 130)
 
     seen = set()
-    for rtype, gw, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
+    for rtype, gw, lemma, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
         key = f"{rtype}-{gw}-{hw}-{method}"
         if key in seen:
             continue
@@ -278,8 +289,8 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
         mshort = method.replace('MISPAR_', '')
 
-        # Romanian translations from lexicon
-        gw_ro = greek_to_ro(gw)
+        # Romanian translations from lexicon (try form first, then lemma)
+        gw_ro = greek_to_ro(gw) or greek_to_ro(lemma)
         hw_clean = hw.split('→')[0] if '→' in hw else hw
         hw_ro = hebrew_to_ro(hw_clean)
 
