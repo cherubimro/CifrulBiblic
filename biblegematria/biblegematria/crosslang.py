@@ -28,6 +28,8 @@ def cross_match(greek_word: str, hebrew_word: str, min_value: int = 5) -> list:
 def cross_scan(greek_words: dict, hebrew_words: dict, min_value: int = 5) -> list:
     """Scan all Greek words against all Hebrew words using all 23 methods.
 
+    Uses hash-table lookup: O(H×M) instead of O(G×H×M).
+
     Args:
         greek_words: dict of {word: meaning}
         hebrew_words: dict of {word: meaning}
@@ -35,20 +37,24 @@ def cross_scan(greek_words: dict, hebrew_words: dict, min_value: int = 5) -> lis
 
     Returns list of (greek_word, greek_meaning, value, hebrew_word, hebrew_meaning, method) tuples.
     """
-    results = []
+    # Pre-compute Greek isopsephy values into reverse index
+    greek_by_value = {}
     for gw, gm in greek_words.items():
         gv = isopsephy(gw)
-        if gv < min_value:
-            continue
-        for hw, hm in hebrew_words.items():
-            h = Hebrew(hw)
-            for gt in GematriaTypes:
-                try:
-                    hv = h.gematria(gt)
-                    if hv == gv:
-                        results.append((gw, gm, gv, hw, hm, gt.name))
-                except Exception:
-                    pass
+        if gv >= min_value:
+            greek_by_value.setdefault(gv, []).append((gw, gm))
+
+    results = []
+    for hw, hm in hebrew_words.items():
+        h = Hebrew(hw)
+        for gt in GematriaTypes:
+            try:
+                hv = h.gematria(gt)
+                if hv in greek_by_value:
+                    for gw, gm in greek_by_value[hv]:
+                        results.append((gw, gm, hv, hw, hm, gt.name))
+            except Exception:
+                pass
     return results
 
 

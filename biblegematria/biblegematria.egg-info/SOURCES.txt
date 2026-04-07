@@ -1,3 +1,6 @@
+AUTHORS
+LICENSE
+LICENSES
 README.md
 pyproject.toml
 biblegematria/__init__.py

@@ -14,11 +14,17 @@ Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSES
+License-File: AUTHORS
 Requires-Dist: hebrew>=0.8.0
+Dynamic: license-file
 
 # biblegematria
 
 Cross-language gematria, isopsephy, and cipher analysis for biblical texts.
+
+Software care acompaniază cartea [„Fiul Omului": de la Enoh și Daniel la Iisus Hristos — Teologia narativă descifrată](https://github.com/cherubimro/CifrulBiblic).
 
 ## Features
 
@@ -31,7 +37,9 @@ Cross-language gematria, isopsephy, and cipher analysis for biblical texts.
 ## Install
 
 ```bash
-pip install biblegematria
+git clone https://github.com/cherubimro/CifrulBiblic.git
+cd CifrulBiblic/biblegematria
+pip install -e .
 ```
 
 ## Quick start
