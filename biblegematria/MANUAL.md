@@ -485,7 +485,10 @@ Soluția ar necesita un NT interliniar grec-român digital (aliniere cuvânt-cu-
 
 ## 13. License
 
-CC0 1.0 Universal — Public Domain Dedication.
+CC0 1.0 Universal — Public Domain Dedication (codul).
 
-Biblical texts: SBLGNT (MorphGNT, public domain), Masoretic (Sefaria, CC-BY-NC),
-LXX (OpenScriptures).
+Textele biblice incluse au licențe proprii (vezi fișierul LICENSES):
+- SBLGNT (CC-BY 4.0), MorphGNT (CC-BY-SA 3.0)
+- LXX Rahlfs 1935 (CC-BY-NC-SA 4.0, digitizare Eliran Wong; textul original public domain)
+- Masoretic (Sefaria, Public Domain / CC-BY)
+- Biblia Ortodoxă română (bibliaortodoxa.ro, text sacru, scop academic)
