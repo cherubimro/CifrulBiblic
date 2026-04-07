@@ -295,14 +295,36 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         hw_clean = hw.split('→')[0] if '→' in hw else hw
         hw_ro = hebrew_to_ro(hw_clean)
 
-        # Romanian verse from Biblia Ortodoxă
-        ro_verse = ''
-        if show_romanian and full_bk:
-            ro_verse = get_verse(full_bk, ch, vs, max_len=50)
+        # Romanian verse context: find the word, show 2 before + BOLD + 2 after
+        ro_context = ''
+        if show_romanian and full_bk and gw_ro:
+            verse_text = get_verse(full_bk, ch, vs, max_len=0)
+            if verse_text:
+                # Search for the Romanian translation root in the verse
+                root = gw_ro.lower().rstrip('ă').rstrip('e').rstrip('a')
+                if len(root) < 3:
+                    root = gw_ro.lower()
+                words_list = verse_text.split()
+                found_idx = -1
+                for idx, w in enumerate(words_list):
+                    if root in w.lower():
+                        found_idx = idx
+                        break
+                if found_idx >= 0:
+                    start = max(0, found_idx - 2)
+                    end = min(len(words_list), found_idx + 3)
+                    snippet = words_list[start:end]
+                    # Bold the matched word
+                    rel_idx = found_idx - start
+                    snippet[rel_idx] = f"**{snippet[rel_idx]}**"
+                    ro_context = '…' + ' '.join(snippet) + '…'
+                else:
+                    # No root match — show first 40 chars
+                    ro_context = verse_text[:40] + '…'
 
         line = (f"{rtype:<8} {gw:<16} {gw_ro:<14} {gref:>9} {val:>5} "
                 f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr:<22} "
-                f"{ro_verse}")
+                f"{ro_context}")
         lines.append(line)
 
     for rtype, gw, gref, val_unused, hw, href, method in cipher_word_results:
