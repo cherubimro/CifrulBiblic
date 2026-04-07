@@ -94,7 +94,10 @@ cd CifrulBiblic/biblegematria
 # scan.py — NT ↔ VT cross-language scanner
 python3 scan.py                                    # afișează usage + liste cărți
 python3 scan.py --book 64-Jn --strict --top 50     # Ioan, filtrat, top 50
-python3 scan.py --numbers 100-200 --book 64-Jn     # doar valori 100-200
+python3 scan.py --range 100-200 --book 64-Jn       # doar valori 100-200
+python3 scan.py --single ATBASH --book 64-Jn       # doar metoda Atbash
+python3 scan.py --single HECHRACHI --book 64-Jn    # doar standard (cel din carte)
+python3 scan.py --numbers 100-200 --book 64-Jn     # doar valori = numere biblice, range
 python3 scan.py --fullscan -j 8 -o full.tsv        # tot NT × tot VT
 
 # numbers.py — index numere explicite (153, 666, 318 etc.)
@@ -112,6 +115,8 @@ python3 scan_lxx.py --book Gen --strict --top 50   # Geneza
 - **Romanian stemmer** (PyStemmer) for verse word matching
 - **RoWordNet synonyms** (2,351 words, 7,796 pairs) for better highlighting
 - **--numbers** flag with range support (e.g., `--numbers 100-200`)
+- **--range** filter by value (e.g., `--range 153-153`)
+- **--single METHOD** — use only one method (e.g., `--single ATBASH`, `--single HECHRACHI`)
 - **Deterministic output** — sorted results, same order on every run
 - **ANSI colors** — green progress bar, yellow translations, magenta number refs
 - **Lexicon 100%** — all 5,461 NT lemmas translated to Romanian

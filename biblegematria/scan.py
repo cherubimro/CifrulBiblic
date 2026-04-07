@@ -82,7 +82,7 @@ _STRICT_METHODS = {
     'MISPAR_HECHRACHI',  # standard
     'MISPAR_GADOL',      # large (final letters)
     'MISPAR_SIDURI',     # ordinal
-    'MISPAR_KATAN',      # small/reduced
+    # MISPAR_KATAN excluded — reduces to single digit, too many false positives
     'ATBASH',            # atbash value
     'ALBAM',             # albam value
     'AVGAD',             # avgad value
@@ -268,9 +268,12 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
                 except Exception:
                     pass
 
-    # Sort for deterministic output (parallel workers return in random order)
-    all_results.sort(key=lambda r: (r[7], r[1], r[8], r[10], r[0]))  # val, gw, hw, method, type
-    cipher_word_results.sort(key=lambda r: (r[4], r[6]))  # hw, method
+    # Sort then deterministic shuffle for diverse sampling
+    import random
+    all_results.sort(key=lambda r: (r[7], r[1], r[8], r[10], r[0]))
+    random.seed(42)  # fixed seed = same shuffle every run
+    random.shuffle(all_results)
+    cipher_word_results.sort(key=lambda r: (r[4], r[6]))
 
     return all_results, cipher_word_results
 
@@ -290,8 +293,12 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
     lines.append(hdr)
     lines.append("─" * 200)
 
+    _fmt_bar = '\033[32mFormatting: \033[1;33m{percentage:3.0f}%\033[32m|\033[96m{bar}\033[32m| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]\033[0m'
+
     seen = set()
-    for rtype, gw, lemma, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
+    for rtype, gw, lemma, gref, full_bk, ch, vs, val, hw, href, method in tqdm(
+            direct_results, desc="Formatting", unit="rows",
+            bar_format=_fmt_bar, file=sys.stderr):
         key = f"{rtype}-{gw}-{hw}-{method}"
         if key in seen:
             continue
@@ -498,16 +505,40 @@ def main():
                         help='Only strong methods + theological factors')
     parser.add_argument('--fullscan', action='store_true',
                         help='All 23 methods, no filters (overrides --strict)')
+    parser.add_argument('--single', metavar='METHOD',
+                        help='Use only one method. Available: HECHRACHI, GADOL, SIDURI, KATAN, '
+                             'ATBASH, ALBAM, AVGAD, PERATI, MESHULASH, KIDMI, MISPARI, '
+                             'AYAK_BACHAR, OFANIM, ACHAS_BETA, REVERSE_AVGAD, MUSAFI, '
+                             'BONEEH, HAMERUBAH_HAKLALI, HAACHOR, KATAN_MISPARI, KOLEL, '
+                             'SHEMI_MILUI, NEELAM')
     parser.add_argument('--numbers', nargs='?', const='all', default=None,
                         metavar='MIN-MAX',
                         help='Show only values matching biblical numbers. '
                              'Optional range: --numbers 100-200, --numbers 153-153')
+    parser.add_argument('--range', metavar='MIN-MAX',
+                        help='Filter results by value range (e.g., --range 100-200, --range 153-153)')
     args = parser.parse_args()
 
     # No arguments at all → show usage
     if not args.book and not args.hebrew_book and not args.fullscan and args.numbers is None:
         print(_USAGE, file=sys.stderr)
         sys.exit(0)
+
+    # --single overrides everything
+    if args.single:
+        method_name = f"MISPAR_{args.single.upper()}" if not args.single.upper().startswith(('ATBASH','ALBAM','AVGAD','REVERSE')) else args.single.upper()
+        # Verify method exists
+        valid = {gt.name for gt in GematriaTypes}
+        if method_name not in valid:
+            # Try without MISPAR_ prefix
+            method_name = args.single.upper()
+            if method_name not in valid:
+                print(f"⚠  Metoda '{args.single}' nu există. Disponibile: {', '.join(sorted(valid))}", file=sys.stderr)
+                sys.exit(1)
+        _STRICT_METHODS.clear()
+        _STRICT_METHODS.add(method_name)
+        args.strict = True
+        args.fullscan = False
 
     # --fullscan overrides --strict
     if args.fullscan:
@@ -544,7 +575,16 @@ def main():
         print(f"Numbers index: {len(num_index)} valori în range [{num_min}-{num_max}]", file=sys.stderr)
 
     print(f"biblegematria scanner v0.3.3", file=sys.stderr)
-    mode = "NUMBERS" if args.numbers else ("FULLSCAN (23 metode)" if args.fullscan else ("STRICT (7 metode)" if args.strict else "NORMAL (23 metode)"))
+    if args.single:
+        mode = f"SINGLE ({args.single.upper()})"
+    elif args.numbers is not None:
+        mode = "NUMBERS"
+    elif args.fullscan:
+        mode = "FULLSCAN (23 metode)"
+    elif args.strict:
+        mode = "STRICT (6 metode)"
+    else:
+        mode = "NORMAL (23 metode)"
     print(f"Mod: {mode}, Workers: {args.workers}", file=sys.stderr)
 
     print("\n--- Loading texts ---", file=sys.stderr)
@@ -554,6 +594,22 @@ def main():
 
     direct, cipher_words = run_scan_parallel(
         greek, hebrew, args.min_value, args.workers, args.strict)
+
+    # Filter by --range (cannot combine with --numbers)
+    if args.range and args.numbers is not None:
+        print(f"⚠  Nu poți combina --range cu --numbers. Folosește doar unul.", file=sys.stderr)
+        sys.exit(1)
+
+    if args.range:
+        try:
+            rp = args.range.split('-')
+            range_min = int(rp[0])
+            range_max = int(rp[1]) if len(rp) > 1 else range_min
+        except ValueError:
+            print(f"⚠  Format incorect. Folosește: --range 100-200", file=sys.stderr)
+            sys.exit(1)
+        direct = [r for r in direct if range_min <= r[7] <= range_max]
+        print(f"\nFiltered by range [{range_min}-{range_max}]: {len(direct)} potriviri", file=sys.stderr)
 
     # Filter by numbers if --numbers
     if num_index:
@@ -568,6 +624,7 @@ def main():
         print(f"\n⚠  {n_results:,} rezultate — prea mult zgomot. "
               f"Recomandare: adaugă --strict pentru filtrare.", file=sys.stderr)
 
+    print(f"\nFormatting {n_results:,} results...", file=sys.stderr)
     lines = format_results(direct, cipher_words, top=args.top, num_index=num_index)
 
     if args.output:
