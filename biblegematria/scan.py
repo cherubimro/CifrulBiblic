@@ -30,34 +30,46 @@ except ImportError:
         print(f"{desc} ({total} items)...", file=sys.stderr)
         return it
 
-# NT book names (SBLGNT code → Romanian)
+# NT book names: SBLGNT code → Romanian full, Romanian short
 _NT_BOOKS = {
-    'Mt': 'Matei', 'Mk': 'Marcu', 'Lk': 'Luca', 'Jn': 'Ioan', 'Ac': 'Fapte',
-    'Ro': 'Romani', '1Co': '1Cor', '2Co': '2Cor', 'Ga': 'Galateni',
-    'Eph': 'Efeseni', 'Php': 'Filipeni', 'Col': 'Coloseni',
-    '1Th': '1Tes', '2Th': '2Tes', '1Ti': '1Tim', '2Ti': '2Tim',
-    'Tit': 'Tit', 'Phm': 'Filimon', 'Heb': 'Evrei', 'Jas': 'Iacov',
-    '1Pe': '1Petru', '2Pe': '2Petru', '1Jn': '1Ioan', '2Jn': '2Ioan',
-    '3Jn': '3Ioan', 'Jud': 'Iuda', 'Re': 'Apocalipsa',
+    'Mt': ('Matei', 'Mt'), 'Mk': ('Marcu', 'Mc'), 'Lk': ('Luca', 'Lc'),
+    'Jn': ('Ioan', 'In'), 'Ac': ('Fapte', 'Fa'),
+    'Ro': ('Romani', 'Rm'), '1Co': ('1Cor', '1Co'), '2Co': ('2Cor', '2Co'),
+    'Ga': ('Galateni', 'Ga'), 'Eph': ('Efeseni', 'Ef'),
+    'Php': ('Filipeni', 'Fl'), 'Col': ('Coloseni', 'Col'),
+    '1Th': ('1Tes', '1Ts'), '2Th': ('2Tes', '2Ts'),
+    '1Ti': ('1Tim', '1Ti'), '2Ti': ('2Tim', '2Ti'),
+    'Tit': ('Tit', 'Tt'), 'Phm': ('Filimon', 'Fm'),
+    'Heb': ('Evrei', 'Ev'), 'Jas': ('Iacov', 'Ic'),
+    '1Pe': ('1Petru', '1Pt'), '2Pe': ('2Petru', '2Pt'),
+    '1Jn': ('1Ioan', '1In'), '2Jn': ('2Ioan', '2In'),
+    '3Jn': ('3Ioan', '3In'), 'Jud': ('Iuda', 'Id'),
+    'Re': ('Apocalipsa', 'Ap'),
 }
 
-# VT book names (filename → Romanian)
+# VT book names: filename → Romanian full, Romanian short
 _VT_BOOKS = {
-    'Genesis': 'Facerea', 'Exodus': 'Ieșirea', 'Leviticus': 'Leviticul',
-    'Numbers': 'Numeri', 'Deuteronomy': 'Deuteronom',
-    'Joshua': 'Iosua', 'Judges': 'Judecători',
-    'I_Samuel': '1Samuel', 'II_Samuel': '2Samuel',
-    'I_Kings': '3Regi', 'II_Kings': '4Regi',
-    'Isaiah': 'Isaia', 'Jeremiah': 'Ieremia', 'Ezekiel': 'Iezechiel',
-    'Hosea': 'Osea', 'Joel': 'Ioel', 'Amos': 'Amos', 'Obadiah': 'Avdie',
-    'Jonah': 'Iona', 'Micah': 'Miheia', 'Nahum': 'Naum',
-    'Habakkuk': 'Avacum', 'Zephaniah': 'Sofonie',
-    'Haggai': 'Agheu', 'Zechariah': 'Zaharia', 'Malachi': 'Maleahi',
-    'Psalms': 'Psalmi', 'Proverbs': 'Proverbe', 'Job': 'Iov',
-    'Song_of_Songs': 'Cânt', 'Ruth': 'Rut', 'Lamentations': 'Plângeri',
-    'Ecclesiastes': 'Ecleziast', 'Esther': 'Estera', 'Daniel': 'Daniel',
-    'Ezra': 'Ezdra', 'Nehemiah': 'Neemia',
-    'I_Chronicles': '1Paralipomena', 'II_Chronicles': '2Paralipomena',
+    'Genesis': ('Facerea', 'Fc'), 'Exodus': ('Ieșirea', 'Iș'),
+    'Leviticus': ('Leviticul', 'Lv'), 'Numbers': ('Numeri', 'Nm'),
+    'Deuteronomy': ('Deuteronom', 'Dt'),
+    'Joshua': ('Iosua', 'Is'), 'Judges': ('Judecători', 'Jd'),
+    'I_Samuel': ('1Samuel', '1S'), 'II_Samuel': ('2Samuel', '2S'),
+    'I_Kings': ('3Regi', '3R'), 'II_Kings': ('4Regi', '4R'),
+    'Isaiah': ('Isaia', 'Is'), 'Jeremiah': ('Ieremia', 'Ir'),
+    'Ezekiel': ('Iezechiel', 'Iz'),
+    'Hosea': ('Osea', 'Os'), 'Joel': ('Ioel', 'Il'), 'Amos': ('Amos', 'Am'),
+    'Obadiah': ('Avdie', 'Av'), 'Jonah': ('Iona', 'Io'),
+    'Micah': ('Miheia', 'Mi'), 'Nahum': ('Naum', 'Na'),
+    'Habakkuk': ('Avacum', 'Avc'), 'Zephaniah': ('Sofonie', 'Sf'),
+    'Haggai': ('Agheu', 'Ag'), 'Zechariah': ('Zaharia', 'Za'),
+    'Malachi': ('Maleahi', 'Ml'),
+    'Psalms': ('Psalmi', 'Ps'), 'Proverbs': ('Proverbe', 'Pr'),
+    'Job': ('Iov', 'Iv'),
+    'Song_of_Songs': ('Cânt', 'Cc'), 'Ruth': ('Rut', 'Rt'),
+    'Lamentations': ('Plângeri', 'Pl'), 'Ecclesiastes': ('Ecleziast', 'Ec'),
+    'Esther': ('Estera', 'Est'), 'Daniel': ('Daniel', 'Dn'),
+    'Ezra': ('Ezdra', 'Ezd'), 'Nehemiah': ('Neemia', 'Ne'),
+    'I_Chronicles': ('1Paralipomena', '1Pa'), 'II_Chronicles': ('2Paralipomena', '2Pa'),
 }
 
 _ALL_METHODS = list(GematriaTypes)
@@ -107,15 +119,15 @@ def extract_greek_vocabulary(book=None):
     SBLGNT editorial marks (⸀⸁⸂⸃) are stripped — they are modern annotations.
     """
     all_words = load_sblgnt(book=book)
-    forms = {}  # {word_form: (isopsephy, ref, lemma)}
+    forms = {}  # {word_form: (isopsephy, short_ref, full_book, chapter, verse)}
     for w in all_words:
         word = _clean_greek(w['word'])
         if word and word not in forms:
             val = isopsephy(word)
             if val > 0:
-                bk = _NT_BOOKS.get(w['book'], w['book'])
-                ref = f"{bk} {w['chapter']}:{w['verse']}"
-                forms[word] = (val, ref, w['lemma'])
+                full, short = _NT_BOOKS.get(w['book'], (w['book'], w['book']))
+                ref = f"{short}{w['chapter']}:{w['verse']}"
+                forms[word] = (val, ref, full, w['chapter'], w['verse'])
     return forms
 
 
@@ -130,8 +142,8 @@ def extract_hebrew_vocabulary(book=None):
                 try:
                     val = Hebrew(clean).gematria(GematriaTypes.MISPAR_HECHRACHI)
                     if val > 0:
-                        bk = _VT_BOOKS.get(v['book'], v['book'])
-                        ref = f"{bk} {v['chapter']}:{v['verse']}"
+                        full, short = _VT_BOOKS.get(v['book'], (v['book'], v['book']))
+                        ref = f"{short}{v['chapter']}:{v['verse']}"
                         words[clean] = (val, ref)
                 except Exception:
                     pass
@@ -157,8 +169,8 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
                         has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
                         if not has_factor:
                             continue
-                for gw, gref in greek_by_value[hv]:
-                    results.append(('DIRECT', gw, gref, hv, hw, hw_ref, gt.name))
+                for gw, gref, full_bk, ch, vs in greek_by_value[hv]:
+                    results.append(('DIRECT', gw, gref, full_bk, ch, vs, hv, hw, hw_ref, gt.name))
         except Exception:
             pass
 
@@ -175,8 +187,8 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
                             has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
                             if not has_factor:
                                 continue
-                        for gw, gref in greek_by_value[hv]:
-                            results.append(('CIPHER', gw, gref, hv,
+                        for gw, gref, full_bk, ch, vs in greek_by_value[hv]:
+                            results.append(('CIPHER', gw, gref, full_bk, ch, vs, hv,
                                           f"{hw}→{cipher_name}→{cipher_result}",
                                           hw_ref, gt.name))
                 except Exception:
@@ -192,11 +204,13 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
 
     greek_by_value = {}
     for gw, info in greek_forms.items():
-        gv = info[0]  # isopsephy value
-        gref = info[1]  # reference
-        # info[2] = lemma (for display)
+        gv = info[0]      # isopsephy value
+        gref = info[1]    # short reference
+        full_bk = info[2] # full book name (for Romanian lookup)
+        ch = info[3]      # chapter
+        vs = info[4]      # verse
         if gv >= min_value:
-            greek_by_value.setdefault(gv, []).append((gw, gref))
+            greek_by_value.setdefault(gv, []).append((gw, gref, full_bk, ch, vs))
 
     hebrew_list = [(hw, info[1]) for hw, info in hebrew_words.items()]
     all_results = []
@@ -240,20 +254,18 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
 
 def format_results(direct_results, cipher_word_results, top=None, show_romanian=True):
     """Format and deduplicate results as fixed-width columns."""
-    from biblegematria.romanian import get_verse, parse_ref
+    from biblegematria.romanian import get_verse
 
     lines = []
 
     # Header
-    hdr = (f"{'TIP':<12} {'GREACĂ':<20} {'REF_NT':<16} {'VAL':>5} "
-           f"{'EBRAICĂ':<25} {'REF_VT':<18} {'METODA':<16} {'FACTORI'}")
-    if show_romanian:
-        hdr += f"  {'TEXTUL ROMÂNESC'}"
+    hdr = (f"{'TIP':<8} {'GREACĂ':<18} {'ROMÂNĂ':<30} {'REF':>9} {'VAL':>5} "
+           f"{'EBRAICĂ':<20} {'REF':>9} {'METODA':<10} {'FACTORI'}")
     lines.append(hdr)
-    lines.append("─" * 160)
+    lines.append("─" * 145)
 
     seen = set()
-    for rtype, gw, gref, val, hw, href, method in direct_results:
+    for rtype, gw, gref, full_bk, ch, vs, val, hw, href, method in direct_results:
         key = f"{rtype}-{gw}-{hw}-{method}"
         if key in seen:
             continue
@@ -261,20 +273,22 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         factors = factorize_theological(val) if val > 0 else {}
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
         mshort = method.replace('MISPAR_', '')
-        line = (f"{rtype:<12} {gw:<20} {gref:<16} {val:>5} "
-                f"{hw:<25} {href:<18} {mshort:<16} {fstr}")
-        if show_romanian:
-            book, ch, vs = parse_ref(gref)
-            ro_text = get_verse(book, ch, vs, max_len=60) if book else ''
-            line += f"  {ro_text}"
+
+        # Get Romanian verse and extract a snippet
+        ro_verse = ''
+        if show_romanian and full_bk:
+            ro_verse = get_verse(full_bk, ch, vs, max_len=28)
+
+        line = (f"{rtype:<8} {gw:<18} {ro_verse:<30} {gref:>9} {val:>5} "
+                f"{hw:<20} {href:>9} {mshort:<10} {fstr}")
         lines.append(line)
 
-    for rtype, gw, gref, val, hw, href, method in cipher_word_results:
+    for rtype, gw, gref, val_unused, hw, href, method in cipher_word_results:
         key = f"{hw}-{method}"
         if key not in seen:
             seen.add(key)
-            line = (f"{rtype:<12} {'—':<20} {'—':<16} {'—':>5} "
-                    f"{hw:<25} {href:<18} {method:<16} {'—'}")
+            line = (f"{'C_WORD':<8} {'—':<18} {'—':<30} {'—':>9} {'—':>5} "
+                    f"{hw:<20} {href:>9} {method:<10} {'—'}")
             lines.append(line)
 
     if top:
