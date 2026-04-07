@@ -53,7 +53,7 @@ NT: **19,409 forme unice** → **5,461 lemme unice** (100% traduse în română,
 
 - **23 Hebrew gematria methods** (via `hebrew` library)
 - **Greek isopsephy** (standard + archaic)
-- **Substitution ciphers**: Atbash, Albam, Avgad, Romanian Atbash (31 letters)
+- **Substitution ciphers**: Atbash ebraic (atestat în Ieremia 25:26, 51:1), Albam, Avgad
 - **Cross-language scan**: Greek NT isopsephy ↔ Hebrew VT gematria (all 23 methods)
 - **Number index**: 281 explicit biblical numbers across NT + LXX + Masoretic
 - **Romanian stemmer** (PyStemmer) + **RoWordNet synonyms** for verse highlighting
@@ -64,7 +64,7 @@ NT: **19,409 forme unice** → **5,461 lemme unice** (100% traduse în română,
 
 ```python
 from biblegematria import isopsephy, hebrew_gematria, cross_match, all_hebrew_methods
-from biblegematria.ciphers import atbash_hebrew, atbash_romanian
+from biblegematria.ciphers import atbash_hebrew
 
 isopsephy('Ἰησοῦς')                    # 888
 hebrew_gematria('דוד')                  # 14
@@ -74,7 +74,7 @@ cross_match('δόξα', 'עניה')             # [('MISPAR_HECHRACHI', 135)] �
 
 atbash_hebrew('בגד')                    # 'שרק' — garment = choice vine!
 atbash_hebrew('פסח')                    # 'וחס' — Passover = spared!
-atbash_romanian('șpăgară')              # 'gjyșziy'
+atbash_hebrew('מת')                     # 'יא' — dead → 11 (John 11!)
 
 from biblegematria.numbers import build_number_index
 idx = build_number_index(min_value=12)
