@@ -1,0 +1,21 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=xelatex 2022.12.13)  7 APR 2026 10:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**carte.tex
+
+! Emergency stop.
+<*> carte.tex
+             
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 2 strings out of 478071
+ 15 string characters out of 5847449
+ 289001 words of memory out of 5000000
+ 20063 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 450 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
