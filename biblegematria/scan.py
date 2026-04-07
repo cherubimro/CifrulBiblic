@@ -342,9 +342,54 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
     return lines
 
 
+_USAGE = """
+\033[1mbiblegematria scanner v0.2.0\033[0m — Cross-language biblical gematria
+
+\033[1;33mUTILIZARE:\033[0m
+  python scan.py --book 64-Jn --strict --top 50       # Ioan, filtrat, top 50
+  python scan.py --book 62-Mk --hebrew-book Isaiah     # Marcu × Isaia
+  python scan.py --strict -j 8 -o rezultate.tsv        # tot NT × tot VT, strict
+  python scan.py --fullscan -j 8 -o full.tsv           # TOATE metodele, fără filtre
+
+\033[1;33mCĂRȚI NT (--book):\033[0m
+  61-Mt  Matei          66-Ro  Romani         75-1Ti 1Timotei
+  62-Mk  Marcu          67-1Co 1Corinteni     76-2Ti 2Timotei
+  63-Lk  Luca           68-2Co 2Corinteni     77-Tit Tit
+  64-Jn  Ioan           69-Ga  Galateni       78-Phm Filimon
+  65-Ac  Fapte          70-Eph Efeseni        79-Heb Evrei
+                        71-Php Filipeni       80-Jas Iacov
+                        72-Col Coloseni       81-1Pe 1Petru
+                        73-1Th 1Tesaloniceni  82-2Pe 2Petru
+                        74-2Th 2Tesaloniceni  83-1Jn 1Ioan
+                                              84-2Jn 2Ioan
+                                              85-3Jn 3Ioan
+                                              86-Jud Iuda
+                                              87-Re  Apocalipsa
+
+\033[1;33mCĂRȚI VT (--hebrew-book):\033[0m
+  Genesis    Exodus     Leviticus   Numbers      Deuteronomy
+  Joshua     Judges     I_Samuel    II_Samuel    I_Kings      II_Kings
+  Isaiah     Jeremiah   Ezekiel     Hosea        Joel         Amos
+  Obadiah    Jonah      Micah       Nahum        Habakkuk     Zephaniah
+  Haggai     Zechariah  Malachi     Psalms       Proverbs     Job
+  Song_of_Songs  Ruth   Lamentations  Ecclesiastes  Esther   Daniel
+  Ezra       Nehemiah   I_Chronicles  II_Chronicles
+
+\033[1;33mOPȚIUNI:\033[0m
+  --strict      Doar 7 metode atestate + factori teologici (×7,×14,×26,×37)
+  --fullscan    Toate 23 metodele, fără filtre (atenție: multe rezultate!)
+  --top N       Afișează doar primele N rezultate
+  --min-value N Valoare minimă (implicit: 10)
+  -j N          Workeri paraleli (implicit: 4)
+  -o FIȘIER     Salvează în fișier
+"""
+
+
 def main():
     parser = argparse.ArgumentParser(
-        description='Cross-language biblical gematria scanner')
+        description='Cross-language biblical gematria scanner',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='Exemple: python scan.py --book 64-Jn --strict --top 50')
     parser.add_argument('-o', '--output', help='Output file')
     parser.add_argument('--book', help='SBLGNT book code (e.g., 64-Jn, 62-Mk)')
     parser.add_argument('--hebrew-book', help='Masoretic book (e.g., Genesis, Isaiah)')
@@ -354,12 +399,23 @@ def main():
     parser.add_argument('-j', '--workers', type=int, default=4,
                         help='Number of parallel workers (default: 4)')
     parser.add_argument('--strict', action='store_true',
-                        help='Only strong methods (STD,GADOL,SIDURI,KATAN,ATBASH,ALBAM,AVGAD) '
-                             'and results with theological factors (×7,×14,×26,×37)')
+                        help='Only strong methods + theological factors')
+    parser.add_argument('--fullscan', action='store_true',
+                        help='All 23 methods, no filters (overrides --strict)')
     args = parser.parse_args()
 
+    # No arguments at all → show usage
+    if not args.book and not args.hebrew_book and not args.fullscan:
+        print(_USAGE, file=sys.stderr)
+        sys.exit(0)
+
+    # --fullscan overrides --strict
+    if args.fullscan:
+        args.strict = False
+
     print(f"biblegematria scanner v0.2.0", file=sys.stderr)
-    print(f"Workers: {args.workers}, Strict: {args.strict}", file=sys.stderr)
+    mode = "FULLSCAN (23 metode)" if args.fullscan else ("STRICT (7 metode)" if args.strict else "NORMAL (23 metode)")
+    print(f"Mod: {mode}, Workers: {args.workers}", file=sys.stderr)
 
     print("\n--- Loading texts ---", file=sys.stderr)
     greek = extract_greek_vocabulary(book=args.book)
@@ -373,7 +429,7 @@ def main():
     print(f"\nResults: {len(direct)} direct/cipher-cross, "
           f"{len(cipher_words)} cipher-words", file=sys.stderr)
 
-    if n_results > 50000 and not args.strict:
+    if n_results > 50000 and not args.strict and not args.fullscan:
         print(f"\n⚠  {n_results:,} rezultate — prea mult zgomot. "
               f"Recomandare: adaugă --strict pentru filtrare.", file=sys.stderr)
 
