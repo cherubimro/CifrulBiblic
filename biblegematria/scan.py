@@ -93,8 +93,10 @@ _EDITORIAL = re.compile(r'[⸀⸁⸂⸃⸄⸅⸆⸇⸈⸉⸊⸋⸌⸍⸎⸏⸐�
 
 
 def _clean_greek(word):
-    """Strip SBLGNT editorial marks, keep only the manuscript text."""
-    return _EDITORIAL.sub('', word).rstrip('.,;·:')
+    """Strip SBLGNT editorial marks, punctuation, brackets — keep only the manuscript text."""
+    w = _EDITORIAL.sub('', word)
+    w = w.strip('.,;·:()[]·\u0387')  # Greek ano teleia, brackets, punctuation
+    return w
 
 
 def extract_greek_vocabulary(book=None):
