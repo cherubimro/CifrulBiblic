@@ -26,7 +26,7 @@ Dacă am calcula pe lemmă, am pierde exact ce a codificat autorul.
 
 `biblegematria` folosește:
 - **Forma din manuscris** → pentru isopsefie (ce a codificat autorul)
-- **Lemma** → pentru traducere (ce găsim în dicționar/Strong's)
+- **Lemma** → pentru traducere (ce găsim în dicționar)
 
 Textul SBLGNT/MorphGNT conține ambele:
 ```
@@ -35,7 +35,7 @@ Textul SBLGNT/MorphGNT conține ambele:
                    └── forma din manuscris (pentru isopsefie)
 ```
 
-NT local: **19,409 forme unice** → **5,461 lemme unice** → **5,512 intrări Strong's** (88.6% acoperire; restul sunt nume proprii).
+NT local: **19,409 forme unice** → **5,461 lemme unice** → toate traduse în română (`lexicon_ro.json` / `lexicon_ro.xlsx`).
 
 ## 3. Biblical texts
 

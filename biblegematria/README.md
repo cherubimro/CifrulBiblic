@@ -47,7 +47,7 @@ Isopsefia clasică se calculează pe **forma exactă din manuscris** (nu pe lemm
 | **λύσατε** (imp. aor.) | **936 = 36 × YHWH** | λύω | 830 |
 | **σινδόνα** (acuz.) | **385 = שכינה** | σινδών | 1054 |
 
-NT: **19,409 forme unice** → **5,461 lemme unice** (100% traduse în română).
+NT: **19,409 forme unice** → **5,461 lemme unice** (100% traduse în română, disponibile și în `lexicon_ro.xlsx`).
 
 ## Features
 
@@ -58,7 +58,7 @@ NT: **19,409 forme unice** → **5,461 lemme unice** (100% traduse în română)
 - **Number index**: 281 explicit biblical numbers across NT + LXX + Masoretic
 - **Romanian stemmer** (PyStemmer) + **RoWordNet synonyms** for verse highlighting
 - **Biblical texts**: SBLGNT (27 books), Masoretic (39 books), LXX Rahlfs 1935 (59 books), Biblia Ortodoxă
-- **Lexicon**: 5,461 lemme grec→română + 2,351 cuvinte cu sinonime
+- **Lexicon**: 5,461 lemme grec→română (traduse manual, `lexicon_ro.json` / `lexicon_ro.xlsx`) + 2,351 cuvinte cu sinonime RoWordNet
 
 ## Python library
 
