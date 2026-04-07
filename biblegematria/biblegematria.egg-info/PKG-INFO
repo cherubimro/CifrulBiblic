@@ -18,6 +18,7 @@ License-File: LICENSE
 License-File: LICENSES
 License-File: AUTHORS
 Requires-Dist: hebrew>=0.8.0
+Requires-Dist: PyStemmer>=2.0
 Dynamic: license-file
 
 # biblegematria
@@ -87,6 +88,25 @@ results = cross_scan(
     {'Χριστός': 'Christ', 'δόξα': 'glory'},
     {'דוד': 'David', 'עניה': 'suffering'}
 )
+```
+
+## Number index
+
+Extract explicit numbers from biblical texts (153 fish, 318 servants, 666 beast, etc.):
+
+```python
+from biblegematria.numbers import build_number_index
+
+idx = build_number_index(min_value=12)  # 281 distinct values
+
+# Query: where does 153 appear?
+idx[153]
+# {'nt': [('Ioan 21:11', 'ἑκατὸν(100)+πεντήκοντα(50)+τριῶν(3)')],
+#  'lxx': [], 'mas': []}
+
+# Numbers in all three texts (NT + LXX + Masoretic)
+all_three = {v: d for v, d in idx.items() if d['nt'] and d['lxx'] and d['mas']}
+# → 22 numbers appear across all three corpora
 ```
 
 ## License

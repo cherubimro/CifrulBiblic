@@ -434,7 +434,62 @@ if val in build_number_index():
     print(f"ἰχθύες = {val} appears as explicit number!")
 ```
 
-## 12. License
+## 12. CLI Scripts
+
+### scan.py — NT ↔ VT cross-language scanner
+
+```bash
+python3 scan.py                                    # usage + liste cărți NT/VT
+python3 scan.py --book 64-Jn --strict --top 50     # Ioan, strict, top 50
+python3 scan.py --book 62-Mk --hebrew-book Isaiah  # Marcu × Isaia
+python3 scan.py --numbers --book 64-Jn --strict    # doar valori = numere biblice
+python3 scan.py --numbers 100-200 --book 64-Jn     # doar range 100-200
+python3 scan.py --numbers 153-153 --book 64-Jn     # doar valoarea 153
+python3 scan.py --fullscan -j 8 -o full.tsv        # tot, 8 workeri, salvat
+python3 scan.py --strict -j 8 -o rezultate.tsv     # tot NT × tot VT, strict
+```
+
+### numbers.py — index numere explicite
+
+```bash
+python3 numbers.py                                 # sumar cu referințe + versete românești
+python3 numbers.py --query 153                     # unde apare 153?
+python3 numbers.py --query 666                     # unde apare 666?
+python3 numbers.py --significant                   # doar numere teologice semnificative
+python3 numbers.py --all-three                     # numere comune NT + LXX + Masoretic
+python3 numbers.py --corpus nt --min 100           # doar NT, ≥100
+python3 numbers.py --no-index                      # nu suprascrie numbers.txt
+```
+
+### scan_lxx.py — LXX ↔ Masoretic parallel scanner
+
+```bash
+python3 scan_lxx.py --book Gen --strict --top 50   # Geneza
+python3 scan_lxx.py --strict -j 4 -o lxx.tsv       # tot LXX
+```
+
+## 13. Limitări cunoscute
+
+### Evidențierea cuvântului românesc (~70-80% acuratețe)
+
+Scanul evidențiază cuvântul românesc corespunzător din versetul Bibliei Ortodoxe folosind:
+- **PyStemmer** (stemmer Snowball românesc) — reduce cuvintele la rădăcină
+- **RoWordNet** (2,351 cuvinte, 7,796 perechi sinonime) — extinde căutarea cu sinonime
+
+Funcționează bine când traducerea e directă sau prin sinonim:
+- κρίσιν → „judecată" → stem „judec" → găsește „**judecata**" ✓
+- ἤγαγεν → „a aduce" → stem „adu" → găsește „**adus**" ✓
+- ἔλεγεν → „a zice" → sinonim „vorbi" → stem „vorb" → găsește „**vorbea**" ✓
+
+Eșuează când Biblia Ortodoxă traduce liber:
+- λαμβάνετε (a lua) → versetul zice „ceea ce știm grăim" ✗
+- ἐάν (dacă) → versetul reformulează complet fără „dacă" ✗
+
+Cauza: Biblia Ortodoxă este o traducere **literară** (nu interlineară). Această limitare nu poate fi rezolvată cu dicționar sau sinonime — necesită un NT interliniar grec-român digital.
+
+Soluția ar necesita un NT interliniar grec-român digital (aliniere cuvânt-cu-cuvânt), care nu există în format liber.
+
+## 13. License
 
 CC0 1.0 Universal — Public Domain Dedication.
 

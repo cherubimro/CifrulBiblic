@@ -86,6 +86,36 @@ all_three = {v: d for v, d in idx.items() if d['nt'] and d['lxx'] and d['mas']}
 # → 22 numbers appear across all three corpora
 ```
 
+## CLI Scripts
+
+```bash
+cd CifrulBiblic/biblegematria
+
+# scan.py — NT ↔ VT cross-language scanner
+python3 scan.py                                    # afișează usage + liste cărți
+python3 scan.py --book 64-Jn --strict --top 50     # Ioan, filtrat, top 50
+python3 scan.py --numbers 100-200 --book 64-Jn     # doar valori 100-200
+python3 scan.py --fullscan -j 8 -o full.tsv        # tot NT × tot VT
+
+# numbers.py — index numere explicite (153, 666, 318 etc.)
+python3 numbers.py                                 # sumar cu referințe + versete
+python3 numbers.py --query 153                     # unde apare 153?
+python3 numbers.py --significant                   # doar numere teologice
+python3 numbers.py --all-three                     # numere în NT + LXX + Masoretic
+
+# scan_lxx.py — LXX ↔ Masoretic parallel scanner
+python3 scan_lxx.py --book Gen --strict --top 50   # Geneza
+```
+
+## v0.3.3 Features
+
+- **Romanian stemmer** (PyStemmer) for verse word matching
+- **RoWordNet synonyms** (2,351 words, 7,796 pairs) for better highlighting
+- **--numbers** flag with range support (e.g., `--numbers 100-200`)
+- **Deterministic output** — sorted results, same order on every run
+- **ANSI colors** — green progress bar, yellow translations, magenta number refs
+- **Lexicon 100%** — all 5,461 NT lemmas translated to Romanian
+
 ## License
 
 CC0 1.0 Universal — Public Domain

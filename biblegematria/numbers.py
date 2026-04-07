@@ -14,6 +14,7 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 
 from biblegematria.numbers import (
@@ -42,6 +43,8 @@ def main():
     parser.add_argument('--significant', action='store_true',
                         help='Show only theologically significant numbers')
     parser.add_argument('-o', '--output', help='Save to file')
+    parser.add_argument('--no-index', action='store_true',
+                        help='Do not write/overwrite numbers.txt')
     args = parser.parse_args()
 
     print("Building number index...", file=sys.stderr)
@@ -63,16 +66,12 @@ def main():
                 lines.append(f"    {ref:<25} {desc}")
         if d['lxx']:
             lines.append(f"\n  LXX ({len(d['lxx'])} apariții):")
-            for ref, desc in d['lxx'][:20]:
+            for ref, desc in d['lxx']:
                 lines.append(f"    {ref:<25} {desc}")
-            if len(d['lxx']) > 20:
-                lines.append(f"    ... și încă {len(d['lxx'])-20}")
         if d['mas']:
             lines.append(f"\n  Masoretic ({len(d['mas'])} apariții):")
-            for ref, desc in d['mas'][:20]:
+            for ref, desc in d['mas']:
                 lines.append(f"    {ref:<25} {desc}")
-            if len(d['mas']) > 20:
-                lines.append(f"    ... și încă {len(d['mas'])-20}")
 
         sig = "★ SEMNIFICATIV TEOLOGIC" if val in _SIGNIFICANT else ""
         if sig:
@@ -165,8 +164,7 @@ def main():
             lines.append(f"\033[1;33m{v}{sig}\033[0m")
 
             if d['nt']:
-                for ref, desc in d['nt'][:3]:
-                    # Get Romanian verse
+                for ref, desc in d['nt']:
                     ro = ''
                     parts = ref.split()
                     if len(parts) >= 2:
@@ -177,22 +175,31 @@ def main():
                     lines.append(f"  NT:  {ref:<22} {desc}")
                     if ro:
                         lines.append(f"       \033[2m{ro}\033[0m")
-                if len(d['nt']) > 3:
-                    lines.append(f"       ... și încă {len(d['nt'])-3} apariții NT")
 
             if d['lxx']:
-                for ref, desc in d['lxx'][:2]:
+                for ref, desc in d['lxx']:
                     lines.append(f"  LXX: {ref:<22} {desc}")
-                if len(d['lxx']) > 2:
-                    lines.append(f"       ... și încă {len(d['lxx'])-2} apariții LXX")
 
             if d['mas']:
-                for ref, desc in d['mas'][:2]:
+                for ref, desc in d['mas']:
                     lines.append(f"  Mas: {ref:<22} {desc}")
-                if len(d['mas']) > 2:
-                    lines.append(f"       ... și încă {len(d['mas'])-2} apariții Masoretic")
 
             lines.append("")
+
+    # Save index as numbers.txt for scan.py to use
+    idx_path = os.path.join(os.path.dirname(__file__), 'numbers.txt')
+    if not args.query and not args.no_index:
+        full_idx = build_number_index(min_value=1) if 'idx' not in dir() else idx
+        with open(idx_path, 'w', encoding='utf-8') as f:
+            for v in sorted(full_idx.keys()):
+                d = full_idx[v]
+                for ref, desc in d['nt']:
+                    f.write(f"{v}\tNT\t{ref}\t{desc}\n")
+                for ref, desc in d['lxx']:
+                    f.write(f"{v}\tLXX\t{ref}\t{desc}\n")
+                for ref, desc in d['mas']:
+                    f.write(f"{v}\tMAS\t{ref}\t{desc}\n")
+        print(f"Index salvat: {idx_path}", file=sys.stderr)
 
     # Output
     if args.output:
@@ -202,6 +209,31 @@ def main():
     else:
         for line in lines:
             print(line)
+
+
+def load_number_index(idx_path=None):
+    """Load pre-built number index from numbers.txt for use in scan.py.
+
+    Returns dict: {value: [(corpus, ref, desc), ...]}
+    """
+    if idx_path is None:
+        idx_path = os.path.join(os.path.dirname(__file__), 'numbers.txt')
+
+    if not os.path.exists(idx_path):
+        return {}
+
+    index = {}
+    with open(idx_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            parts = line.strip().split('\t')
+            if len(parts) >= 4:
+                val = int(parts[0])
+                corpus = parts[1]
+                ref = parts[2]
+                desc = parts[3]
+                index.setdefault(val, []).append((corpus, ref, desc))
+
+    return index
 
 
 if __name__ == '__main__':

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "biblegematria"
-version = "0.2.0"
+version = "0.3.3"
 description = "Cross-language gematria, isopsephy, and cipher analysis for biblical texts (Hebrew VT ↔ Greek NT)"
 readme = "README.md"
 license = {text = "CC0-1.0"}
@@ -21,6 +21,7 @@ classifiers = [
 ]
 dependencies = [
     "hebrew>=0.8.0",
+    "PyStemmer>=2.0",
 ]
 
 [project.urls]

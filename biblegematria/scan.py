@@ -12,6 +12,8 @@ Usage:
 """
 
 import argparse
+import json
+import os
 import sys
 import re
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -243,8 +245,11 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
             except Exception:
                 pass
 
+    _bar_fmt = '\033[32m{desc}: \033[1;33m{percentage:3.0f}%\033[32m|\033[96m{bar}\033[32m| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]\033[0m'
+
     if workers <= 1:
-        for hw, hw_ref in tqdm(hebrew_list, desc="Scanning", unit="words"):
+        for hw, hw_ref in tqdm(hebrew_list, desc="Scanning", unit="words",
+                               bar_format=_bar_fmt):
             results = _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict)
             all_results.extend(results)
     else:
@@ -255,17 +260,22 @@ def run_scan_parallel(greek_forms, hebrew_words, min_value=10, workers=4, strict
                 for hw, hw_ref in hebrew_list
             }
             for future in tqdm(as_completed(futures), total=len(futures),
-                             desc=f"Scanning ({workers} workers)", unit="words"):
+                             desc=f"Scanning ({workers} workers)", unit="words",
+                             bar_format=_bar_fmt):
                 try:
                     results = future.result()
                     all_results.extend(results)
                 except Exception:
                     pass
 
+    # Sort for deterministic output (parallel workers return in random order)
+    all_results.sort(key=lambda r: (r[7], r[1], r[8], r[10], r[0]))  # val, gw, hw, method, type
+    cipher_word_results.sort(key=lambda r: (r[4], r[6]))  # hw, method
+
     return all_results, cipher_word_results
 
 
-def format_results(direct_results, cipher_word_results, top=None, show_romanian=True):
+def format_results(direct_results, cipher_word_results, top=None, show_romanian=True, num_index=None):
     """Format and deduplicate results as fixed-width columns."""
     from biblegematria.romanian import get_verse
 
@@ -300,15 +310,77 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         if show_romanian and full_bk and gw_ro:
             verse_text = get_verse(full_bk, ch, vs, max_len=0)
             if verse_text:
-                # Search for the Romanian translation root in the verse
-                root = gw_ro.lower().rstrip('ă').rstrip('e').rstrip('a')
-                if len(root) < 3:
-                    root = gw_ro.lower()
+                # Search using Romanian stemmer for better matching
+                try:
+                    import Stemmer
+                    _stemmer = Stemmer.Stemmer('romanian')
+                except ImportError:
+                    _stemmer = None
+
+                # Build variants from translation (split on /)
+                variants = [v.strip() for v in gw_ro.split('/')]
+                expanded = []
+                for v in variants:
+                    expanded.append(v)
+                    if v.startswith('a '):
+                        expanded.append(v[2:])
+                    # Split multi-word translations into individual words
+                    words_in_v = v.split()
+                    if len(words_in_v) > 1:
+                        for w in words_in_v:
+                            if len(w) >= 3:  # skip short particles
+                                expanded.append(w)
+
+                # Load RoWordNet synonyms (cached)
+                if not hasattr(format_results, '_syn_cache'):
+                    _syn_path = os.path.join(os.path.dirname(__file__),
+                                            'biblegematria', 'synonyms_ro.json')
+                    if not os.path.exists(_syn_path):
+                        _syn_path = os.path.join(os.path.dirname(__file__),
+                                                'synonyms_ro.json')
+                    try:
+                        with open(_syn_path, 'r', encoding='utf-8') as sf:
+                            format_results._syn_cache = json.load(sf)
+                    except:
+                        format_results._syn_cache = {}
+
+                # Expand with synonyms from RoWordNet
+                for v in list(expanded):
+                    vl = v.lower().strip()
+                    if vl.startswith('a '):
+                        vl = vl[2:]
+                    for w in vl.split():
+                        if w in format_results._syn_cache:
+                            for syn in format_results._syn_cache[w]:
+                                expanded.append(syn)
+
+                # Stem the translation variants
+                stems = set()
+                for v in expanded:
+                    if _stemmer:
+                        st = _stemmer.stemWord(v.lower())
+                        stems.add(st[:3] if len(st) >= 3 else st)
+                    else:
+                        r = v.lower().rstrip('ă').rstrip('e').rstrip('a').rstrip('i')
+                        stems.add(r[:3] if len(r) >= 3 else r)
+
                 words_list = verse_text.split()
                 found_idx = -1
                 for idx, w in enumerate(words_list):
-                    if root in w.lower():
-                        found_idx = idx
+                    w_clean = w.lower().strip('.,;:!?«»„"()—–')
+                    if _stemmer:
+                        w_stem = _stemmer.stemWord(w_clean)
+                    else:
+                        w_stem = w_clean
+                    # Match if any stem prefix matches
+                    for st in stems:
+                        if st and len(st) >= 3 and w_stem.startswith(st[:3]):
+                            found_idx = idx
+                            break
+                        elif st and st in w_clean:
+                            found_idx = idx
+                            break
+                    if found_idx >= 0:
                         break
                 if found_idx >= 0:
                     start = max(0, found_idx - 2)
@@ -322,10 +394,21 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
                     # No root match — show first 40 chars
                     ro_context = verse_text[:40] + '…'
 
-        line = (f"{rtype:<8} {gw:<16} {gw_ro:<14} {gref:>9} {val:>5} "
+        if gw_ro:
+            pad = 14 - len(gw_ro)
+            gw_ro_col = f"\033[1;33m{gw_ro}\033[0m" + ' ' * max(0, pad)
+        else:
+            gw_ro_col = ' ' * 14
+        line = (f"{rtype:<8} {gw:<16} {gw_ro_col} {gref:>9} {val:>5} "
                 f"{hw:<16} {hw_ro:<14} {href:>9} {mshort:<10} {fstr:<22} "
                 f"{ro_context}")
         lines.append(line)
+
+        # Number index match on separate lines
+        if num_index and val in num_index:
+            lines.append(f"         \033[1;35m↳ {val} apare ca număr explicit în:\033[0m")
+            for loc in num_index[val]:
+                lines.append(f"           \033[35m{loc}\033[0m")
 
     for rtype, gw, gref, val_unused, hw, href, method in cipher_word_results:
         key = f"{hw}-{method}"
@@ -337,13 +420,24 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
             lines.append(line)
 
     if top:
-        lines = lines[:2] + lines[2:top+2]
+        # Count actual results (not magenta/context lines), keep header
+        header = lines[:2]
+        result_lines = []
+        count = 0
+        for line in lines[2:]:
+            result_lines.append(line)
+            # A result line starts with DIRECT/CIPHER/C_WORD, magenta lines start with spaces
+            if not line.startswith(' '):
+                count += 1
+                if count >= top:
+                    break
+        lines = header + result_lines
 
     return lines
 
 
 _USAGE = """
-\033[1mbiblegematria scanner v0.2.0\033[0m — Cross-language biblical gematria
+\033[1mbiblegematria scanner v0.3.3\033[0m — Cross-language biblical gematria
 
 \033[1;33mUTILIZARE:\033[0m
   python scan.py --book 64-Jn --strict --top 50       # Ioan, filtrat, top 50
@@ -378,6 +472,8 @@ _USAGE = """
 \033[1;33mOPȚIUNI:\033[0m
   --strict      Doar 7 metode atestate + factori teologici (×7,×14,×26,×37)
   --fullscan    Toate 23 metodele, fără filtre (atenție: multe rezultate!)
+  --numbers     Caută doar cuvinte a căror valoare = un număr explicit din Biblie
+                (necesită numbers.txt generat de numbers.py)
   --top N       Afișează doar primele N rezultate
   --min-value N Valoare minimă (implicit: 10)
   -j N          Workeri paraleli (implicit: 4)
@@ -402,10 +498,14 @@ def main():
                         help='Only strong methods + theological factors')
     parser.add_argument('--fullscan', action='store_true',
                         help='All 23 methods, no filters (overrides --strict)')
+    parser.add_argument('--numbers', nargs='?', const='all', default=None,
+                        metavar='MIN-MAX',
+                        help='Show only values matching biblical numbers. '
+                             'Optional range: --numbers 100-200, --numbers 153-153')
     args = parser.parse_args()
 
     # No arguments at all → show usage
-    if not args.book and not args.hebrew_book and not args.fullscan:
+    if not args.book and not args.hebrew_book and not args.fullscan and args.numbers is None:
         print(_USAGE, file=sys.stderr)
         sys.exit(0)
 
@@ -413,8 +513,38 @@ def main():
     if args.fullscan:
         args.strict = False
 
-    print(f"biblegematria scanner v0.2.0", file=sys.stderr)
-    mode = "FULLSCAN (23 metode)" if args.fullscan else ("STRICT (7 metode)" if args.strict else "NORMAL (23 metode)")
+    # --numbers mode: load number index
+    num_index = None
+    if args.numbers is not None:
+        num_txt = os.path.join(os.path.dirname(__file__), 'numbers.txt')
+        if not os.path.exists(num_txt):
+            print(f"⚠  numbers.txt nu există. Rulează mai întâi: python numbers.py", file=sys.stderr)
+            sys.exit(1)
+
+        # Parse range if given
+        num_min, num_max = 0, 999999999
+        if args.numbers != 'all':
+            try:
+                range_parts = args.numbers.split('-')
+                num_min = int(range_parts[0])
+                num_max = int(range_parts[1]) if len(range_parts) > 1 else num_min
+            except ValueError:
+                print(f"⚠  Format incorect. Folosește: --numbers 100-200", file=sys.stderr)
+                sys.exit(1)
+
+        num_index = {}
+        with open(num_txt, 'r', encoding='utf-8') as f:
+            for line in f:
+                parts = line.strip().split('\t')
+                if len(parts) >= 4:
+                    val = int(parts[0])
+                    if num_min <= val <= num_max:
+                        num_index.setdefault(val, []).append(f"{parts[1]}:{parts[2]}")
+
+        print(f"Numbers index: {len(num_index)} valori în range [{num_min}-{num_max}]", file=sys.stderr)
+
+    print(f"biblegematria scanner v0.3.3", file=sys.stderr)
+    mode = "NUMBERS" if args.numbers else ("FULLSCAN (23 metode)" if args.fullscan else ("STRICT (7 metode)" if args.strict else "NORMAL (23 metode)"))
     print(f"Mod: {mode}, Workers: {args.workers}", file=sys.stderr)
 
     print("\n--- Loading texts ---", file=sys.stderr)
@@ -425,15 +555,20 @@ def main():
     direct, cipher_words = run_scan_parallel(
         greek, hebrew, args.min_value, args.workers, args.strict)
 
+    # Filter by numbers if --numbers
+    if num_index:
+        direct = [r for r in direct if r[7] in num_index]  # r[7] = val
+        print(f"\nFiltered by numbers.txt: {len(direct)} potriviri", file=sys.stderr)
+
     n_results = len(direct) + len(cipher_words)
     print(f"\nResults: {len(direct)} direct/cipher-cross, "
           f"{len(cipher_words)} cipher-words", file=sys.stderr)
 
-    if n_results > 50000 and not args.strict and not args.fullscan:
+    if n_results > 50000 and not args.strict and not args.fullscan and not args.numbers:
         print(f"\n⚠  {n_results:,} rezultate — prea mult zgomot. "
               f"Recomandare: adaugă --strict pentru filtrare.", file=sys.stderr)
 
-    lines = format_results(direct, cipher_words, top=args.top)
+    lines = format_results(direct, cipher_words, top=args.top, num_index=num_index)
 
     if args.output:
         with open(args.output, 'w', encoding='utf-8') as f:
