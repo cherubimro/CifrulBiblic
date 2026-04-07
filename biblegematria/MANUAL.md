@@ -3,12 +3,6 @@
 ## 1. Installation
 
 ```bash
-pip install biblegematria
-```
-
-Or install from source:
-
-```bash
 git clone https://github.com/cherubimro/CifrulBiblic.git
 cd CifrulBiblic/biblegematria
 pip install -e .
@@ -16,7 +10,34 @@ pip install -e .
 
 Dependencies: `hebrew>=0.8.0` (installed automatically).
 
-## 2. Biblical texts
+## 2. Formă vs. Lemmă — principiu fundamental
+
+Isopsefia clasică se calculează pe **forma exactă din manuscris**, nu pe lemma (forma de dicționar). Autorul antic a ales forma precisă tocmai pentru valoarea ei numerică.
+
+**Exemplu**: în Ioan 12:13, autorul scrie **βαΐα** (plural acuzativ al lui βάϊον):
+
+| | Formă (manuscris) | Lemmă (dicționar) |
+|---|---|---|
+| Cuvânt | **βαΐα** | βάϊον |
+| Isopsefie | β(2)+α(1)+ι(10)+α(1) = **14** | β(2)+α(1)+ι(10)+ο(70)+ν(50) = **133** |
+| Semnificație | **14 = דוד (David)** — mulțimea strigă „Fiului lui David!" | Fără conexiune |
+
+Dacă am calcula pe lemmă, am pierde exact ce a codificat autorul.
+
+`biblegematria` folosește:
+- **Forma din manuscris** → pentru isopsefie (ce a codificat autorul)
+- **Lemma** → pentru traducere (ce găsim în dicționar/Strong's)
+
+Textul SBLGNT/MorphGNT conține ambele:
+```
+041213 N- ----APN- βαΐα βαΐα βαΐα βάϊον
+                   │              └── lemma (forma de dicționar)
+                   └── forma din manuscris (pentru isopsefie)
+```
+
+NT local: **19,409 forme unice** → **5,461 lemme unice** → **5,512 intrări Strong's** (88.6% acoperire; restul sunt nume proprii).
+
+## 3. Biblical texts
 
 The package includes a bundled `data.zip` (3.6 MB) containing:
 - **SBLGNT** — Greek New Testament (27 books, morphologically tagged)
@@ -35,7 +56,7 @@ print(status())
 #  'masoretic': {'path': '/home/user/.biblegematria/textul_masoretic', 'books': 39}}
 ```
 
-## 3. Greek isopsephy
+## 4. Greek isopsephy
 
 Calculate the numerical value of Greek words using the classical isopsephy system (α=1, β=2, ... ω=800).
 
@@ -70,7 +91,7 @@ factorize_theological(936)
 # → 936 = 36 × YHWH
 ```
 
-## 4. Hebrew gematria — 23 methods
+## 5. Hebrew gematria — 23 methods
 
 All 23 methods from the `hebrew` library are available:
 
@@ -121,7 +142,7 @@ for method, value in results.items():
 | OFANIM | אופנים | Letter name spelled in full, recursively |
 | ACHAS_BETA | אכ"ס בט"ע | Group substitution |
 
-## 5. Substitution ciphers
+## 6. Substitution ciphers
 
 ### Atbash (Hebrew)
 
@@ -172,7 +193,7 @@ atbash_romanian('upt.ro')     # 'djf.ik'
 atbash_romanian('șpăgară')    # 'gjyșziy'
 ```
 
-## 6. Cross-language matching (NT ↔ VT)
+## 7. Cross-language matching (NT ↔ VT)
 
 The unique feature: match Greek NT isopsephy against Hebrew VT gematria using all 23 methods.
 
@@ -214,7 +235,7 @@ for gw, gm, val, hw, hm, method in results:
     print(f"  {gw} ({gm}) = {val} = {hw} ({hm}) [{method}]")
 ```
 
-## 7. Combinatorial analysis (cipher × method × cross-language)
+## 8. Combinatorial analysis (cipher × method × cross-language)
 
 The most powerful feature: apply ciphers first, then match across languages.
 
@@ -262,7 +283,7 @@ print(f"Cipher word matches: {len(full['cipher_words'])}")
 print(f"Cipher cross-language: {len(full['cipher_cross'])}")
 ```
 
-## 8. Loading biblical texts
+## 9. Loading biblical texts
 
 ### Greek NT (SBLGNT)
 
@@ -309,7 +330,7 @@ for entry in gen_lxx[:10]:
     print(f"  {entry['ref']}: {entry['word']} ({entry['lemma']})")
 ```
 
-## 9. Example: complete analysis of a passage
+## 10. Example: complete analysis of a passage
 
 ```python
 from biblegematria import (
@@ -348,7 +369,7 @@ print(f"\nFull scan: {len(full['direct'])} direct, "
       f"{len(full['cipher_cross'])} cipher-cross")
 ```
 
-## 10. License
+## 11. License
 
 CC0 1.0 Universal — Public Domain Dedication.
 
