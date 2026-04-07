@@ -413,10 +413,10 @@ def format_results(direct_results, cipher_word_results, top=None, show_romanian=
         # Color Hebrew: bright green for words, dark green for cipher names
         if '→' in hw:
             parts = hw.split('→')
-            hw_colored = f"\033[92m{parts[0]}\u200E\033[32m→{parts[1]}→\033[92m{parts[2]}\u200E\033[0m"
+            hw_colored = f"\033[1;32m{parts[0]}\u200E\033[0;36m→{parts[1]}→\033[1;32m{parts[2]}\u200E\033[0m"
             hw_display_len = len(parts[0]) + 1 + len(parts[1]) + 1 + len(parts[2])
         else:
-            hw_colored = f"\033[92m{hw}\u200E\033[0m"
+            hw_colored = f"\033[1;32m{hw}\u200E\033[0m"
             hw_display_len = len(hw)
 
         line = (f"{rtype:<8} {gw:<16} {gw_ro_col} {gref:>9} {val:>5} "
