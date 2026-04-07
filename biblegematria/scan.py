@@ -7,7 +7,8 @@ Usage:
     python scan.py --book 64-Jn           # scan only Gospel of John
     python scan.py --top 50              # show top 50 results
     python scan.py -j 4                  # use 4 parallel workers
-    python scan.py --book 64-Jn -j 8 -o john_scan.tsv
+    python scan.py --strict              # only strong methods + theological factors
+    python scan.py --book 64-Jn -j 8 --strict -o john_scan.tsv
 """
 
 import argparse
@@ -62,11 +63,35 @@ _VT_BOOKS = {
 _ALL_METHODS = list(GematriaTypes)
 _CIPHERS = {'ATBASH': atbash_hebrew, 'ALBAM': albam, 'AVGAD': avgad}
 
+# Strict mode: only these well-established methods
+_STRICT_METHODS = {
+    'MISPAR_HECHRACHI',  # standard
+    'MISPAR_GADOL',      # large (final letters)
+    'MISPAR_SIDURI',     # ordinal
+    'MISPAR_KATAN',      # small/reduced
+    'ATBASH',            # atbash value
+    'ALBAM',             # albam value
+    'AVGAD',             # avgad value
+}
+
+# Strict mode: result must have at least one of these factors
+_STRICT_FACTORS = {7, 14, 26, 37}
+
+
+def _clean_hebrew(word):
+    """Strip vowels, cantillation, maqaf, and HTML artifacts from Hebrew word."""
+    w = word.replace('&nbsp;', '').replace('\u00a0', '')
+    w = re.sub(r'\{[^}]*\}', '', w)           # remove {פ} etc.
+    w = re.sub(r'[\u0591-\u05C7]', '', w)      # cantillation + vowels
+    w = w.replace('\u05BE', '')                 # maqaf
+    w = w.strip()
+    return w
+
 
 def extract_greek_vocabulary(book=None):
     """Extract unique Greek lemmas with first occurrence reference."""
     words = load_sblgnt(book=book)
-    lemmas = {}  # {lemma: (isopsephy, "Carte cap:vs")}
+    lemmas = {}
     for w in words:
         lemma = w['lemma']
         if lemma and lemma not in lemmas:
@@ -81,10 +106,10 @@ def extract_greek_vocabulary(book=None):
 def extract_hebrew_vocabulary(book=None):
     """Extract unique Hebrew words with first occurrence reference."""
     verses = load_masoretic(book=book)
-    words = {}  # {word: (gematria, "Carte cap:vs")}
+    words = {}
     for v in verses:
         for w in v['words']:
-            clean = re.sub(r'[\u0591-\u05C7\u05F3\u05F4\u05BE]', '', w)
+            clean = _clean_hebrew(w)
             if clean and len(clean) >= 2 and clean not in words:
                 try:
                     val = Hebrew(clean).gematria(GematriaTypes.MISPAR_HECHRACHI)
@@ -97,16 +122,25 @@ def extract_hebrew_vocabulary(book=None):
     return words
 
 
-def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value):
+def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict):
     """Scan one Hebrew word against all Greek values. Called in parallel."""
     results = []
     h = Hebrew(hw)
 
-    # Direct: all 23 methods
-    for gt in _ALL_METHODS:
+    methods = [gt for gt in _ALL_METHODS if gt.name in _STRICT_METHODS] if strict else _ALL_METHODS
+
+    # Direct: selected methods
+    for gt in methods:
         try:
             hv = h.gematria(gt)
             if hv >= min_value and hv in greek_by_value:
+                if strict:
+                    factors = factorize_theological(hv)
+                    if not any(f in _STRICT_FACTORS for f in
+                              [v for v in factors.values()]):
+                        has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
+                        if not has_factor:
+                            continue
                 for gw, gref in greek_by_value[hv]:
                     results.append(('DIRECT', gw, gref, hv, hw, hw_ref, gt.name))
         except Exception:
@@ -117,10 +151,14 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value):
         try:
             cipher_result = cipher_fn(hw)
             hc = Hebrew(cipher_result)
-            for gt in _ALL_METHODS:
+            for gt in methods:
                 try:
                     hv = hc.gematria(gt)
                     if hv >= min_value and hv in greek_by_value:
+                        if strict:
+                            has_factor = any(hv % f == 0 for f in _STRICT_FACTORS)
+                            if not has_factor:
+                                continue
                         for gw, gref in greek_by_value[hv]:
                             results.append(('CIPHER', gw, gref, hv,
                                           f"{hw}→{cipher_name}→{cipher_result}",
@@ -133,10 +171,9 @@ def _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value):
     return results
 
 
-def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4):
+def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4, strict=False):
     """Run cross-language scan with parallel workers and progress bar."""
 
-    # Build reverse index: value → [(greek_word, ref)]
     greek_by_value = {}
     for gw, (gv, gref) in greek_lemmas.items():
         if gv >= min_value:
@@ -162,12 +199,13 @@ def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4):
 
     if workers <= 1:
         for hw, hw_ref in tqdm(hebrew_list, desc="Scanning", unit="words"):
-            results = _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value)
+            results = _scan_one_hebrew(hw, hw_ref, greek_by_value, min_value, strict)
             all_results.extend(results)
     else:
         with ProcessPoolExecutor(max_workers=workers) as executor:
             futures = {
-                executor.submit(_scan_one_hebrew, hw, hw_ref, greek_by_value, min_value): hw
+                executor.submit(_scan_one_hebrew, hw, hw_ref, greek_by_value,
+                              min_value, strict): hw
                 for hw, hw_ref in hebrew_list
             }
             for future in tqdm(as_completed(futures), total=len(futures),
@@ -182,9 +220,14 @@ def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4):
 
 
 def format_results(direct_results, cipher_word_results, top=None):
-    """Format and deduplicate results as TSV lines."""
+    """Format and deduplicate results as fixed-width columns."""
     lines = []
-    lines.append("TIP\tGREACĂ\tREF_NT\tVALOARE\tEBRAICĂ\tREF_VT\tMETODA\tFACTORI")
+
+    # Header
+    lines.append(
+        f"{'TIP':<12} {'GREACĂ':<20} {'REF_NT':<16} {'VAL':>5} "
+        f"{'EBRAICĂ':<25} {'REF_VT':<18} {'METODA':<16} {'FACTORI'}")
+    lines.append("─" * 130)
 
     seen = set()
     for rtype, gw, gref, val, hw, href, method in direct_results:
@@ -194,16 +237,21 @@ def format_results(direct_results, cipher_word_results, top=None):
         seen.add(key)
         factors = factorize_theological(val) if val > 0 else {}
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
-        lines.append(f"{rtype}\t{gw}\t{gref}\t{val}\t{hw}\t{href}\t{method}\t{fstr}")
+        mshort = method.replace('MISPAR_', '')
+        lines.append(
+            f"{rtype:<12} {gw:<20} {gref:<16} {val:>5} "
+            f"{hw:<25} {href:<18} {mshort:<16} {fstr}")
 
     for rtype, gw, gref, val, hw, href, method in cipher_word_results:
         key = f"{hw}-{method}"
         if key not in seen:
             seen.add(key)
-            lines.append(f"{rtype}\t—\t—\t—\t{hw}\t{href}\t{method}\t—")
+            lines.append(
+                f"{rtype:<12} {'—':<20} {'—':<16} {'—':>5} "
+                f"{hw:<25} {href:<18} {method:<16} {'—'}")
 
     if top:
-        lines = lines[:1] + lines[1:top+1]
+        lines = lines[:2] + lines[2:top+2]
 
     return lines
 
@@ -211,7 +259,7 @@ def format_results(direct_results, cipher_word_results, top=None):
 def main():
     parser = argparse.ArgumentParser(
         description='Cross-language biblical gematria scanner')
-    parser.add_argument('-o', '--output', help='Output file (TSV)')
+    parser.add_argument('-o', '--output', help='Output file')
     parser.add_argument('--book', help='SBLGNT book code (e.g., 64-Jn, 62-Mk)')
     parser.add_argument('--hebrew-book', help='Masoretic book (e.g., Genesis, Isaiah)')
     parser.add_argument('--top', type=int, help='Show only top N results')
@@ -219,10 +267,13 @@ def main():
                         help='Minimum value to report (default: 10)')
     parser.add_argument('-j', '--workers', type=int, default=4,
                         help='Number of parallel workers (default: 4)')
+    parser.add_argument('--strict', action='store_true',
+                        help='Only strong methods (STD,GADOL,SIDURI,KATAN,ATBASH,ALBAM,AVGAD) '
+                             'and results with theological factors (×7,×14,×26,×37)')
     args = parser.parse_args()
 
     print(f"biblegematria scanner v0.1.0", file=sys.stderr)
-    print(f"Workers: {args.workers}", file=sys.stderr)
+    print(f"Workers: {args.workers}, Strict: {args.strict}", file=sys.stderr)
 
     print("\n--- Loading texts ---", file=sys.stderr)
     greek = extract_greek_vocabulary(book=args.book)
@@ -230,7 +281,7 @@ def main():
     print(f"Greek lemmas: {len(greek)}, Hebrew words: {len(hebrew)}", file=sys.stderr)
 
     direct, cipher_words = run_scan_parallel(
-        greek, hebrew, args.min_value, args.workers)
+        greek, hebrew, args.min_value, args.workers, args.strict)
 
     print(f"\nResults: {len(direct)} direct/cipher-cross, "
           f"{len(cipher_words)} cipher-words", file=sys.stderr)
