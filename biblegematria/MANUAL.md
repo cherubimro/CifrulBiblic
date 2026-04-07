@@ -369,7 +369,72 @@ print(f"\nFull scan: {len(full['direct'])} direct, "
       f"{len(full['cipher_cross'])} cipher-cross")
 ```
 
-## 11. License
+## 11. Number index — explicit numbers in biblical texts
+
+Ancient texts write numbers as words: ἑκατὸν πεντήκοντα τρεῖς = 153. The `numbers` module parses these composite numbers and builds an index across NT, LXX, and Masoretic.
+
+### Build the index
+
+```python
+from biblegematria.numbers import build_number_index
+
+idx = build_number_index(min_value=12)
+# → 281 distinct values across all three corpora
+```
+
+### Query a number
+
+```python
+idx[153]
+# {'nt': [('Ioan 21:11', 'ἑκατὸν(100)+πεντήκοντα(50)+τριῶν(3)')],
+#  'lxx': [],
+#  'mas': []}
+
+idx[666]
+# {'nt': [('Apocalipsa 13:18', 'ἑξακόσιοι(600)+ἑξήκοντα(60)+ἕξ(6)')],
+#  'lxx': [('1Kgs 10:14', ...), ('2Chr 9:13', ...), ('2Esd 2:13', ...)],
+#  'mas': []}
+
+idx[318]
+# {'nt': [],
+#  'lxx': [('Gen 14:14', 'τριακοσίους(300)+δέκα(10)+ὀκτώ(8)')],
+#  'mas': []}  # = gematria of אליעזר (Eliezer)!
+```
+
+### Extract per corpus
+
+```python
+from biblegematria.numbers import extract_nt_numbers, extract_lxx_numbers, extract_masoretic_numbers
+
+nt = extract_nt_numbers(min_value=100)    # NT only
+lxx = extract_lxx_numbers(min_value=100)  # LXX only
+mas = extract_masoretic_numbers(min_value=100)  # Masoretic only
+# Each returns: [(value, ref, components_str), ...]
+```
+
+### Find numbers shared across all three texts
+
+```python
+all_three = {v: d for v, d in idx.items() if d['nt'] and d['lxx'] and d['mas']}
+# → 22 numbers appear in NT + LXX + Masoretic:
+#   12 (tribes/apostles), 14 (David), 40 (testing), 70 (elders/nations),
+#   120 (Moses' age), 1000 (millennium), etc.
+```
+
+### Use with gematria/isopsephy matching
+
+If a word has isopsephy = 153, and 153 appears as an explicit number in John 21:11, that's a direct connection:
+
+```python
+from biblegematria import isopsephy
+from biblegematria.numbers import build_number_index
+
+val = isopsephy('ἰχθύες')  # "fish" — check value
+if val in build_number_index():
+    print(f"ἰχθύες = {val} appears as explicit number!")
+```
+
+## 12. License
 
 CC0 1.0 Universal — Public Domain Dedication.
 
