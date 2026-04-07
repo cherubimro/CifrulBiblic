@@ -219,15 +219,19 @@ def run_scan_parallel(greek_lemmas, hebrew_words, min_value=10, workers=4, stric
     return all_results, cipher_word_results
 
 
-def format_results(direct_results, cipher_word_results, top=None):
+def format_results(direct_results, cipher_word_results, top=None, show_romanian=True):
     """Format and deduplicate results as fixed-width columns."""
+    from biblegematria.romanian import get_verse, parse_ref
+
     lines = []
 
     # Header
-    lines.append(
-        f"{'TIP':<12} {'GREACĂ':<20} {'REF_NT':<16} {'VAL':>5} "
-        f"{'EBRAICĂ':<25} {'REF_VT':<18} {'METODA':<16} {'FACTORI'}")
-    lines.append("─" * 130)
+    hdr = (f"{'TIP':<12} {'GREACĂ':<20} {'REF_NT':<16} {'VAL':>5} "
+           f"{'EBRAICĂ':<25} {'REF_VT':<18} {'METODA':<16} {'FACTORI'}")
+    if show_romanian:
+        hdr += f"  {'TEXTUL ROMÂNESC'}"
+    lines.append(hdr)
+    lines.append("─" * 160)
 
     seen = set()
     for rtype, gw, gref, val, hw, href, method in direct_results:
@@ -238,17 +242,21 @@ def format_results(direct_results, cipher_word_results, top=None):
         factors = factorize_theological(val) if val > 0 else {}
         fstr = ', '.join(f"{v}×{k}" for k, v in factors.items()) if factors else ''
         mshort = method.replace('MISPAR_', '')
-        lines.append(
-            f"{rtype:<12} {gw:<20} {gref:<16} {val:>5} "
-            f"{hw:<25} {href:<18} {mshort:<16} {fstr}")
+        line = (f"{rtype:<12} {gw:<20} {gref:<16} {val:>5} "
+                f"{hw:<25} {href:<18} {mshort:<16} {fstr}")
+        if show_romanian:
+            book, ch, vs = parse_ref(gref)
+            ro_text = get_verse(book, ch, vs, max_len=60) if book else ''
+            line += f"  {ro_text}"
+        lines.append(line)
 
     for rtype, gw, gref, val, hw, href, method in cipher_word_results:
         key = f"{hw}-{method}"
         if key not in seen:
             seen.add(key)
-            lines.append(
-                f"{rtype:<12} {'—':<20} {'—':<16} {'—':>5} "
-                f"{hw:<25} {href:<18} {method:<16} {'—'}")
+            line = (f"{rtype:<12} {'—':<20} {'—':<16} {'—':>5} "
+                    f"{hw:<25} {href:<18} {method:<16} {'—'}")
+            lines.append(line)
 
     if top:
         lines = lines[:2] + lines[2:top+2]
