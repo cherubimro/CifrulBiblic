@@ -7,7 +7,7 @@ from .combo import cipher_then_gematria, cipher_word_match, cipher_cross_languag
 from .texts import load_sblgnt, load_masoretic, load_lxx
 from .download import download_sblgnt, download_masoretic, download_all, status
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __all__ = [
     "hebrew_gematria", "isopsephy", "all_hebrew_methods",
     "atbash_hebrew", "albam", "avgad", "atbash_romanian",

@@ -88,16 +88,26 @@ def _clean_hebrew(word):
     return w
 
 
+# SBLGNT editorial marks to strip (not part of the original manuscript)
+_EDITORIAL = re.compile(r'[⸀⸁⸂⸃⸄⸅⸆⸇⸈⸉⸊⸋⸌⸍⸎⸏⸐⸑⸒⸓⸔⸕⸖⸗]')
+
+
+def _clean_greek(word):
+    """Strip SBLGNT editorial marks, keep only the manuscript text."""
+    return _EDITORIAL.sub('', word).rstrip('.,;·:')
+
+
 def extract_greek_vocabulary(book=None):
     """Extract unique Greek word forms (not lemmas!) with first occurrence reference.
 
     Classical isopsephy uses the exact word from the manuscript, not the dictionary form.
     E.g., βαΐα (plural, as written) = 14 = David, but βάϊον (lemma) = 133.
+    SBLGNT editorial marks (⸀⸁⸂⸃) are stripped — they are modern annotations.
     """
     all_words = load_sblgnt(book=book)
     forms = {}  # {word_form: (isopsephy, ref, lemma)}
     for w in all_words:
-        word = w['word']
+        word = _clean_greek(w['word'])
         if word and word not in forms:
             val = isopsephy(word)
             if val > 0:
@@ -287,19 +297,24 @@ def main():
                              'and results with theological factors (×7,×14,×26,×37)')
     args = parser.parse_args()
 
-    print(f"biblegematria scanner v0.1.0", file=sys.stderr)
+    print(f"biblegematria scanner v0.2.0", file=sys.stderr)
     print(f"Workers: {args.workers}, Strict: {args.strict}", file=sys.stderr)
 
     print("\n--- Loading texts ---", file=sys.stderr)
     greek = extract_greek_vocabulary(book=args.book)
     hebrew = extract_hebrew_vocabulary(book=args.hebrew_book)
-    print(f"Greek lemmas: {len(greek)}, Hebrew words: {len(hebrew)}", file=sys.stderr)
+    print(f"Greek forms: {len(greek)}, Hebrew words: {len(hebrew)}", file=sys.stderr)
 
     direct, cipher_words = run_scan_parallel(
         greek, hebrew, args.min_value, args.workers, args.strict)
 
+    n_results = len(direct) + len(cipher_words)
     print(f"\nResults: {len(direct)} direct/cipher-cross, "
           f"{len(cipher_words)} cipher-words", file=sys.stderr)
+
+    if n_results > 50000 and not args.strict:
+        print(f"\n⚠  {n_results:,} rezultate — prea mult zgomot. "
+              f"Recomandare: adaugă --strict pentru filtrare.", file=sys.stderr)
 
     lines = format_results(direct, cipher_words, top=args.top)
 
