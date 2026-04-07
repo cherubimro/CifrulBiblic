@@ -92,8 +92,10 @@ _STRICT_FACTORS = {7, 14, 26, 37}
 
 def _clean_hebrew(word):
     """Strip vowels, cantillation, maqaf, and HTML artifacts from Hebrew word."""
-    w = word.replace('&nbsp;', '').replace('\u00a0', '')
-    w = re.sub(r'\{[^}]*\}', '', w)           # remove {פ} etc.
+    w = word.replace('&nbsp;', '').replace('&thinsp;', '')
+    w = w.replace('\u00a0', '').replace('\u2009', '')  # non-breaking space, thin space
+    w = re.sub(r'&[a-z]+;', '', w)             # any remaining HTML entities
+    w = re.sub(r'\{[^}]*\}', '', w)            # remove {פ} etc.
     w = re.sub(r'[\u0591-\u05C7]', '', w)      # cantillation + vowels
     w = w.replace('\u05BE', '')                 # maqaf
     w = w.strip()
