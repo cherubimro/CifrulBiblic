@@ -1255,6 +1255,35 @@
       \field{year}{2020}
       \true{nocite}
     \endentry
+    \entry{eisele2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=24eb4ffaa61594d2d8e3cb958798dfd0}{%
+           family={Eisele},
+           familyi={E\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \strng{fullhash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \strng{bibnamehash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \strng{authorbibnamehash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \strng{authornamehash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \strng{authorfullhash}{24eb4ffaa61594d2d8e3cb958798dfd0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für die neutestamentliche Wissenschaft}
+      \field{title}{Jesus und Dionysos: Göttliche Konkurrenz bei der Hochzeit zu Kana (Joh 2,1--11)}
+      \field{volume}{100}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1515/zntw.2009.100.1.1
+      \endverb
+    \endentry
     \entry{eknoyan2000}{article}{}
       \name{author}{1}{}{%
         {{hash=3362cc94bb3cb3026f36ca6bedb69b18}{%
@@ -2781,6 +2810,50 @@
       \field{year}{1982}
       \true{nocite}
     \endentry
+    \entry{nonnus}{book}{}
+      \name{author}{1}{}{%
+        {{hash=45e506bd94804a4f36708b317e1fa7b0}{%
+           family={Panopolitanus},
+           familyi={P\bibinitperiod},
+           given={Nonnus},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{45e506bd94804a4f36708b317e1fa7b0}
+      \strng{fullhash}{45e506bd94804a4f36708b317e1fa7b0}
+      \strng{bibnamehash}{45e506bd94804a4f36708b317e1fa7b0}
+      \strng{authorbibnamehash}{45e506bd94804a4f36708b317e1fa7b0}
+      \strng{authornamehash}{45e506bd94804a4f36708b317e1fa7b0}
+      \strng{authorfullhash}{45e506bd94804a4f36708b317e1fa7b0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~V d.Hr. 14.411--37: Dionysos transformă apa în vin}
+      \field{title}{Dionysiaca}
+      \field{year}{450}
+      \true{nocite}
+    \endentry
+    \entry{pausanias}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8ed4b72e6edb553abdca30c76bc09581}{%
+           family={Pausanias},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ed4b72e6edb553abdca30c76bc09581}
+      \strng{fullhash}{8ed4b72e6edb553abdca30c76bc09581}
+      \strng{bibnamehash}{8ed4b72e6edb553abdca30c76bc09581}
+      \strng{authorbibnamehash}{8ed4b72e6edb553abdca30c76bc09581}
+      \strng{authornamehash}{8ed4b72e6edb553abdca30c76bc09581}
+      \strng{authorfullhash}{8ed4b72e6edb553abdca30c76bc09581}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~II d.Hr. 6.26.1--2: miracolul lui Dionysos la Elis --- trei vase goale se umplu cu vin peste noapte}
+      \field{title}{Ἑλλάδος περιήγησις (Descrierea Greciei)}
+      \field{year}{175}
+      \true{nocite}
+    \endentry
     \entry{pelikan1990}{book}{}
       \name{author}{1}{}{%
         {{hash=23c4c4495fe1720f8ca023603c02b9b7}{%
@@ -3781,6 +3854,33 @@
       \field{year}{1986}
       \true{nocite}
     \endentry
+    \entry{telford1980}{book}{}
+      \name{author}{1}{}{%
+        {{hash=362dd50a356d82fb33a56b6af7a7796c}{%
+           family={Telford},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Sheffield Academic Press}%
+      }
+      \strng{namehash}{362dd50a356d82fb33a56b6af7a7796c}
+      \strng{fullhash}{362dd50a356d82fb33a56b6af7a7796c}
+      \strng{bibnamehash}{362dd50a356d82fb33a56b6af7a7796c}
+      \strng{authorbibnamehash}{362dd50a356d82fb33a56b6af7a7796c}
+      \strng{authornamehash}{362dd50a356d82fb33a56b6af7a7796c}
+      \strng{authorfullhash}{362dd50a356d82fb33a56b6af7a7796c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{JSNT Supplement Series}
+      \field{title}{The Barren Temple and the Withered Tree: A Redaction-Critical Analysis of the Cursing of the Fig-Tree Pericope in Mark's Gospel and Its Relation to the Cleansing of the Temple Tradition}
+      \field{volume}{1}
+      \field{year}{1980}
+      \true{nocite}
+    \endentry
     \entry{tertullian}{book}{}
       \name{author}{1}{}{%
         {{hash=b37de26eae9ff566d3ac2d8bc5e3325d}{%
@@ -4110,6 +4210,40 @@
       \field{series}{Johannine Monograph Series 7}
       \field{title}{The Literary Devices in John's Gospel}
       \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{weiss1996}{book}{}
+      \name{author}{2}{}{%
+        {{hash=876ac7a8336ad3a0f5c9f0b06b31fb20}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Zeev},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2e57d9a9379cc2b285964cedd626a79b}{%
+           family={Netzer},
+           familyi={N\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jerusalem}%
+      }
+      \list{publisher}{1}{%
+        {Israel Museum}%
+      }
+      \strng{namehash}{a62028d18f12483a3342aa0a8863e3b8}
+      \strng{fullhash}{a62028d18f12483a3342aa0a8863e3b8}
+      \strng{bibnamehash}{a62028d18f12483a3342aa0a8863e3b8}
+      \strng{authorbibnamehash}{a62028d18f12483a3342aa0a8863e3b8}
+      \strng{authornamehash}{a62028d18f12483a3342aa0a8863e3b8}
+      \strng{authorfullhash}{a62028d18f12483a3342aa0a8863e3b8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mozaicul dionisiac de la Sepphoris (6 km de Nazaret): scene cu Dionysos, inclusiv transformarea apei în vin}
+      \field{title}{Promise and Redemption: A Synagogue Mosaic from Sepphoris}
+      \field{year}{1996}
       \true{nocite}
     \endentry
     \entry{weisse1838}{book}{}
