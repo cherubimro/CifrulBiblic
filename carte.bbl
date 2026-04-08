@@ -288,6 +288,32 @@
       \field{year}{2022}
       \true{nocite}
     \endentry
+    \entry{ashe2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cefe55f717217f08f9cdf85271bbdcc5}{%
+           family={Ashe},
+           familyi={A\bibinitperiod},
+           given={Bethsheba},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Aeon Books}%
+      }
+      \strng{namehash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \strng{fullhash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \strng{bibnamehash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \strng{authorbibnamehash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \strng{authornamehash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \strng{authorfullhash}{cefe55f717217f08f9cdf85271bbdcc5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1801520676}
+      \field{title}{Behold! The Art and Practice of Gematria}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
     \entry{aus1992}{book}{}
       \name{author}{1}{}{%
         {{hash=59c5a2300218f39d9856ebdc8d80581b}{%
@@ -364,6 +390,61 @@
       \field{title}{The Great High Priest: The Temple Roots of Christian Liturgy}
       \field{year}{2003}
       \true{nocite}
+    \endentry
+    \entry{bauckham1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5fdbdec8cf9e5388be81f4b4e98357cc}{%
+           family={Bauckham},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {T\&T Clark}%
+      }
+      \strng{namehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{fullhash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{bibnamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authorbibnamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authornamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authorfullhash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Isopsefie/gematrie: 666 = Neron Kaisar; simbolism numeric în Apocalipsă}
+      \field{title}{The Climax of Prophecy: Studies on the Book of Revelation}
+      \field{year}{1993}
+      \true{nocite}
+    \endentry
+    \entry{bauckham2002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5fdbdec8cf9e5388be81f4b4e98357cc}{%
+           family={Bauckham},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{fullhash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{bibnamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authorbibnamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authornamehash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \strng{authorfullhash}{5fdbdec8cf9e5388be81f4b4e98357cc}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neotestamentica}
+      \field{number}{1/2}
+      \field{title}{The 153 Fish and the Unity of the Fourth Gospel}
+      \field{volume}{36}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{77\bibrangedash 88}
+      \range{pages}{12}
     \endentry
     \entry{belting1994}{book}{}
       \name{author}{1}{}{%
@@ -1032,6 +1113,31 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
+    \entry{davis1968}{book}{}
+      \name{author}{1}{}{%
+        {{hash=043bde39675aeac146444c536a886c58}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Baker Book House}%
+      }
+      \strng{namehash}{043bde39675aeac146444c536a886c58}
+      \strng{fullhash}{043bde39675aeac146444c536a886c58}
+      \strng{bibnamehash}{043bde39675aeac146444c536a886c58}
+      \strng{authorbibnamehash}{043bde39675aeac146444c536a886c58}
+      \strng{authornamehash}{043bde39675aeac146444c536a886c58}
+      \strng{authorfullhash}{043bde39675aeac146444c536a886c58}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Biblical Numerology: A Basic Study of the Use of Numbers in the Bible}
+      \field{year}{1968}
+      \true{nocite}
+    \endentry
     \entry{didahia}{book}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -1406,6 +1512,32 @@
       \field{year}{2001}
       \true{nocite}
     \endentry
+    \entry{fideler1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=175ea8cbaac1a075f73b369286148298}{%
+           family={Fideler},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Quest Books}%
+      }
+      \strng{namehash}{175ea8cbaac1a075f73b369286148298}
+      \strng{fullhash}{175ea8cbaac1a075f73b369286148298}
+      \strng{bibnamehash}{175ea8cbaac1a075f73b369286148298}
+      \strng{authorbibnamehash}{175ea8cbaac1a075f73b369286148298}
+      \strng{authornamehash}{175ea8cbaac1a075f73b369286148298}
+      \strng{authorfullhash}{175ea8cbaac1a075f73b369286148298}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Isopsefie extensivă NT; Ἰησοῦς = 888}
+      \field{title}{Jesus Christ, Sun of God: Ancient Cosmology and Early Christian Symbolism}
+      \field{year}{1993}
+      \true{nocite}
+    \endentry
     \entry{fitzgerald1988}{book}{}
       \name{author}{1}{}{%
         {{hash=0b2d36c23fed17f6698f249f6d6844e8}{%
@@ -1571,6 +1703,31 @@
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Giotto_s_comet_results
       \endverb
     \endentry
+    \entry{goodfriend2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9a90c42e583a3d27dc9e69deece41c71}{%
+           family={Goodfriend},
+           familyi={G\bibinitperiod},
+           given={Elaine},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a90c42e583a3d27dc9e69deece41c71}
+      \strng{fullhash}{9a90c42e583a3d27dc9e69deece41c71}
+      \strng{bibnamehash}{9a90c42e583a3d27dc9e69deece41c71}
+      \strng{authorbibnamehash}{9a90c42e583a3d27dc9e69deece41c71}
+      \strng{authornamehash}{9a90c42e583a3d27dc9e69deece41c71}
+      \strng{authorfullhash}{9a90c42e583a3d27dc9e69deece41c71}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jewish Bible Quarterly}
+      \field{number}{4}
+      \field{title}{Gematria in the Hebrew Bible}
+      \field{volume}{52}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
     \entry{goulder1974}{book}{}
       \name{author}{1}{}{%
         {{hash=4c276893bfdf866a7d89372e173b7ee0}{%
@@ -1689,6 +1846,7 @@
       \strng{authorbibnamehash}{4cb2f56967022a6ed1679be47397f990}
       \strng{authornamehash}{4cb2f56967022a6ed1679be47397f990}
       \strng{authorfullhash}{4cb2f56967022a6ed1679be47397f990}
+      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -1697,6 +1855,38 @@
       \field{title}{Biblical Examples of Rhetorical Devices}
       \field{year}{2019}
       \true{nocite}
+    \endentry
+    \entry{harris2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2e3174ccb606ac1e7d5fae19266709f3}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \strng{fullhash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \strng{bibnamehash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \strng{authorbibnamehash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \strng{authornamehash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \strng{authorfullhash}{2e3174ccb606ac1e7d5fae19266709f3}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Open Theology}
+      \field{number}{1}
+      \field{title}{Forward and Reverse Gematria are Very Different Beasts}
+      \field{volume}{10}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1515/opth-2022-0245
+      \endverb
     \endentry
     \entry{haskins1993}{book}{}
       \name{author}{1}{}{%
@@ -2110,6 +2300,33 @@
       \verb https://ssd.jpl.nasa.gov/horizons/
       \endverb
     \endentry
+    \entry{kalvesmaki2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8f2a666cce608a8a95ffe6d5bc3795c4}{%
+           family={Kalvesmaki},
+           familyi={K\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \strng{fullhash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \strng{bibnamehash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \strng{authorbibnamehash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \strng{authornamehash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \strng{authorfullhash}{8f2a666cce608a8a95ffe6d5bc3795c4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Hellenic Studies}
+      \field{title}{The Theology of Arithmetic: Number Symbolism in Platonism and Early Christianity}
+      \field{volume}{59}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
     \entry{kelber1983}{book}{}
       \name{author}{1}{}{%
         {{hash=9d79921ca174e81dfa445d081321b37d}{%
@@ -2237,6 +2454,32 @@
       \field{labeltitlesource}{title}
       \field{title}{Ékphrasis tes Orthodóxou Eikonographías}
       \field{year}{1960}
+      \true{nocite}
+    \endentry
+    \entry{labuschagne2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=48781f5b8abddf78d720f39f05162549}{%
+           family={Labuschagne},
+           familyi={L\bibinitperiod},
+           given={Casper\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BIBAL Press}%
+      }
+      \strng{namehash}{48781f5b8abddf78d720f39f05162549}
+      \strng{fullhash}{48781f5b8abddf78d720f39f05162549}
+      \strng{bibnamehash}{48781f5b8abddf78d720f39f05162549}
+      \strng{authorbibnamehash}{48781f5b8abddf78d720f39f05162549}
+      \strng{authornamehash}{48781f5b8abddf78d720f39f05162549}
+      \strng{authorfullhash}{48781f5b8abddf78d720f39f05162549}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Rev.\ 2008, repr.\ Wipf \& Stock 2016}
+      \field{title}{Numerical Secrets of the Bible: Introduction to Biblical Arithmology}
+      \field{year}{2000}
       \true{nocite}
     \endentry
     \entry{lactantius}{book}{}
@@ -2686,6 +2929,34 @@
       \field{year}{2012}
       \true{nocite}
     \endentry
+    \entry{noegel1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=16b471951c326e7dba955f5a82872a81}{%
+           family={Noegel},
+           familyi={N\bibinitperiod},
+           given={Scott\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{16b471951c326e7dba955f5a82872a81}
+      \strng{fullhash}{16b471951c326e7dba955f5a82872a81}
+      \strng{bibnamehash}{16b471951c326e7dba955f5a82872a81}
+      \strng{authorbibnamehash}{16b471951c326e7dba955f5a82872a81}
+      \strng{authornamehash}{16b471951c326e7dba955f5a82872a81}
+      \strng{authorfullhash}{16b471951c326e7dba955f5a82872a81}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jewish Bible Quarterly}
+      \field{note}{Trei părți. Prima analiză computațională a cifrului Atbash în Ieremia; identifică 9 instanțe noi}
+      \field{number}{2--4}
+      \field{title}{Atbash in Jeremiah and Its Literary Significance}
+      \field{volume}{24}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{82ff\bibrangessep 160ff\bibrangessep 247ff}
+      \range{pages}{-1}
+    \endentry
     \entry{nutton2004}{book}{}
       \name{author}{1}{}{%
         {{hash=b4a91ed8ce291575f1c36505df76c755}{%
@@ -2832,6 +3103,32 @@
       \field{title}{Dionysiaca}
       \field{year}{450}
       \true{nocite}
+    \endentry
+    \entry{parsons2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=23e4161792239f372036bd187f8b1a4c}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={Mikeal\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{23e4161792239f372036bd187f8b1a4c}
+      \strng{fullhash}{23e4161792239f372036bd187f8b1a4c}
+      \strng{bibnamehash}{23e4161792239f372036bd187f8b1a4c}
+      \strng{authorbibnamehash}{23e4161792239f372036bd187f8b1a4c}
+      \strng{authornamehash}{23e4161792239f372036bd187f8b1a4c}
+      \strng{authorfullhash}{23e4161792239f372036bd187f8b1a4c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perspectives in Religious Studies}
+      \field{title}{Exegesis `By the Numbers': Numerology and the New Testament}
+      \field{volume}{35}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{25\bibrangedash 43}
+      \range{pages}{19}
     \endentry
     \entry{pausanias}{book}{}
       \name{author}{1}{}{%
@@ -4548,6 +4845,35 @@
       \true{nocite}
       \field{pages}{633\bibrangedash 646}
       \range{pages}{14}
+    \endentry
+    \entry{zeichmann2025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47cb99f10209d90f135d8ef356f49d05}{%
+           family={Zeichmann},
+           familyi={Z\bibinitperiod},
+           given={Christopher\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{47cb99f10209d90f135d8ef356f49d05}
+      \strng{fullhash}{47cb99f10209d90f135d8ef356f49d05}
+      \strng{bibnamehash}{47cb99f10209d90f135d8ef356f49d05}
+      \strng{authorbibnamehash}{47cb99f10209d90f135d8ef356f49d05}
+      \strng{authornamehash}{47cb99f10209d90f135d8ef356f49d05}
+      \strng{authorfullhash}{47cb99f10209d90f135d8ef356f49d05}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Theological Review}
+      \field{title}{Counting on God's Name: The Numerology of Nomina Sacra}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1017/S0017816024000336
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
