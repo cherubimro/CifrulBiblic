@@ -160,6 +160,31 @@
       \field{year}{1993}
       \true{nocite}
     \endentry
+    \entry{philo_legatio}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3a8e25b227290681bbf0e239cb600178}{%
+           family={Alexandria)},
+           familyi={A\bibinitperiod},
+           given={Philo\bibnamedelimb Alexandrinus\bibnamedelima (Filon},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim (\bibinitperiod},
+           prefix={din},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a8e25b227290681bbf0e239cb600178}
+      \strng{fullhash}{3a8e25b227290681bbf0e239cb600178}
+      \strng{bibnamehash}{3a8e25b227290681bbf0e239cb600178}
+      \strng{authorbibnamehash}{3a8e25b227290681bbf0e239cb600178}
+      \strng{authornamehash}{3a8e25b227290681bbf0e239cb600178}
+      \strng{authorfullhash}{3a8e25b227290681bbf0e239cb600178}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cca. 40 d.Hr. §299--305: caracterul lui Pilat; §301--302: «inflexibil și nemilos» (ἀκαμπής, ἀμείλικτος), «execuții fără judecată» (ἀκρίτους φόνους), «cruzime fără sfârșit» (ἀτελεύτητον ὠμότητα)}
+      \field{title}{Legatio ad Gaium}
+      \field{year}{40}
+      \true{nocite}
+    \endentry
     \entry{atanasie}{book}{}
       \name{author}{1}{}{%
         {{hash=2eef3d8b9ec61fb26a17a86238750792}{%
@@ -261,6 +286,32 @@
       \field{series}{Manuscris}
       \field{title}{Cartea lui {Enoh}. {Traducere} din etiopiană, note și comentarii {R.H.~Charles}}
       \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{aus1992}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59c5a2300218f39d9856ebdc8d80581b}{%
+           family={Aus},
+           familyi={A\bibinitperiod},
+           given={Roger\bibnamedelima David},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of South Florida}%
+      }
+      \strng{namehash}{59c5a2300218f39d9856ebdc8d80581b}
+      \strng{fullhash}{59c5a2300218f39d9856ebdc8d80581b}
+      \strng{bibnamehash}{59c5a2300218f39d9856ebdc8d80581b}
+      \strng{authorbibnamehash}{59c5a2300218f39d9856ebdc8d80581b}
+      \strng{authornamehash}{59c5a2300218f39d9856ebdc8d80581b}
+      \strng{authorfullhash}{59c5a2300218f39d9856ebdc8d80581b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Studies in the History of Judaism}
+      \field{title}{Barabbas and Esther and Other Studies in the Judaic Illumination of Earliest Christianity}
+      \field{year}{1992}
       \true{nocite}
     \endentry
     \entry{barber2002}{book}{}
@@ -384,6 +435,34 @@
       \verb https://bibliaortodoxa.ro
       \endverb
     \endentry
+    \entry{bond1998}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59335ada6920cf5a49451a3f82595faf}{%
+           family={Bond},
+           familyi={B\bibinitperiod},
+           given={Helen\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{59335ada6920cf5a49451a3f82595faf}
+      \strng{fullhash}{59335ada6920cf5a49451a3f82595faf}
+      \strng{bibnamehash}{59335ada6920cf5a49451a3f82595faf}
+      \strng{authorbibnamehash}{59335ada6920cf5a49451a3f82595faf}
+      \strng{authornamehash}{59335ada6920cf5a49451a3f82595faf}
+      \strng{authorfullhash}{59335ada6920cf5a49451a3f82595faf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pontius Pilate in History and Interpretation}
+      \field{year}{1998}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1017/CBO9780511585654
+      \endverb
+    \endentry
     \entry{filastrius}{book}{}
       \name{author}{1}{}{%
         {{hash=4ad45c4c3db3b82fa1fa33132a283cf7}{%
@@ -408,6 +487,36 @@
       \field{title}{Liber de {Haeresibus}}
       \true{nocite}
     \endentry
+    \entry{brown1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{fullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{bibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{2 vol. Episodul Baraba: vol.~1, pp.~787--820}
+      \field{title}{The Death of the Messiah: From Gethsemane to the Grave}
+      \field{year}{1994}
+      \true{nocite}
+    \endentry
     \entry{brown1997}{book}{}
       \name{author}{1}{}{%
         {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
@@ -425,6 +534,7 @@
       \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -755,6 +865,36 @@
       \field{pages}{337\bibrangedash 355}
       \range{pages}{19}
     \endentry
+    \entry{chavel1941}{article}{}
+      \name{author}{1}{}{%
+        {{hash=acb3ccfb40d546761626ac1a176d4da6}{%
+           family={Chavel},
+           familyi={C\bibinitperiod},
+           given={Charles\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{acb3ccfb40d546761626ac1a176d4da6}
+      \strng{fullhash}{acb3ccfb40d546761626ac1a176d4da6}
+      \strng{bibnamehash}{acb3ccfb40d546761626ac1a176d4da6}
+      \strng{authorbibnamehash}{acb3ccfb40d546761626ac1a176d4da6}
+      \strng{authornamehash}{acb3ccfb40d546761626ac1a176d4da6}
+      \strng{authorfullhash}{acb3ccfb40d546761626ac1a176d4da6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biblical Literature}
+      \field{number}{3}
+      \field{title}{The Releasing of a Prisoner on the Eve of Passover in Ancient Jerusalem}
+      \field{volume}{60}
+      \field{year}{1941}
+      \true{nocite}
+      \field{pages}{273\bibrangedash 278}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.2307/3262680
+      \endverb
+    \endentry
     \entry{codex_alexandrinus}{misc}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -841,6 +981,31 @@
       \verb{url}
       \verb https://ccel.org/ccel/schaff/anf04
       \endverb
+    \endentry
+    \entry{crossan1995}{book}{}
+      \name{author}{1}{}{%
+        {{hash=21b5e7b2bba37d4f589d5cb875902390}{%
+           family={Crossan},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Dominic},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {HarperCollins}%
+      }
+      \strng{namehash}{21b5e7b2bba37d4f589d5cb875902390}
+      \strng{fullhash}{21b5e7b2bba37d4f589d5cb875902390}
+      \strng{bibnamehash}{21b5e7b2bba37d4f589d5cb875902390}
+      \strng{authorbibnamehash}{21b5e7b2bba37d4f589d5cb875902390}
+      \strng{authornamehash}{21b5e7b2bba37d4f589d5cb875902390}
+      \strng{authorfullhash}{21b5e7b2bba37d4f589d5cb875902390}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Who Killed Jesus? Exposing the Roots of Anti-Semitism in the Gospel Story of the Death of Jesus}
+      \field{year}{1995}
+      \true{nocite}
     \endentry
     \entry{culpepper1983}{book}{}
       \name{author}{1}{}{%
@@ -1037,6 +1202,32 @@
       \field{pages}{193\bibrangedash 216}
       \range{pages}{24}
     \endentry
+    \entry{ehrman1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=81317acbfe88bb25e01d361267d16198}{%
+           family={Ehrman},
+           familyi={E\bibinitperiod},
+           given={Bart\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{fullhash}{81317acbfe88bb25e01d361267d16198}
+      \strng{bibnamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authorbibnamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authornamehash}{81317acbfe88bb25e01d361267d16198}
+      \strng{authorfullhash}{81317acbfe88bb25e01d361267d16198}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jesus: Apocalyptic Prophet of the New Millennium}
+      \field{year}{1999}
+      \true{nocite}
+    \endentry
     \entry{ehrman2020}{book}{}
       \name{author}{1}{}{%
         {{hash=81317acbfe88bb25e01d361267d16198}{%
@@ -1054,6 +1245,7 @@
       \strng{authorbibnamehash}{81317acbfe88bb25e01d361267d16198}
       \strng{authornamehash}{81317acbfe88bb25e01d361267d16198}
       \strng{authorfullhash}{81317acbfe88bb25e01d361267d16198}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labelnamesource}{author}
@@ -1157,6 +1349,33 @@
       \verb{url}
       \verb https://eclipse.gsfc.nasa.gov/LEhistory/LEplot/LE0033Apr03P.pdf
       \endverb
+    \endentry
+    \entry{evans2001}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b06a8bcb6b28a4bbd2ec5445b8a431f0}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomas Nelson}%
+      }
+      \strng{namehash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \strng{fullhash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \strng{bibnamehash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \strng{authorbibnamehash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \strng{authornamehash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \strng{authorfullhash}{b06a8bcb6b28a4bbd2ec5445b8a431f0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Word Biblical Commentary}
+      \field{title}{Mark 8:27--16:20}
+      \field{volume}{34B}
+      \field{year}{2001}
+      \true{nocite}
     \endentry
     \entry{fitzgerald1988}{book}{}
       \name{author}{1}{}{%
@@ -2251,6 +2470,36 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
+    \entry{merritt1985}{article}{}
+      \name{author}{1}{}{%
+        {{hash=abf17c7c261d2832dd39599b5e27bf2c}{%
+           family={Merritt},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \strng{fullhash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \strng{bibnamehash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \strng{authorbibnamehash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \strng{authornamehash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \strng{authorfullhash}{abf17c7c261d2832dd39599b5e27bf2c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biblical Literature}
+      \field{number}{1}
+      \field{title}{Jesus Barabbas and the Paschal Pardon}
+      \field{volume}{104}
+      \field{year}{1985}
+      \true{nocite}
+      \field{pages}{57\bibrangedash 68}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.2307/3260593
+      \endverb
+    \endentry
     \entry{meshberger1990}{article}{}
       \name{author}{1}{}{%
         {{hash=43a90fe60a6d5af66bc1e181baa82acc}{%
@@ -2984,6 +3233,61 @@
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta
       \endverb
     \endentry
+    \entry{sanders1985}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5af67cfe6dfac42fb077dd95d565c065}{%
+           family={Sanders},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Philadelphia}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{fullhash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{bibnamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authorbibnamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authornamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authorfullhash}{5af67cfe6dfac42fb077dd95d565c065}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jesus and Judaism}
+      \field{year}{1985}
+      \true{nocite}
+    \endentry
+    \entry{sanders1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5af67cfe6dfac42fb077dd95d565c065}{%
+           family={Sanders},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Penguin}%
+      }
+      \strng{namehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{fullhash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{bibnamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authorbibnamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authornamehash}{5af67cfe6dfac42fb077dd95d565c065}
+      \strng{authorfullhash}{5af67cfe6dfac42fb077dd95d565c065}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Historical Figure of Jesus}
+      \field{year}{1993}
+      \true{nocite}
+    \endentry
     \entry{schonborn1994}{book}{}
       \name{author}{1}{}{%
         {{hash=eee8c77bb831851ef668aeb562824d53}{%
@@ -3111,6 +3415,32 @@
       \field{series}{Andrews University Seminary Doctoral Dissertation Series 18}
       \field{title}{Markan Sandwich Stories: Narration, Definition, and Function}
       \field{year}{1993}
+      \true{nocite}
+    \endentry
+    \entry{sherwinwhite1963}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2f3a174bb2f1f887846b1c16f33a31e8}{%
+           family={Sherwin-White},
+           familyi={S\bibinithyphendelim W\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \strng{fullhash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \strng{bibnamehash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \strng{authorbibnamehash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \strng{authornamehash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \strng{authorfullhash}{2f3a174bb2f1f887846b1c16f33a31e8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Pp.~25--26: \textit{privilegium paschale} și P.Flor.~61}
+      \field{title}{Roman Society and Roman Law in the New Testament}
+      \field{year}{1963}
       \true{nocite}
     \endentry
     \entry{snodgrass2008}{book}{}
@@ -3707,6 +4037,27 @@
       \field{title}{Eneida}
       \true{nocite}
     \endentry
+    \entry{vitruvius}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d5c34a7dcf77508268a74aa4a4e53072}{%
+           family={Vitruvius},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \strng{fullhash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \strng{bibnamehash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \strng{authorbibnamehash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \strng{authornamehash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \strng{authorfullhash}{d5c34a7dcf77508268a74aa4a4e53072}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cca. 30--15 î.Hr. Dedicat lui Augustus. Cartea III.1: buricul ca centru geometric al corpului omenesc}
+      \field{title}{De Architectura}
+      \field{year}{25}
+      \true{nocite}
+    \endentry
     \entry{watson2012}{book}{}
       \name{editor}{1}{}{%
         {{hash=9e1146fe0e4f11bc3ddbacd578e54326}{%
@@ -3914,6 +4265,47 @@
       \verb{doi}
       \verb 10.1080/00206814.2011.639996
       \endverb
+    \endentry
+    \entry{winter1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ee76e21b4ce61cc147b9d2ded31b740b}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c241840226c5bca813072747877ce381}{%
+           family={Burkill},
+           familyi={B\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=da53fdb32c6874537b17e8fd3085e2e4}{%
+           family={Vermes},
+           familyi={V\bibinitperiod},
+           given={Geza},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {de Gruyter}%
+      }
+      \strng{namehash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{fullhash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{bibnamehash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{authorbibnamehash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{authornamehash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{authorfullhash}{ee76e21b4ce61cc147b9d2ded31b740b}
+      \strng{editorbibnamehash}{e6ecf3ebf8ba4f2bd7a252b5cfeed056}
+      \strng{editornamehash}{e6ecf3ebf8ba4f2bd7a252b5cfeed056}
+      \strng{editorfullhash}{e6ecf3ebf8ba4f2bd7a252b5cfeed056}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{On the Trial of Jesus}
+      \field{year}{1974}
+      \true{nocite}
     \endentry
     \entry{witherington2009}{book}{}
       \name{author}{1}{}{%
