@@ -1,0 +1,442 @@
+\documentclass[12pt,a4paper]{article}
+
+% Fonts (XeLaTeX)
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O}
+\setsansfont{Linux Biolinum O}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+\setotherlanguage{greek}
+\newfontfamily\hebrewfont{Linux Libertine O}
+
+% Layout
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliography
+\usepackage[backend=biber,style=apa,sorting=nyt]{biblatex}
+\addbibresource{carte.bib}
+
+% Tables, links, math
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+% Column types
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\title{\textbf{Atbash in the New Testament Passion Narrative:\\Cross-Language Numerical Signatures\\from the Temple Cleansing to Golgotha}}
+\author{Alin-Adrian Anton\\
+\small Department of Computer and Information Technology\\
+\small Politehnica University Timișoara, Romania\\
+\small \texttt{alin.anton@upt.ro}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The Atbash cipher (substitution by letter-reversal) is attested in the Hebrew Bible exclusively in Jeremiah (25:26, 51:1, 51:41), where שׁשׁך (\textit{Sheshach}) encodes בבל (\textit{Babylon}). Noegel (1996) identified nine instances computationally. Neil McEleney (1977) proposed a ``gematriacal atbash'' solution for the 153 fish of John 21:11 using a reversed Greek alphabet cipher---one of the few peer-reviewed precedents for applying cipher analysis to New Testament Greek. However, no systematic study has applied Hebrew Atbash to Hebrew retroversions of key New Testament terms across the Passion narrative. This article presents such a systematic, computationally verified analysis, using an open-source toolkit (\texttt{biblegematria}) operating on the SBLGNT, LXX Rahlfs, and Westminster Leningrad Codex simultaneously.
+
+The central finding is that פסח (\textit{Pesaḥ}, ``Passover,'' gematria 148) yields through Atbash וחס (\textit{veḥas}, ``and he spared,'' gematria 74 = 148/2), from the root חוס (``to spare, to have mercy''). This numerical signature aligns with MacDonald's mimesis-critical observation that Mark's Temple cleansing (Mk 11:15--17) structurally imitates \textit{Odyssey} 22---but with an inverted ending: Odysseus kills, Jesus spares. The Atbash encoding extends across the entire Passion sequence: the triumphal entry (בגד$\to$שרק, garment$\to$vine), the fig-tree pericope (שרש$\to$Atbash=7, פרי$\to$Atbash=49=7\textsuperscript{2}), the arrest terminology (σπεῖρα, χιλίαρχος---over 1,000 soldiers for a group with two swords), the Barabbas episode (בר~אבא = דבר = 206; Βαραββᾶς = 309; common factor 103 = Δανιήλ in LXX isopsephy), and the historically unattested \textit{privilegium paschale} (Brown, 1994; Merritt, 1985).
+
+The analysis suggests that the evangelists employed numerical encoding as a layer of narrative theology, verifiable through computational methods now available as open-source tools.
+
+\medskip\noindent
+\textbf{Keywords:} Atbash, isopsephy, gematria, Passion narrative, narrative theology, Temple cleansing, Barabbas, mimesis criticism, computational biblical studies, SBLGNT
+\end{abstract}
+
+%% ============================================================
+\section{Introduction}
+%% ============================================================
+
+The Atbash cipher is a monoalphabetic substitution in which the first letter of the Hebrew alphabet (א) maps to the last (ת), the second (ב) to the penultimate (ש), and so on. It is the earliest attested cipher in Western literature, appearing in three passages of Jeremiah: שׁשׁך for בבל (Jer 25:26; 51:41) and לב קמי for כשדים (Jer 51:1). Noegel's three-part computational study \parencite{noegel1996} identified nine Atbash instances in Jeremiah, establishing the cipher as a deliberate literary device rather than a scribal accident.
+
+Gematria (assigning numerical values to Hebrew letters) and its Greek counterpart isopsephy are well-attested in ancient literature. The isopsephic value of Ἰησοῦς (888) was already noted in the \textit{Sibylline Oracles} (Book 1, lines 324--331, 2nd c. CE). Modern scholarship has explored numerical symbolism in the New Testament extensively \parencite{dornseiff1925, kalvesmaki2013, bauckham1993, fideler1993, zeichmann2025, harris2024}.
+
+A direct precedent for applying cipher analysis to New Testament Greek is Neil J.~McEleney's 1977 \textit{Biblica} article ``153 Great Fishes (John 21,11)---Gematriacal Atbash'' \parencite{mceleney1977}. McEleney proposed that the 153 fish of John 21:11 encode the early Christian acrostic \textbf{ΙΧΘΥΣ} (\textit{Iesous Christos Theou Yios Soter}, ``Jesus Christ Son of God Savior''---and also the Greek word for ``fish'') via a \textit{reversed} Greek gematria on the 24-letter alphabet (without digamma, qoppa, sampi): under this cipher, ι=70, χ=3, θ=80, yielding ΙΧΘ = 153. McEleney's work establishes that Atbash-like cipher analysis applied to New Testament texts has peer-reviewed precedent, though it remains a tiny subfield.
+
+This article extends that line of inquiry by applying \textit{Hebrew} Atbash systematically to Hebrew retroversions of key terms in the Passion narrative---a method that, to our knowledge, has not been peer-reviewed elsewhere. Using the open-source Python package \texttt{biblegematria},\footnote{\url{https://pypi.org/project/biblegematria/}} which operates simultaneously on three corpora---the SBL Greek New Testament (SBLGNT; Holmes et al., 2010), the Septuagint (LXX Rahlfs, 2006), and the Westminster Leningrad Codex (WLC)---we apply Atbash systematically to Hebrew terms underlying the Passion narrative and examine whether the resulting values form coherent patterns.
+
+%% ============================================================
+\section{Method}
+%% ============================================================
+
+\subsection{Corpora}
+
+Three digitized corpora are used:
+\begin{itemize}
+    \item \textbf{SBLGNT} --- morphologically tagged Greek New Testament (James Tauber, 2010). 137,578 tokens.
+    \item \textbf{LXX Rahlfs} --- Septuagint in JSON format, 14,172 unique lemmas with isopsephy pre-computed.
+    \item \textbf{WLC} --- Westminster Leningrad Codex of the Masoretic Text, consonantal, with standard gematria values.
+\end{itemize}
+
+\subsection{Computational Tools}
+
+The \texttt{biblegematria} package (Python 3, pip-installable, MIT license) provides:
+\begin{itemize}
+    \item Standard Hebrew gematria (11 methods: standard, ordinal, reduced, etc.)
+    \item Atbash transformation with automatic gematria of the result
+    \item Greek isopsephy (Milesian system)
+    \item Cross-language search: given a numerical value, find all Hebrew words, Greek lemmas, and LXX attestations matching it
+\end{itemize}
+
+All computations reported in this article are reproducible by running the package on the publicly available corpora. No cherry-picking protocol was used: each Hebrew term was tested systematically, and only results with meaningful biblical or intertextual connections are reported.
+
+\subsection{Retroversion Protocol}
+
+For Greek NT terms without a direct Hebrew original, we use the standard lexical retroversion: the Hebrew word most commonly used in the LXX to translate the semantic equivalent. For example, Greek σπεῖρα (``cohort'') has no Hebrew equivalent (it is a Latin military loanword), but Greek καρπός (``fruit'') retroverses to Hebrew פרי, and ῥίζα (``root'') to שרש.
+
+%% ============================================================
+\section{Finding 1: פסח → Atbash → וחס (Passover = Sparing)}
+\label{sec:pesach}
+%% ============================================================
+
+The Hebrew word for Passover, \textbf{פסח} (\textit{Pesaḥ}), has gematria 148 (פ=80, ס=60, ח=8). Applying Atbash:
+
+\begin{center}
+\Large
+פסח $\xrightarrow{\text{Atbash}}$ וחס
+\end{center}
+
+\noindent פ$\to$ו, ס$\to$ח, ח$\to$ס. The result is \textbf{וחס}, which parses as ו (``and'') + חס (``he spared''), from the root \textbf{חוס} (``to spare, to have mercy''; cf.\ Jonah 4:10--11: ``You \textit{spared} the gourd''; Ezekiel 16:5: ``No eye \textit{pitied} you''). The gematria of וחס is 74 = 148/2---exactly half the value of פסח.
+
+This is not a forced reading. The root חוס is semantically central to the Passover narrative: God ``passed over'' (פסח) the houses of the Israelites, i.e., \textit{spared} them (Exodus 12:13, 27). The Atbash of Passover \textit{explicates} Passover: פסח (Passover) $\to$ וחס (and he spared).
+
+\subsection{Connection to MacDonald's Mimesis Criticism}
+
+MacDonald (2014) demonstrates that Mark's Temple cleansing (Mk 11:15--17) structurally imitates \textit{Odyssey} 22, where Odysseus returns home and slaughters the suitors who have profaned his house. The verbal parallels include the overturning of τράπεζαν/τράπεζας (``table/tables,'' Od.\ 22.18--21 / Mk 11:15). But the ending is \textbf{inverted}: Odysseus \textit{kills} all the suitors; Jesus \textit{drives out} the sellers alive \parencite{macdonald2014}.
+
+The Atbash encoding names this inversion: \textbf{פסח $\to$ וחס}. The Passover at which Jesus acts is the \textit{sparing}. Odysseus kills; Jesus spares. The cipher provides the theological key to the mimesis.
+
+%% ============================================================
+\section{Finding 2: The Temple Cleansing Arc}
+\label{sec:temple}
+%% ============================================================
+
+\subsection{Reconnaissance as Homeric Motif}
+
+Mark presents the cleansing in two days. On day one, Jesus enters the Temple and ``looks around at everything'' (περιβλεψάμενος πάντα, Mk 11:11), then leaves for Bethany. On day two, he returns and overturns the tables. MacDonald identifies this as the Homeric motif of \textit{reconnaissance before action}: Odysseus inspects the palace of Alcinous (Od.\ 7.133--134) before acting (parallel \#92). For a man with a whip of cords (φραγέλλιον ἐκ σχοινίων, Jn 2:15), prior reconnaissance is unnecessary---it is a \textit{literary} motif, not a military one.
+
+\subsection{The Marcan Sandwich: Fig Tree = Temple}
+
+Mark frames the cleansing between two halves of the fig-tree episode (Mk 11:12--14, 20--21)---a ``Marcan sandwich'' \parencite{edwards1989}. The fig tree symbolizes Israel/Temple in prophetic literature (Jer 8:13; Hos 9:10; Mic 7:1; Joel 1:7). The detail ``it was not the season for figs'' (Mk 11:13) is absurd literally but coherent allegorically: the Temple's time has ended. Telford (1980) devotes a monograph to this connection \parencite{telford1980}.
+
+Atbash confirms the symbolism:
+
+\begin{center}
+\begin{tabular}{lccl}
+\toprule
+\textbf{Hebrew word} & \textbf{Gematria} & \textbf{Atbash value} & \textbf{Significance} \\
+\midrule
+\textbf{שרש} (\textit{shoresh}, ``root'') & 800 & \textbf{7} & completion \\
+\textbf{פרי} (\textit{peri}, ``fruit'') & 290 & \textbf{49 = 7\textsuperscript{2}} & completion squared \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The fig tree withers ``from the roots'' (ἐκ ῥιζῶν, Mk 11:20). Root through Atbash = 7; fruit through Atbash = 7\textsuperscript{2}. The number 7 signifies completion/perfection in biblical symbolism (Gen 2:2; Rev 1:4); in the context of a withered tree, it implies \textit{complete} destruction---a completed judgment.
+
+The total isopsephy of the Marcan sandwich (Mk 11:12--14 + 15--17 + 20--21) = 74,816 = 7 $\times$ 10,688---a multiple of 7.
+
+\subsection{Military Terminology at the Arrest}
+
+The Greek text of Jesus' arrest uses precise Roman military terminology:
+
+\begin{center}
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Greek term} & \textbf{Translation} & \textbf{Reference} & \textbf{Significance} \\
+\midrule
+\textbf{σπεῖρα} (\textit{speira}) & cohort & Jn 18:3, 12 & 480--600 soldiers (Lat.\ \textit{cohors}) \\
+\textbf{χιλίαρχος} (\textit{chiliarchos}) & tribune & Jn 18:12 & commander of 1,000 \\
+\textbf{ὑπηρέται} (\textit{hyperetai}) & Temple police & Jn 18:3 & high priests' guard \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Over 1,000 armed men to arrest a group that possessed two swords (μάχαιραι δύο, Lk 22:38). The disproportion is absurd militarily but coherent narratively---see \S\ref{sec:isaiah}.
+
+\subsection{Crucifixion as Rebellion, Not Disturbance}
+
+Crucifixion was the Roman penalty for \textit{crimen maiestatis} (rebellion), not for public disturbance, which was punished by flogging (\textit{flagellatio}). The \textit{titulus crucis}---βασιλεὺς τῶν Ἰουδαίων, ``King of the Jews'' (Jn 19:19)---is a \textit{political} charge. The two men crucified with Jesus are called λῃσταί (Mk 15:27), a term Josephus consistently uses for \textit{political rebels}.
+
+The contrast with Jesus son of Ananias (Josephus, \textit{B.J.} 6.5.3 [6.300--309]) is instructive: a man who \textit{spoke} against the Temple was flogged and released; Jesus, who \textit{acted} at the Temple, was crucified. The punishment reveals the scale of the act.
+
+%% ============================================================
+\section{Finding 3: Barabbas---Two ``Sons of the Father''}
+\label{sec:barabbas}
+%% ============================================================
+
+The name Βαραββᾶς (Barabbas) is Aramaic \textbf{בר~אבא} (\textit{bar abba}) = ``son of the father.'' Jesus is \textit{the} Son of the Father. Some manuscripts of Matthew (27:16--17) read \textbf{Ἰησοῦς Βαραββᾶς}---``Jesus Barabbas.'' Origen (\textit{Comm.\ Matt.}\ ad loc.) noted this reading in ancient manuscripts but reported that scribes removed ``Jesus'' before ``Barabbas'' as unfitting.
+
+The numerical signatures:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Form} & \textbf{Value} & \textbf{Factorization} \\
+\midrule
+\textbf{בר~אבא} (Aramaic) & 206 & 2 $\times$ \textbf{103} \\
+\textbf{Βαραββᾶς} (Greek) & 309 & 3 $\times$ \textbf{103} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The common factor is \textbf{103}. In LXX isopsephy, \textbf{Δανιήλ} (Daniel) = 103---the prophet who introduces the ``Son of Man'' title (Dan 7:13). Both forms of ``son of the father'' are multiples of Daniel.
+
+Furthermore, \textbf{בר~אבא} = \textbf{דבר} (\textit{davar}, ``word'') = 206. ``Son of the father'' has the same gematria as ``the Word''---cf.\ John 1:1: ``In the beginning was the \textit{Word}.''
+
+In the LXX, the verb \textbf{ἐκβάλλω} (``to cast out, to drive out'') = 888 = \textbf{Ἰησοῦς}. This is the verb used for the Temple cleansing: τοὺς πωλοῦντας \ldots\ ἤρξατο \textbf{ἐκβάλλειν} (Mk 11:15). The name of Jesus and the act of the cleansing share the same numerical signature.
+
+\subsection{The Unattested \textit{Privilegium Paschale}}
+
+The custom of releasing a prisoner at Passover (Mk 15:6) has \textbf{no attestation} outside the Gospels. Josephus, who describes Pilate's administration and multiple Passover incidents, never mentions it. Philo, who discusses Pilate, never mentions it. No Roman legal source establishes such a privilege. The Mishnah (\textit{Pesaḥim} 8:6) mentions slaughtering the Passover lamb for someone \textit{already promised} release---it does not describe a release custom \parencite{chavel1941}.
+
+The scholarly consensus ranges from ``unverifiable'' \parencite{brown1994} to ``Markan literary creation'' \parencite{merritt1985, bond1998, crossan1995}. The only partial parallel is Papyrus Florentinus 61 (85 CE, Egypt), where a prefect releases a prisoner saying χαρίζομαί σε τοῖς ὄχλοις (``I give you to the crowds'')---a single ad hoc act, not a regular festival custom.
+
+%% ============================================================
+\section{Finding 4: Isaiah 53:12---Two Swords, Two Robbers}
+\label{sec:isaiah}
+%% ============================================================
+
+Immediately before the two-swords scene, Jesus quotes \textbf{Isaiah 53:12}: ``This scripture must be fulfilled in me: \textit{and he was numbered with the transgressors}'' (καὶ μετὰ ἀνόμων ἐλογίσθη, Lk 22:37). The disciples then show two swords; Jesus says Ἱκανόν ἐστιν (``it is enough,'' Lk 22:38).
+
+At the crucifixion: ``And they crucified with him two \textbf{λῃσταί}'' (Mk 15:27). ``And the scripture was fulfilled which says: \textit{and he was numbered with the transgressors}'' (Mk 15:28, quoting Isaiah 53:12 again).
+
+The same prophecy is fulfilled twice, with the number \textbf{two}:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Element} & \textbf{Narrative function} & \textbf{Isaiah 53:12} \\
+\midrule
+2 swords (Lk 22:38) & group appears as ``transgressors'' & μετὰ ἀνόμων ἐλογίσθη \\
+2 λῃσταί (Mk 15:27) & crucifixion appears as rebel execution & μετὰ ἀνόμων ἐλογίσθη \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Ἱκανόν ἐστιν does not mean ``two swords are sufficient for defense.'' It means ``\textit{it is enough to fulfill the prophecy}.'' Two swords = armed = ``numbered with transgressors.'' No more are needed.
+
+%% ============================================================
+\section{Finding 5: Historical Pilate vs.\ Gospel Pilate}
+\label{sec:pilate}
+%% ============================================================
+
+The Gospel portrait of Pilate---reluctant, compassionate, attempting three times to release Jesus---contradicts the non-Christian sources.
+
+Philo of Alexandria (\textit{Legatio ad Gaium} 301--302, c.\ 40 CE) describes Pilate through King Agrippa I's words as ``by nature inflexible and, besides his stubbornness, merciless'' (τὴν φύσιν ἀκαμπής καὶ μετὰ τοῦ αὐθάδους ἀμείλικτος), listing ``briberies, insults, robberies, outrages, executions \textit{without trial} and endless, unceasing cruelty'' (ἀκρίτους καὶ ἐπαλλήλους φόνους, ἀτελεύτητον ὠμότητα).
+
+Josephus confirms: Pilate brought military standards with Caesar's image into Jerusalem by night (\textit{Ant.} 18.3.1), used sacred Temple funds for an aqueduct and sent disguised soldiers to beat protesters (\textit{Ant.} 18.3.2), and his massacre of Samaritans led to his removal in 36/37 CE (\textit{Ant.} 18.4.1--2) \parencite{bond1998}.
+
+\begin{center}
+\small
+\begin{tabular}{L{6cm}L{6cm}}
+\toprule
+\textbf{Historical Pilate} (Philo, Josephus) & \textbf{Gospel Pilate} \\
+\midrule
+inflexible, merciless & hesitant, compassionate \\
+executions without trial & ``I find no fault in him'' (Jn 18:38) \\
+deliberately provokes Jews & washes his hands (Mt 27:24) \\
+\textbf{endless cruelty} & attempts three times to release Jesus \\
+removed for massacre & victim of high priests' pressure \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+If the historical Pilate was absolutely ruthless, a hesitant Pilate who refuses to accept the rebellion charge becomes a \textbf{literary and rhetorical signal}---as recognizable as the word \textit{goad} (κέντρα) placed in Jesus' mouth from Euripides (\textit{Bacchae} 794; Acts 26:14). The gospel authors do not write chronicles---they \textit{compose}, using historical figures as narrative vehicles to shift responsibility from Rome to the high priests.
+
+%% ============================================================
+\section{Finding 6: ``For Me and for You''---The Atbash Signature of Ἰησοῦς and Πέτρος}
+\label{sec:fish}
+%% ============================================================
+
+Matthew 17:24--27 contains an episode found in \textbf{no other Gospel}: Jesus sends Peter to catch a fish, in whose mouth he will find a \textit{stater} (four drachmas)---the exact amount of the Temple tax for two persons. Jesus says: ``give it to them \textbf{for Me and for you}'' (ὑπὲρ ἐμοῦ καὶ σοῦ). One coin, one payment, for both.
+
+This unity has a remarkable mathematical counterpart. We define the \textit{Atbash sum} of a Greek word as: isopsephy(word) + isopsephy(Atbash(word)), where Atbash maps each letter to its mirror in the Greek alphabet (α$\leftrightarrow$ω, β$\leftrightarrow$ψ, etc.). Computing:
+
+\begin{center}
+\begin{tabular}{lcccl}
+\toprule
+\textbf{Name} & \textbf{Isopsephy} & \textbf{Atbash isopsephy} & \textbf{Sum} \\
+\midrule
+\textbf{Ἰησοῦς} (Jesus) & 888 & 321 & \textbf{1209} \\
+\textbf{Πέτρος} (Peter) & 755 & 454 & \textbf{1209} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Ἰησοῦς and Πέτρος have the same Atbash sum: 1209 = 3 $\times$ 13 $\times$ 31.} This is not trivially expected: of 24\textsuperscript{6} possible six-letter Greek combinations, very few pairs share the same Atbash sum while also being semantically related.
+
+The same Atbash sum (1209) appears in Hebrew for \textbf{גבריאל} (Gabriel): standard gematria 246 + Atbash gematria 963 = 1209. Gabriel is the angel of the Annunciation---who announces Jesus' birth to Mary (Lk 1:26).
+
+The mechanism: four of the six letters of Ἰησοῦς are exact Atbash pairs of four letters of Πέτρος (ι$\leftrightarrow$π, ο$\leftrightarrow$ο, σ$\leftrightarrow$σ, υ$\leftrightarrow$ε). The remaining unpaired letters---η, σ in Jesus and τ, ρ in Peter---``pay together'' the same residual sum: \textbf{416} = $2^5 \times 13$, where 13 = אחד (\textit{eḥad}, ``one'') = אהבה (\textit{ahavah}, ``love''). In Greek isopsephy, \textbf{μαθητήν} (``disciple,'' accusative) = 416---its first occurrence: ``the disciple whom he loved'' (Jn 19:26). And \textbf{λεπτά} (``small coins''---the widow's mites, Mk 12:42; Lk 21:2) = 416---another Temple payment from a single source.
+
+The Hebrew word with gematria 416 that appears most frequently in the OT (123 times) is \textbf{שמעו} (\textit{shim'u}) = ``Listen!''
+
+The episode appears \textbf{only in Matthew}---the most ``Jewish'' Gospel, the one that structures Jesus' genealogy in 3~$\times$~14 = David. A scribe trained in gematria who could structure a genealogy numerically could also select Greek names with deliberate Atbash properties. The fact that one coin pays ``for Me and for you,'' and the two names are mathematically bound through Atbash---the oldest biblical cipher---does not appear accidental.
+
+\subsection{Additional Numerical Signatures}
+
+The Hebrew word for fish, \textbf{דג} (\textit{dag}) = \textbf{7} (completion/perfection). And \textbf{שקל} (\textit{sheqel}, ``coin/weight'') = 430, whose Atbash = \textbf{26} = \textbf{יהוה} (YHWH). The coin from the fish's mouth encodes the Divine Name through Atbash.
+
+Furthermore, the isopsephic difference between the coin found (στατήρ = 909) and the tax owed (δίδραχμον = 879) is \textbf{909 $-$ 879 = 30}---the exact price of Judas' betrayal (Mt 26:15: thirty pieces of silver).
+
+Finally, \textbf{הפסח} (\textit{ha-Pesaḥ}, ``the Passover'' with the definite article) = ה (5) + פסח (148) = \textbf{153}---the number of fish caught in John 21:11. The 153 fish \textit{are} the Passover. And \textbf{בני~האלהים} (\textit{bnei ha-Elohim}, ``sons of God'') = 153. The catch of fish = the gathering of the sons of God at Passover. This Hebrew gematria reading of 153 is complementary to McEleney's Greek atbash reading (ΙΧΘ = 153), and both converge on the same Christological interpretation.
+
+%% ============================================================
+\section{Finding 7: Doubting Thomas---Nails, Side, and the Beast (John 20:24--29)}
+\label{sec:thomas}
+%% ============================================================
+
+The Thomas episode (John 20:24--29) carries an extraordinary numerical density, unique among Gospel resurrection scenes. Thomas demands to see ``the mark of the \textbf{nails}'' (τὸν τύπον τῶν \textbf{ἥλων}) in Jesus' hands and to put his hand into his \textbf{side} (\textbf{πλευράν}). Both nouns carry decisive isopsephic signatures.
+
+\subsection{ἥλων = 888 = Ἰησοῦς: The Nails Are the Name}
+
+\begin{center}
+\textbf{ἥλων = η (8) + λ (30) + ω (800) + ν (50) = 888 = Ἰησοῦς}
+\end{center}
+
+The word ``nails'' has exactly the same isopsephic value as the name ``Jesus''---888 = 24 $\times$ 37 = 6 $\times$ 148 (פסח, Passover) = 12 $\times$ 74 (וחס, ``he spared''). The instruments of the crucifixion \textit{are}, numerically, the Name. The wounds define the identity. Every finding in \S\ref{sec:pesach} returns here: the Nails contain Passover (6 times) and sparing (12 times).
+
+\subsection{πλευράν = 666 and πλευρά = 616: The Side and the Beast}
+
+The two forms of the Greek word for ``side'' carry \textit{both} attested variants of the Number of the Beast (Rev 13:18):
+
+\begin{center}
+\begin{tabular}{lcl}
+\toprule
+\textbf{Form} & \textbf{Isopsephy} & \textbf{Reference} \\
+\midrule
+\textbf{πλευρά} (nominative) & \textbf{616} & Papyrus Oxyrhynchus 4499 (P\textsuperscript{115}), Codex Ephraemi \\
+\textbf{πλευράν} (accusative, Jn 20:27) & \textbf{666} & Textus Receptus (Rev 13:18 standard) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Jesus' pierced side contains \textit{both} numeric variants of the Beast.
+
+\subsection{Λατεῖνος = 666: The Roman Soldier}
+
+Jesus' side was pierced by a Roman soldier: εἷς τῶν στρατιωτῶν λόγχῃ αὐτοῦ τὴν \textbf{πλευράν} ἔνυξεν (Jn 19:34). Irenaeus of Lyon (\textit{Adversus Haereses} 5.30.3, c.~180 CE) proposes three candidates for the Number of the Beast, each with isopsephy 666. The primary candidate, Irenaeus argues, is:
+
+\begin{center}
+\textbf{Λατεῖνος = λ (30) + α (1) + τ (300) + ε (5) + ι (10) + ν (50) + ο (70) + ς (200) = 666}
+\end{center}
+
+``The name Λατεῖνος has the number six hundred sixty-six, and it is very probable, since the latest empire bears this name, for it is the Latins who now rule'' (Irenaeus, \textit{Adv.\ Haer.} 5.30.3).
+
+So: a Roman soldier (\textbf{Λατεῖνος = 666}) pierces the side of Jesus (\textbf{πλευράν = 666}). Yet the nails (\textbf{ἥλων = 888 = Ἰησοῦς}) triumph:
+
+\begin{center}
+\textbf{888 − 666 = 222 = 6 $\times$ 37}
+\end{center}
+
+An exact multiple of the Christological factor 37. Jesus (888) overcomes the Beast (666) by an excess of six Creation-days multiplied by the key factor of the Name.
+
+\subsection{The Supreme Confession: אדני אלהי}
+
+Thomas' confession, ``My Lord and my God'' (ὁ κύριός μου καὶ ὁ θεός μου, Jn 20:28), is the \textbf{highest Christological confession} in the New Testament---the only Gospel passage where someone explicitly addresses Jesus with ὁ θεός. The Hebrew retroversion \textbf{אדני אלהי} (\textit{Adonai Elohai}) carries:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+ & \textbf{Gematria} & \textbf{Atbash gematria} \\
+\midrule
+אדני (Adonai) & 65 & 549 \\
+אלהי (Elohai) & 46 & 550 \\
+\textbf{Combined} & \textbf{111 = 3 $\times$ 37} & \textbf{1099 = 3 $\times$ 11 $\times$ 37} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Both the simple gematria (111 = 3 $\times$ 37) and the Atbash gematria (1099 = 3 $\times$ 11 $\times$ 37) of the supreme confession are multiples of the factor 37---the same factor underlying Ἰησοῦς = 888 = 24 $\times$ 37.
+
+\subsection{The Eighth Day: Triple Eight}
+
+Thomas meets the risen Jesus ``after eight days'' (μεθ' ἡμέρας ὀκτώ, Jn 20:26). The \textit{eighth day} is the day after the Sabbath---the day of Resurrection, symbol of the new creation (Justin Martyr, \textit{Dialogue with Trypho} 138; Basil, \textit{On the Holy Spirit} 27.66). Early Christian baptisteries were built on octagonal floor plans for this reason.
+
+The name \textbf{Ἰησοῦς = 888 = 8 $\times$ 111}---triple eight. The one who appears on the eighth day bears the eighth day three times in his Name.
+
+\subsection{Synthesis of the Thomas Passage}
+
+\begin{itemize}
+    \item \textbf{Nails} (ἥλων) = \textbf{888} = Ἰησοῦς: the wounds \textit{are} the Name.
+    \item \textbf{Side} (πλευράν) = \textbf{666}; form πλευρά = \textbf{616}: both Beast variants.
+    \item \textbf{Roman soldier} = \textbf{Λατεῖνος} = \textbf{666} (Irenaeus).
+    \item \textbf{Difference} 888 − 666 = \textbf{222} = 6 $\times$ 37: Christological victory.
+    \item \textbf{Confession} אדני אלהי: gematria 111 = 3 $\times$ 37; Atbash 1099 = 3 $\times$ 11 $\times$ 37.
+    \item \textbf{Eighth day} and Ἰησοῦς = 888 = triple eight.
+\end{itemize}
+
+The Roman Beast (666) wounds the side (666); but the Name (888) conquers. The most doubting disciple triggers the highest Christological confession. The nails are the Name. The eighth day is the fullness of the Resurrection.
+
+%% ============================================================
+\section{Discussion}
+\label{sec:discussion}
+%% ============================================================
+
+\subsection{The Narrative Arc of Sparing}
+
+The findings converge into a single narrative arc driven by the Atbash encoding of Passover:
+
+\begin{enumerate}
+    \item \textbf{Peaceful entry} on a donkey colt (Mk 11:2--7; Zech 9:9)---no one expects rebellion from a man on a donkey.
+    \item \textbf{Inspection} of the Temple (Mk 11:11)---Homeric motif (Od.\ 7.133), not military reconnaissance.
+    \item \textbf{Cleansing} (Mk 11:15--17)---an act classified as rebellion (the punishment will be crucifixion), but all sellers survive. Odysseus kills; Jesus \textbf{spares}: פסח $\to$ וחס.
+    \item \textbf{Retreat} to Bethany each evening (Mk 11:19; Mt 21:17).
+    \item \textbf{Arrest} (Jn 18:3,12)---over 1,000 soldiers for two swords. Judas identifies Jesus by a kiss---he is among a multitude of disciples.
+    \item \textbf{Aggravated charge}: high priests transform blasphemy (religious) into rebellion (political): ``He makes himself King, against Caesar'' (Jn 19:12).
+    \item \textbf{Inverted sparing}: the crowd spares \textbf{Barabbas}---בר~אבא, ``son of the father,'' a real rebel (στάσις, Mk 15:7). The Son of the Father who \textit{spared} is \textit{not spared}.
+    \item \textbf{Two λῃσταί} on crosses (Mk 15:27): Isaiah 53:12 fulfilled---two at the beginning (swords), two at the end (crosses).
+\end{enumerate}
+
+The complete arc: \textbf{peaceful entry} (donkey) $\to$ \textbf{active sparing} at the Temple (וחס) $\to$ \textbf{sparing refused} by the crowd (Barabbas) $\to$ \textbf{cross}. The Atbash of פסח does not describe only the Temple cleansing---it describes the entire Passover: the one who spares is the one who will not be spared.
+
+\subsection{Statistical Considerations}
+
+A legitimate concern is cherry-picking: with enough Hebrew words and enough numerical operations, coincidental patterns will emerge. We address this in three ways:
+
+\begin{enumerate}
+    \item \textbf{Semantic coherence}: פסח $\to$ וחס is not a random match; חוס (``to spare'') is semantically central to the Passover narrative.
+    \item \textbf{Cross-language consistency}: the Barabbas factor (103) appears in both Aramaic and Greek forms independently, and matches Δανιήλ in LXX---a thematically relevant name.
+    \item \textbf{Reproducibility}: all computations are available via \texttt{pip install biblegematria} and can be replicated or falsified.
+\end{enumerate}
+
+We do not claim that every numerical pattern is intentional. We claim that the \textit{convergence} of Atbash, isopsephy, mimesis criticism, and historical analysis on the same narrative arc is unlikely to be entirely coincidental, and that it warrants further investigation.
+
+\subsection{Limitations}
+
+\begin{itemize}
+    \item Retroversion is not unique: a Greek word may correspond to multiple Hebrew equivalents.
+    \item We cannot prove authorial intent---only structural coherence.
+    \item The fig-tree Atbash values (7, 49) depend on standard Hebrew vocabulary; the specific words chosen for retroversion affect the result.
+    \item Blog posts and non-peer-reviewed sources may contain similar observations that our literature search did not capture.
+\end{itemize}
+
+%% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+%% ============================================================
+
+The Atbash cipher, previously studied only in Jeremiah, produces semantically coherent results when applied to Hebrew terms underlying the New Testament Passion narrative. The central encoding---פסח (Passover) $\to$ וחס (and he spared)---provides a numerical key to the narrative arc from the Temple cleansing to the cross, aligning with MacDonald's mimesis-critical identification of an inverted Homeric ending (sparing instead of killing).
+
+Cross-language isopsephy reveals further patterns: the common factor 103 (= Δανιήλ in LXX) linking Aramaic and Greek forms of Barabbas; the identity ἐκβάλλω = 888 = Ἰησοῦς connecting Jesus' name to the verb of the cleansing; and the unattested \textit{privilegium paschale} as a narrative device for the inverted sparing (Barabbas released, Jesus crucified).
+
+These findings do not replace historical-critical or literary-critical analysis---they add a \textbf{numerical layer} to them. The evangelists wrote narrative theology: historical events reinterpreted through prophetic typology (Isaiah 53:12), literary mimesis (Homer, Euripides), and---as this analysis suggests---numerical encoding verifiable through computational methods now available as open-source tools.
+
+The one who spares is the one who will not be spared---but the one who is not spared will rise.
+
+%% ============================================================
+\printbibliography
+%% ============================================================
+
+\end{document}

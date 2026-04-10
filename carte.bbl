@@ -416,7 +416,6 @@
       \field{note}{Isopsefie/gematrie: 666 = Neron Kaisar; simbolism numeric în Apocalipsă}
       \field{title}{The Climax of Prophecy: Studies on the Book of Revelation}
       \field{year}{1993}
-      \true{nocite}
     \endentry
     \entry{bauckham2002}{article}{}
       \name{author}{1}{}{%
@@ -1063,6 +1062,36 @@
       \verb https://ccel.org/ccel/schaff/anf04
       \endverb
     \endentry
+    \entry{cook2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bca0514a1a42384c4b3f2a8234ad1dce}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Granger},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Tübingen}%
+      }
+      \list{publisher}{1}{%
+        {Mohr Siebeck}%
+      }
+      \strng{namehash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \strng{fullhash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \strng{bibnamehash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \strng{authorbibnamehash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \strng{authornamehash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \strng{authorfullhash}{bca0514a1a42384c4b3f2a8234ad1dce}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Wissenschaftliche Untersuchungen zum Neuen Testament}
+      \field{title}{Empty Tomb, Resurrection, Apotheosis}
+      \field{volume}{410}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
     \entry{crossan1995}{book}{}
       \name{author}{1}{}{%
         {{hash=21b5e7b2bba37d4f589d5cb875902390}{%
@@ -1136,6 +1165,33 @@
       \field{labeltitlesource}{title}
       \field{title}{Biblical Numerology: A Basic Study of the Use of Numbers in the Bible}
       \field{year}{1968}
+      \true{nocite}
+    \endentry
+    \entry{deconick2001}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3cdde0fa528072bcc2df9b72194bc9f0}{%
+           family={DeConick},
+           familyi={D\bibinitperiod},
+           given={April\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Sheffield Academic Press}%
+      }
+      \strng{namehash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \strng{fullhash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \strng{bibnamehash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \strng{authorbibnamehash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \strng{authornamehash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \strng{authorfullhash}{3cdde0fa528072bcc2df9b72194bc9f0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Journal for the Study of the New Testament Supplement Series}
+      \field{title}{Voices of the Mystics: Early Christian Discourse in the Gospels of John and Thomas and Other Ancient Christian Literature}
+      \field{volume}{157}
+      \field{year}{2001}
       \true{nocite}
     \endentry
     \entry{didahia}{book}{}
@@ -2010,6 +2066,28 @@
       \field{year}{1882}
       \true{nocite}
     \endentry
+    \entry{homer_odyssey}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6808487b571183152e1d42e214d27a6f}{%
+           family={Homer},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6808487b571183152e1d42e214d27a6f}
+      \strng{fullhash}{6808487b571183152e1d42e214d27a6f}
+      \strng{bibnamehash}{6808487b571183152e1d42e214d27a6f}
+      \strng{authorbibnamehash}{6808487b571183152e1d42e214d27a6f}
+      \strng{authornamehash}{6808487b571183152e1d42e214d27a6f}
+      \strng{authorfullhash}{6808487b571183152e1d42e214d27a6f}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~VIII î.Hr. 11.204--208: Odiseu încearcă să o îmbrățișeze pe Anticleia în Hades; mâinile trec prin umbră}
+      \field{title}{Odyssea (Odiseea)}
+      \field{year}{750}
+      \true{nocite}
+    \endentry
     \entry{homer}{book}{}
       \name{author}{1}{}{%
         {{hash=6808487b571183152e1d42e214d27a6f}{%
@@ -2022,6 +2100,7 @@
       \strng{authorbibnamehash}{6808487b571183152e1d42e214d27a6f}
       \strng{authornamehash}{6808487b571183152e1d42e214d27a6f}
       \strng{authorfullhash}{6808487b571183152e1d42e214d27a6f}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -2456,6 +2535,34 @@
       \field{year}{1960}
       \true{nocite}
     \endentry
+    \entry{koskenniemi1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59dd12e1a6b3e094f05db69d45d1eacd}{%
+           family={Koskenniemi},
+           familyi={K\bibinitperiod},
+           given={Erkki},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Tübingen}%
+      }
+      \list{publisher}{1}{%
+        {Mohr Siebeck}%
+      }
+      \strng{namehash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \strng{fullhash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \strng{bibnamehash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \strng{authorbibnamehash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \strng{authornamehash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \strng{authorfullhash}{59dd12e1a6b3e094f05db69d45d1eacd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Apollonius von Tyana in der neutestamentlichen Exegese}
+      \field{year}{1994}
+      \true{nocite}
+    \endentry
     \entry{labuschagne2000}{book}{}
       \name{author}{1}{}{%
         {{hash=48781f5b8abddf78d720f39f05162549}{%
@@ -2604,6 +2711,58 @@
       \verb 10.1017/S0028688500016842
       \endverb
     \endentry
+    \entry{litwa2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3554cbae96364d207ee2ac3a89016a72}{%
+           family={Litwa},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi David},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{fullhash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{bibnamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authorbibnamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authornamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authorfullhash}{3554cbae96364d207ee2ac3a89016a72}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Iesus Deus: The Early Christian Depiction of Jesus as a Mediterranean God}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{litwa2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3554cbae96364d207ee2ac3a89016a72}{%
+           family={Litwa},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi David},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{fullhash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{bibnamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authorbibnamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authornamehash}{3554cbae96364d207ee2ac3a89016a72}
+      \strng{authorfullhash}{3554cbae96364d207ee2ac3a89016a72}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How the Gospels Became History: Jesus and Mediterranean Myths}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
     \entry{lund1942}{book}{}
       \name{author}{1}{}{%
         {{hash=19b6fbd34fbe98d26602fc4fa905ac4d}{%
@@ -2653,6 +2812,31 @@
       \field{title}{Contra ereziilor ({Adversus Haereses})}
       \true{nocite}
     \endentry
+    \entry{irenaeus_adv_haer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=598c844a7f262e3bf9245dd31b73184c}{%
+           family={Lyon)},
+           familyi={L\bibinitperiod},
+           given={Irenaeus\bibnamedelimb Lugdunensis\bibnamedelima (Irineu},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim (\bibinitperiod},
+           prefix={din},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{fullhash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{bibnamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authorbibnamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authornamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authorfullhash}{598c844a7f262e3bf9245dd31b73184c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cca.\ 180 d.Hr. Cartea V, cap.~30.3: discută numărul Fiarei (666) din Apocalipsa 13:18 și propune trei candidați greci cu isopsefia 666 --- \textbf{Εὐάνθας}, \textbf{Λατεῖνος} (latinul) și \textbf{Τειτάν} (Titan). Λατεῖνος este candidatul preferat: «pentru că ultima împărăție poartă acest nume, pentru că latinii sunt cei care domnesc acum»}
+      \field{title}{Adversus Haereses (Împotriva ereziilor)}
+      \field{year}{180}
+      \true{nocite}
+    \endentry
     \entry{macdonald2014}{book}{}
       \name{author}{1}{}{%
         {{hash=a566ac5931a9b44ee35afb71fc797940}{%
@@ -2670,6 +2854,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -2677,6 +2862,65 @@
       \field{note}{ISBN 978-1-4422-3052-1}
       \field{title}{The {Gospels} and {Homer}: {Imitations} of {Greek Epic} in {Mark} and {Luke--Acts}}
       \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{macdonald2014gospels}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eedadf0f9305fc13910222008d4388f8}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima Ronald},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield}%
+      }
+      \strng{namehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{fullhash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{bibnamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4422-3052-1}
+      \field{series}{The New Testament and Greek Literature}
+      \field{title}{The Gospels and Homer: Imitations of Greek Epic in Mark and Luke-Acts}
+      \field{volume}{1}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{macdonald2017dionysian}{book}{}
+      \name{author}{1}{}{%
+        {{hash=eedadf0f9305fc13910222008d4388f8}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima Ronald},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{fullhash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{bibnamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
+      \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-5064-2165-0}
+      \field{title}{The Dionysian Gospel: The Fourth Gospel and Euripides}
+      \field{year}{2017}
       \true{nocite}
     \endentry
     \entry{maguire1996}{book}{}
@@ -2742,6 +2986,36 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
+    \entry{mceleney1977}{article}{}
+      \name{author}{1}{}{%
+        {{hash=acdcdc50db1992ca8b9489468282ff21}{%
+           family={McEleney},
+           familyi={M\bibinitperiod},
+           given={Neil\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pontificio Istituto Biblico}%
+      }
+      \strng{namehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{fullhash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{bibnamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authorbibnamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authornamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authorfullhash}{acdcdc50db1992ca8b9489468282ff21}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biblica}
+      \field{note}{Propune o soluție prin «atbash gematriacal» grecesc: sub un cifru inversat pe alfabetul de 24 de litere, abrevierea ΙΧΘ (pentru ΙΧΘΥΣ = Ἰησοῦς Χριστὸς Θεοῦ Υἱὸς Σωτήρ) dă 70+3+80 = 153. Precedent academic pentru aplicarea Atbash pe text grecesc NT}
+      \field{number}{3}
+      \field{title}{153 Great Fishes (John 21,11) --- Gematriacal Atbash}
+      \field{volume}{58}
+      \field{year}{1977}
+      \field{pages}{411\bibrangedash 417}
+      \range{pages}{7}
+    \endentry
     \entry{merritt1985}{article}{}
       \name{author}{1}{}{%
         {{hash=abf17c7c261d2832dd39599b5e27bf2c}{%
@@ -2800,6 +3074,64 @@
       \true{nocite}
       \field{pages}{1837\bibrangedash 1841}
       \range{pages}{5}
+    \endentry
+    \entry{miller2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=27dd9db70bb9e5ba7f18b0132a7aa857}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{fullhash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{bibnamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authorbibnamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authornamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authorfullhash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biblical Literature}
+      \field{number}{4}
+      \field{title}{Mark's Empty Tomb and Other Translation Fables in Classical Antiquity}
+      \field{volume}{129}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{759\bibrangedash 776}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.2307/40983458
+      \endverb
+    \endentry
+    \entry{miller2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=27dd9db70bb9e5ba7f18b0132a7aa857}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{fullhash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{bibnamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authorbibnamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authornamehash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \strng{authorfullhash}{27dd9db70bb9e5ba7f18b0132a7aa857}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Routledge Studies in the Early Christian World}
+      \field{title}{Resurrection and Reception in Early Christianity}
+      \field{year}{2015}
+      \true{nocite}
     \endentry
     \entry{mitchell1991}{book}{}
       \name{author}{1}{}{%
@@ -3275,6 +3607,34 @@
       \field{title}{Satyricon}
       \true{nocite}
     \endentry
+    \entry{petzke1970}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fa39141e598e236d3e2f03c5e105aec4}{%
+           family={Petzke},
+           familyi={P\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leiden}%
+      }
+      \list{publisher}{1}{%
+        {Brill}%
+      }
+      \strng{namehash}{fa39141e598e236d3e2f03c5e105aec4}
+      \strng{fullhash}{fa39141e598e236d3e2f03c5e105aec4}
+      \strng{bibnamehash}{fa39141e598e236d3e2f03c5e105aec4}
+      \strng{authorbibnamehash}{fa39141e598e236d3e2f03c5e105aec4}
+      \strng{authornamehash}{fa39141e598e236d3e2f03c5e105aec4}
+      \strng{authorfullhash}{fa39141e598e236d3e2f03c5e105aec4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Die Traditionen über Apollonius von Tyana und das Neue Testament}
+      \field{year}{1970}
+      \true{nocite}
+    \endentry
     \entry{platon_phaedo}{book}{}
       \name{author}{1}{}{%
         {{hash=e2baf3f5223080b8067f5af7843427cc}{%
@@ -3544,6 +3904,35 @@
       \field{edition}{3}
       \field{title}{Mark as Story: An Introduction to the Narrative of a Gospel}
       \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{riley1995}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7805b04e878b38215fccf58460146d78}{%
+           family={Riley},
+           familyi={R\bibinitperiod},
+           given={Gregory\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{7805b04e878b38215fccf58460146d78}
+      \strng{fullhash}{7805b04e878b38215fccf58460146d78}
+      \strng{bibnamehash}{7805b04e878b38215fccf58460146d78}
+      \strng{authorbibnamehash}{7805b04e878b38215fccf58460146d78}
+      \strng{authornamehash}{7805b04e878b38215fccf58460146d78}
+      \strng{authorfullhash}{7805b04e878b38215fccf58460146d78}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Polemica Ioan--Toma; paralela Odiseea 11 (Anticleia) și Iliada 23 (Patrocle) --- inversarea topos-ului umbrei care scapă atingerii}
+      \field{title}{Resurrection Reconsidered: Thomas and John in Controversy}
+      \field{year}{1995}
       \true{nocite}
     \endentry
     \entry{robbins1978}{incollection}{}
