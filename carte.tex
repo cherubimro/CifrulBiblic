@@ -792,7 +792,7 @@ O întrebare de onestitate intelectuală se impune: \textbf{de unde știau evang
 Marcu & c. 65–70 d.Hr. & Tradiție orală; însoțitor al lui Petru \\
 Matei & c. 80–90 d.Hr. & Marcu + sursa Q + material propriu \\
 Luca & c. 80–90 d.Hr. & Marcu + sursa Q + material propriu \\
-Ioan & c. 90–100 d.Hr. & Tradiție independentă \\
+Ioan & c. 90–100 d.Hr. & Parțial independent \\
 \bottomrule
 \end{tabularx}
 \normalsize
@@ -837,7 +837,7 @@ Marcu și Luca folosesc \textbf{independent} aceleași surse (Marcu + Q), dar Lu
   \draw[arr] (marcu) -- (luca);
   \draw[arr] (luca) -- (fapte);
   \draw[arr] (marcu.south) -- (matei);
-  \node[font=\scriptsize\color{gray}] at (7.6,-2.6) {(independent)};
+  \draw[arr, dashed] (marcu.south west) .. controls (-1.0,-3.8) and (8.6,-3.8) .. (ioan.south east) node[midway, below, font=\scriptsize\color{gray}, fill=white, inner sep=1pt] {parțial independent};
 \end{tikzpicture}
 \end{center}
 
