@@ -7639,4 +7639,45 @@ Totalul isopsefiei întregului episod (In 2:1--11) = \textbf{92826 = 6 × 15471}
 \nocite{*}
 \printbibliography[heading=bibintoc,title={Bibliografie}]
 
+% Pagină cu citat din Psalmi înainte de coperta de spate (fără header)
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}{0.75\textwidth}
+\centering
+{\large\color{bodytext}\itshape
+„Cel ce a sădit urechea, oare, nu aude?\\
+Cel ce a zidit ochiul, oare, nu priveşte?"}\\[0.6em]
+{\small\color{gray}\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=93\#9}{Psalmul 93:9}}
+\end{minipage}
+\end{center}
+\vspace*{\fill}
+
+% Coperta de spate --- pagină complet neagră
+\clearpage
+\thispagestyle{empty}
+\pagecolor{black}
+\mbox{}
+\begin{tikzpicture}[remember picture,overlay]
+    % Fill entire page black — merges with space in the image
+    \fill[black] (current page.north west) rectangle (current page.south east);
+    % Image spans full width, positioned so its space background merges seamlessly
+    \node[inner sep=0pt] at (current page.center) {
+        \includegraphics[width=\paperwidth,keepaspectratio]{artemis-art002e009288orig.jpg}
+    };
+    % Minimal Psalm quote in white, bottom
+    \node[anchor=south, text=white, align=center, font=\footnotesize\itshape] at ([yshift=1.8cm]current page.south) {
+        „Cerurile spun slava lui Dumnezeu și facerea mâinilor Lui o vestește tăria"
+    };
+    \node[anchor=south, text=gray, align=center, font=\scriptsize] at ([yshift=1.4cm]current page.south) {
+        Psalmul 18:1
+    };
+    % Credit NASA at very bottom
+    \node[anchor=south, text=gray!60, align=center, font=\scriptsize] at ([yshift=0.5cm]current page.south) {
+        NASA Artemis II\ $\cdot$\ 6 aprilie 2026\ $\cdot$\ \texttt{nasa.gov/artemis-ii-multimedia}
+    };
+\end{tikzpicture}
+
 \end{document}

@@ -16,19 +16,26 @@ def parse_bib(path):
         content = f.read()
 
     entries = []
-    # Split on @type{key,
-    pattern = re.compile(r'@(\w+)\{(\w+),', re.MULTILINE)
-    positions = [(m.start(), m.group(1), m.group(2)) for m in pattern.finditer(content)]
+    # Split on @type{key, — key can contain WOS: prefixes, dashes, etc.
+    pattern = re.compile(r'@(\w+)\s*\{\s*([^,\s]+)\s*,', re.MULTILINE)
+    positions = [(m.start(), m.group(1), m.group(2)) for m in pattern.finditer(content)
+                 if m.group(1).lower() not in ('comment', 'preamble', 'string')]
 
     for i, (pos, etype, key) in enumerate(positions):
         end = positions[i + 1][0] if i + 1 < len(positions) else len(content)
         body = content[pos:end]
 
-        # Extract fields
+        # Extract fields (case-insensitive field names; WOS uses Title, Author, etc.)
         def get_field(name):
+            # Try with braces first
             m = re.search(
-                rf'{name}\s*=\s*\{{((?:[^{{}}]|\{{[^{{}}]*\}})*)\}}',
+                rf'\b{name}\s*=\s*\{{((?:[^{{}}]|\{{[^{{}}]*\}})*)\}}',
                 body, re.IGNORECASE | re.DOTALL)
+            if not m:
+                # Try with quotes (alternative BibTeX format)
+                m = re.search(
+                    rf'\b{name}\s*=\s*"([^"]*)"',
+                    body, re.IGNORECASE | re.DOTALL)
             if m:
                 value = m.group(1).strip()
                 # Clean LaTeX commands minimally

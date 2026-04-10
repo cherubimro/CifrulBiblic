@@ -445,6 +445,46 @@
       \field{pages}{77\bibrangedash 88}
       \range{pages}{12}
     \endentry
+    \entry{WOS:000395865700012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=05f317a6c478608d92d57b957c7b5b91}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Uwe\bibnamedelimb F.\bibnamedelimi W.},
+           giveni={U\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{location}{1}{%
+        {EVANGELICKA TEOLOGICKA FAC, CERNA 9, PO BOX 529, PRAHA 1 CZ-115 55, CZECH REPUBLIC}%
+      }
+      \list{publisher}{1}{%
+        {UNIV KARLOVA PRAZE}%
+      }
+      \strng{namehash}{05f317a6c478608d92d57b957c7b5b91}
+      \strng{fullhash}{05f317a6c478608d92d57b957c7b5b91}
+      \strng{bibnamehash}{05f317a6c478608d92d57b957c7b5b91}
+      \strng{authorbibnamehash}{05f317a6c478608d92d57b957c7b5b91}
+      \strng{authornamehash}{05f317a6c478608d92d57b957c7b5b91}
+      \strng{authorfullhash}{05f317a6c478608d92d57b957c7b5b91}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gematria, the interpretation of words with the help of the value of the letters, is the 32nd rule of the Tannaic Rabbi Eleazer. According to C. L. Labuschagne, the gematria of God's name Jhwh functions as a principle in the shaping of Old Testament texts. It also plays a role in the rabbinic and cabbalistic traditions. The article shows how the values 26, 17, and 39 are calculated, gives examples of where these numbers and multiples of 26 and 17 appear in the shaping of Old Testament texts, and explains what further associations exist due to gematria. The article then examines the number 72, which plays a role both in the shaping of Old Testament texts and in the oral Torah, and finally the number 186, which is only to be found in the oral Torah. Gematria is like a network of different arithmetics, with the help of which diverse associations come into being and so new meanings are generated.}
+      \field{issn}{0010-3713}
+      \field{journaltitle}{COMMUNIO VIATORUM}
+      \field{number}{3}
+      \field{title}{ABOUT THE GEMENTRY OF THE GOD'S NAME: YHWH IN THE HEBREW BIBLE, IN MIDRASCH AND IN THE MYSTIC - A SKETCH}
+      \field{type}{Article}
+      \field{volume}{58}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{378\bibrangedash 387}
+      \range{pages}{10}
+      \keyw{Biblical Studies; Hebrew Bible; gematria; alphabet; alphanumeric code}
+    \endentry
     \entry{belting1994}{book}{}
       \name{author}{1}{}{%
         {{hash=4404ca9d753d5bfbdbd424b61e86679a}{%
@@ -724,6 +764,50 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
+    \entry{WOS:000572542400005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9057556e4cfcad4c9efd696875362627}{%
+           family={Cardwell},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima William},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {CATHOLIC UNIV AMERICA, 620 MICHIGAN AVE, NE, WASHINGTON, DC 20064 USA}%
+      }
+      \list{publisher}{1}{%
+        {CATHOLIC BIBLICAL ASSOC AMER}%
+      }
+      \strng{namehash}{9057556e4cfcad4c9efd696875362627}
+      \strng{fullhash}{9057556e4cfcad4c9efd696875362627}
+      \strng{bibnamehash}{9057556e4cfcad4c9efd696875362627}
+      \strng{authorbibnamehash}{9057556e4cfcad4c9efd696875362627}
+      \strng{authornamehash}{9057556e4cfcad4c9efd696875362627}
+      \strng{authorfullhash}{9057556e4cfcad4c9efd696875362627}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The 153 fish of John 21:11 should be seen as a ``name in numbers{''} puzzle and should be solved with that category's conventions in mind. Previous solutions have failed to explore and evaluate the knowledge a would-be puzzle-solver would need. In 1990, in an article in Expository Times I proposed adding the one fish Jesus is roasting on the coals (John 21:9) and used isopsephy to solve the new total, 154, as the word ``Day,{''} an early title of Jesus. Two new arguments support that solution: the numerical sum of the name Jesus is reflected in the three Sunday appearances-{''}on the first day of the week{''} (John 20:19); ``after eight days{''} (20:26); and the final Sunday that solves the numerical puzzle (21:1-14)-and the fishing scene imitates a wellknown gathering of eight men in book 2 of the Iliad. The elementary arithmetic of triangular numbers suggests a hypothesis. If the epilogue to the Gospel of John used the nomen sacrum (iota H) over bar for the name Jesus, the nomen as the number 18 and its triangle 171 also belong with the triangular 153 and its base of 17. The letter-numerals of eta omicron gamma delta omicron eta eta add up to 171. As letters joined with eta mu epsilon rho alpha, they form a phrase familiar from Leviticus, eta eta mu epsilon rho alpha eta omicron gamma delta omicron eta, which equals 153 plus 1 plus 171. The solution: Jesus is ``the Eighth Day.{''}}
+      \field{issn}{0008-7912}
+      \field{journaltitle}{CATHOLIC BIBLICAL QUARTERLY}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Another Fish on the Fire: John 21:9, 11}
+      \field{type}{Article}
+      \field{volume}{82}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{628\bibrangedash 648}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1353/cbq.2020.0131
+      \endverb
+      \keyw{John 21:11; gematria; isopsephy; 153 fish; triangular numbers; the eighth day}
+    \endentry
     \entry{ciprian}{book}{}
       \name{author}{1}{}{%
         {{hash=2abad441a8313b57e50d0f1264c1d36c}{%
@@ -878,6 +962,44 @@
       \field{note}{Sec.~IV d.Hr. Citări: II.23 (martiriul lui Iacov, apud Hegesippus)}
       \field{title}{Istoria {Bisericească} ({Historia Ecclesiastica})}
       \true{nocite}
+    \endentry
+    \entry{Chan2025}{article}{}
+      \name{author}{1}{}{%
+        {{hash=96941021cd8178dc291f4836adbd30a9}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Joshua\bibnamedelimb H.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {ROUTLEDGE JOURNALS, TAYLOR \& FRANCIS LTD}%
+      }
+      \strng{namehash}{96941021cd8178dc291f4836adbd30a9}
+      \strng{fullhash}{96941021cd8178dc291f4836adbd30a9}
+      \strng{bibnamehash}{96941021cd8178dc291f4836adbd30a9}
+      \strng{authorbibnamehash}{96941021cd8178dc291f4836adbd30a9}
+      \strng{authornamehash}{96941021cd8178dc291f4836adbd30a9}
+      \strng{authorfullhash}{96941021cd8178dc291f4836adbd30a9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2222-582X}
+      \field{journaltitle}{JOURNAL OF EARLY CHRISTIAN HISTORY}
+      \field{number}{2}
+      \field{title}{The Significance of the Saying ``I Am the Alpha and the Omega'' in the Early Reception History of Revelation}
+      \field{type}{Article}
+      \field{volume}{15}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1080/2222582X.2025.2563720
+      \endverb
     \endentry
     \entry{charles1912}{book}{}
       \name{author}{1}{}{%
@@ -1509,6 +1631,37 @@
       \field{year}{1997}
       \true{nocite}
     \endentry
+    \entry{emerton1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8016bfac9b73f55a955e42a4babeac9b}{%
+           family={Emerton},
+           familyi={E\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8016bfac9b73f55a955e42a4babeac9b}
+      \strng{fullhash}{8016bfac9b73f55a955e42a4babeac9b}
+      \strng{bibnamehash}{8016bfac9b73f55a955e42a4babeac9b}
+      \strng{authorbibnamehash}{8016bfac9b73f55a955e42a4babeac9b}
+      \strng{authornamehash}{8016bfac9b73f55a955e42a4babeac9b}
+      \strng{authorfullhash}{8016bfac9b73f55a955e42a4babeac9b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theological Studies}
+      \field{note}{Proposes that 153 encodes the Hebrew place-names En-gedi (17) and En-eglaim (עגלי = 153) from Ezekiel 47:10, where Ezekiel sees a river flowing from the Temple teeming with fish. Widely accepted as the most plausible Hebrew-gematria solution}
+      \field{number}{1}
+      \field{title}{The Hundred and Fifty-Three Fishes in John XXI.11}
+      \field{volume}{9}
+      \field{year}{1958}
+      \true{nocite}
+      \field{pages}{86\bibrangedash 89}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/jts/IX.1.86
+      \endverb
+    \endentry
     \entry{espenak_eclipse}{misc}{}
       \name{author}{1}{}{%
         {{hash=81e76d5bf407223f5f15a10049862291}{%
@@ -1715,6 +1868,50 @@
       \field{pages}{1\bibrangedash 30}
       \range{pages}{30}
     \endentry
+    \entry{WOS:000541377200007}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=15bd7a28b1962b7b17ef9e7be1ba59b1}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={WG},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cc572c4e47923d16993bdacb1f36409f}{%
+           family={Strickland},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {PO BOX 9000, 2300 PA LEIDEN, NETHERLANDS}%
+      }
+      \list{publisher}{1}{%
+        {BRILL}%
+      }
+      \strng{namehash}{39bbab4166747cc1c433f88f8c88f200}
+      \strng{fullhash}{39bbab4166747cc1c433f88f8c88f200}
+      \strng{bibnamehash}{39bbab4166747cc1c433f88f8c88f200}
+      \strng{authorbibnamehash}{39bbab4166747cc1c433f88f8c88f200}
+      \strng{authornamehash}{39bbab4166747cc1c433f88f8c88f200}
+      \strng{authorfullhash}{39bbab4166747cc1c433f88f8c88f200}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{INFLUENCE OF EZEKIEL IN THE FOURTH GOSPEL: INTERTEXTUALITY AND INTERPRETATION}
+      \field{isbn}{978-90-04-38384-5; 978-90-04-38381-4}
+      \field{issn}{0928-0731}
+      \field{series}{Biblical Interpretation Series}
+      \field{title}{Influence of Ezekiel in the Fourth Gospel: Intertextuality and Interpretation}
+      \field{type}{Book}
+      \field{volume}{167}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 160}
+      \range{pages}{160}
+    \endentry
     \entry{genette1972}{book}{}
       \name{author}{1}{}{%
         {{hash=a7761d3fd65ea36d5c84d114d588896b}{%
@@ -1861,6 +2058,47 @@
       \field{year}{1997}
       \true{nocite}
     \endentry
+    \entry{WOS:A1984SH44500009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=02ee9b4f4ff7c97db540634a4af3a534}{%
+           family={GRIGSBY},
+           familyi={G\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {SUBSCRIPTION DEPT 59 GEORGE ST, EDINBURGH EH2 2LQ, MIDLOTHIAN, SCOTLAND}%
+      }
+      \list{publisher}{1}{%
+        {T \& T CLARK LTD ATTN}%
+      }
+      \strng{namehash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \strng{fullhash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \strng{bibnamehash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \strng{authorbibnamehash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \strng{authornamehash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \strng{authorfullhash}{02ee9b4f4ff7c97db540634a4af3a534}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0014-5246}
+      \field{journaltitle}{EXPOSITORY TIMES}
+      \field{number}{6}
+      \field{title}{GEMATRIA AND JOHN 21.11 - ANOTHER LOOK AT EZEKIEL 47.10}
+      \field{type}{Article}
+      \field{volume}{95}
+      \field{year}{1984}
+      \true{nocite}
+      \field{pages}{177\bibrangedash 178}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1177/001452468409500607
+      \endverb
+    \endentry
     \entry{harnack1907}{book}{}
       \name{author}{1}{}{%
         {{hash=5588e01356cbc946ca7c04426e858e68}{%
@@ -1944,6 +2182,39 @@
       \verb 10.1515/opth-2022-0245
       \endverb
     \endentry
+    \entry{Harvey2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3fc77bc6de6faf2b7e96dc44aa1cadcd}{%
+           family={Harvey},
+           familyi={H\bibinitperiod},
+           given={Warren\bibnamedelima Zev},
+           giveni={W\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \strng{fullhash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \strng{bibnamehash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \strng{authorbibnamehash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \strng{authornamehash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \strng{authorfullhash}{3fc77bc6de6faf2b7e96dc44aa1cadcd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1583-0039}
+      \field{journaltitle}{JOURNAL FOR THE STUDY OF RELIGIONS AND IDEOLOGIES}
+      \field{number}{18}
+      \field{title}{Idel on Spinoza}
+      \field{type}{Article}
+      \field{volume}{6}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{88\bibrangedash 94}
+      \range{pages}{7}
+      \keyw{God; nature; love; Kabbalah; mysticism; gematria; Moshe Idel; Spinoza; Maimonides; Abulafia; Deus sive Natura}
+    \endentry
     \entry{haskins1993}{book}{}
       \name{author}{1}{}{%
         {{hash=15db25ac40395f0c5b24ed2043224111}{%
@@ -1996,6 +2267,48 @@
       \true{nocite}
       \field{pages}{178\bibrangedash 206}
       \range{pages}{29}
+    \endentry
+    \entry{WOS:000083367000006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1287476538734620b2ee1efbf17a018a}{%
+           family={Heinzerling},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{location}{1}{%
+        {GENTHINER STRASSE 13, D-10785 BERLIN, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {WALTER DE GRUYTER \& CO}%
+      }
+      \strng{namehash}{1287476538734620b2ee1efbf17a018a}
+      \strng{fullhash}{1287476538734620b2ee1efbf17a018a}
+      \strng{bibnamehash}{1287476538734620b2ee1efbf17a018a}
+      \strng{authorbibnamehash}{1287476538734620b2ee1efbf17a018a}
+      \strng{authornamehash}{1287476538734620b2ee1efbf17a018a}
+      \strng{authorfullhash}{1287476538734620b2ee1efbf17a018a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Balaams utterance concerning the countlessness of Israel gives reason to look for an alternative explanation of the ``census of the people{''} in Num 1 and 26. Using a key layed down in the context and a number of statistical observations, the figures can be decoded yielding the formula: 170{*}365-130{*}365=40{*}365. These numbers can be interpreted within the meaning of the gematries of Gods name Yahwe(17) and the numeral `a epsilon had (13) (cp. Dtn 6, 4) as well as the reading of 40{*}365 as the 40 years of wandering in the desert: Yahwe, the one and only God of Israel, presided over the 40 years of their wilderness journey.}
+      \field{issn}{0044-2526}
+      \field{journaltitle}{ZEITSCHRIFT FUR DIE ALTTESTAMENTLICHE WISSENSCHAFT}
+      \field{number}{3}
+      \field{title}{Balaam's riddle:: The census of the ``able bodied{''} people of Israel in Numbers-I and Numbers-XXVI -: Interpretations and meanings behind the Gematria of divine names}
+      \field{type}{Article}
+      \field{volume}{111}
+      \field{year}{1999}
+      \true{nocite}
+      \field{pages}{404\bibrangedash 415}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1515/zatw.1999.111.3.404
+      \endverb
     \endentry
     \entry{herodot}{book}{}
       \name{author}{1}{}{%
@@ -2141,6 +2454,48 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1038/306743a0
+      \endverb
+    \endentry
+    \entry{WOS:A1987H060700010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=071a8545db0ab6ca4b42344416e86688}{%
+           family={HVALVIK},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {40 WEST 20TH STREET, NEW YORK, NY 10011-4211}%
+      }
+      \list{publisher}{1}{%
+        {CAMBRIDGE UNIV PRESS}%
+      }
+      \strng{namehash}{071a8545db0ab6ca4b42344416e86688}
+      \strng{fullhash}{071a8545db0ab6ca4b42344416e86688}
+      \strng{bibnamehash}{071a8545db0ab6ca4b42344416e86688}
+      \strng{authorbibnamehash}{071a8545db0ab6ca4b42344416e86688}
+      \strng{authornamehash}{071a8545db0ab6ca4b42344416e86688}
+      \strng{authorfullhash}{071a8545db0ab6ca4b42344416e86688}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0028-6885}
+      \field{journaltitle}{NEW TESTAMENT STUDIES}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{BARNABAS-9,7-9 AND THE AUTHORS SUPPOSED USE OF GEMATRIA}
+      \field{type}{Article}
+      \field{volume}{33}
+      \field{year}{1987}
+      \true{nocite}
+      \field{pages}{276\bibrangedash 282}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1017/S0028688500022694
       \endverb
     \endentry
     \entry{isaac_paisie}{book}{}
@@ -2431,6 +2786,44 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
+    \entry{WOS:000165529800003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3a75dfeb4fb3aea5a68ad82952ed4332}{%
+           family={Kellner},
+           familyi={K\bibinitperiod},
+           given={HA},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{location}{1}{%
+        {HEGELGASSE 13-22, 1010 VIENNA, AUSTRIA}%
+      }
+      \list{publisher}{1}{%
+        {MUSIKVERLAG ELISABETH LAFITE}%
+      }
+      \strng{namehash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \strng{fullhash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \strng{bibnamehash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \strng{authorbibnamehash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \strng{authornamehash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \strng{authorfullhash}{3a75dfeb4fb3aea5a68ad82952ed4332}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0029-9316}
+      \field{journaltitle}{OSTERREICHISCHE MUSIKZEITSCHRIFT}
+      \field{number}{11-12}
+      \field{title}{Divine unity and mathematical order - Numerical alphabet and gematria from A. Werckmeister to J.S. Bach}
+      \field{type}{Article}
+      \field{volume}{55}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{8\bibrangedash 16}
+      \range{pages}{9}
+    \endentry
     \entry{kellum2004}{book}{}
       \name{author}{1}{}{%
         {{hash=23c3670700ea37126e2174afb93dedf8}{%
@@ -2507,6 +2900,49 @@
       \field{year}{2000}
       \true{nocite}
     \endentry
+    \entry{WOS:000411705400001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4cb0bcb85eb893b2abf105d037aeeef5}{%
+           family={Koester},
+           familyi={K\bibinitperiod},
+           given={Craig\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {2-4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND}%
+      }
+      \list{publisher}{1}{%
+        {ROUTLEDGE JOURNALS, TAYLOR \& FRANCIS LTD}%
+      }
+      \strng{namehash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \strng{fullhash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \strng{bibnamehash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \strng{authorbibnamehash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \strng{authornamehash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \strng{authorfullhash}{4cb0bcb85eb893b2abf105d037aeeef5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Revelation's portrayal of a tyrannical beast concludes with a riddle, which identifies the beast's number as 666 (Rev. 13: 18). Among the factors that complicate the interpretation of the riddle are: first, that there is a notable textual variant that reads 616 instead of 666; second, that there are differences over the appropriate method of interpretation; and third, that even those who agree about method may reach different conclusions. Many scholars find the most plausible interpretation to be that the number summarises the numerical value of `Nero Caesar' written in Hebrew characters, while others find this proposal unconvincing. This article provides fresh support for the `Nero Caesar' interpretation by examining recently published graffiti from the agora at Smyrna, papyri from Oxyrhynchus, Ketef Jericho, and Murabba'at, and inscriptions from the synagogues at Sardis and Dura Europos.}
+      \field{issn}{2222-582X}
+      \field{journaltitle}{JOURNAL OF EARLY CHRISTIAN HISTORY}
+      \field{number}{3}
+      \field{title}{THE NUMBER OF THE BEAST IN REVELATION 13 IN LIGHT OF PAPYRI, GRAFFITI, AND INSCRIPTIONS}
+      \field{type}{Article}
+      \field{volume}{6}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/2222582X.2016.1218996
+      \endverb
+      \keyw{Revelation; beast; gematria; riddle; 666; inscriptions; Dead Sea Scrolls}
+    \endentry
     \entry{kontoglou1960}{book}{}
       \name{author}{1}{}{%
         {{hash=c88ab71e16bee847f49b89fe09afb927}{%
@@ -2535,6 +2971,47 @@
       \field{year}{1960}
       \true{nocite}
     \endentry
+    \entry{Korpel2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0a060b07c58d1884547a8f60adc522eb}{%
+           family={Korpel},
+           familyi={K\bibinitperiod},
+           given={Marjo\bibnamedelimb C.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{location}{1}{%
+        {BERLIN, GERMANY}%
+      }
+      \list{publisher}{1}{%
+        {WALTER DE GRUYTER}%
+      }
+      \strng{namehash}{0a060b07c58d1884547a8f60adc522eb}
+      \strng{fullhash}{0a060b07c58d1884547a8f60adc522eb}
+      \strng{bibnamehash}{0a060b07c58d1884547a8f60adc522eb}
+      \strng{authorbibnamehash}{0a060b07c58d1884547a8f60adc522eb}
+      \strng{authornamehash}{0a060b07c58d1884547a8f60adc522eb}
+      \strng{authorfullhash}{0a060b07c58d1884547a8f60adc522eb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0044-2526}
+      \field{journaltitle}{ZEITSCHRIFT FUR DIE ALTTESTAMENTLICHE WISSENSCHAFT}
+      \field{title}{Kryptogramme in Ezechiel 19 und im 'Izbet-Sarta-Ostrakon}
+      \field{type}{Article}
+      \field{volume}{121}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{70\bibrangedash 86}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1515/ZAW.2009.005
+      \endverb
+      \keyw{Ezekiel 19; cryptogram; atbash; 'Izbet-Sarta}
+    \endentry
     \entry{koskenniemi1994}{book}{}
       \name{author}{1}{}{%
         {{hash=59dd12e1a6b3e094f05db69d45d1eacd}{%
@@ -2562,6 +3039,90 @@
       \field{title}{Apollonius von Tyana in der neutestamentlichen Exegese}
       \field{year}{1994}
       \true{nocite}
+    \endentry
+    \entry{WOS:000747728800002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=96194162d647a5b2114898acdeb3284f}{%
+           family={Krawczyk},
+           familyi={K\bibinitperiod},
+           given={Arje\bibnamedelima Josef},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {UL TLOMACKIE 3-5, WARSAW, 00-090, POLAND}%
+      }
+      \list{publisher}{1}{%
+        {JEWISH HISTORICAL INST}%
+      }
+      \strng{namehash}{96194162d647a5b2114898acdeb3284f}
+      \strng{fullhash}{96194162d647a5b2114898acdeb3284f}
+      \strng{bibnamehash}{96194162d647a5b2114898acdeb3284f}
+      \strng{authorbibnamehash}{96194162d647a5b2114898acdeb3284f}
+      \strng{authornamehash}{96194162d647a5b2114898acdeb3284f}
+      \strng{authorfullhash}{96194162d647a5b2114898acdeb3284f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of the paper is to stress the validity of gematria within the halachic world. Moreover, it is to present the output of Oskar Goldberg (1885-1952) related to gematrical analysis of Torah. Finally, it is aimed to show the latest research regarding the statistical and semiotic analysis of the numerical value 26 appearing in the Torah text}
+      \field{issn}{1899-3044}
+      \field{journaltitle}{KWARTALNIK HISTORII ZYDOW-JEWISH HISTORY QUARTERLY}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{The Names, the Heights and the Number 26. The Significance of Gematria Method. Further Findings on Gematria 26 Structures within the Torah}
+      \field{type}{Article}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{349\bibrangedash 371}
+      \range{pages}{23}
+      \keyw{Gematria; Oskar Goldberg; 26; halacha; semiotics; statistics; Bible research}
+    \endentry
+    \entry{WOS:001520638600001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=06aa02d436934d4526e23c258434f0c6}{%
+           family={Kulik},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {EDINBURGH BLDG, SHAFTESBURY RD, CB2 8RU CAMBRIDGE, ENGLAND}%
+      }
+      \list{publisher}{1}{%
+        {CAMBRIDGE UNIV PRESS}%
+      }
+      \strng{namehash}{06aa02d436934d4526e23c258434f0c6}
+      \strng{fullhash}{06aa02d436934d4526e23c258434f0c6}
+      \strng{bibnamehash}{06aa02d436934d4526e23c258434f0c6}
+      \strng{authorbibnamehash}{06aa02d436934d4526e23c258434f0c6}
+      \strng{authornamehash}{06aa02d436934d4526e23c258434f0c6}
+      \strng{authorfullhash}{06aa02d436934d4526e23c258434f0c6}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study reconstructs the numerological considerations behind a Judeo-Greek innovation in religious terminology, with a focus on its key element-Hellenization of the Hebrew name of God. It demonstrates that the Greek nomen sacrum can also be interpreted as a sacred number, a fact that directly infuses the otherwise broad term kappa upsilon rho iota omicron sigma with numinosity. This observation carries multiple implications for understanding the phenomena of nomina sacra and ``names-numbers{''} as well as other related topics, such as the emergence of Greek and Hebrew alphabetic numerals, early Jewish and Christian numeric symbolism, and early binitarian theology.}
+      \field{issn}{0017-8160}
+      \field{journaltitle}{HARVARD THEOLOGICAL REVIEW}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Counting on God's Name: The Numerology of Nomina Sacra}
+      \field{type}{Article}
+      \field{volume}{118}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{425\bibrangedash 463}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1017/S001781602510076X
+      \endverb
+      \keyw{Tetragrammaton; numerical symbolism; isopsephy; gematria; alphabetic numerals; Judeo-Greek; binitarian; high Christology}
     \endentry
     \entry{labuschagne2000}{book}{}
       \name{author}{1}{}{%
@@ -2654,6 +3215,45 @@
       \verb{url}
       \verb https://legislatie.just.ro/Public/DetaliiDocumentAfis/190446
       \endverb
+    \endentry
+    \entry{WOS:000226164300003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8ac92d0172dada2c87aeef89a7f059b7}{%
+           family={Leuchter},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {PIAZZA DELLA PILOTTA 35, I-00187 ROME, ITALY}%
+      }
+      \list{publisher}{1}{%
+        {BIBLICAL INST PRESS}%
+      }
+      \strng{namehash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \strng{fullhash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \strng{bibnamehash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \strng{authorbibnamehash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \strng{authornamehash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \strng{authorfullhash}{8ac92d0172dada2c87aeef89a7f059b7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jeremiah's famous 70-year prophecy (Jer 25,11-12; 29, 10) and the atbash codes (Jer 25,26; 51,1.41) have been the subject of much scholarly discussion, with no consensus as to their provenance or meaning. An important inscription from the reign of Esarhaddon suggests that they be viewed as inter-related rhetorical devices. The Esarhaddon inscription, written in relation to that king's extensive building program in Babylon, contains both a 70-year decree and the Akkadian Cuneiform parallel to the Hebrew Alphabetic atbash codes, claiming that the god Marduk had inverted the 70-year decree, thus allowing Esarhaddon to rebuild the city. This inscription was likely well known to the members of the Josianic court and the elite of Judean society who were carried off to Babylon in 597 B.C.E. This suggests that Jeremiah's 70-Year prophecy and the atbash codes were employed to direct the prophet's audience to the Esarhaddon inscription and its implications with respect to Babylonian hegemony as a matter of divine will.}
+      \field{issn}{0006-0887}
+      \field{journaltitle}{BIBLICA}
+      \field{number}{4}
+      \field{title}{Jeremiah's 70-year prophecy and the `shshr/lv kmy' Atbash codes}
+      \field{type}{Article}
+      \field{volume}{85}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{503\bibrangedash 522}
+      \range{pages}{20}
     \endentry
     \entry{lieberman1987}{incollection}{}
       \name{author}{1}{}{%
@@ -2762,6 +3362,49 @@
       \field{title}{How the Gospels Became History: Jesus and Mediterranean Myths}
       \field{year}{2019}
       \true{nocite}
+    \endentry
+    \entry{WOS:000256441500008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=897c11925cf6bd861b34fd6217c89c1e}{%
+           family={Loiseau},
+           familyi={L\bibinitperiod},
+           given={Anne-Francoise},
+           giveni={A\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {French}%
+      }
+      \list{location}{1}{%
+        {LADEUZEPLEIN 21, LEUVEN, B-3000, BELGIUM}%
+      }
+      \list{publisher}{1}{%
+        {UNIV CATHOLIQUE LOUVAIN}%
+      }
+      \strng{namehash}{897c11925cf6bd861b34fd6217c89c1e}
+      \strng{fullhash}{897c11925cf6bd861b34fd6217c89c1e}
+      \strng{bibnamehash}{897c11925cf6bd861b34fd6217c89c1e}
+      \strng{authorbibnamehash}{897c11925cf6bd861b34fd6217c89c1e}
+      \strng{authornamehash}{897c11925cf6bd861b34fd6217c89c1e}
+      \strng{authorfullhash}{897c11925cf6bd861b34fd6217c89c1e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In John 3,14-15, Jesus compares Moses lifting up the serpent in the wilderness with the Son of man doomed to be lifted up, so that whosoever believes in him have eternal life. Whence originates this astonishing comparison? In Num 21,8-9, Moses' serpent of brass is supposed to be set upon a pole. This pole is expressed in Hebrew as nes, and in the Aramaic translation of Neof. 1 and others tg, as athar teley, an elevated place. But as this verb teley means also to ``hang, to crucify{''}, one could also understand ``the place of a crucified man{''}, that is the cross. And in Es 11,10-12, the descendant of Jesse (the Davidic king, the messiah) shall stand for a nes (an ensign) for the nations. Moreover, the Es 14,29 Tg translates MT ``serpent{''} as ``messiah{''}. This interpretation can be explained by the rabbinic method called gezerah shawah: as we find the word ``root{''} in Es 14,29 and in Es 11,10, the messianic significance of the latter text has influenced the other one. Besides, the mathematic value of ``serpent{''} and ``messiah{''} is the same (358) by guematria. We can conclude that John's prophecy concerning the Son of man (= serpent = Messiah elevated on the cross) is founded on such traditional interpretations.}
+      \field{issn}{0013-9513}
+      \field{journaltitle}{EPHEMERIDES THEOLOGICAE LOVANIENSES}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Evangelical tradition and Jewish hermeneutics. Does John's brazen serpent not rest on Gematria?}
+      \field{type}{Article}
+      \field{volume}{83}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{155\bibrangedash 163}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.2143/ETL.83.1.2021746
+      \endverb
     \endentry
     \entry{lund1942}{book}{}
       \name{author}{1}{}{%
@@ -2986,6 +3629,46 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
+    \entry{McEleney1977}{article}{}
+      \name{author}{1}{}{%
+        {{hash=acdcdc50db1992ca8b9489468282ff21}{%
+           family={McEleney},
+           familyi={M\bibinitperiod},
+           given={Neil\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {PIAZZA DELLA PILOTTA 35, I-00187 ROME, ITALY}%
+      }
+      \list{publisher}{1}{%
+        {BIBLICAL INST PRESS}%
+      }
+      \strng{namehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{fullhash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{bibnamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authorbibnamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authornamehash}{acdcdc50db1992ca8b9489468282ff21}
+      \strng{authorfullhash}{acdcdc50db1992ca8b9489468282ff21}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0006-0887}
+      \field{journaltitle}{BIBLICA}
+      \field{number}{3}
+      \field{title}{153 Great Fishes (John 21,11) -- Gematrial Atbash}
+      \field{type}{Article}
+      \field{volume}{58}
+      \field{year}{1977}
+      \true{nocite}
+      \field{pages}{411\bibrangedash 417}
+      \range{pages}{7}
+      \keyw{John 21:11; 153 fish; gematria; atbash; IXΘ; Ἰησοῦς Χριστὸς Θεός}
+    \endentry
     \entry{mceleney1977}{article}{}
       \name{author}{1}{}{%
         {{hash=acdcdc50db1992ca8b9489468282ff21}{%
@@ -3003,6 +3686,7 @@
       \strng{authorbibnamehash}{acdcdc50db1992ca8b9489468282ff21}
       \strng{authornamehash}{acdcdc50db1992ca8b9489468282ff21}
       \strng{authorfullhash}{acdcdc50db1992ca8b9489468282ff21}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -3074,6 +3758,59 @@
       \true{nocite}
       \field{pages}{1837\bibrangedash 1841}
       \range{pages}{5}
+    \endentry
+    \entry{WOS:000287498800003}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=148505db77d8e435fbd27f46def466a0}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3a5f6c969904a9d226a9fce6d008bdd4}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {345 E 47TH ST, NEW YORK, NY 10017 USA}%
+      }
+      \list{organization}{1}{%
+        {Technol Soc}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{148505db77d8e435fbd27f46def466a0}
+      \strng{fullhash}{148505db77d8e435fbd27f46def466a0}
+      \strng{bibnamehash}{148505db77d8e435fbd27f46def466a0}
+      \strng{authorbibnamehash}{148505db77d8e435fbd27f46def466a0}
+      \strng{authornamehash}{148505db77d8e435fbd27f46def466a0}
+      \strng{authorfullhash}{148505db77d8e435fbd27f46def466a0}
+      \strng{editorbibnamehash}{3a5f6c969904a9d226a9fce6d008bdd4}
+      \strng{editornamehash}{3a5f6c969904a9d226a9fce6d008bdd4}
+      \strng{editorfullhash}{3a5f6c969904a9d226a9fce6d008bdd4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As the year 2000 came and went, with the suitably forecasted fuse-box of utopian and apocalyptic responses, the question of ``666{''} (Rev 13:18) was once more brought to our attention in different ways. Biblical scholars, for instance, focused again on the interpretation of the notorious conundrum and on the Traditionsgeschichte of Antichrist. For some of those commentators it was a reply to the outpouring of sensationalist publications fuelled by the millennial mania. This paper aims to shed some light on the background, the sources, and the interpretation of the ``number of the beast{''}. It explores the ancient techniques for understanding the conundrum including: gematria, arithmetic, symbolic, and riddle-based solutions. Is the ``number{''} in any way related to advanced automatic identification technologies such as microchip implants? And what of the social implications of integrating such advanced technologies to citizenry who may not wish to buy-in into such schemes (e. g. national healthcare) which are in apparent conflict with their religious beliefs?}
+      \field{booktitle}{PROCEEDINGS OF THE 2010 IEEE INTERNATIONAL SYMPOSIUM ON TECHNOLOGY AND SOCIETY: SOCIAL IMPLICATIONS OF EMERGING TECHNOLOGIES}
+      \field{isbn}{978-1-4244-7775-3}
+      \field{issn}{2158-3404}
+      \field{note}{International Symposium on Technology-and-Society - Social Implications of Emerging Technologies, Univ Wollongong, Wollongong, AUSTRALIA, JUN 07-09, 2010}
+      \field{series}{IEEE International Symposium on Technology and Society}
+      \field{title}{Demystifying the Number of the Beast in the Book of Revelation: Examples of Ancient Cryptology and the Interpretation of the ``666{''} Conundrum}
+      \field{type}{Proceedings Paper}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{23\bibrangedash 41}
+      \range{pages}{19}
     \endentry
     \entry{miller2010}{article}{}
       \name{author}{1}{}{%
@@ -3315,6 +4052,50 @@
       \field{title}{Ancient Medicine}
       \field{year}{2013}
       \true{nocite}
+    \endentry
+    \entry{WOS:000400089500004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a99fda4f1bbc2973c3234f798ff63a1e}{%
+           family={Oakman},
+           familyi={O\bibinitperiod},
+           given={Douglas\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND}%
+      }
+      \list{publisher}{1}{%
+        {SAGE PUBLICATIONS LTD}%
+      }
+      \strng{namehash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \strng{fullhash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \strng{bibnamehash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \strng{authorbibnamehash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \strng{authornamehash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \strng{authorfullhash}{a99fda4f1bbc2973c3234f798ff63a1e}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The mystery of the one-hundred and fifty-three fish in John 21 has been discussed for centuries. Unlike previous religious or theological readings based on ancient gematria, the claim of this article is that the number 153 yields its mysterious secret in political terms. This approach to the cipher, together with Weberian and other social interpretive lenses, helps to unpack the political significance of chapter 21, its link to Petrine tradition and the tradition history of the Gospel of John, additional connections between the Johannine redactor and Thomas Christianity in Egypt, and the significance of John 21 more generally for understanding political orientations in early Christianity.}
+      \field{issn}{0146-1079}
+      \field{journaltitle}{BIBLICAL THEOLOGY BULLETIN}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{The Political Meaning of a Cipher-John 21:11: In memory of an unforgettable friend and scholar John J. Pilch}
+      \field{type}{Article}
+      \field{volume}{47}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{87\bibrangedash 94}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1177/0146107917697904
+      \endverb
+      \keyw{John 21:11; Peter; Thomas; Nero; name-gematria; Max Weber; politics}
     \endentry
     \entry{oug16_2024}{misc}{}
       \field{sortinit}{O}
@@ -3701,6 +4482,45 @@
       \field{year}{1990}
       \true{nocite}
     \endentry
+    \entry{Psychoyos2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=664a7411ba748f081ada793a48c86756}{%
+           family={Psychoyos},
+           familyi={P\bibinitperiod},
+           given={Dimitris\bibnamedelima K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {WALTER DE GRUYTER}%
+      }
+      \strng{namehash}{664a7411ba748f081ada793a48c86756}
+      \strng{fullhash}{664a7411ba748f081ada793a48c86756}
+      \strng{bibnamehash}{664a7411ba748f081ada793a48c86756}
+      \strng{authorbibnamehash}{664a7411ba748f081ada793a48c86756}
+      \strng{authornamehash}{664a7411ba748f081ada793a48c86756}
+      \strng{authorfullhash}{664a7411ba748f081ada793a48c86756}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0037-1998}
+      \field{journaltitle}{SEMIOTICA}
+      \field{number}{1-4}
+      \field{title}{The forgotten art of isopsephy and the magic number KZ}
+      \field{type}{Article}
+      \field{volume}{154}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{157\bibrangedash 224}
+      \range{pages}{68}
+      \verb{doi}
+      \verb 10.1515/semi.2005.2005.154-1-4.157
+      \endverb
+      \keyw{isopsephy; gematria; Greek alphabet; numeral system; Milesian system}
+    \endentry
     \entry{quenot1991}{book}{}
       \name{author}{1}{}{%
         {{hash=345231993e899f4a16333f582dca659b}{%
@@ -3789,6 +4609,48 @@
       \field{title}{Septuaginta ({LXX})}
       \field{year}{2006}
       \true{nocite}
+    \endentry
+    \entry{WOS:000267305400007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d86f8b9c61b630148ffe61815902c0d2}{%
+           family={Rastoin},
+           familyi={R\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {French}%
+      }
+      \list{location}{1}{%
+        {PIAZZA DELLA PILOTTA 35, I-00187 ROME, ITALY}%
+      }
+      \list{organization}{1}{%
+        {Acad Hebrew Language; IsraelUniv, Hebrew Language Dept}%
+      }
+      \list{publisher}{1}{%
+        {BIBLICAL INST PRESS}%
+      }
+      \strng{namehash}{d86f8b9c61b630148ffe61815902c0d2}
+      \strng{fullhash}{d86f8b9c61b630148ffe61815902c0d2}
+      \strng{bibnamehash}{d86f8b9c61b630148ffe61815902c0d2}
+      \strng{authorbibnamehash}{d86f8b9c61b630148ffe61815902c0d2}
+      \strng{authornamehash}{d86f8b9c61b630148ffe61815902c0d2}
+      \strng{authorfullhash}{d86f8b9c61b630148ffe61815902c0d2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0006-0887}
+      \field{journaltitle}{BIBLICA}
+      \field{note}{Joint Conference of the Academy-of-the-Hebrew-Language/Hebrew-Language-Department-of-the-Israeli -Universities, Haifa Univ, Haifa, ISRAEL, JUL 14, 2007}
+      \field{number}{1}
+      \field{title}{153 fish once more (John, 21,11)}
+      \field{type}{Article; Proceedings Paper}
+      \field{volume}{90}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{84\bibrangedash 92}
+      \range{pages}{9}
     \endentry
     \entry{raynor2015}{article}{}
       \name{author}{1}{}{%
@@ -3973,6 +4835,47 @@
       \field{pages}{215\bibrangedash 242}
       \range{pages}{28}
     \endentry
+    \entry{WOS:A1978FN05200011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9b11d37b34c37a6efdd58cb3bf01bb6b}{%
+           family={ROMEO},
+           familyi={R\bibinitperiod},
+           given={JA},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {PO BOX 15399, ATLANTA, GA 30333-0399}%
+      }
+      \list{publisher}{1}{%
+        {SCHOLARS PRESS}%
+      }
+      \strng{namehash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \strng{fullhash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \strng{bibnamehash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \strng{authorbibnamehash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \strng{authornamehash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \strng{authorfullhash}{9b11d37b34c37a6efdd58cb3bf01bb6b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9231}
+      \field{journaltitle}{JOURNAL OF BIBLICAL LITERATURE}
+      \field{number}{2}
+      \field{title}{GEMATRIA AND `JOHN 21.11' - CHILDREN OF GOD}
+      \field{type}{Note}
+      \field{volume}{97}
+      \field{year}{1978}
+      \true{nocite}
+      \field{pages}{263\bibrangedash 264}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.2307/3265625
+      \endverb
+    \endentry
     \entry{esa_rosetta}{misc}{}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -3990,6 +4893,47 @@
       \endverb
       \verb{url}
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta
+      \endverb
+    \endentry
+    \entry{WOS:A1978ET05700003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=50671dec16f22511b3d413943e5051d8}{%
+           family={SAMBURSKY},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {45 ST GILES, OXFORD, ENGLAND OX1 3LP}%
+      }
+      \list{publisher}{1}{%
+        {OXFORD CENTRE HEBREW JEWISH STUDIES}%
+      }
+      \strng{namehash}{50671dec16f22511b3d413943e5051d8}
+      \strng{fullhash}{50671dec16f22511b3d413943e5051d8}
+      \strng{bibnamehash}{50671dec16f22511b3d413943e5051d8}
+      \strng{authorbibnamehash}{50671dec16f22511b3d413943e5051d8}
+      \strng{authornamehash}{50671dec16f22511b3d413943e5051d8}
+      \strng{authorfullhash}{50671dec16f22511b3d413943e5051d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-2097}
+      \field{journaltitle}{JOURNAL OF JEWISH STUDIES}
+      \field{number}{1}
+      \field{title}{ORIGIN AND SIGNIFICANCE OF TERM GEMATRIA}
+      \field{type}{Article}
+      \field{volume}{29}
+      \field{year}{1978}
+      \true{nocite}
+      \field{pages}{35\bibrangedash 38}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.18647/858/JJS-1978
       \endverb
     \endentry
     \entry{sanders1985}{book}{}
@@ -4046,6 +4990,47 @@
       \field{title}{The Historical Figure of Jesus}
       \field{year}{1993}
       \true{nocite}
+    \endentry
+    \entry{WOS:000174183800002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12b671e73ce9fe1c664efeaf7a509ae9}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{location}{1}{%
+        {PLANTIJNSTRAAT 2, P O BOX 9000, 2300 PA LEIDEN, NETHERLANDS}%
+      }
+      \list{publisher}{1}{%
+        {BRILL ACADEMIC PUBLISHERS}%
+      }
+      \strng{namehash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \strng{fullhash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \strng{bibnamehash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \strng{authorbibnamehash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \strng{authornamehash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \strng{authorfullhash}{12b671e73ce9fe1c664efeaf7a509ae9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0048-1009}
+      \field{journaltitle}{NOVUM TESTAMENTUM}
+      \field{number}{1}
+      \field{title}{The mysterious number 666 in Revelation-XIII,18: An attempt at a solution on the basis of Latin gematria}
+      \field{type}{Article}
+      \field{volume}{44}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{35\bibrangedash 54}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1163/156853602317417326
+      \endverb
     \endentry
     \entry{schonborn1994}{book}{}
       \name{author}{1}{}{%
@@ -4336,6 +5321,48 @@
       \field{year}{1996}
       \true{nocite}
     \endentry
+    \entry{WOS:A1996TW31600005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0bb61d23f8f3ab0b32dc9b0e95f3e2d6}{%
+           family={STEINER},
+           familyi={S\bibinitperiod},
+           given={RC},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {PO BOX 9000, 2300 PA LEIDEN, NETHERLANDS}%
+      }
+      \list{publisher}{1}{%
+        {E J BRILL}%
+      }
+      \strng{namehash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \strng{fullhash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \strng{bibnamehash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \strng{authorbibnamehash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \strng{authornamehash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \strng{authorfullhash}{0bb61d23f8f3ab0b32dc9b0e95f3e2d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0042-4935}
+      \field{journaltitle}{VETUS TESTAMENTUM}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{THE 2 SONS OF NERIAH AND THE 2 EDITIONS OF JEREMIAH IN THE LIGHT OF 2 ATBASH CODE-WORDS FOR BABYLON + CONTRIBUTIONS TOWARD A DOUBLE-RECENSION THEORY IN THE BOOK OF JEREMIAH AS ATTESTED BY RECENT QUMRAN FINDINGS}
+      \field{type}{Article}
+      \field{volume}{46}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{74\bibrangedash 84}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1163/1568533962581198
+      \endverb
+    \endentry
     \entry{sternberg1985}{book}{}
       \name{author}{1}{}{%
         {{hash=8cb51ce7eab52530bc64418a6b4e25c8}{%
@@ -4540,6 +5567,44 @@
       \field{year}{1986}
       \true{nocite}
     \endentry
+    \entry{Tantlevskij2021142}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b2bf440b834efc884240a8ca79676993}{%
+           family={Tantlevskij},
+           familyi={T\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2bf440b834efc884240a8ca79676993}
+      \strng{fullhash}{b2bf440b834efc884240a8ca79676993}
+      \strng{bibnamehash}{b2bf440b834efc884240a8ca79676993}
+      \strng{authorbibnamehash}{b2bf440b834efc884240a8ca79676993}
+      \strng{authornamehash}{b2bf440b834efc884240a8ca79676993}
+      \strng{authorfullhash}{b2bf440b834efc884240a8ca79676993}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Platonic Investigations}
+      \field{note}{Cited by: 0; All Open Access, Bronze Open Access}
+      \field{number}{2}
+      \field{title}{ON THE QUESTION OF PROBABLE ANCIENT SOURCES OF SPINOZA'S CONCEPT OF DEUS, SIVE NATURA; [К вопросу о вероятных античных источниках понятия Deus, sive Natura у Спинозы]}
+      \field{type}{Article}
+      \field{volume}{15}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{142\bibrangedash 157}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.25985/PI.15.2.06
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122852382&doi=10.25985%2fPI.15.2.06&partnerID=40&md5=3b3249560ce5db218c2055bc4e132d8e
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122852382&doi=10.25985%2fPI.15.2.06&partnerID=40&md5=3b3249560ce5db218c2055bc4e132d8e
+      \endverb
+    \endentry
     \entry{telford1980}{book}{}
       \name{author}{1}{}{%
         {{hash=362dd50a356d82fb33a56b6af7a7796c}{%
@@ -4664,6 +5729,134 @@
       \field{title}{Romans 7 and Christian Identity}
       \field{year}{2017}
       \true{nocite}
+    \endentry
+    \entry{WOS:000454685600002}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5b0f154d27a4a5110c07d62b20a48764}{%
+           family={Tomecki},
+           familyi={T\bibinitperiod},
+           given={Karol},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Polish}%
+      }
+      \list{location}{1}{%
+        {C/O UNIV WARSAW, DEPT ITALIAN STUDIES OBOZNA 8, WARSAW, 00-332, POLAND}%
+      }
+      \list{publisher}{1}{%
+        {POLISH RHETORIC SOC}%
+      }
+      \strng{namehash}{5b0f154d27a4a5110c07d62b20a48764}
+      \strng{fullhash}{5b0f154d27a4a5110c07d62b20a48764}
+      \strng{bibnamehash}{5b0f154d27a4a5110c07d62b20a48764}
+      \strng{authorbibnamehash}{5b0f154d27a4a5110c07d62b20a48764}
+      \strng{authornamehash}{5b0f154d27a4a5110c07d62b20a48764}
+      \strng{authorfullhash}{5b0f154d27a4a5110c07d62b20a48764}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The imaginary nature of palindromic numbers in the Bible can serve as a classic peroration, as an exaggerated explication in the form of numerals quoted literally. But the numerical notation is a rare and special case. More often it is a structural ``code{''}, distributed geometrically, that organizes a rhetorical statement and enables it to function in different languages.}
+      \field{issn}{2392-3113}
+      \field{journaltitle}{RES RHETORICA}
+      \field{number}{4}
+      \field{title}{Rhetorical meaning of palindromic numbers in the Bible}
+      \field{type}{Article}
+      \field{volume}{5}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{16+}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.29107/rr2018.4.2
+      \endverb
+      \keyw{Hebrew biblical rhetoric; structural analysis of the Bible; axiomatization of biblical rhetoric; palindromes in the Bible; gematria}
+    \endentry
+    \entry{tripp2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=31b8a44685333f6ee6ecbd585c4c4f9b}{%
+           family={Tripp},
+           familyi={T\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Brill}%
+      }
+      \strng{namehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{fullhash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{bibnamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authorbibnamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authornamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authorfullhash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Novum Testamentum}
+      \field{note}{Critical review cataloguing approximately thirty-seven proposed solutions for the 153 fish of John 21:11, from patristic interpretations (Cyril, Augustine, Jerome) through nineteenth- and twentieth-century philological proposals to twenty-first-century numerological readings. Tripp rejects most solutions including McEleney's reverse Greek gematria}
+      \field{title}{A Tally of 153 Great Fish: Review and Critique of Proposed Solutions}
+      \field{year}{2022}
+      \true{nocite}
+    \endentry
+    \entry{Tripp2022}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=31b8a44685333f6ee6ecbd585c4c4f9b}{%
+           family={Tripp},
+           familyi={T\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=85e3d9bb403536cf094ba0f057ed1861}{%
+           family={Pardee},
+           familyi={P\bibinitperiod},
+           given={Cambry\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=31b8a44685333f6ee6ecbd585c4c4f9b}{%
+           family={Tripp},
+           familyi={T\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Turnhout}%
+      }
+      \list{publisher}{1}{%
+        {BREPOLS}%
+      }
+      \strng{namehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{fullhash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{bibnamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authorbibnamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authornamehash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{authorfullhash}{31b8a44685333f6ee6ecbd585c4c4f9b}
+      \strng{editorbibnamehash}{a9ff1352abde0d8dd4534b1c8d46f8a3}
+      \strng{editornamehash}{a9ff1352abde0d8dd4534b1c8d46f8a3}
+      \strng{editorfullhash}{a9ff1352abde0d8dd4534b1c8d46f8a3}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Sacred Texts \& Sacred Figures: The Reception and Use of Inherited Traditions in Early Christian Literature. A Festschrift in Honor of Edmondo F. Lupieri}
+      \field{series}{JAOC}
+      \field{title}{The Hundred Fifty Three (PNT) Fish (John 21:11): A Review and Critique of Modern Solutions}
+      \field{type}{Book Chapter}
+      \field{volume}{25}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{105\bibrangedash 137}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1484/M.JAOC-EB.5.128563
+      \endverb
+      \keyw{John 21:11; 153 fish; gematria; isopsephy; numerical puzzles}
     \endentry
     \entry{tuckett1983}{collection}{}
       \name{editor}{1}{}{%
@@ -4897,6 +6090,44 @@
       \field{title}{The Literary Devices in John's Gospel}
       \field{year}{2019}
       \true{nocite}
+    \endentry
+    \entry{WOS:A1980LC87400024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ef58d08aace0e5178213250a33c6a0c2}{%
+           family={WEINTRAUB},
+           familyi={W\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {Polish}%
+      }
+      \list{location}{1}{%
+        {PL NANKIERA 15, 50-140 WROCLAW, POLAND}%
+      }
+      \list{publisher}{1}{%
+        {TOWARZYSTWO PRZYJACIOL POLONISTYKI WROCLAWSKIEJ}%
+      }
+      \strng{namehash}{ef58d08aace0e5178213250a33c6a0c2}
+      \strng{fullhash}{ef58d08aace0e5178213250a33c6a0c2}
+      \strng{bibnamehash}{ef58d08aace0e5178213250a33c6a0c2}
+      \strng{authorbibnamehash}{ef58d08aace0e5178213250a33c6a0c2}
+      \strng{authornamehash}{ef58d08aace0e5178213250a33c6a0c2}
+      \strng{authorfullhash}{ef58d08aace0e5178213250a33c6a0c2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-0514}
+      \field{journaltitle}{PAMIETNIK LITERACKI}
+      \field{number}{4}
+      \field{title}{GEMATRIA AS A LITERARY DEVICE - MICKIEWICZ `CZTERDZIESCI I CZTERY'}
+      \field{type}{Article}
+      \field{volume}{71}
+      \field{year}{1980}
+      \true{nocite}
+      \field{pages}{287\bibrangedash 294}
+      \range{pages}{8}
     \endentry
     \entry{weiss1996}{book}{}
       \name{author}{2}{}{%
@@ -5234,6 +6465,42 @@
       \true{nocite}
       \field{pages}{633\bibrangedash 646}
       \range{pages}{14}
+    \endentry
+    \entry{WOS:000464504600009}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=8d1787b2f1c0e8a482d8e337a51f1b6a}{%
+           family={Zacharias},
+           familyi={Z\bibinitperiod},
+           given={HD},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {50 BEDFORD SQ, LONDON, WC1B 3DP, ENGLAND}%
+      }
+      \list{publisher}{1}{%
+        {BLOOMSBURY T \& T CLARK}%
+      }
+      \strng{namehash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \strng{fullhash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \strng{bibnamehash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \strng{authorbibnamehash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \strng{authornamehash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \strng{authorfullhash}{8d1787b2f1c0e8a482d8e337a51f1b6a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{MATTHEW'S PRESENTATION OF THE SON OF DAVID: DAVIDIC TRADITION AND TYPOLOGY IN THE GOSPEL OF MATTHEW}
+      \field{isbn}{978-0-56767-078-6; 978-0-56767-077-9}
+      \field{title}{Matthew's Presentation of the Son of David: Davidic Tradition and Typology in the Gospel of Matthew}
+      \field{type}{Book}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 224}
+      \range{pages}{224}
     \endentry
     \entry{zeichmann2025}{article}{}
       \name{author}{1}{}{%
