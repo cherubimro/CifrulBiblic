@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "description": "Manual overrides for the retroversion canonical selection. Used when statistical alignment picks a suboptimal candidate due to tied scores or rare NT occurrences.",
+    "format": {
+      "greek_lemma": {
+        "stem": "Hebrew consonantal stem",
+        "gematria": "computed gematria of the stem",
+        "source": "rationale for the override"
+      }
+    }
+  },
+
+  "πνεῦμα":       {"stem": "רוח",      "gematria": 214, "source": "LXX Gen 1:2; the standard biblical equivalent; Delitzsch uses both רוח and קדש for 'πνεῦμα ἅγιον' compounds, tied in co-occurrence"},
+  "ζωή":          {"stem": "חיים",     "gematria": 68,  "source": "LXX Gen 2:7 נשמת חיים; masculine plural absolute; Delitzsch's חיי is construct state 'life of'"},
+  "Ἐμμανουήλ":    {"stem": "עמנואל",   "gematria": 197, "source": "Isa 7:14 MT עמנואל, direct match; not עלמה (young woman, paired in Mt 1:23 but not the name itself)"},
+  "Ἁρμαγεδών":    {"stem": "הרמגדון",  "gematria": 320, "source": "har-magedon = Mount Megiddo; Rev 16:16 'called in Hebrew Harmagedon'"},
+  "Ταβιθά":       {"stem": "טביתא",    "gematria": 422, "source": "Aramaic, Acts 9:36 'called in Greek Dorcas'"},
+  "Μαρία":        {"stem": "מרים",     "gematria": 290, "source": "Miriam, sister of Moses; used throughout"},
+  "Βαραββᾶς":     {"stem": "בראבא",    "gematria": 206, "source": "Aramaic 'son of the father'; compound form from Delitzsch Maqef tokenization (verified via fix)"},
+  "Γολγοθᾶ":      {"stem": "גלגלתא",   "gematria": 467, "source": "Aramaic 'place of the skull'; Delitzsch preserves the aramaism"},
+  "Βηθλέεμ":      {"stem": "ביתלחם",   "gematria": 490, "source": "Bethlehem 'house of bread', Mica 5:1 בית לחם; compound form after Maqef fix"},
+  "Βηθανία":      {"stem": "ביתעניה",  "gematria": 547, "source": "Bethany 'house of the poor/afflicted'; compound"},
+  "Γαλιλαία":     {"stem": "גליל",     "gematria": 73,  "source": "Isa 8:23 גליל; but 86 = אלהים for the full form Galilee in Greek isopsephy (separate finding, Mt 4:15)"}
+}

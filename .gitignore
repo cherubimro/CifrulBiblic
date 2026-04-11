@@ -5,3 +5,33 @@ inventory.py
 mcdonald_eutychus_elpenor.html
 articol_open_theology*
 abstract_open_theology.md
+
+# PDF-uri academice (licențe / Anna's Archive)
+gia/
+
+# Fișiere derivate mari (regenerabile din scripturi)
+retroversion_work/morph_index.json
+retroversion_work/alignment_raw.json
+retroversion_work/nt_ot_cipher_pre_fix.xlsx
+retroversion_work/nt_ot_cipher_broad.xlsx
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.bcf
+*.run.xml
+*.blg
+carte.aux
+carte.log
+carte.out
+carte.toc
+carte.bcf
+carte.run.xml
+carte.blg
+hebtest.*
+
+# Python cache
+__pycache__/
+*.pyc
