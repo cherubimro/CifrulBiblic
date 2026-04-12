@@ -2841,39 +2841,66 @@ Semnificație & \textbf{14 = דוד (David)} & fără conexiune \\
 
 Mulțimea strigă «Osana Fiului lui \textbf{David}!» și flutură \textbf{βαΐα} = 14 = David. Dacă am calcula pe lemmă (βάϊον = 133), am pierde exact ce a codificat autorul. Textul SBLGNT/MorphGNT conține ambele forme; noi folosim întotdeauna \textbf{forma din manuscris} pentru isopsefie.
 
-\section*{NT citează LXX --- isopsefia se păstrează}
+\section*{NT citează LXX --- isopsefia se păstrează}\label{nt-lxx-iso}
 
-Autorii Noului Testament citează \textbf{Septuaginta} (LXX), nu textul masoretic. Când NT preia un citat din LXX, isopsefia se păstrează natural (aceleași cuvinte grecești). Dar în câteva cazuri autorul \textbf{schimbă} un cuvânt din citatul LXX --- iar noul cuvânt are \textbf{aceeași isopsefie} cu originalul:
+Autorii Noului Testament citează \textbf{Septuaginta} (LXX), nu textul masoretic. Când NT preia un citat din LXX, isopsefia se păstrează natural (aceleași cuvinte grecești). Dar în câteva cazuri autorul \textbf{schimbă} un cuvânt din citatul LXX --- iar noul cuvânt are \textbf{aceeași isopsefie} cu originalul. Am scanat sistematic 326 de citate directe din marginalia Nestle-Aland (via BlueLetterBible) pe formele din manuscris (SBLGNT + Rahlfs 1935), identificând \textbf{19 perechi cu sens diferit dar aceeași isopsefie}. Lista completă (scriptul \texttt{scan\_nt\_lxx\_iso.py} disponibil în \texttt{retroversion\_work/}):
 
 \begin{center}
-\small
-\begin{tabularx}{\textwidth}{L{1.5cm}L{1.5cm}L{2.8cm}C{1cm}L{2.8cm}X}
+\footnotesize
+\begin{tabularx}{\textwidth}{L{1.5cm}L{1.5cm}L{2.6cm}C{0.7cm}L{2.6cm}X}
 \toprule
 \rowcolor{primarylight}
 \textbf{NT} & \textbf{LXX} & \textbf{Cuvânt NT} & \textbf{Iso} & \textbf{Cuvânt LXX} & \textbf{Semnificație} \\
 \midrule
-\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=4\#18}{Lc 4:18} & Isa 61:1 & \textbf{τυφλοῖς} (orbilor) & 1510 & \textbf{χρίω} (a unge) & Vindecarea orbilor = ungerea mesianică \\
-\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=4\#15}{Mt 4:15} & Isa 8:23 & \textbf{Γαλιλαία} (Galileea) & 86 & \textbf{γαλιλαια} & 86 = אלהים (Elohim/Dumnezeu!) \\
-\href{https://bibliaortodoxa.ro/carte.php?id=26\&cap=2\#17}{Fa 2:17} & Ioil 3:1 & \textbf{ἐκχεῶ} (voi turna) & 1430 & \textbf{εκχεω} (a turna) & 55 × 26 = 55 × יהוה (YHWH) \\
-\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=22\#39}{Mt 22:39} & Lev 19:18 & \textbf{πλησίον} (aproapele) & 448 & \textbf{πλησιον} & 64 × 7 = 32 × 14 (דוד) \\
-\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=22\#37}{Mt 22:37} & Deut 6:5 & \textbf{ψυχῇ} (suflet) & 1708 & \textbf{ψυχη} & 244 × 7 \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=13\#35}{Mt 13:35} & Ps 78:2 & \textbf{καταβολῆς} (întemeierii) & 632 & \textbf{προβλήματα} (enigme) & «enigmele din vechime» $\to$ «cele ascunse de la întemeierea lumii» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=1\#2}{Mc 1:2} & Isa 40:3 & \textbf{ἰδού} (iată) & 484 & \textbf{θεοῦ} (lui Dumnezeu) & «Iată, trimit» = «cărările lui Dumnezeu» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=54\&cap=15\#32}{1Co 15:32} & Isa 22:13 & \textbf{ἐγείρονται} (sunt înviați) & 554 & \textbf{πρόβατα} (oi) & «dacă morții nu sunt înviați» $\leftarrow$ «junghiind oi... să mâncăm» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=23\#30}{Lc 23:30} & Osea 10:8 & \textbf{ἄρξονται} (vor începe) & 592 & \textbf{τρίβολοι} (ciulini) & «vor începe să zică munților» $\leftarrow$ «spini pe altare» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=58\&cap=5\#14}{Gal 5:14} & Lev 19:18 & \textbf{ἑνί} (într-un singur) & 65 & \textbf{εἰμι} (sunt) & «toată Legea într-\textbf{un singur} cuvânt» $\leftarrow$ «Eu \textbf{sunt} Domnul» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=51\&cap=13\#33}{FA 13:33} & Ps 2:7 & \textbf{ὡς} (precum) & 1000 & \textbf{κυρίου} (al Domnului) & «\textbf{precum} este scris» = «porunca \textbf{Domnului}» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=13\#14}{Mt 13:14} & Isa 6:9 & \textbf{προφητεία} (profeția) & 1074 & \textbf{ἴδωσιν} (să vadă) & «profeția» lui Isaia = «să vadă» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=24\#21}{Mt 24:21} & Ier 30:7 & \textbf{κόσμου} (lumii) & 800 & \textbf{κύριος} (Domnul) & «de la începutul lumii» $\leftarrow$ «ziua Domnului» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=13\#14}{Mc 13:14} & Dan 9:27 & \textbf{ὅπου} (unde) & 620 & \textbf{θυσία} (jertfa) & «stând unde nu trebuie» $\leftarrow$ «va înceta jertfa» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=2\#25}{Mc 2:25} & 1Sam 21:6 & \textbf{εἰσῆλθεν} (a intrat) & 317 & \textbf{βέβηλος} (pângărit) & David «a intrat» = «pâinea pângărită» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=24\#15}{Mt 24:15} & Dan 9:27 & \textbf{ἴδητε} (când veți vedea) & 327 & \textbf{ἑβδομάδας} (săptămâni) & «veți vedea urâciunea» = cele 70 de «săptămâni» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=1\#73}{Lc 1:73} & Gen 22:16 & \textbf{Ἀβραάμ} & 145 & \textbf{εἵνεκεν} (pentru că) & numele patriarhului = «pentru că ai făcut» (Akeidah) \\
+\href{https://bibliaortodoxa.ro/carte.php?id=70\&cap=3\#15}{Rom 3:15} & Isa 59:7 & \textbf{ὀξεῖς} (repezi) & 345 & \textbf{οἴδασιν} (știu) & «picioare repezi la sânge» $\leftarrow$ «nu știu calea păcii» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=8\#8}{Evr 8:8} & Ier 31:31 & \textbf{ἰδού} (iată) & 484 & \textbf{ὄλεθρος} (nimicire) & «iată, vin zile» $\leftarrow$ nimicirea din Moab \\
+\href{https://bibliaortodoxa.ro/carte.php?id=54\&cap=2\#9}{1Co 2:9} & Isa 64:4 & \textbf{οὖς} (ureche) & 670 & \textbf{σου} (al tău) & «urechea n-a auzit» $\leftarrow$ «căile tale» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=70\&cap=7\#7}{Rom 7:7} & Ieș 20:17 & \textbf{ἐροῦμεν} (vom zice) & 670 & \textbf{σου} (al tău) & «ce vom zice?» $\leftarrow$ «ale aproapelui tău» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=24\#29}{Mt 24:29} & Ioil 2:10 & \textbf{αἱ} (cele) & 11 & \textbf{γῆ} (pământul) & articolul NT = «pământul» LXX \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=8\#8}{Evr 8:10} & Ier 31:33 & \textbf{καρδίας} (inimile) & 336 & \textbf{Κιραδας} (nume propriu) & coincidență: «inimile» = un toponimic ebraic \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=8\#12}{Evr 8:12} & Ier 31:34 & \textbf{ἀδικίαις} (nedreptățile) & 256 & \textbf{Σεβημα} (Sibma) & coincidență: «nedreptățile» = o localitate moabită \\
 \bottomrule
 \end{tabularx}
 \end{center}
 
-Cazul cel mai puternic: la \href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=4\#18}{Luca 4:18}, autorul citează Isaia 61:1 dar înlocuiește \textbf{χρίω} (a unge) cu \textbf{τυφλοῖς} (orbilor) --- cuvinte \textbf{complet diferite} semantic, dar cu \textbf{aceeași isopsefie} = 1510. Orbii pe care Iisus îi vindecă sunt numeric egali cu ungerea mesianică.
+Cele 6 perechi cele mai puternice (Mat 13:35, Mc 1:2, 1Co 15:32, Lc 23:30, Gal 5:14, FA 13:33) sunt substituții \textbf{clare}: autorul NT înlocuiește un cuvânt din LXX cu un cuvânt \textbf{semantic diferit} dar cu \textbf{aceeași isopsefie}. Celelalte 13 sunt borderline sau coincidențe (ultimele două pe toponimice ebraice). Cele 19 au fost publicate integral în scriptul \texttt{scan\_nt\_lxx\_iso.py} și validate computațional pe SBLGNT (formele din manuscris) + Rahlfs 1935 (LXX).
 
-Dintre cele 19 perechi cu sens diferit dar aceeași isopsefie (verificate pe formele din manuscris Rahlfs 1935 și SBLGNT), cele mai semnificative teologic:
+\paragraph*{Cross-referințe tematice suplimentare (Treasury of Scripture Knowledge).} Extinderea scanării la 1{,}337 de cross-referințe NT$\leftrightarrow$VT (326 NA28 via BlueLetterBible + 1{,}011 cross-referințe tematice din Treasury of Scripture Knowledge via openBible.info, scor de consens $\geq$~50) identifică \textbf{82 de perechi suplimentare} cu sens diferit și aceeași isopsefie. Cele mai frapante teologic (citări indirecte, nu incluse în marginalia NA28):
 
-\begin{itemize}
-  \item \textbf{ἅγιος} (sfânt) = 284 = \textbf{θεός} (Dumnezeu) --- \href{https://bibliaortodoxa.ro/carte.php?id=61\&cap=1\#16}{1 Petru 1:16} citează \href{https://bibliaortodoxa.ro/carte.php?id=47\&cap=11\#44}{Levitic 11:44}: \textit{«Fiți \textbf{sfinți}, pentru că Eu sunt \textbf{Sfânt}»}. Sfânt este Dumnezeu; sfințenia este de la Dumnezeu.
+\begin{center}
+\footnotesize
+\begin{tabularx}{\textwidth}{L{1.5cm}L{1.5cm}L{2.6cm}C{0.7cm}L{2.6cm}X}
+\toprule
+\rowcolor{primarylight}
+\textbf{NT} & \textbf{VT} & \textbf{Cuvânt NT} & \textbf{Iso} & \textbf{Cuvânt LXX} & \textbf{Semnificație} \\
+\midrule
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=9\#12}{Evr 9:12} & Isa 53:5 & \textbf{μόσχων} (vițeilor) & 1760 & \textbf{μώλωπι} (vânătaie) & jertfa levitică = rana mesianică \\
+\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=7\#22}{Lc 7:22} & Isa 61:1 & \textbf{χωλοί} (șchiopii) & 1510 & \textbf{τυφλοῖς} (orbilor) & cele 2 vindecări mesianice: isopsefie identică! \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=4\#12}{Evr 4:12} & Ier 17:10 & \textbf{μυελῶν} (măduvelor) & 1325 & \textbf{νεφροὺς} (rărunchilor) & sabia cuvântului «desparte... până la măduve» $\leftarrow$ «cercetez rărunchii» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=16\#15}{Lc 16:15} & 1Sam 16:7 & \textbf{γινώσκει} (cunoaște) & 1098 & \textbf{ἐμβλέψεται} (va privi) & «Dumnezeu cunoaște inimile» $\leftarrow$ «Dumnezeu privește inima» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=10\#22}{Evr 10:22} & Iez 36:25 & \textbf{ῥεραντισμένοι} (stropiți) & 941 & \textbf{καθαριῶ} (voi curăți) & botezul = purificarea profetizată \\
+\href{https://bibliaortodoxa.ro/carte.php?id=48\&cap=4\#8}{Lc 4:8} & 1Sam 7:3 & \textbf{Ἰησοῦς} & 888 & \textbf{λέγων} (zicând) & Numele Iisus = «zicând» (888 = Cuvântul, cf.~In 1:1) \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=2\#14}{Evr 2:14} & Gen 3:15 & \textbf{θανάτου} (morții) & 831 & \textbf{τηρήσεις} (vei păzi) & «cel ce are stăpânirea morții» $\leftarrow$ «tu Îi vei păzi călcâiul» (protoevanghelia) \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=10\#16}{Evr 10:16} & Isa 59:21 & \textbf{νόμους} (legile) & 830 & \textbf{ἔδωκα} (am dat) & «voi pune legile Mele» $\leftarrow$ «cuvintele pe care le-am dat în gura ta» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=4\#12}{Evr 4:12} & Isa 55:11 & \textbf{δίστομον} (cu două tăișuri) & 744 & \textbf{ὁδούς} (căile) & sabia «cu două tăișuri» $\leftarrow$ «cuvântul Meu va propăși pe căile Mele» \\
+\href{https://bibliaortodoxa.ro/carte.php?id=55\&cap=6\#33}{Mt 6:33} & Ps 34:9 & \textbf{δικαιοσύνην} (dreptatea) & 823 & \textbf{γεύσασθε} (gustați) & «căutați dreptatea Lui» $\leftarrow$ «gustați și vedeți că bun este Domnul» \\
+\bottomrule
+\end{tabularx}
+\end{center}
 
-  \item \textbf{καθώς} (precum) = 1030 = \textbf{πῶλον} (mânzul) --- \href{https://bibliaortodoxa.ro/carte.php?id=35\&cap=12\#14}{Ioan 12:14} citează \href{https://bibliaortodoxa.ro/carte.php?id=82\&cap=9\#9}{Zaharia 9:9}: \textit{«Iisus, găsind un asin tânăr, a șezut pe el, \textbf{precum} este scris»}. Cuvântul care introduce citatul (\textbf{precum}) codifică numeric exact obiectul profeției (\textbf{mânzul}).
-
-  \item \textbf{Ἰδοὺ} (iată) = 484 = \textbf{θεοῦ} (lui Dumnezeu) --- \href{https://bibliaortodoxa.ro/carte.php?id=53\&cap=1\#2}{Marcu 1:2} citează \href{https://bibliaortodoxa.ro/carte.php?id=43\&cap=40\#3}{Isaia 40:3}: \textit{«\textbf{Iată} Eu trimit îngerul Meu»} / \textit{«drepte faceți cărările \textbf{Dumnezeului} nostru»}. «Iată!» = «lui Dumnezeu»: cel care trimite este Dumnezeu.
-
-  \item \textbf{ἐγενόμην} (M-am făcut) = 231 = \textbf{ὄνομα} (nume) [33 × 7] --- \href{https://bibliaortodoxa.ro/carte.php?id=70\&cap=10\#20}{Romani 10:20} citează \href{https://bibliaortodoxa.ro/carte.php?id=43\&cap=65\#1}{Isaia 65:1}: \textit{«\textbf{M-am făcut arătat} celor ce nu întrebau de Mine»} / \textit{«un neam care nu chema \textbf{numele} Meu»}. Revelarea (a deveni vizibil) = Numele lui Dumnezeu.
-\end{itemize}
+Cel mai puternic caz nou este \textbf{μόσχων $=$ μώλωπι $=$ 1760} (\href{https://bibliaortodoxa.ro/carte.php?id=65\&cap=9\#12}{Evrei 9:12} $\leftarrow$ \href{https://bibliaortodoxa.ro/carte.php?id=43\&cap=53\#5}{Isaia 53:5}): autorul Epistolei către Evrei scrie «nu prin sângele \textbf{țapilor și vițeilor}» (μόσχων), iar Isaia spune «cu \textbf{rana} Lui noi toți ne-am vindecat» (μώλωπι). Jertfa levitică a vițeilor și rana mesianică au exact aceeași isopsefie: \textbf{1760}. Iar Evrei 9:12 face exact argumentul teologic că jertfa levitică este \textit{înlocuită} de jertfa unică a lui Hristos --- substituție codificată numeric.
 
 \section*{Autorii erau bilingvi}
 
@@ -2882,7 +2909,7 @@ Autorii NT erau intelectuali iudeo-elenistici care operau simultan în \textbf{d
 \begin{itemize}
   \item \textbf{Isopsefie greacă}: βαΐα = 14 = דוד, λύσατε = 936 = 36 × יהוה, σινδόνα = 385 = שכינה
   \item \textbf{Gematrie ebraică} codificată în text grecesc: structura 3 × \textbf{14} generații (דוד), 153 pești, 276 suflete
-  \item \textbf{Citarea fidelă a LXX}: din 271 de citate directe verificate verset cu verset pe formele din manuscris (SBLGNT + Rahlfs 1935; sursă citate: marginalia Nestle-Aland via BlueLetterBible), 195 (72\%) păstrează potriviri isopsefice, iar 19 conțin cuvinte cu \textbf{sens diferit} dar aceeași isopsefie --- de exemplu \textbf{ἅγιος} (sfânt) = 284 = \textbf{θεός} (Dumnezeu) în 1 Petru 1:16 ← Levitic 11:44
+  \item \textbf{Citarea fidelă a LXX}: din 326 de citate directe verificate verset cu verset pe formele din manuscris (SBLGNT + Rahlfs 1935; sursă citate: marginalia Nestle-Aland NA28, accesate prin BlueLetterBible, validate cu Treasury of Scripture Knowledge via openBible.info), \textbf{19 conțin cuvinte cu sens diferit dar aceeași isopsefie} --- lista completă mai sus. Extinderea la 1{,}337 cross-referințe (dataset unificat BLB + TSK) adaugă 82 de perechi tematice suplimentare, totalizând \textbf{101 perechi} cu aceeași isopsefie și sens diferit.
   \item \textbf{Arameisme} netraduse în Marcu (Talitha kumi, Ephphatha, Eloi lama sabachthani) --- dovadă de bilingvism
 \end{itemize}
 
