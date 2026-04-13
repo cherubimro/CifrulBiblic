@@ -4175,6 +4175,217 @@ Cele trei componente-cheie ale Shema Israel (\href{https://bibliaortodoxa.ro/car
 \paragraph*{Nota metodologică finală.} Cele 23 de metode numerice au fost aplicate \textbf{complet pe ambele corpusuri} (grec SBLGNT: 19{,}409 forme unice; ebraic Delitzsch: 24{,}989 forme unice), inclusiv variantele inverse unde era relevant. Toate calculele au fost efectuate computațional cu pachetul \texttt{biblegematria} și scripturile din \texttt{retroversion\_work/}. Distribuțiile la nivel de verset sunt la nivel aleator în ambele limbi (factor 37: 2{,}4--2{,}8\% vs așteptat 2{,}7\%), confirmând că pattern-urile sunt \textbf{selective} (concentrate pe vocabularul teologic deliberat) și nu universale. Exact aceasta este semnătura unui \textbf{cifru conștient}: activ pe cuvintele-cheie, absent în restul textului.
 
 
+\section{Cele 15 metode restante: scan sistematic SBLGNT și Delitzsch}\label{restante-23}
+
+Până aici au fost documentate 8 metode: hechrachi/isopsefie standard, Mispar Siduri (ordinal), Mispar Katan, Atbash, Albam, Avgad, Reverse-Avgad și Notarikon. Biblioteca \texttt{hebrew} (Python pip, \texttt{GematriaTypes} enum) implementează încă 15 metode: \textbf{Gadol} (sofit), \textbf{Perati} (sumă de pătrate), \textbf{Meshulash} (cuburi), \textbf{Kidmi} (cumulativ triangular), \textbf{Mispari} (valoare spelled-out), \textbf{Ayak-Bachar}, \textbf{Ofanim}, \textbf{Achas-Beta}, \textbf{Musafi} (hechrachi + nr.~litere), \textbf{Boneeh} (sumă cumulativă per poziție), \textbf{Hamerubah Haklali} (pătratul sumei), \textbf{Haachor} (literă × poziție), \textbf{Katan-Mispari} (rădăcina digitală), \textbf{Kolel} (hechrachi + 1), \textbf{Shemi-Milui} (nume literă spelled-out), \textbf{Neelam} (nume literă minus litera). Aplicate pe ambele corpusuri, filtrate pe 41 de ținte teologice: 56 claim-uri verificate individual contra corpusurilor reale (SBLGNT+Delitzsch, script \texttt{verify\_23methods\_claims.py}).
+
+\paragraph*{Aplicabilitate la greacă.} 7/23 metode depind de structurile ebraice (numele literelor, structura 22 = 11+11) și nu au echivalent direct în Milesianul grecesc de 24 litere: \textsc{Gadol} (sofit), \textsc{Mispari} (spell-out), \textsc{Ayak-Bachar}, \textsc{Ofanim}, \textsc{Achas-Beta}, \textsc{Shemi-Milui}, \textsc{Neelam}. Celelalte 16 au fost aplicate matematic pe SBLGNT.
+
+\subsection{Mispar Musafi: hechrachi + numărul de litere}
+Cea mai productivă metodă nouă. Un discriminator subtil care prinde ținte noi (22, 314, 444) pentru cuvinte scurte și frecvente.
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1cm}C{1cm}L{7.5cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Hech} & \textbf{Musafi} & \textbf{= Țintă / Semnificație} \\
+\midrule
+\textbf{חַג} (sărbătoare) ×16 & 11 & \textbf{13} & = אחד (unu) \\
+\textbf{זֶה} (acesta) ×258 & 12 & \textbf{14} & = דוד --- demonstrativul mesianic «acesta este» \\
+\textbf{דָּוִד} (David) ×55 & 14 & \textbf{17} & = טוב --- David = «bun» \\
+\textbf{זָהָב} (aur) ×24 & 14 & \textbf{17} & = טוב --- aurul magilor (Mt 2:11) = «bun» \\
+\midrule
+\textbf{δεῖ} (trebuie) ×77 & 19 & \textbf{22} & = alef-taw (structura alfabetului) --- necesitatea divină din Ioan 3:7,14,30 \\
+\textbf{ὄρος} (munte) ×27 & 440 & \textbf{444} & = מקדש (Templul) --- muntele ca Templu (Daniel 2:35 «piatra a devenit munte mare») \\
+\textbf{δαιμόνιον} (demon) ×15 & 305 & \textbf{314} & = שדי (Shaddai) --- subversiune: demonul împrumută Numele celui pe care-l imită \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Mispar Kidmi: cumulativ triangular}
+Fiecare literă contribuie cu suma tuturor valorilor alfabetului până la ea inclusiv. În greacă pe 24 litere: α=1, β=3, γ=6, δ=10, ε=15, ..., ω=3999.
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1.5cm}L{8cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Kidmi} & \textbf{= Țintă / Context} \\
+\midrule
+\textbf{אָבַד} (a pierit) ×6 & \textbf{14} & = דוד \\
+\textbf{אָבוֹא} (voi veni) ×14 & \textbf{26} & = YHWH --- formă mesianică «iată vin» \\
+\textbf{וָאָבֹא} (și voi veni) ×4 & \textbf{26} & = YHWH \\
+\textbf{דֹּאֵג} (îngrijorat) ×5 & \textbf{17} & = טוב \\
+\midrule
+\textbf{ἔμεινε(ν)} (a rămas) ×10 & \textbf{611} & = תורה --- μένω, verb central ioanin. Ioan 1:14 ἐσκήνωσεν ἐν ἡμῖν: «a locuit între noi» = Tora \\
+\textbf{ἐκεῖ} (acolo) ×95 & \textbf{148} & = פסח --- «acolo»-ul narativ al Evangheliilor pe Paște \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Mispar Haachor: literă × poziție}
+Fiecare literă multiplicată cu poziția ei în cuvânt (1-based).
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1.5cm}L{8cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Haachor} & \textbf{= Țintă / Context} \\
+\midrule
+\textbf{אוֹ} (sau) ×202 & \textbf{13} & = אחד --- disjuncția pe unitate \\
+\textbf{בוֹ} (în el) ×293 & \textbf{14} & = דוד --- ἐν αὐτῷ (Ioan 1:4) \\
+\textbf{זֶה} (acesta) ×258 & \textbf{17} & = טוב \\
+\midrule
+\textbf{δέ} (dar/iar) ×2766 & \textbf{14} & = דוד --- adversativul davidic. δ(4)×1 + ε(5)×2 = 14 \\
+\textbf{παρά} (de la) ×193 & \textbf{386} & = ישוע --- παρὰ τοῦ Πατρός. π(80)×1 + α(1)×2 + ρ(100)×3 + α(1)×4 = 386 \\
+\textbf{περί} (despre) ×332 & \textbf{430} & = שקל --- π(80) + ε(10) + ρ(300) + ι(40) = 430 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Mispar Boneeh: sumă cumulativă per poziție}
+Prima literă contribuie cu $v_1$, a doua cu $v_1+v_2$, a treia cu $v_1+v_2+v_3$, etc.
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1.5cm}L{8cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Boneeh} & \textbf{= Țintă / Context} \\
+\midrule
+\textbf{בִי} (în mine) ×85 & \textbf{14} & = דוד \\
+\textbf{בֹּאוֹ} (venirea lui) ×67 & \textbf{14} & = דוד --- sosirea mesianică \\
+\textbf{אָבִי} (tatăl meu) ×114 & \textbf{17} & = טוב --- «Tatăl Meu cel bun» \\
+\textbf{בָּאָה} (a venit) ×39 & \textbf{13} & = אחד \\
+\midrule
+\textbf{καί} (și) ×8973 & \textbf{72} & = חסד (mila) --- conjuncția narativă a Septuagintei = harul \\
+\textbf{σύ} (tu) ×173 & \textbf{800} & = ω final --- «Tu» culminează în omega (Ap 1:8 τὸ ἄλφα καὶ τὸ ὦ) \\
+\textbf{οἷς} (cărora) ×46 & \textbf{430} & = שקל \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Mispar Hamerubah Haklali: pătratul sumei totale}
+Prin definiție, produce doar perfect-pătrate ($4, 9, 16, 25, 144, 400, 625, \ldots$).
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1.5cm}L{8cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Hamerubah} & \textbf{= Țintă / Context} \\
+\midrule
+\textbf{הוּא} (el) ×965 & \textbf{144} & = $12^2$ --- pronumele persoana a III-a (hech=12) ca semnătură Apoc 7:4, 14:1 «144{,}000» \\
+\textbf{זֶה} (acesta) ×258 & \textbf{144} & = $12^2$ \\
+\textbf{בִי} (în mine) ×85 & \textbf{144} & = $12^2$ \\
+\textbf{הָיָה} (a fost) ×272 & \textbf{400} & = $20^2$ = ת (taw) --- ființarea primordială picturează litera finală \\
+\textbf{יָדוֹ} (mâna lui) ×62 & \textbf{400} & = $20^2$ \\
+\midrule
+\textbf{δή} (într-adevăr) ×5 & \textbf{144} & = $12^2$ --- particula emfatică = Apoc 7 \\
+\textbf{ἤδη} (deja) ×60 & \textbf{400} & = $20^2$ --- eschatologia realizată ioanină (1 In 4:3 ἤδη ἐστίν) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Mispar Kolel: hechrachi + 1 (mecanic)}
+Tot ce are hechrachi $= n-1$ hit pe ținta $n$. Mecanic, dar productiv când $n-1$ e frecvent.
+
+\begin{center}
+\small
+\begin{tabular}{L{3cm}C{1.5cm}L{8cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Cuvânt} & \textbf{Kolel} & \textbf{= Țintă / Context} \\
+\midrule
+\textbf{הוּא, זֶה, בִי} (×965/258/85) & \textbf{13} & = אחד (hech=12 + 1) \\
+\textbf{אֶחָד, אָבִי, יָבֹא} (×306/114/41) & \textbf{14} & = דוד (hech=13 + 1) \\
+\midrule
+\textbf{ἐκ} (din) ×913 & \textbf{26} & = YHWH (hech=25 + 1). \textbf{Detaliu spectaculos}: ἐκ apare exact de \textbf{913} ori în SBLGNT, iar $913 = $ בראשית (primul cuvânt din Tora) \\
+\textbf{εἰσί(ν)} (sunt) ×156 & \textbf{276} & = עור (pielea din Gen 3:21) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Metodele Hebrew-exclusive}
+Cele 7 metode structurale ebraice care nu au echivalent grec direct, aplicate exclusiv pe Delitzsch.
+
+\begin{center}
+\small
+\begin{tabular}{L{2.5cm}L{3cm}C{1.5cm}L{6cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{Metodă} & \textbf{Cuvânt} & \textbf{Valoare} & \textbf{Țintă / Context} \\
+\midrule
+\textsc{Gadol} & אֶחָד (×306) & 13 & = אחד (pe pointed Delitzsch ≈ hechrachi) \\
+\textsc{Gadol} & טוֹב (×122) & 17 & = טוב \\
+\textsc{Shemi-Milui} & לוֹ (lui) ×583 & 86 & = אלהים \\
+\textsc{Shemi-Milui} & מַה (ce) ×304 & 86 & = אלהים \\
+\textsc{Shemi-Milui} & הֵם (ei) ×170 & 86 & = אלהים --- persoana a III-a plural = pluralitatea lui Elohim \\
+\textsc{Shemi-Milui} & וַיְצַו (și a poruncit) ×32 & 148 & = פסח --- porunca pashală \\
+\textsc{Neelam} & הָיוּ (au fost) ×123 & 17 & = טוב --- «ființarea se revelează ca binele» \\
+\textsc{Neelam} & תְּהִי (să fie) ×12 & 17 & = טוב \\
+\textsc{Mispari} & זָהָב (aur) ×24 & \textbf{1480} & = \textbf{Χριστός}! --- dublă-atestare grec-ebraic pentru «aurul = Hristos» \\
+\textsc{Ayak-Bachar} & אֶת (particulă obiect direct) ×3289 & 14 & = דוד --- cel mai frecvent cuvânt al VT hit pe David \\
+\textsc{Ofanim} & הַלַּיְלָה (noaptea) ×14 & 14 & = דוד --- psalmist nocturn (Ps 42:8; 119:62) \\
+\textsc{Achas-Beta} & שַׂר (prinț) ×57 & 13 & = אחד \\
+\textsc{Achas-Beta} & פֶּרֶץ (Pereț) ×3 & 13 & = אחד --- tatăl neamului davidic (Rut 4:18--22) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Metode dominate de lungime: Perati, Meshulash}
+\textsc{Perati} (suma pătratelor) și \textsc{Meshulash} (suma cuburilor) produc valori ce cresc rapid cu lungimea cuvântului --- doar cuvinte scurte ating ținte mici. Hit-uri notabile:
+\begin{itemize}
+  \item \textsc{Meshulash} = \textbf{358 (משיח)}: בְּבוֹאָהּ (×2, «la venirea ei») --- unic hit mesianic pe această metodă.
+  \item \textsc{Meshulash} = 72 (חסד): בַּד (×3), דֹב (×1) --- triviale.
+\end{itemize}
+\textsc{Katan-Mispari} (rădăcina digitală iterată) produce doar valori 1--9 --- steril pentru țintele teologice $\geq 10$.
+
+\subsection{Convergențe cross-language: Greek method M $=$ Hebrew method M}
+Perechile unde aceeași metodă, pe aceeași țintă teologică, captează simultan o formă grecească și una ebraică ambele frecvente în NT:
+
+\begin{center}
+\small
+\begin{tabular}{C{0.5cm}L{1.8cm}C{1.2cm}L{3cm}L{3cm}L{2.5cm}}
+\toprule
+\rowcolor{primarylight}
+\textbf{\#} & \textbf{Metodă} & \textbf{Valoare} & \textbf{Greek} & \textbf{Hebrew} & \textbf{Țintă} \\
+\midrule
+1 & Musafi & 22 & δεῖ (×77) & וְהוּא (×220) & alef-taw \\
+2 & Kolel & 26 & ἐκ (×913) & יְהִי (×35) & YHWH \\
+3 & Musafi & 444 & ὄρος (×27) & אֹתָם (×483) & מקדש \\
+4 & Kolel & 276 & εἰσί(ν) (×156) & הָרָע (×40) & עור / rău \\
+5 & Boneeh & 72 & καί (×8973) & יְהוָה (×186) & חסד \\
+6 & Haachor & 14 & δέ (×2766) & בוֹ (×293) & דוד \\
+7 & Haachor & 386 & παρά (×193) & וַיִּפֹּל (×28) & ישוע \\
+8 & Kidmi & 611 & ἔμεινε(ν) (×10) & הָעוֹלָם (×146) & תורה \\
+9 & Musafi & 314 & δαιμόνιον (×15) & אִישׁ (×616) & שדי \\
+10 & Hamerubah & 144 & δή (×5) & הוּא (×965) & $12^2$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Descoperiri cross-language cheie:}
+\begin{itemize}
+  \item \textbf{KIDMI 611}: verbul μένω («a rămâne», central ioanin) și substantivul עולם («lumea») converg simultan pe Tora. «Rămânerea ioanină este Tora-n-lume» --- Logos-ul din Ioan 1:14 cifrat pe două limbi.
+  \item \textbf{KOLEL 26}: prepoziția grecească ἐκ («din»), prezentă de exact 913 ori în SBLGNT (= בראשית), hit simultan cu imperativul creator יְהִי («să fie», din Fac 1:3). Prepoziția originii divine intersectează comanda creatoare pe Numele YHWH.
+  \item \textbf{HAACHOR 386}: παρά (prepoziția «de la» --- παρὰ τοῦ Πατρός) hit cu וַיִּפֹּל («și a căzut»). Ambele pe ישוע (386). Iisus «cel care a venit jos» (κατέβη) de la Tatăl.
+  \item \textbf{BONEEH 72}: καί (×8973) și יהוה (×186) converg pe חסד («mila»). Conjuncția narativă a NT = harul YHWH. «Septuaginta coordonează cu mila.»
+\end{itemize}
+
+\subsection{Observații metodologice}
+\begin{enumerate}
+  \item \textbf{\textsc{Katan-Mispari}} (rădăcină digitală iterată) produce doar valori 1--9 --- nu poate hit-ui ținte teologice $\geq 10$. Metodă sterilă pe vocabular non-numeric.
+  \item \textbf{\textsc{Perati}, \textsc{Meshulash}, \textsc{Hamerubah}} sunt dominate de lungime --- utile doar pentru perfect-pătrate ca 144 și 400.
+  \item \textbf{\textsc{Kolel}} e mecanic (hechrachi+1) --- descoperirile sunt reformulări ale hechrachi-ului.
+  \item \textbf{\textsc{Musafi}} s-a dovedit cea mai productivă metodă «nouă»: hechrachi + lungime prinde ținte noi (14, 17, 22, 314, 444).
+  \item \textbf{\textsc{Gadol}} pe Delitzsch pointed $\approx$ \textsc{Hechrachi} --- diferențele apar doar la terminații finale (ך, ם, ן, ף, ץ).
+  \item Verificare independentă a tuturor celor 56 de claim-uri (cuvânt + metodă + valoare + contor) contra corpusurilor reale (SBLGNT din MorphGNT; Delitzsch OSIS, ediția 1885): \textbf{56/56 PASS} (script \texttt{retroversion\_work/verify\_23methods\_claims.py}).
+\end{enumerate}
+
+
 \section{«Ca la trei mii» — inversiunea Sinai-ului}
 \begin{center}
 \small

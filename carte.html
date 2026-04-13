@@ -4940,6 +4940,167 @@ Iar „Arcă" (תבה) în ebraică înseamnă și „Cuvânt"</strong>
 
 <p><strong>Nota metodologică finală.</strong> Cele 23 de metode numerice au fost aplicate <strong>complet pe ambele corpusuri</strong> (grec SBLGNT: 19.409 forme unice; ebraic Delitzsch: 24.989 forme unice), inclusiv variantele inverse unde era relevant. Toate calculele au fost efectuate computațional cu pachetul <code>biblegematria</code> și scripturile din <code>retroversion_work/</code>. Distribuțiile la nivel de verset sunt la nivel aleator în ambele limbi (factor 37: 2,4–2,8% vs așteptat 2,7%), confirmând că pattern-urile sunt <strong>selective</strong> (concentrate pe vocabularul teologic deliberat) și nu universale. Exact aceasta este semnătura unui <strong>cifru conștient</strong>: activ pe cuvintele-cheie, absent în restul textului.</p>
 
+<h3 style="color:#8B0000;" id="restante-23">Cele 15 metode restante: scan sistematic SBLGNT și Delitzsch</h3>
+
+<p>Până aici au fost documentate 8 metode: hechrachi/isopsefie standard, Mispar Siduri (ordinal), Mispar Katan, Atbash, Albam, Avgad, Reverse-Avgad și Notarikon. Biblioteca <code>hebrew</code> (Python pip, <code>GematriaTypes</code> enum) implementează încă 15 metode: <strong>Gadol</strong> (sofit), <strong>Perati</strong> (sumă de pătrate), <strong>Meshulash</strong> (cuburi), <strong>Kidmi</strong> (cumulativ triangular), <strong>Mispari</strong> (valoare spelled-out), <strong>Ayak-Bachar</strong>, <strong>Ofanim</strong>, <strong>Achas-Beta</strong>, <strong>Musafi</strong> (hechrachi + nr. litere), <strong>Boneeh</strong> (sumă cumulativă per poziție), <strong>Hamerubah Haklali</strong> (pătratul sumei), <strong>Haachor</strong> (literă × poziție), <strong>Katan-Mispari</strong> (rădăcina digitală), <strong>Kolel</strong> (hechrachi + 1), <strong>Shemi-Milui</strong> (nume literă spelled-out), <strong>Neelam</strong> (nume literă minus litera). Aplicate pe ambele corpusuri, filtrate pe 41 de ținte teologice: 56 claim-uri verificate individual contra corpusurilor reale (SBLGNT+Delitzsch, script <code>verify_23methods_claims.py</code>).</p>
+
+<p><strong>Aplicabilitate la greacă.</strong> 7/23 metode depind de structurile ebraice (numele literelor, structura 22 = 11+11) și nu au echivalent direct în Milesianul grecesc de 24 litere: <span style="font-variant:small-caps;">Gadol</span> (sofit), <span style="font-variant:small-caps;">Mispari</span> (spell-out), <span style="font-variant:small-caps;">Ayak-Bachar</span>, <span style="font-variant:small-caps;">Ofanim</span>, <span style="font-variant:small-caps;">Achas-Beta</span>, <span style="font-variant:small-caps;">Shemi-Milui</span>, <span style="font-variant:small-caps;">Neelam</span>. Celelalte 16 au fost aplicate matematic pe SBLGNT.</p>
+
+<h4 style="color:#8B0000;">Mispar Musafi: hechrachi + numărul de litere</h4>
+
+<p>Cea mai productivă metodă nouă. Un discriminator subtil care prinde ținte noi (22, 314, 444) pentru cuvinte scurte și frecvente.</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Hech</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Musafi</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Semnificație</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>חַג</strong> — sărbătoare ×16</td><td style="padding:6px;border:1px solid #ddd;">11</td><td style="padding:6px;border:1px solid #ddd;"><strong>13</strong></td><td style="padding:6px;border:1px solid #ddd;">= אחד — unu</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>זֶה</strong> — acesta ×258</td><td style="padding:6px;border:1px solid #ddd;">12</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד — demonstrativul mesianic «acesta este»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>דָּוִד</strong> — David ×55</td><td style="padding:6px;border:1px solid #ddd;">14</td><td style="padding:6px;border:1px solid #ddd;"><strong>17</strong></td><td style="padding:6px;border:1px solid #ddd;">= טוב — David = «bun»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>זָהָב</strong> — aur ×24</td><td style="padding:6px;border:1px solid #ddd;">14</td><td style="padding:6px;border:1px solid #ddd;"><strong>17</strong></td><td style="padding:6px;border:1px solid #ddd;">= טוב — aurul magilor (Mt 2:11) = «bun»</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>δεῖ</strong> — trebuie ×77</td><td style="padding:6px;border:1px solid #ddd;">19</td><td style="padding:6px;border:1px solid #ddd;"><strong>22</strong></td><td style="padding:6px;border:1px solid #ddd;">= alef-taw (structura alfabetului) — necesitatea divină din Ioan 3:7,14,30</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>ὄρος</strong> — munte ×27</td><td style="padding:6px;border:1px solid #ddd;">440</td><td style="padding:6px;border:1px solid #ddd;"><strong>444</strong></td><td style="padding:6px;border:1px solid #ddd;">= מקדש (Templul) — muntele ca Templu (Daniel 2:35 «piatra a devenit munte mare»)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>δαιμόνιον</strong> — demon ×15</td><td style="padding:6px;border:1px solid #ddd;">305</td><td style="padding:6px;border:1px solid #ddd;"><strong>314</strong></td><td style="padding:6px;border:1px solid #ddd;">= שדי (Shaddai) — subversiune: demonul împrumută Numele celui pe care-l imită</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Mispar Kidmi: cumulativ triangular</h4>
+
+<p>Fiecare literă contribuie cu suma tuturor valorilor alfabetului până la ea inclusiv. În greacă pe 24 litere: α=1, β=3, γ=6, δ=10, ε=15, ..., ω=3999.</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Kidmi</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>אָבַד</strong> — a pierit ×6</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>אָבוֹא</strong> — voi veni ×14</td><td style="padding:6px;border:1px solid #ddd;"><strong>26</strong></td><td style="padding:6px;border:1px solid #ddd;">= YHWH — formă mesianică «iată vin»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>וָאָבֹא</strong> — și voi veni ×4</td><td style="padding:6px;border:1px solid #ddd;"><strong>26</strong></td><td style="padding:6px;border:1px solid #ddd;">= YHWH</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>דֹּאֵג</strong> — îngrijorat ×5</td><td style="padding:6px;border:1px solid #ddd;"><strong>17</strong></td><td style="padding:6px;border:1px solid #ddd;">= טוב</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>ἔμεινε(ν)</strong> — a rămas ×10</td><td style="padding:6px;border:1px solid #ddd;"><strong>611</strong></td><td style="padding:6px;border:1px solid #ddd;">= תורה — μένω, verb central ioanin. Ioan 1:14 ἐσκήνωσεν ἐν ἡμῖν: «a locuit între noi» = Tora</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>ἐκεῖ</strong> — acolo ×95</td><td style="padding:6px;border:1px solid #ddd;"><strong>148</strong></td><td style="padding:6px;border:1px solid #ddd;">= פסח — «acolo»-ul narativ al Evangheliilor pe Paște</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Mispar Haachor: literă × poziție</h4>
+
+<p>Fiecare literă multiplicată cu poziția ei în cuvânt (1-based).</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Haachor</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>אוֹ</strong> — sau ×202</td><td style="padding:6px;border:1px solid #ddd;"><strong>13</strong></td><td style="padding:6px;border:1px solid #ddd;">= אחד — disjuncția pe unitate</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>בוֹ</strong> — în el ×293</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד — ἐν αὐτῷ (Ioan 1:4)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>זֶה</strong> — acesta ×258</td><td style="padding:6px;border:1px solid #ddd;"><strong>17</strong></td><td style="padding:6px;border:1px solid #ddd;">= טוב</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>δέ</strong> — dar/iar ×2766</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד — adversativul davidic. δ(4)×1 + ε(5)×2 = 14</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>παρά</strong> — de la ×193</td><td style="padding:6px;border:1px solid #ddd;"><strong>386</strong></td><td style="padding:6px;border:1px solid #ddd;">= ישוע — παρὰ τοῦ Πατρός. π(80)×1 + α(1)×2 + ρ(100)×3 + α(1)×4 = 386</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>περί</strong> — despre ×332</td><td style="padding:6px;border:1px solid #ddd;"><strong>430</strong></td><td style="padding:6px;border:1px solid #ddd;">= שקל — π(80) + ε(10) + ρ(300) + ι(40) = 430</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Mispar Boneeh: sumă cumulativă per poziție</h4>
+
+<p>Prima literă contribuie cu v₁, a doua cu v₁+v₂, a treia cu v₁+v₂+v₃, etc.</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Boneeh</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>בִי</strong> — în mine ×85</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>בֹּאוֹ</strong> — venirea lui ×67</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד — sosirea mesianică</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>אָבִי</strong> — tatăl meu ×114</td><td style="padding:6px;border:1px solid #ddd;"><strong>17</strong></td><td style="padding:6px;border:1px solid #ddd;">= טוב — «Tatăl Meu cel bun»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>בָּאָה</strong> — a venit ×39</td><td style="padding:6px;border:1px solid #ddd;"><strong>13</strong></td><td style="padding:6px;border:1px solid #ddd;">= אחד</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>καί</strong> — și ×8973</td><td style="padding:6px;border:1px solid #ddd;"><strong>72</strong></td><td style="padding:6px;border:1px solid #ddd;">= חסד (mila) — conjuncția narativă a Septuagintei = harul</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>σύ</strong> — tu ×173</td><td style="padding:6px;border:1px solid #ddd;"><strong>800</strong></td><td style="padding:6px;border:1px solid #ddd;">= ω final — «Tu» culminează în omega (Ap 1:8 τὸ ἄλφα καὶ τὸ ὦ)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>οἷς</strong> — cărora ×46</td><td style="padding:6px;border:1px solid #ddd;"><strong>430</strong></td><td style="padding:6px;border:1px solid #ddd;">= שקל</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Mispar Hamerubah Haklali: pătratul sumei totale</h4>
+
+<p>Prin definiție, produce doar perfect-pătrate (4, 9, 16, 25, 144, 400, 625, …).</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Hamerubah</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>הוּא</strong> — el ×965</td><td style="padding:6px;border:1px solid #ddd;"><strong>144</strong></td><td style="padding:6px;border:1px solid #ddd;">= 12² — pronumele persoana a III-a (hech=12) ca semnătură Apoc 7:4, 14:1 «144.000»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>זֶה</strong> — acesta ×258</td><td style="padding:6px;border:1px solid #ddd;"><strong>144</strong></td><td style="padding:6px;border:1px solid #ddd;">= 12²</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>בִי</strong> — în mine ×85</td><td style="padding:6px;border:1px solid #ddd;"><strong>144</strong></td><td style="padding:6px;border:1px solid #ddd;">= 12²</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>הָיָה</strong> — a fost ×272</td><td style="padding:6px;border:1px solid #ddd;"><strong>400</strong></td><td style="padding:6px;border:1px solid #ddd;">= 20² = ת (taw) — ființarea primordială picturează litera finală</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>יָדוֹ</strong> — mâna lui ×62</td><td style="padding:6px;border:1px solid #ddd;"><strong>400</strong></td><td style="padding:6px;border:1px solid #ddd;">= 20²</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>δή</strong> — într-adevăr ×5</td><td style="padding:6px;border:1px solid #ddd;"><strong>144</strong></td><td style="padding:6px;border:1px solid #ddd;">= 12² — particula emfatică = Apoc 7</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>ἤδη</strong> — deja ×60</td><td style="padding:6px;border:1px solid #ddd;"><strong>400</strong></td><td style="padding:6px;border:1px solid #ddd;">= 20² — eschatologia realizată ioanină (1 In 4:3 ἤδη ἐστίν)</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Mispar Kolel: hechrachi + 1 (mecanic)</h4>
+
+<p>Tot ce are hechrachi = n−1 hit pe ținta n. Mecanic, dar productiv când n−1 e frecvent.</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Kolel</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">= Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>הוּא, זֶה, בִי</strong> (×965/258/85)</td><td style="padding:6px;border:1px solid #ddd;"><strong>13</strong></td><td style="padding:6px;border:1px solid #ddd;">= אחד (hech=12 + 1)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>אֶחָד, אָבִי, יָבֹא</strong> (×306/114/41)</td><td style="padding:6px;border:1px solid #ddd;"><strong>14</strong></td><td style="padding:6px;border:1px solid #ddd;">= דוד (hech=13 + 1)</td></tr>
+<tr style="border-top:2px solid #333;"><td style="padding:6px;border:1px solid #ddd;"><strong>ἐκ</strong> — din ×913</td><td style="padding:6px;border:1px solid #ddd;"><strong>26</strong></td><td style="padding:6px;border:1px solid #ddd;">= YHWH (hech=25 + 1). <strong>Detaliu spectaculos</strong>: ἐκ apare exact de <strong>913</strong> ori în SBLGNT, iar 913 = בראשית (primul cuvânt din Tora)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><strong>εἰσί(ν)</strong> — sunt ×156</td><td style="padding:6px;border:1px solid #ddd;"><strong>276</strong></td><td style="padding:6px;border:1px solid #ddd;">= עור (pielea din Gen 3:21)</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Metodele Hebrew-exclusive</h4>
+
+<p>Cele 7 metode structurale ebraice care nu au echivalent grec direct, aplicate exclusiv pe Delitzsch.</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Metodă</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Cuvânt</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Valoare</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Țintă / Context</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Gadol</span></td><td style="padding:6px;border:1px solid #ddd;">אֶחָד (×306)</td><td style="padding:6px;border:1px solid #ddd;">13</td><td style="padding:6px;border:1px solid #ddd;">= אחד (pe pointed Delitzsch ≈ hechrachi)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Gadol</span></td><td style="padding:6px;border:1px solid #ddd;">טוֹב (×122)</td><td style="padding:6px;border:1px solid #ddd;">17</td><td style="padding:6px;border:1px solid #ddd;">= טוב</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Shemi-Milui</span></td><td style="padding:6px;border:1px solid #ddd;">לוֹ — lui ×583</td><td style="padding:6px;border:1px solid #ddd;">86</td><td style="padding:6px;border:1px solid #ddd;">= אלהים</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Shemi-Milui</span></td><td style="padding:6px;border:1px solid #ddd;">מַה — ce ×304</td><td style="padding:6px;border:1px solid #ddd;">86</td><td style="padding:6px;border:1px solid #ddd;">= אלהים</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Shemi-Milui</span></td><td style="padding:6px;border:1px solid #ddd;">הֵם — ei ×170</td><td style="padding:6px;border:1px solid #ddd;">86</td><td style="padding:6px;border:1px solid #ddd;">= אלהים — persoana a III-a plural = pluralitatea lui Elohim</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Shemi-Milui</span></td><td style="padding:6px;border:1px solid #ddd;">וַיְצַו — și a poruncit ×32</td><td style="padding:6px;border:1px solid #ddd;">148</td><td style="padding:6px;border:1px solid #ddd;">= פסח — porunca pashală</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Neelam</span></td><td style="padding:6px;border:1px solid #ddd;">הָיוּ — au fost ×123</td><td style="padding:6px;border:1px solid #ddd;">17</td><td style="padding:6px;border:1px solid #ddd;">= טוב — «ființarea se revelează ca binele»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Neelam</span></td><td style="padding:6px;border:1px solid #ddd;">תְּהִי — să fie ×12</td><td style="padding:6px;border:1px solid #ddd;">17</td><td style="padding:6px;border:1px solid #ddd;">= טוב</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Mispari</span></td><td style="padding:6px;border:1px solid #ddd;">זָהָב — aur ×24</td><td style="padding:6px;border:1px solid #ddd;"><strong>1480</strong></td><td style="padding:6px;border:1px solid #ddd;">= <strong>Χριστός</strong>! — dublă-atestare grec-ebraic pentru «aurul = Hristos»</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Ayak-Bachar</span></td><td style="padding:6px;border:1px solid #ddd;">אֶת — particulă obiect direct ×3289</td><td style="padding:6px;border:1px solid #ddd;">14</td><td style="padding:6px;border:1px solid #ddd;">= דוד — cel mai frecvent cuvânt al VT hit pe David</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Ofanim</span></td><td style="padding:6px;border:1px solid #ddd;">הַלַּיְלָה — noaptea ×14</td><td style="padding:6px;border:1px solid #ddd;">14</td><td style="padding:6px;border:1px solid #ddd;">= דוד — psalmist nocturn (Ps 42:8; 119:62)</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Achas-Beta</span></td><td style="padding:6px;border:1px solid #ddd;">שַׂר — prinț ×57</td><td style="padding:6px;border:1px solid #ddd;">13</td><td style="padding:6px;border:1px solid #ddd;">= אחד</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;"><span style="font-variant:small-caps;">Achas-Beta</span></td><td style="padding:6px;border:1px solid #ddd;">פֶּרֶץ — Pereț ×3</td><td style="padding:6px;border:1px solid #ddd;">13</td><td style="padding:6px;border:1px solid #ddd;">= אחד — tatăl neamului davidic (Rut 4:18–22)</td></tr>
+</table>
+
+<h4 style="color:#8B0000;">Metode dominate de lungime: Perati, Meshulash</h4>
+
+<p><span style="font-variant:small-caps;">Perati</span> (suma pătratelor) și <span style="font-variant:small-caps;">Meshulash</span> (suma cuburilor) produc valori ce cresc rapid cu lungimea cuvântului — doar cuvinte scurte ating ținte mici. Hit-uri notabile:</p>
+
+<ul>
+<li><span style="font-variant:small-caps;">Meshulash</span> = <strong>358 (משיח)</strong>: בְּבוֹאָהּ (×2, «la venirea ei») — unic hit mesianic pe această metodă.</li>
+<li><span style="font-variant:small-caps;">Meshulash</span> = 72 (חסד): בַּד (×3), דֹב (×1) — triviale.</li>
+</ul>
+
+<p><span style="font-variant:small-caps;">Katan-Mispari</span> (rădăcina digitală iterată) produce doar valori 1–9 — steril pentru țintele teologice ≥ 10.</p>
+
+<h4 style="color:#8B0000;">Convergențe cross-language: Greek method M = Hebrew method M</h4>
+
+<p>Perechile unde aceeași metodă, pe aceeași țintă teologică, captează simultan o formă grecească și una ebraică ambele frecvente în NT:</p>
+
+<table style="margin:15px 0; font-size:0.93em; width:100%;">
+<tr><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">#</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Metodă</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Valoare</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Greek</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Hebrew</th><th style="background:#DBEAFE;padding:6px;border:1px solid #ddd;">Țintă</th></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">1</td><td style="padding:6px;border:1px solid #ddd;">Musafi</td><td style="padding:6px;border:1px solid #ddd;">22</td><td style="padding:6px;border:1px solid #ddd;">δεῖ (×77)</td><td style="padding:6px;border:1px solid #ddd;">וְהוּא (×220)</td><td style="padding:6px;border:1px solid #ddd;">alef-taw</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">2</td><td style="padding:6px;border:1px solid #ddd;">Kolel</td><td style="padding:6px;border:1px solid #ddd;">26</td><td style="padding:6px;border:1px solid #ddd;">ἐκ (×913)</td><td style="padding:6px;border:1px solid #ddd;">יְהִי (×35)</td><td style="padding:6px;border:1px solid #ddd;">YHWH</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">3</td><td style="padding:6px;border:1px solid #ddd;">Musafi</td><td style="padding:6px;border:1px solid #ddd;">444</td><td style="padding:6px;border:1px solid #ddd;">ὄρος (×27)</td><td style="padding:6px;border:1px solid #ddd;">אֹתָם (×483)</td><td style="padding:6px;border:1px solid #ddd;">מקדש</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">4</td><td style="padding:6px;border:1px solid #ddd;">Kolel</td><td style="padding:6px;border:1px solid #ddd;">276</td><td style="padding:6px;border:1px solid #ddd;">εἰσί(ν) (×156)</td><td style="padding:6px;border:1px solid #ddd;">הָרָע (×40)</td><td style="padding:6px;border:1px solid #ddd;">עור / rău</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">5</td><td style="padding:6px;border:1px solid #ddd;">Boneeh</td><td style="padding:6px;border:1px solid #ddd;">72</td><td style="padding:6px;border:1px solid #ddd;">καί (×8973)</td><td style="padding:6px;border:1px solid #ddd;">יְהוָה (×186)</td><td style="padding:6px;border:1px solid #ddd;">חסד</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">6</td><td style="padding:6px;border:1px solid #ddd;">Haachor</td><td style="padding:6px;border:1px solid #ddd;">14</td><td style="padding:6px;border:1px solid #ddd;">δέ (×2766)</td><td style="padding:6px;border:1px solid #ddd;">בוֹ (×293)</td><td style="padding:6px;border:1px solid #ddd;">דוד</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">7</td><td style="padding:6px;border:1px solid #ddd;">Haachor</td><td style="padding:6px;border:1px solid #ddd;">386</td><td style="padding:6px;border:1px solid #ddd;">παρά (×193)</td><td style="padding:6px;border:1px solid #ddd;">וַיִּפֹּל (×28)</td><td style="padding:6px;border:1px solid #ddd;">ישוע</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">8</td><td style="padding:6px;border:1px solid #ddd;">Kidmi</td><td style="padding:6px;border:1px solid #ddd;">611</td><td style="padding:6px;border:1px solid #ddd;">ἔμεινε(ν) (×10)</td><td style="padding:6px;border:1px solid #ddd;">הָעוֹלָם (×146)</td><td style="padding:6px;border:1px solid #ddd;">תורה</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">9</td><td style="padding:6px;border:1px solid #ddd;">Musafi</td><td style="padding:6px;border:1px solid #ddd;">314</td><td style="padding:6px;border:1px solid #ddd;">δαιμόνιον (×15)</td><td style="padding:6px;border:1px solid #ddd;">אִישׁ (×616)</td><td style="padding:6px;border:1px solid #ddd;">שדי</td></tr>
+<tr><td style="padding:6px;border:1px solid #ddd;">10</td><td style="padding:6px;border:1px solid #ddd;">Hamerubah</td><td style="padding:6px;border:1px solid #ddd;">144</td><td style="padding:6px;border:1px solid #ddd;">δή (×5)</td><td style="padding:6px;border:1px solid #ddd;">הוּא (×965)</td><td style="padding:6px;border:1px solid #ddd;">12²</td></tr>
+</table>
+
+<p><strong>Descoperiri cross-language cheie:</strong></p>
+
+<ul>
+<li><strong>KIDMI 611</strong>: verbul μένω («a rămâne», central ioanin) și substantivul עולם («lumea») converg simultan pe Tora. «Rămânerea ioanină este Tora-n-lume» — Logos-ul din Ioan 1:14 cifrat pe două limbi.</li>
+<li><strong>KOLEL 26</strong>: prepoziția grecească ἐκ («din»), prezentă de exact 913 ori în SBLGNT (= בראשית), hit simultan cu imperativul creator יְהִי («să fie», din Fac 1:3). Prepoziția originii divine intersectează comanda creatoare pe Numele YHWH.</li>
+<li><strong>HAACHOR 386</strong>: παρά (prepoziția «de la» — παρὰ τοῦ Πατρός) hit cu וַיִּפֹּל («și a căzut»). Ambele pe ישוע (386). Iisus «cel care a venit jos» (κατέβη) de la Tatăl.</li>
+<li><strong>BONEEH 72</strong>: καί (×8973) și יהוה (×186) converg pe חסד («mila»). Conjuncția narativă a NT = harul YHWH. «Septuaginta coordonează cu mila.»</li>
+</ul>
+
+<h4 style="color:#8B0000;">Observații metodologice</h4>
+
+<ol>
+<li><strong><span style="font-variant:small-caps;">Katan-Mispari</span></strong> (rădăcină digitală iterată) produce doar valori 1–9 — nu poate hit-ui ținte teologice ≥ 10. Metodă sterilă pe vocabular non-numeric.</li>
+<li><strong><span style="font-variant:small-caps;">Perati</span>, <span style="font-variant:small-caps;">Meshulash</span>, <span style="font-variant:small-caps;">Hamerubah</span></strong> sunt dominate de lungime — utile doar pentru perfect-pătrate ca 144 și 400.</li>
+<li><strong><span style="font-variant:small-caps;">Kolel</span></strong> e mecanic (hechrachi+1) — descoperirile sunt reformulări ale hechrachi-ului.</li>
+<li><strong><span style="font-variant:small-caps;">Musafi</span></strong> s-a dovedit cea mai productivă metodă «nouă»: hechrachi + lungime prinde ținte noi (14, 17, 22, 314, 444).</li>
+<li><strong><span style="font-variant:small-caps;">Gadol</span></strong> pe Delitzsch pointed ≈ <span style="font-variant:small-caps;">Hechrachi</span> — diferențele apar doar la terminații finale (ך, ם, ן, ף, ץ).</li>
+<li>Verificare independentă a tuturor celor 56 de claim-uri (cuvânt + metodă + valoare + contor) contra corpusurilor reale (SBLGNT din MorphGNT; Delitzsch OSIS, ediția 1885): <strong>56/56 PASS</strong> (script <code>retroversion_work/verify_23methods_claims.py</code>).</li>
+</ol>
+
 <h4 style="color:#8B0000;">«Ca la trei mii» — inversiunea Sinai-ului</h4>
 
 <table style="margin:15px 0; font-size:0.93em; width:100%;">
