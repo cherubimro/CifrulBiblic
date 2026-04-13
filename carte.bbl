@@ -391,6 +391,35 @@
       \field{year}{2003}
       \true{nocite}
     \endentry
+    \entry{barnes1968}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b8368e0dbcb69e3eb8ec331ddebb233e}{%
+           family={Barnes},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \strng{fullhash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \strng{bibnamehash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \strng{authorbibnamehash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \strng{authornamehash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \strng{authorfullhash}{b8368e0dbcb69e3eb8ec331ddebb233e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theological Studies}
+      \field{number}{1}
+      \field{title}{The Date of Herod's Death}
+      \field{volume}{19}
+      \field{year}{1968}
+      \field{pages}{204\bibrangedash 209}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/jts/XIX.1.204
+      \endverb
+    \endentry
     \entry{bauckham1993}{book}{}
       \name{author}{1}{}{%
         {{hash=5fdbdec8cf9e5388be81f4b4e98357cc}{%
@@ -445,7 +474,7 @@
       \field{pages}{77\bibrangedash 88}
       \range{pages}{12}
     \endentry
-    \entry{WOS:000395865700012}{article}{}
+    \entry{bauer2016}{article}{}
       \name{author}{1}{}{%
         {{hash=05f317a6c478608d92d57b957c7b5b91}{%
            family={Bauer},
@@ -607,7 +636,7 @@
       \field{title}{Liber de {Haeresibus}}
       \true{nocite}
     \endentry
-    \entry{brown1994}{book}{}
+    \entry{brown1993}{book}{}
       \name{author}{1}{}{%
         {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
            family={Brown},
@@ -628,6 +657,36 @@
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd (updated)}
+      \field{isbn}{9780385494472}
+      \field{title}{The Birth of the Messiah: A Commentary on the Infancy Narratives in the Gospels of Matthew and Luke}
+      \field{year}{1993}
+    \endentry
+    \entry{brown1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{fullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{bibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -654,7 +713,7 @@
       \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -764,7 +823,7 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
-    \entry{WOS:000572542400005}{article}{}
+    \entry{cardwell2020}{article}{}
       \name{author}{1}{}{%
         {{hash=9057556e4cfcad4c9efd696875362627}{%
            family={Cardwell},
@@ -963,7 +1022,7 @@
       \field{title}{Istoria {Bisericească} ({Historia Ecclesiastica})}
       \true{nocite}
     \endentry
-    \entry{Chan2025}{article}{}
+    \entry{chan2025}{article}{}
       \name{author}{1}{}{%
         {{hash=96941021cd8178dc291f4836adbd30a9}{%
            family={Chan},
@@ -1239,6 +1298,39 @@
       \field{year}{1995}
       \true{nocite}
     \endentry
+    \entry{crossan_reed2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=21b5e7b2bba37d4f589d5cb875902390}{%
+           family={Crossan},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima Dominic},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=72dfb3f7d6db6664af97ae406edc016e}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Jonathan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {HarperSanFrancisco}%
+      }
+      \strng{namehash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \strng{fullhash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \strng{bibnamehash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \strng{authorbibnamehash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \strng{authornamehash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \strng{authorfullhash}{1a8e7edc57299bc3cc108fc0c067a916}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780060816162}
+      \field{title}{In Search of Paul: How Jesus's Apostle Opposed Rome's Empire with God's Kingdom}
+      \field{year}{2004}
+    \endentry
     \entry{culpepper1983}{book}{}
       \name{author}{1}{}{%
         {{hash=e5ab1758d1fd499aabeace2615b43baa}{%
@@ -1348,6 +1440,35 @@
       \field{title}{The Painter's Manual of {Dionysius of Fourna}}
       \field{year}{1974}
       \true{nocite}
+    \endentry
+    \entry{priene_inscription}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=d27e20dd8b9f3a9ceaac3406f89e5d6b}{%
+           family={{Dittenberger, Wilhelm (ed.)}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {S.~Hirzel}%
+      }
+      \strng{namehash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \strng{fullhash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \strng{bibnamehash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \strng{authorbibnamehash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \strng{authornamehash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \strng{authorfullhash}{d27e20dd8b9f3a9ceaac3406f89e5d6b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Orientis Graeci Inscriptiones Selectae}
+      \field{note}{Decretul provinciei Asia care proclamă ziua nașterii lui Augustus ca «εὐαγγέλιον» pentru lume și îl numește «σωτήρ», «θεοῦ υἱός»}
+      \field{number}{458}
+      \field{title}{Calendar Inscription of Priene (9 B.C.)}
+      \field{volume}{II}
+      \field{year}{1905}
     \endentry
     \entry{dornseiff1925}{book}{}
       \name{author}{1}{}{%
@@ -1868,7 +1989,7 @@
       \field{pages}{1\bibrangedash 30}
       \range{pages}{30}
     \endentry
-    \entry{WOS:000541377200007}{incollection}{}
+    \entry{fowler2018}{incollection}{}
       \name{author}{2}{}{%
         {{hash=15bd7a28b1962b7b17ef9e7be1ba59b1}{%
            family={Fowler},
@@ -1911,6 +2032,32 @@
       \true{nocite}
       \field{pages}{1\bibrangedash 160}
       \range{pages}{160}
+    \endentry
+    \entry{frova1961}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f8e95c6ba2299de8360f3400efa60c3d}{%
+           family={Frova},
+           familyi={F\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \strng{fullhash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \strng{bibnamehash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \strng{authorbibnamehash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \strng{authornamehash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \strng{authorfullhash}{f8e95c6ba2299de8360f3400efa60c3d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rendiconti dell'Istituto Lombardo, Accademia di Scienze e Lettere, Classe di Lettere e Scienze Morali e Storiche}
+      \field{note}{Descoperirea inscripției «Pontius Pilatus praefectus Iudaeae» la Caesarea Maritima, 1961}
+      \field{title}{L'iscrizione di Ponzio Pilato a Cesarea}
+      \field{volume}{95}
+      \field{year}{1961}
+      \field{pages}{419\bibrangedash 434}
+      \range{pages}{16}
     \endentry
     \entry{genette1972}{book}{}
       \name{author}{1}{}{%
@@ -2058,7 +2205,7 @@
       \field{year}{1997}
       \true{nocite}
     \endentry
-    \entry{WOS:A1984SH44500009}{article}{}
+    \entry{grigsby1984}{article}{}
       \name{author}{1}{}{%
         {{hash=02ee9b4f4ff7c97db540634a4af3a534}{%
            family={GRIGSBY},
@@ -2182,7 +2329,7 @@
       \verb 10.1515/opth-2022-0245
       \endverb
     \endentry
-    \entry{Harvey2007}{article}{}
+    \entry{harvey2007}{article}{}
       \name{author}{1}{}{%
         {{hash=3fc77bc6de6faf2b7e96dc44aa1cadcd}{%
            family={Harvey},
@@ -2268,7 +2415,7 @@
       \field{pages}{178\bibrangedash 206}
       \range{pages}{29}
     \endentry
-    \entry{WOS:000083367000006}{article}{}
+    \entry{heinzerling1999}{article}{}
       \name{author}{1}{}{%
         {{hash=1287476538734620b2ee1efbf17a018a}{%
            family={Heinzerling},
@@ -2422,6 +2569,34 @@
       \field{title}{Iliada; Odiseea}
       \true{nocite}
     \endentry
+    \entry{horsley2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=921f66a33c627268d3f85bc2b238955b}{%
+           family={Horsley},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{921f66a33c627268d3f85bc2b238955b}
+      \strng{fullhash}{921f66a33c627268d3f85bc2b238955b}
+      \strng{bibnamehash}{921f66a33c627268d3f85bc2b238955b}
+      \strng{authorbibnamehash}{921f66a33c627268d3f85bc2b238955b}
+      \strng{authornamehash}{921f66a33c627268d3f85bc2b238955b}
+      \strng{authorfullhash}{921f66a33c627268d3f85bc2b238955b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800634902}
+      \field{title}{Jesus and Empire: The Kingdom of God and the New World Disorder}
+      \field{year}{2003}
+    \endentry
     \entry{humphreys1983}{article}{}
       \name{author}{2}{}{%
         {{hash=76430f4b8b5c7d4bc2c4d07d01e0a3e8}{%
@@ -2456,7 +2631,7 @@
       \verb 10.1038/306743a0
       \endverb
     \endentry
-    \entry{WOS:A1987H060700010}{article}{}
+    \entry{hvalvik1987}{article}{}
       \name{author}{1}{}{%
         {{hash=071a8545db0ab6ca4b42344416e86688}{%
            family={HVALVIK},
@@ -2607,7 +2782,6 @@
       \field{labeltitlesource}{title}
       \field{note}{Sec.~II d.Hr. Citări: XIX, XXII, XLIII, XLV, XCII (PSB~02)}
       \field{title}{Dialogul cu {Tryfon}}
-      \true{nocite}
     \endentry
     \entry{jenkins2004}{article}{}
       \name{author}{1}{}{%
@@ -2786,7 +2960,7 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
-    \entry{WOS:000165529800003}{article}{}
+    \entry{kellner2000}{article}{}
       \name{author}{1}{}{%
         {{hash=3a75dfeb4fb3aea5a68ad82952ed4332}{%
            family={Kellner},
@@ -2900,7 +3074,7 @@
       \field{year}{2000}
       \true{nocite}
     \endentry
-    \entry{WOS:000411705400001}{article}{}
+    \entry{koester2016}{article}{}
       \name{author}{1}{}{%
         {{hash=4cb0bcb85eb893b2abf105d037aeeef5}{%
            family={Koester},
@@ -2971,7 +3145,7 @@
       \field{year}{1960}
       \true{nocite}
     \endentry
-    \entry{Korpel2009}{article}{}
+    \entry{korpel2009}{article}{}
       \name{author}{1}{}{%
         {{hash=0a060b07c58d1884547a8f60adc522eb}{%
            family={Korpel},
@@ -3040,7 +3214,7 @@
       \field{year}{1994}
       \true{nocite}
     \endentry
-    \entry{WOS:000747728800002}{article}{}
+    \entry{krawczyk2021}{article}{}
       \name{author}{1}{}{%
         {{hash=96194162d647a5b2114898acdeb3284f}{%
            family={Krawczyk},
@@ -3080,7 +3254,7 @@
       \range{pages}{23}
       \keyw{Gematria; Oskar Goldberg; 26; halacha; semiotics; statistics; Bible research}
     \endentry
-    \entry{WOS:001520638600001}{article}{}
+    \entry{kulik2025}{article}{}
       \name{author}{1}{}{%
         {{hash=06aa02d436934d4526e23c258434f0c6}{%
            family={Kulik},
@@ -3216,7 +3390,7 @@
       \verb https://legislatie.just.ro/Public/DetaliiDocumentAfis/190446
       \endverb
     \endentry
-    \entry{WOS:000226164300003}{article}{}
+    \entry{leuchter2004}{article}{}
       \name{author}{1}{}{%
         {{hash=8ac92d0172dada2c87aeef89a7f059b7}{%
            family={Leuchter},
@@ -3363,7 +3537,7 @@
       \field{year}{2019}
       \true{nocite}
     \endentry
-    \entry{WOS:000256441500008}{article}{}
+    \entry{loiseau2007}{article}{}
       \name{author}{1}{}{%
         {{hash=897c11925cf6bd861b34fd6217c89c1e}{%
            family={Loiseau},
@@ -3629,7 +3803,7 @@
       \field{year}{2016}
       \true{nocite}
     \endentry
-    \entry{McEleney1977}{article}{}
+    \entry{mceleney1977bis}{article}{}
       \name{author}{1}{}{%
         {{hash=acdcdc50db1992ca8b9489468282ff21}{%
            family={McEleney},
@@ -3759,7 +3933,7 @@
       \field{pages}{1837\bibrangedash 1841}
       \range{pages}{5}
     \endentry
-    \entry{WOS:000287498800003}{inproceedings}{}
+    \entry{michael2010}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=148505db77d8e435fbd27f46def466a0}{%
            family={Michael},
@@ -4053,7 +4227,7 @@
       \field{year}{2013}
       \true{nocite}
     \endentry
-    \entry{WOS:000400089500004}{article}{}
+    \entry{oakman2017}{article}{}
       \name{author}{1}{}{%
         {{hash=a99fda4f1bbc2973c3234f798ff63a1e}{%
            family={Oakman},
@@ -4482,7 +4656,7 @@
       \field{year}{1990}
       \true{nocite}
     \endentry
-    \entry{Psychoyos2005}{article}{}
+    \entry{psychoyos2005}{article}{}
       \name{author}{1}{}{%
         {{hash=664a7411ba748f081ada793a48c86756}{%
            family={Psychoyos},
@@ -4610,7 +4784,34 @@
       \field{year}{2006}
       \true{nocite}
     \endentry
-    \entry{WOS:000267305400007}{article}{}
+    \entry{ramsay1898}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3408ae9dec6753b256c3869fb7f4d2ab}{%
+           family={Ramsay},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Hodder \& Stoughton}%
+      }
+      \strng{namehash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \strng{fullhash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \strng{bibnamehash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \strng{authorbibnamehash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \strng{authornamehash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \strng{authorfullhash}{3408ae9dec6753b256c3869fb7f4d2ab}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was Christ Born at Bethlehem? A Study on the Credibility of St.~Luke}
+      \field{year}{1898}
+    \endentry
+    \entry{rastoin2009}{article}{}
       \name{author}{1}{}{%
         {{hash=d86f8b9c61b630148ffe61815902c0d2}{%
            family={Rastoin},
@@ -4835,7 +5036,7 @@
       \field{pages}{215\bibrangedash 242}
       \range{pages}{28}
     \endentry
-    \entry{WOS:A1978FN05200011}{article}{}
+    \entry{romeo1978}{article}{}
       \name{author}{1}{}{%
         {{hash=9b11d37b34c37a6efdd58cb3bf01bb6b}{%
            family={ROMEO},
@@ -4895,7 +5096,7 @@
       \verb https://www.esa.int/Science_Exploration/Space_Science/Rosetta
       \endverb
     \endentry
-    \entry{WOS:A1978ET05700003}{article}{}
+    \entry{sambursky1978}{article}{}
       \name{author}{1}{}{%
         {{hash=50671dec16f22511b3d413943e5051d8}{%
            family={SAMBURSKY},
@@ -4991,7 +5192,7 @@
       \field{year}{1993}
       \true{nocite}
     \endentry
-    \entry{WOS:000174183800002}{article}{}
+    \entry{schmidt2002}{article}{}
       \name{author}{1}{}{%
         {{hash=12b671e73ce9fe1c664efeaf7a509ae9}{%
            family={Schmidt},
@@ -5057,6 +5258,56 @@
       \field{title}{God's Human Face: The Christ-Icon}
       \field{year}{1994}
       \true{nocite}
+    \endentry
+    \entry{schurer1973}{book}{}
+      \name{author}{1}{}{%
+        {{hash=beca32839cf279cf72735eb57a1e4061}{%
+           family={Schürer},
+           familyi={S\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=da53fdb32c6874537b17e8fd3085e2e4}{%
+           family={Vermes},
+           familyi={V\bibinitperiod},
+           given={Geza},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7e92948906edf9488de75b24465644bd}{%
+           family={Millar},
+           familyi={M\bibinitperiod},
+           given={Fergus},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8cf5576122c796e5740966e81d134723}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Edinburgh}%
+      }
+      \list{publisher}{1}{%
+        {T\&T Clark}%
+      }
+      \strng{namehash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{fullhash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{bibnamehash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{authorbibnamehash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{authornamehash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{authorfullhash}{beca32839cf279cf72735eb57a1e4061}
+      \strng{editorbibnamehash}{16bee80941594462adc3ac896ad979a3}
+      \strng{editornamehash}{16bee80941594462adc3ac896ad979a3}
+      \strng{editorfullhash}{16bee80941594462adc3ac896ad979a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{rev.}
+      \field{note}{Excursus I: The Census of Quirinius, pp.~399--427}
+      \field{title}{The History of the Jewish People in the Age of Jesus Christ (175 B.C.--A.D.~135)}
+      \field{volume}{I}
+      \field{year}{1973}
     \endentry
     \entry{sefaria}{misc}{}
       \field{sortinit}{S}
@@ -5321,7 +5572,7 @@
       \field{year}{1996}
       \true{nocite}
     \endentry
-    \entry{WOS:A1996TW31600005}{article}{}
+    \entry{steiner1996}{article}{}
       \name{author}{1}{}{%
         {{hash=0bb61d23f8f3ab0b32dc9b0e95f3e2d6}{%
            family={STEINER},
@@ -5567,7 +5818,7 @@
       \field{year}{1986}
       \true{nocite}
     \endentry
-    \entry{Tantlevskij2021142}{article}{}
+    \entry{tantlevskij2021}{article}{}
       \name{author}{1}{}{%
         {{hash=b2bf440b834efc884240a8ca79676993}{%
            family={Tantlevskij},
@@ -5603,6 +5854,36 @@
       \endverb
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122852382&doi=10.25985%2fPI.15.2.06&partnerID=40&md5=3b3249560ce5db218c2055bc4e132d8e
+      \endverb
+    \endentry
+    \entry{taylor1933}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ba26fd746fbd1d056f5691bdf458e010}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Lily\bibnamedelima Ross},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba26fd746fbd1d056f5691bdf458e010}
+      \strng{fullhash}{ba26fd746fbd1d056f5691bdf458e010}
+      \strng{bibnamehash}{ba26fd746fbd1d056f5691bdf458e010}
+      \strng{authorbibnamehash}{ba26fd746fbd1d056f5691bdf458e010}
+      \strng{authornamehash}{ba26fd746fbd1d056f5691bdf458e010}
+      \strng{authorfullhash}{ba26fd746fbd1d056f5691bdf458e010}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Philology}
+      \field{number}{2}
+      \field{title}{Quirinius and the Census of Judaea}
+      \field{volume}{54}
+      \field{year}{1933}
+      \true{nocite}
+      \field{pages}{120\bibrangedash 133}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2307/289952
       \endverb
     \endentry
     \entry{telford1980}{book}{}
@@ -5730,7 +6011,7 @@
       \field{year}{2017}
       \true{nocite}
     \endentry
-    \entry{WOS:000454685600002}{article}{}
+    \entry{tomecki2018}{article}{}
       \name{author}{1}{}{%
         {{hash=5b0f154d27a4a5110c07d62b20a48764}{%
            family={Tomecki},
@@ -5801,7 +6082,7 @@
       \field{year}{2022}
       \true{nocite}
     \endentry
-    \entry{Tripp2022}{incollection}{}
+    \entry{tripp2022bis}{incollection}{}
       \name{author}{1}{}{%
         {{hash=31b8a44685333f6ee6ecbd585c4c4f9b}{%
            family={Tripp},
@@ -6091,7 +6372,7 @@
       \field{year}{2019}
       \true{nocite}
     \endentry
-    \entry{WOS:A1980LC87400024}{article}{}
+    \entry{weintraub1980}{article}{}
       \name{author}{1}{}{%
         {{hash=ef58d08aace0e5178213250a33c6a0c2}{%
            family={WEINTRAUB},
@@ -6409,6 +6690,37 @@
       \field{year}{1901}
       \true{nocite}
     \endentry
+    \entry{wright1992}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0c7cf96e56a4d49917a74aa311e06dfa}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={N.T.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{fullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{bibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authorbibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authornamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authorfullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800626815}
+      \field{series}{Christian Origins and the Question of God}
+      \field{title}{The New Testament and the People of God}
+      \field{volume}{1}
+      \field{year}{1992}
+      \true{nocite}
+    \endentry
     \entry{yazykova2010}{book}{}
       \name{author}{1}{}{%
         {{hash=979887b3adbc8ee945814f4972991a47}{%
@@ -6466,7 +6778,7 @@
       \field{pages}{633\bibrangedash 646}
       \range{pages}{14}
     \endentry
-    \entry{WOS:000464504600009}{incollection}{}
+    \entry{zacharias2017}{incollection}{}
       \name{author}{1}{}{%
         {{hash=8d1787b2f1c0e8a482d8e337a51f1b6a}{%
            family={Zacharias},
