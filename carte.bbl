@@ -232,6 +232,35 @@
       \field{title}{Stromata; Eclogae Propheticae}
       \true{nocite}
     \endentry
+    \entry{allison1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=49225ce0bcc68a606747da66850402d0}{%
+           family={Allison\bibnamedelima Jr.},
+           familyi={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Dale\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{49225ce0bcc68a606747da66850402d0}
+      \strng{fullhash}{49225ce0bcc68a606747da66850402d0}
+      \strng{bibnamehash}{49225ce0bcc68a606747da66850402d0}
+      \strng{authorbibnamehash}{49225ce0bcc68a606747da66850402d0}
+      \strng{authornamehash}{49225ce0bcc68a606747da66850402d0}
+      \strng{authorfullhash}{49225ce0bcc68a606747da66850402d0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800627997}
+      \field{note}{Monografia definitorie asupra tipologiei Moise în Matei: 5 discursuri = 5 cărți ale Torei, munte-Sinai, 40 zile în pustie, naștere cu pruncucidere. Fericirile = noul Decalog pe muntele cel nou}
+      \field{title}{The New Moses: A Matthean Typology}
+      \field{year}{1993}
+    \endentry
     \entry{alter1981}{book}{}
       \name{author}{1}{}{%
         {{hash=58a03ba5306ba8f033344a669692c7c4}{%
@@ -339,6 +368,34 @@
       \field{title}{Barabbas and Esther and Other Studies in the Judaic Illumination of Earliest Christianity}
       \field{year}{1992}
       \true{nocite}
+    \endentry
+    \entry{bacon1930}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5f0f7d352b8380908a67b3120561934b}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Benjamin\bibnamedelima W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Henry Holt}%
+      }
+      \strng{namehash}{5f0f7d352b8380908a67b3120561934b}
+      \strng{fullhash}{5f0f7d352b8380908a67b3120561934b}
+      \strng{bibnamehash}{5f0f7d352b8380908a67b3120561934b}
+      \strng{authorbibnamehash}{5f0f7d352b8380908a67b3120561934b}
+      \strng{authornamehash}{5f0f7d352b8380908a67b3120561934b}
+      \strng{authorfullhash}{5f0f7d352b8380908a67b3120561934b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Primul care a identificat structura celor 5 discursuri majore în Matei (5--7, 10, 13, 18, 24--25) ca paralelă cu cele 5 cărți ale Pentateuhului. Foundational pentru tipologia Moise}
+      \field{title}{Studies in Matthew}
+      \field{year}{1930}
     \endentry
     \entry{barber2002}{book}{}
       \name{author}{1}{}{%
@@ -556,6 +613,7 @@
       \strng{authorbibnamehash}{676424bda51dbe18f8b86b13e6ddc478}
       \strng{authornamehash}{676424bda51dbe18f8b86b13e6ddc478}
       \strng{authorfullhash}{676424bda51dbe18f8b86b13e6ddc478}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -564,6 +622,37 @@
       \field{title}{Galatians: A Commentary on Paul's Letter to the Churches in Galatia}
       \field{year}{1979}
       \true{nocite}
+    \endentry
+    \entry{betz1995}{book}{}
+      \name{author}{1}{}{%
+        {{hash=676424bda51dbe18f8b86b13e6ddc478}{%
+           family={Betz},
+           familyi={B\bibinitperiod},
+           given={Hans\bibnamedelima Dieter},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{676424bda51dbe18f8b86b13e6ddc478}
+      \strng{fullhash}{676424bda51dbe18f8b86b13e6ddc478}
+      \strng{bibnamehash}{676424bda51dbe18f8b86b13e6ddc478}
+      \strng{authorbibnamehash}{676424bda51dbe18f8b86b13e6ddc478}
+      \strng{authornamehash}{676424bda51dbe18f8b86b13e6ddc478}
+      \strng{authorfullhash}{676424bda51dbe18f8b86b13e6ddc478}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800660314}
+      \field{note}{Comentariul canonic asupra Predicii de pe Munte. Capitole separate pentru paralelele cu literatura cinic-stoică (Diogene Laerțiu) și cu tradiția sapiențială evreiască}
+      \field{series}{Hermeneia}
+      \field{title}{The Sermon on the Mount: A Commentary on the Sermon on the Mount, Including the Sermon on the Plain (Matthew 5:3--7:27 and Luke 6:20--49)}
+      \field{year}{1995}
     \endentry
     \entry{biblia_ortodoxa}{misc}{}
       \field{sortinit}{B}
@@ -747,6 +836,34 @@
       \field{title}{Figures of Speech Used in the Bible}
       \field{year}{1898}
       \true{nocite}
+    \endentry
+    \entry{bunta2022}{book}{}
+      \name{author}{1}{}{%
+        {{hash=22138ff3f76bff203ec89baeb2a921a8}{%
+           family={Bunta},
+           familyi={B\bibinitperiod},
+           given={Silviu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sibiu}%
+      }
+      \list{publisher}{1}{%
+        {Deisis}%
+      }
+      \strng{namehash}{22138ff3f76bff203ec89baeb2a921a8}
+      \strng{fullhash}{22138ff3f76bff203ec89baeb2a921a8}
+      \strng{bibnamehash}{22138ff3f76bff203ec89baeb2a921a8}
+      \strng{authorbibnamehash}{22138ff3f76bff203ec89baeb2a921a8}
+      \strng{authornamehash}{22138ff3f76bff203ec89baeb2a921a8}
+      \strng{authorfullhash}{22138ff3f76bff203ec89baeb2a921a8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Studiu românesc modern asupra tradiției izopsefice patristice (Justin, Irineu, Origen, Hippolit); include catalogul valorilor nomine sacra}
+      \field{title}{Cuvintele Logosului: Izopsefia în Noul Testament și la Părinții Bisericii}
+      \field{year}{2022}
     \endentry
     \entry{bynum2007}{book}{}
       \name{author}{1}{}{%
@@ -1021,6 +1138,46 @@
       \field{note}{Sec.~IV d.Hr. Citări: II.23 (martiriul lui Iacov, apud Hegesippus)}
       \field{title}{Istoria {Bisericească} ({Historia Ecclesiastica})}
       \true{nocite}
+    \endentry
+    \entry{iamblichus_theologoumena}{book}{}
+      \name{author}{1}{}{%
+        {{hash=748d8d1198eca4f28b331e505800a6f2}{%
+           family={Chalcidensis},
+           familyi={C\bibinitperiod},
+           given={Iamblichus},
+           giveni={I\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=322e3435fe2821dc2a2e5cef732348f5}{%
+           family={Falco},
+           familyi={F\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {Teubner}%
+      }
+      \strng{namehash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{fullhash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{bibnamehash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{authorbibnamehash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{authornamehash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{authorfullhash}{748d8d1198eca4f28b331e505800a6f2}
+      \strng{editorbibnamehash}{322e3435fe2821dc2a2e5cef732348f5}
+      \strng{editornamehash}{322e3435fe2821dc2a2e5cef732348f5}
+      \strng{editorfullhash}{322e3435fe2821dc2a2e5cef732348f5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~IV d.Hr. Compendiul neopytagorean al valorilor numerice ale celor 10 prime numere naturale. Baza teologico-numerologică pentru tradiția creștină de izopsefie (888, 666, 153 etc.)}
+      \field{title}{Theologoumena Arithmeticae}
+      \field{year}{1922}
     \endentry
     \entry{chan2025}{article}{}
       \name{author}{1}{}{%
@@ -1356,6 +1513,34 @@
       \field{year}{1983}
       \true{nocite}
     \endentry
+    \entry{dan1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c057134fcd0dee05fb46dd6b493438b7}{%
+           family={Dan},
+           familyi={D\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Paulist Press}%
+      }
+      \strng{namehash}{c057134fcd0dee05fb46dd6b493438b7}
+      \strng{fullhash}{c057134fcd0dee05fb46dd6b493438b7}
+      \strng{bibnamehash}{c057134fcd0dee05fb46dd6b493438b7}
+      \strng{authorbibnamehash}{c057134fcd0dee05fb46dd6b493438b7}
+      \strng{authornamehash}{c057134fcd0dee05fb46dd6b493438b7}
+      \strng{authorfullhash}{c057134fcd0dee05fb46dd6b493438b7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Include texte traduse din tradiția Hasidei Ashkenaz (sec.~XII--XIII) cu metode numerologice}
+      \field{title}{The Early Kabbalah}
+      \field{year}{1986}
+    \endentry
     \entry{davis1968}{book}{}
       \name{author}{1}{}{%
         {{hash=043bde39675aeac146444c536a886c58}{%
@@ -1497,7 +1682,6 @@
       \field{note}{Studiu clasic despre valorile numerice ale alfabetelor antice}
       \field{title}{Das {Alphabet} in {Mystik} und {Magie}}
       \field{year}{1925}
-      \true{nocite}
     \endentry
     \entry{douglas2007}{book}{}
       \name{author}{1}{}{%
@@ -1959,6 +2143,34 @@
       \field{title}{Reverse Perspective}
       \field{year}{2002}
       \true{nocite}
+    \endentry
+    \entry{flusser1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=46839c65d117956c5a2c2b770184e159}{%
+           family={Flusser},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jerusalem}%
+      }
+      \list{publisher}{1}{%
+        {Magnes Press}%
+      }
+      \strng{namehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{fullhash}{46839c65d117956c5a2c2b770184e159}
+      \strng{bibnamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authorbibnamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authornamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authorfullhash}{46839c65d117956c5a2c2b770184e159}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Colecție de studii asupra rădăcinilor evreiești-esesiene ale NT, inclusiv eseul fundamental «Blessed are the Poor in Spirit» (pp.~102--114) pe Qumran 4Q525 și Fericirile matteice}
+      \field{title}{Judaism and the Origins of Christianity}
+      \field{year}{1987}
     \endentry
     \entry{forbes1986}{article}{}
       \name{author}{1}{}{%
@@ -2477,6 +2689,42 @@
       \field{title}{Istorii}
       \true{nocite}
     \endentry
+    \entry{herodot_histories}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3fd09e6896de2c5de4886bf878d133d8}{%
+           family={Herodotus},
+           familyi={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=46c9d7a92709f1b787abf22f64ce9e20}{%
+           family={Hude},
+           familyi={H\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Classical Texts}%
+      }
+      \strng{namehash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{fullhash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{bibnamehash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{authorbibnamehash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{authornamehash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{authorfullhash}{3fd09e6896de2c5de4886bf878d133d8}
+      \strng{editorbibnamehash}{46c9d7a92709f1b787abf22f64ce9e20}
+      \strng{editornamehash}{46c9d7a92709f1b787abf22f64ce9e20}
+      \strng{editorfullhash}{46c9d7a92709f1b787abf22f64ce9e20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Sec.~V î.Hr. Dialogul Solon-Croesus (I.30--32): definiția μακάριος în termeni civici clasici: cetățean cu familie prosperă, moarte glorioasă în apărarea patriei (Tellus din Atena). Punctul de plecare al tradiției μακαρισμός greacă}
+      \field{title}{Historiae}
+      \field{year}{1927}
+    \endentry
     \entry{augustin}{book}{}
       \name{author}{1}{}{%
         {{hash=313fe62b3b7b2ed359a1f7b75cbcee05}{%
@@ -2672,6 +2920,35 @@
       \verb{doi}
       \verb 10.1017/S0028688500022694
       \endverb
+    \endentry
+    \entry{idel1988}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5858b73d0b5be0c028227ffb33d949b7}{%
+           family={Idel},
+           familyi={I\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Albany}%
+      }
+      \list{publisher}{1}{%
+        {SUNY Press}%
+      }
+      \strng{namehash}{5858b73d0b5be0c028227ffb33d949b7}
+      \strng{fullhash}{5858b73d0b5be0c028227ffb33d949b7}
+      \strng{bibnamehash}{5858b73d0b5be0c028227ffb33d949b7}
+      \strng{authorbibnamehash}{5858b73d0b5be0c028227ffb33d949b7}
+      \strng{authornamehash}{5858b73d0b5be0c028227ffb33d949b7}
+      \strng{authorfullhash}{5858b73d0b5be0c028227ffb33d949b7}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780887067273}
+      \field{note}{Abulafia (sec.~XIII) a sistematizat metodele gematrice moderne; Idel analizează corpusul său}
+      \field{title}{The Mystical Experience in Abraham Abulafia}
+      \field{year}{1988}
     \endentry
     \entry{isaac_paisie}{book}{}
       \name{author}{1}{}{%
@@ -2933,7 +3210,36 @@
       \field{title}{The Theology of Arithmetic: Number Symbolism in Platonism and Early Christianity}
       \field{volume}{59}
       \field{year}{2013}
-      \true{nocite}
+    \endentry
+    \entry{kaplan1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8f1612df0aa9fb95ac5476424a2cba18}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Aryeh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Weiser Books}%
+      }
+      \strng{namehash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \strng{fullhash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \strng{bibnamehash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \strng{authorbibnamehash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \strng{authornamehash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \strng{authorfullhash}{8f1612df0aa9fb95ac5476424a2cba18}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{rev.}
+      \field{isbn}{9780877288558}
+      \field{note}{Ediție critică cu traducere și comentariu academic; sursă modernă principală pentru cele 23 metode cabalistice}
+      \field{title}{Sefer {Yetzirah}: The Book of Creation, in Theory and Practice}
+      \field{year}{1997}
     \endentry
     \entry{kelber1983}{book}{}
       \name{author}{1}{}{%
@@ -3605,6 +3911,63 @@
       \field{year}{1942}
       \true{nocite}
     \endentry
+    \entry{luz2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=52b8fb4ed46e7c310f87ba821e705750}{%
+           family={Luz},
+           familyi={L\bibinitperiod},
+           given={Menahem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{52b8fb4ed46e7c310f87ba821e705750}
+      \strng{fullhash}{52b8fb4ed46e7c310f87ba821e705750}
+      \strng{bibnamehash}{52b8fb4ed46e7c310f87ba821e705750}
+      \strng{authorbibnamehash}{52b8fb4ed46e7c310f87ba821e705750}
+      \strng{authornamehash}{52b8fb4ed46e7c310f87ba821e705750}
+      \strng{authorfullhash}{52b8fb4ed46e7c310f87ba821e705750}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pythagoras: The History and Legacy}
+      \field{note}{Tracea izopsefia grecească până la neopytagoreici (Nicomachus din Gerasa, Iamblichus); argumentează că sistemul Milesian pre-există atașamentului său la numerologia mistică}
+      \field{title}{The Pythagorean Origins of Greek Gematria}
+      \field{year}{2020}
+      \field{pages}{145\bibrangedash 168}
+      \range{pages}{24}
+    \endentry
+    \entry{luz2007matthew}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e00f4b58e9cdb85e112b2bfed98a968c}{%
+           family={Luz},
+           familyi={L\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \strng{fullhash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \strng{bibnamehash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \strng{authorbibnamehash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \strng{authornamehash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \strng{authorfullhash}{e00f4b58e9cdb85e112b2bfed98a968c}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800637880}
+      \field{note}{Comentariu de referință pe Matei 1--7; pp.~188--235 pe Fericiri, cu paralele Qumran (4Q525), sapiențiale (Sirach, Tobit) și greco-romane}
+      \field{series}{Hermeneia}
+      \field{title}{Matthew 1--7: A Commentary}
+      \field{year}{2007}
+    \endentry
     \entry{irenaeus_ah}{book}{}
       \name{author}{1}{}{%
         {{hash=c8c0f8080a8800f062887a2afa6040b6}{%
@@ -3645,6 +4008,7 @@
       \strng{authorbibnamehash}{598c844a7f262e3bf9245dd31b73184c}
       \strng{authornamehash}{598c844a7f262e3bf9245dd31b73184c}
       \strng{authorfullhash}{598c844a7f262e3bf9245dd31b73184c}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -3652,7 +4016,85 @@
       \field{note}{Cca.\ 180 d.Hr. Cartea V, cap.~30.3: discută numărul Fiarei (666) din Apocalipsa 13:18 și propune trei candidați greci cu isopsefia 666 --- \textbf{Εὐάνθας}, \textbf{Λατεῖνος} (latinul) și \textbf{Τειτάν} (Titan). Λατεῖνος este candidatul preferat: «pentru că ultima împărăție poartă acest nume, pentru că latinii sunt cei care domnesc acum»}
       \field{title}{Adversus Haereses (Împotriva ereziilor)}
       \field{year}{180}
-      \true{nocite}
+    \endentry
+    \entry{irenaeus_marcus}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=598c844a7f262e3bf9245dd31b73184c}{%
+           family={Lyon)},
+           familyi={L\bibinitperiod},
+           given={Irenaeus\bibnamedelimb Lugdunensis\bibnamedelima (Irineu},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim (\bibinitperiod},
+           prefix={din},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=22b656d1837c7c01342f9e2028d613d2}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b6a6336c1752e5079e054f1c192f685a}{%
+           family={Donaldson},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Buffalo}%
+      }
+      \list{publisher}{1}{%
+        {Christian Literature Publishing Co.}%
+      }
+      \strng{namehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{fullhash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{bibnamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authorbibnamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authornamehash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{authorfullhash}{598c844a7f262e3bf9245dd31b73184c}
+      \strng{editorbibnamehash}{6b64f6c58c09ee503e33c46fc11df15e}
+      \strng{editornamehash}{6b64f6c58c09ee503e33c46fc11df15e}
+      \strng{editorfullhash}{6b64f6c58c09ee503e33c46fc11df15e}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Ante-Nicene Fathers, vol.~1}
+      \field{note}{Cca.\ 180 d.Hr. Descrie sistemul numerologic al gnosticului Marcu: fiecare literă greacă asociată cu un eon; numele divine derivate prin isopsefie (e.g., Ἀλήθεια=64, Χριστός=1480). Prima atestare patristică a sistemului de 24 litere × valori Milesiene aplicat teologic în creștinism}
+      \field{title}{Adversus Haereses, I.14--16: The Numerology of Marcus the Magician}
+      \field{year}{1885}
+    \endentry
+    \entry{macdonald2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a566ac5931a9b44ee35afb71fc797940}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta}%
+      }
+      \list{publisher}{1}{%
+        {Society of Biblical Literature}%
+      }
+      \strng{namehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{fullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{bibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781589837720}
+      \field{note}{Reconstituie sursa Q (numită «Logoi Iēsou») ca document papiasian pierdut; argumentează că Q însuși conține imitații homerice; Predica de pe Câmpie (Lc 6) = versiunea Q, ampificată la Matei}
+      \field{number}{8}
+      \field{series}{Early Christianity and Its Literature}
+      \field{title}{Two Shipwrecked Gospels: The Logoi of Jesus and Papias's Exposition of Logia about the Lord}
+      \field{year}{2012}
     \endentry
     \entry{macdonald2014}{book}{}
       \name{author}{1}{}{%
@@ -3671,7 +4113,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -3680,6 +4122,68 @@
       \field{title}{The {Gospels} and {Homer}: {Imitations} of {Greek Epic} in {Mark} and {Luke--Acts}}
       \field{year}{2014}
       \true{nocite}
+    \endentry
+    \entry{macdonald2015luke}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a566ac5931a9b44ee35afb71fc797940}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lanham, MD}%
+      }
+      \list{publisher}{1}{%
+        {Rowman \& Littlefield}%
+      }
+      \strng{namehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{fullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{bibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781442230545}
+      \field{note}{Predica de pe Câmpie (Lc 6) comparată cu \textit{Georgicele} II.458--474 ale lui Vergiliu: \textit{laudes vitae rusticae}. Luca inversează elogiul augustan al vieții rurale bogate}
+      \field{series}{The New Testament and Greek Literature}
+      \field{title}{Luke and Vergil: Imitations of Classical Greek Literature}
+      \field{volume}{2}
+      \field{year}{2015}
+    \endentry
+    \entry{macdonald2023}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a566ac5931a9b44ee35afb71fc797940}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lanham, MD}%
+      }
+      \list{publisher}{1}{%
+        {Lexington Books/Fortress Academic}%
+      }
+      \strng{namehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{fullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{bibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781978713253}
+      \field{note}{Teză: sursa Q (Q+) = Expunerea lui Papias despre logiile Domnului, identitate susținută cu Hans Dieter Betz; model narativ mimetic al Evangheliilor}
+      \field{title}{The Q+/Papias Hypothesis: The Lost Gospel and the Formation of the New Testament}
+      \field{year}{2023}
     \endentry
     \entry{macdonald2014gospels}{book}{}
       \name{author}{1}{}{%
@@ -3698,7 +4202,7 @@
       \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
-      \field{extraname}{2}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -3730,7 +4234,7 @@
       \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
-      \field{extraname}{3}
+      \field{extraname}{6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -3772,6 +4276,44 @@
       \field{note}{Sec.~III~î.Hr.--sec.~I~d.Hr. Fragmentele aramaice ale Cărții lui Enoh (4Q201--4Q212) confirmă circulația textului în perioada celui de-al Doilea Templu}
       \field{title}{Manuscrisele de la {Marea Moartă} ({Qumran})}
       \true{nocite}
+    \endentry
+    \entry{vergil_georgica}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4d06519799b68b35979fcf68930e4d05}{%
+           family={Maro},
+           familyi={M\bibinitperiod},
+           given={Publius\bibnamedelima Vergilius},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e0d57ea6aa19f409b0b324b5a54de606}{%
+           family={Mynors},
+           familyi={M\bibinitperiod},
+           given={R.A.B.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Classical Texts}%
+      }
+      \strng{namehash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{fullhash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{bibnamehash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{authorbibnamehash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{authornamehash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{authorfullhash}{4d06519799b68b35979fcf68930e4d05}
+      \strng{editorbibnamehash}{e0d57ea6aa19f409b0b324b5a54de606}
+      \strng{editornamehash}{e0d57ea6aa19f409b0b324b5a54de606}
+      \strng{editorfullhash}{e0d57ea6aa19f409b0b324b5a54de606}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\textit{Georgicele} II.458--474: \textit{O fortunatos nimium sua si bona norint / agricolas} --- elogiul blagoslovit al agriculorilor de țară (\textit{laudes vitae rusticae}), 29 î.Hr. Parte a programului ideologic augustan de restaurare a Italiei rurale}
+      \field{title}{P. Vergili Maronis Opera}
+      \field{year}{1969}
     \endentry
     \entry{mathews2016}{book}{}
       \name{author}{2}{}{%
@@ -4695,6 +5237,37 @@
       \endverb
       \keyw{isopsephy; gematria; Greek alphabet; numeral system; Milesian system}
     \endentry
+    \entry{puech1998}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b95c98c3782fec79c6c17e3c9392159e}{%
+           family={Puech},
+           familyi={P\bibinitperiod},
+           given={Émile},
+           giveni={É\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{b95c98c3782fec79c6c17e3c9392159e}
+      \strng{fullhash}{b95c98c3782fec79c6c17e3c9392159e}
+      \strng{bibnamehash}{b95c98c3782fec79c6c17e3c9392159e}
+      \strng{authorbibnamehash}{b95c98c3782fec79c6c17e3c9392159e}
+      \strng{authornamehash}{b95c98c3782fec79c6c17e3c9392159e}
+      \strng{authorfullhash}{b95c98c3782fec79c6c17e3c9392159e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780198269441}
+      \field{note}{Editio princeps a manuscrisului 4Q525 («Beatitudes Scroll»): catalog pre-creștin de Fericiri sapiențiale în ebraică, cu structură identică cu Matei 5:3--10 (8 + 1). Datare: sec.~I î.Hr., anterior lui Iisus. Fragmentul 2 col.~II, linii 1--11: patru Fericiri scurte + o a cincea amplificată}
+      \field{series}{Discoveries in the Judaean Desert}
+      \field{title}{Qumrân Grotte 4, XVIII: Textes hébreux (4Q521--4Q528, 4Q576--4Q579)}
+      \field{volume}{XXV}
+      \field{year}{1998}
+    \endentry
     \entry{quenot1991}{book}{}
       \name{author}{1}{}{%
         {{hash=345231993e899f4a16333f582dca659b}{%
@@ -5233,6 +5806,34 @@
       \verb 10.1163/156853602317417326
       \endverb
     \endentry
+    \entry{scholem1974}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bed1ce15a56c1cb7313ec050d79fba8f}{%
+           family={Scholem},
+           familyi={S\bibinitperiod},
+           given={Gershom},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jerusalem}%
+      }
+      \list{publisher}{1}{%
+        {Keter Publishing House}%
+      }
+      \strng{namehash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \strng{fullhash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \strng{bibnamehash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \strng{authorbibnamehash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \strng{authornamehash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \strng{authorfullhash}{bed1ce15a56c1cb7313ec050d79fba8f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cuprinde secțiunea «Gematria» (pp. 337--343) cu catalogul metodelor cabalistice --- Mispar Hechrachi, Gadol, Katan, Siduri, Milui, Neelam etc.}
+      \field{title}{Kabbalah}
+      \field{year}{1974}
+    \endentry
     \entry{schonborn1994}{book}{}
       \name{author}{1}{}{%
         {{hash=eee8c77bb831851ef668aeb562824d53}{%
@@ -5334,7 +5935,6 @@
       \field{labeltitlesource}{title}
       \field{note}{Sec.~II--VI d.Hr. Cel mai vechi text cabalistic; sistematizează relația dintre litere, numere și creație}
       \field{title}{Sefer {Yetzirah} ({Cartea Formării})}
-      \true{nocite}
     \endentry
     \entry{segovia1991}{book}{}
       \name{author}{1}{}{%
@@ -6053,6 +6653,34 @@
       \verb 10.29107/rr2018.4.2
       \endverb
       \keyw{Hebrew biblical rhetoric; structural analysis of the Bible; axiomatization of biblical rhetoric; palindromes in the Bible; gematria}
+    \endentry
+    \entry{trachtenberg1939}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8cad59b3f58ee4f40c83608d955a0a94}{%
+           family={Trachtenberg},
+           familyi={T\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Behrman's Jewish Book House}%
+      }
+      \strng{namehash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \strng{fullhash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \strng{bibnamehash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \strng{authorbibnamehash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \strng{authornamehash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \strng{authorfullhash}{8cad59b3f58ee4f40c83608d955a0a94}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Capitolul «The Names of God» (pp. 78--103) tratează numerologia literelor în tradiția folclorică iudaică medievală}
+      \field{title}{Jewish Magic and Superstition: A Study in Folk Religion}
+      \field{year}{1939}
     \endentry
     \entry{tripp2022}{article}{}
       \name{author}{1}{}{%
