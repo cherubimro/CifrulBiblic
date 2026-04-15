@@ -63,6 +63,46 @@
       \field{title}{Satirae}
       \true{nocite}
     \endentry
+    \entry{origen_commjohn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5685f9e8603987530cd80efbc34b4132}{%
+           family={Adamantius)},
+           familyi={A\bibinitperiod},
+           given={Origen\bibnamedelima (Origenes},
+           giveni={O\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=815f40cd2e4f1e7d7cfa3229a47a2ff5}{%
+           family={Preuschen},
+           familyi={P\bibinitperiod},
+           given={Erwin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leipzig}%
+      }
+      \list{publisher}{1}{%
+        {J.C. Hinrichs}%
+      }
+      \strng{namehash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{fullhash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{bibnamehash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{authorbibnamehash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{authornamehash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{authorfullhash}{5685f9e8603987530cd80efbc34b4132}
+      \strng{editorbibnamehash}{815f40cd2e4f1e7d7cfa3229a47a2ff5}
+      \strng{editornamehash}{815f40cd2e4f1e7d7cfa3229a47a2ff5}
+      \strng{editorfullhash}{815f40cd2e4f1e7d7cfa3229a47a2ff5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cca.~230 d.Hr. În \textit{In Johannem} VI.41 (numerotare Preuschen), Origen discută variantele textuale Γέρασα / Γάδαρα / Γέργεσα și argumentează că Γέργεσα este corecta: «se traduce κατοικία ἐκβεβλημένων» (locuința celor aruncați afară). Prima atestare a etymologiei semitice a toponimului}
+      \field{series}{Die griechischen christlichen Schriftsteller}
+      \field{title}{Commentarii in Evangelium Joannis}
+      \field{volume}{10}
+      \field{year}{1903}
+    \endentry
     \entry{vega1986}{misc}{}
       \name{author}{1}{}{%
         {{hash=729cdb87ce3664bcf279d28c3e2d8c30}{%
@@ -1017,6 +1057,35 @@
       \verb{url}
       \verb https://ccel.org/ccel/schaff/anf05
       \endverb
+    \endentry
+    \entry{carter2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=36e3392e17820b68ebc7587e544e8dbf}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nashville}%
+      }
+      \list{publisher}{1}{%
+        {Abingdon Press}%
+      }
+      \strng{namehash}{36e3392e17820b68ebc7587e544e8dbf}
+      \strng{fullhash}{36e3392e17820b68ebc7587e544e8dbf}
+      \strng{bibnamehash}{36e3392e17820b68ebc7587e544e8dbf}
+      \strng{authorbibnamehash}{36e3392e17820b68ebc7587e544e8dbf}
+      \strng{authornamehash}{36e3392e17820b68ebc7587e544e8dbf}
+      \strng{authorfullhash}{36e3392e17820b68ebc7587e544e8dbf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780687343942}
+      \field{note}{Manual standard pentru contextul imperial roman al NT. Capitolul asupra exorcismelor: Λεγιών la Mc 5 direct conectat cu Legiunea X Fretensis (emblema aper) și cu strategia imperială de pacificare după 6 d.Hr.~în Iudeea}
+      \field{title}{The Roman Empire and the New Testament: An Essential Guide}
+      \field{year}{2006}
     \endentry
     \entry{diocassius}{book}{}
       \name{author}{1}{}{%
@@ -4064,6 +4133,36 @@
       \field{title}{Adversus Haereses, I.14--16: The Numerology of Marcus the Magician}
       \field{year}{1885}
     \endentry
+    \entry{macdonald2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a566ac5931a9b44ee35afb71fc797940}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dennis\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Haven}%
+      }
+      \list{publisher}{1}{%
+        {Yale University Press}%
+      }
+      \strng{namehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{fullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{bibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
+      \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780300080124}
+      \field{note}{Opera fondatoare a \textit{Mimesis Criticism}. Capitolul 6: gerasenul demonizat ca rescriere a episodului Polifem din \textit{Odiseea} 9 --- cu Λεγιών ca inversiune ironică a Οὖτις}
+      \field{title}{The Homeric Epics and the Gospel of Mark}
+      \field{year}{2000}
+    \endentry
     \entry{macdonald2012}{book}{}
       \name{author}{1}{}{%
         {{hash=a566ac5931a9b44ee35afb71fc797940}{%
@@ -4084,7 +4183,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4113,7 +4212,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4143,7 +4242,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4175,7 +4274,7 @@
       \strng{authorbibnamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authornamehash}{a566ac5931a9b44ee35afb71fc797940}
       \strng{authorfullhash}{a566ac5931a9b44ee35afb71fc797940}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4202,7 +4301,7 @@
       \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4234,7 +4333,7 @@
       \strng{authorbibnamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authornamehash}{eedadf0f9305fc13910222008d4388f8}
       \strng{authorfullhash}{eedadf0f9305fc13910222008d4388f8}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -4636,6 +4735,37 @@
       \field{title}{Lord of the Banquet: The Literary and Theological Significance of the Lukan Travel Narrative}
       \field{year}{1989}
       \true{nocite}
+    \endentry
+    \entry{myers1988}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f77ace75591365b70de4db3437bb31c6}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Ched},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Maryknoll, NY}%
+      }
+      \list{publisher}{1}{%
+        {Orbis Books}%
+      }
+      \strng{namehash}{f77ace75591365b70de4db3437bb31c6}
+      \strng{fullhash}{f77ace75591365b70de4db3437bb31c6}
+      \strng{bibnamehash}{f77ace75591365b70de4db3437bb31c6}
+      \strng{authorbibnamehash}{f77ace75591365b70de4db3437bb31c6}
+      \strng{authornamehash}{f77ace75591365b70de4db3437bb31c6}
+      \strng{authorfullhash}{f77ace75591365b70de4db3437bb31c6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{20th Anniversary}
+      \field{isbn}{9781570758171}
+      \field{note}{Lectură politică socialistă-radicală a Evangheliei după Marcu. Episodul gerasen: Λεγιών = Legiunea X Fretensis cu emblema mistrețului (aper); porcii înecați = defeat simbolic al ocupației romane. Citește Mc 5 ca \textit{anti-imperial exorcism}}
+      \field{origyear}{1988}
+      \field{title}{Binding the Strong Man: A Political Reading of Mark's Story of Jesus}
+      \field{year}{2008}
     \endentry
     \entry{nes2004}{book}{}
       \name{author}{1}{}{%
@@ -7338,6 +7468,7 @@
       \strng{authorbibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authornamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authorfullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -7347,6 +7478,39 @@
       \field{title}{The New Testament and the People of God}
       \field{volume}{1}
       \field{year}{1992}
+      \true{nocite}
+    \endentry
+    \entry{wright1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0c7cf96e56a4d49917a74aa311e06dfa}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={N.T.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {Fortress Press}%
+      }
+      \strng{namehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{fullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{bibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authorbibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authornamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \strng{authorfullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780800626822}
+      \field{note}{Sinteză narativă a lui Iisus în context politico-religios iudaic și roman. Episodul gerasen citit ca act eshatologic de exorcizare a idolatriei imperiale}
+      \field{series}{Christian Origins and the Question of God}
+      \field{title}{Jesus and the Victory of God}
+      \field{volume}{2}
+      \field{year}{1996}
       \true{nocite}
     \endentry
     \entry{yazykova2010}{book}{}
