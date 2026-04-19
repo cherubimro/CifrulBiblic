@@ -272,6 +272,35 @@
       \field{title}{Stromata; Eclogae Propheticae}
       \true{nocite}
     \endentry
+    \entry{allen2005pyramid}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fe2a8e3eab91545625c46dd557c03816}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta}%
+      }
+      \list{publisher}{1}{%
+        {Society of Biblical Literature}%
+      }
+      \strng{namehash}{fe2a8e3eab91545625c46dd557c03816}
+      \strng{fullhash}{fe2a8e3eab91545625c46dd557c03816}
+      \strng{bibnamehash}{fe2a8e3eab91545625c46dd557c03816}
+      \strng{authorbibnamehash}{fe2a8e3eab91545625c46dd557c03816}
+      \strng{authornamehash}{fe2a8e3eab91545625c46dd557c03816}
+      \strng{authorfullhash}{fe2a8e3eab91545625c46dd557c03816}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781589831827}
+      \field{note}{Textele Piramidelor (c.~2400 î.Hr., Regatul Vechi al Egiptului) --- cea mai veche formă a tradiției funerare care duce la \textit{Cartea Morților}. Demonstrează anterioritatea materialului etic egiptean față de Decalog}
+      \field{title}{The {Ancient Egyptian Pyramid Texts}}
+      \field{year}{2005}
+    \endentry
     \entry{allison1993}{book}{}
       \name{author}{1}{}{%
         {{hash=49225ce0bcc68a606747da66850402d0}{%
@@ -850,6 +879,34 @@
       \field{title}{An Introduction to the New Testament}
       \field{year}{1997}
       \true{nocite}
+    \endentry
+    \entry{budge1895}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1874876b174c11c03a406b729a5082ea}{%
+           family={Budge},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi A.\bibnamedelimi Wallis},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {British Museum}%
+      }
+      \strng{namehash}{1874876b174c11c03a406b729a5082ea}
+      \strng{fullhash}{1874876b174c11c03a406b729a5082ea}
+      \strng{bibnamehash}{1874876b174c11c03a406b729a5082ea}
+      \strng{authorbibnamehash}{1874876b174c11c03a406b729a5082ea}
+      \strng{authornamehash}{1874876b174c11c03a406b729a5082ea}
+      \strng{authorfullhash}{1874876b174c11c03a406b729a5082ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Prima ediție savantă, cu transliterare hieroglifică și traducere. Cap.~125 conține «Declarația de nevinovăție» (42 mărturisiri negative), paralelă structurală cu Decalogul}
+      \field{title}{The {Book} of the {Dead}: The {Papyrus of Ani} in the {British Museum}}
+      \field{year}{1895}
     \endentry
     \entry{bullinger1898}{book}{}
       \name{author}{1}{}{%
@@ -2095,6 +2152,34 @@
       \field{year}{2001}
       \true{nocite}
     \endentry
+    \entry{faulkner1972}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f0c7c167988748448d059c1c3e006633}{%
+           family={Faulkner},
+           familyi={F\bibinitperiod},
+           given={Raymond\bibnamedelima O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {British Museum Press}%
+      }
+      \strng{namehash}{f0c7c167988748448d059c1c3e006633}
+      \strng{fullhash}{f0c7c167988748448d059c1c3e006633}
+      \strng{bibnamehash}{f0c7c167988748448d059c1c3e006633}
+      \strng{authorbibnamehash}{f0c7c167988748448d059c1c3e006633}
+      \strng{authornamehash}{f0c7c167988748448d059c1c3e006633}
+      \strng{authorfullhash}{f0c7c167988748448d059c1c3e006633}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Traducere critică modernă a \textit{Papirusului Ani} și a formelor paralele; standard academic pentru referințe la cap.~125 (Mărturisirea Negativă)}
+      \field{title}{The {Ancient Egyptian Book of the Dead}}
+      \field{year}{1972}
+    \endentry
     \entry{fideler1993}{book}{}
       \name{author}{1}{}{%
         {{hash=175ea8cbaac1a075f73b369286148298}{%
@@ -2119,6 +2204,41 @@
       \field{note}{Isopsefie extensivă NT; Ἰησοῦς = 888}
       \field{title}{Jesus Christ, Sun of God: Ancient Cosmology and Early Christian Symbolism}
       \field{year}{1993}
+      \true{nocite}
+    \endentry
+    \entry{finkelstein2001bible}{book}{}
+      \name{author}{2}{}{%
+        {{hash=391c3140b4df0ec9908a1629b642aa79}{%
+           family={Finkelstein},
+           familyi={F\bibinitperiod},
+           given={Israel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d5a983f553b721d4359c01a27445d3fe}{%
+           family={Silberman},
+           familyi={S\bibinitperiod},
+           given={Neil\bibnamedelima Asher},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{521f66089ee181e081fe006976701d06}
+      \strng{fullhash}{521f66089ee181e081fe006976701d06}
+      \strng{bibnamehash}{521f66089ee181e081fe006976701d06}
+      \strng{authorbibnamehash}{521f66089ee181e081fe006976701d06}
+      \strng{authornamehash}{521f66089ee181e081fe006976701d06}
+      \strng{authorfullhash}{521f66089ee181e081fe006976701d06}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780684869124}
+      \field{note}{Sinteză arheologică critică: redatare a compoziției Pentateuhului în sec.~VII î.Hr. (epoca lui Iosia); utilizare a materialului mesopotamian și a formei tratatului în codificarea tardivă a Legii}
+      \field{title}{The {Bible Unearthed}: Archaeology's {New Vision of Ancient Israel and the Origin of Its Sacred Texts}}
+      \field{year}{2001}
       \true{nocite}
     \endentry
     \entry{fitzgerald1988}{book}{}
@@ -3449,6 +3569,34 @@
       \field{year}{2000}
       \true{nocite}
     \endentry
+    \entry{kline1963treaty}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f6d6bfff4634024a5056d80790ecf3f4}{%
+           family={Kline},
+           familyi={K\bibinitperiod},
+           given={Meredith\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Grand Rapids}%
+      }
+      \list{publisher}{1}{%
+        {Eerdmans}%
+      }
+      \strng{namehash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \strng{fullhash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \strng{bibnamehash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \strng{authorbibnamehash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \strng{authornamehash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \strng{authorfullhash}{f6d6bfff4634024a5056d80790ecf3f4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Extinde teza Mendenhall cu analiză structurală completă a Deuteronomului ca tratat de suzeranitate; bază pentru argumentele de datare timpurie ale Pentateuhului}
+      \field{title}{Treaty of the {Great King}: The {Covenant Structure of Deuteronomy}}
+      \field{year}{1963}
+    \endentry
     \entry{koester2016}{article}{}
       \name{author}{1}{}{%
         {{hash=4cb0bcb85eb893b2abf105d037aeeef5}{%
@@ -4515,6 +4663,36 @@
       \field{pages}{411\bibrangedash 417}
       \range{pages}{7}
     \endentry
+    \entry{mendenhall1954covenant}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bcb231c114c58c457553c6dc8aab35df}{%
+           family={Mendenhall},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcb231c114c58c457553c6dc8aab35df}
+      \strng{fullhash}{bcb231c114c58c457553c6dc8aab35df}
+      \strng{bibnamehash}{bcb231c114c58c457553c6dc8aab35df}
+      \strng{authorbibnamehash}{bcb231c114c58c457553c6dc8aab35df}
+      \strng{authornamehash}{bcb231c114c58c457553c6dc8aab35df}
+      \strng{authorfullhash}{bcb231c114c58c457553c6dc8aab35df}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Biblical Archaeologist}
+      \field{note}{Descoperire fundamentală: Deuteronomul urmează forma tratatului de suzeranitate hitit (sec.~XV--XIII î.Hr.) --- preambul, prolog istoric, stipulații, martori, binecuvântări/blesteme. Revoluție în studiul formei legământului}
+      \field{number}{3}
+      \field{title}{Covenant {Forms in Israelite Tradition}}
+      \field{volume}{17}
+      \field{year}{1954}
+      \field{pages}{50\bibrangedash 76}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.2307/3209151
+      \endverb
+    \endentry
     \entry{merritt1985}{article}{}
       \name{author}{1}{}{%
         {{hash=abf17c7c261d2832dd39599b5e27bf2c}{%
@@ -5327,6 +5505,36 @@
       \field{title}{What Is Narrative Criticism?}
       \field{year}{1990}
       \true{nocite}
+    \endentry
+    \entry{pritchard1969anet}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=6007d7b3d3b18a94b4beefffb38bf7dc}{%
+           family={Pritchard},
+           familyi={P\bibinitperiod},
+           given={James\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Princeton}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \strng{fullhash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \strng{bibnamehash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \strng{editorbibnamehash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \strng{editornamehash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \strng{editorfullhash}{6007d7b3d3b18a94b4beefffb38bf7dc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{9780691035031}
+      \field{note}{Colecția standard de texte mesopotamiene, egiptene, hitite și ugaritice cu traducere și adnotare; conține textele integrale Hammurabi, Ur-Nammu, Lipit-Ishtar, Eshnunna, Mărturisirea Negativă, și tratate hitite de suzeranitate}
+      \field{title}{Ancient {Near Eastern Texts Relating to the Old Testament} ({ANET})}
+      \field{year}{1969}
     \endentry
     \entry{psychoyos2005}{article}{}
       \name{author}{1}{}{%
@@ -6984,6 +7192,36 @@
       \verb 10.1017/S0028688524000213
       \endverb
     \endentry
+    \entry{vanseters2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d12a3ae75696d5d93f3ff829db8c8760}{%
+           family={Van\bibnamedelima Seters},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \strng{fullhash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \strng{bibnamehash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \strng{authorbibnamehash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \strng{authornamehash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \strng{authorfullhash}{d12a3ae75696d5d93f3ff829db8c8760}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780195153156}
+      \field{note}{Tratează Cartea Legământului ca produs post-exilic (sec.~V î.Hr.) redactat pentru diaspora, nu pre-mozaic; contrapondere la Wright}
+      \field{title}{A {Law Book for the Diaspora}: {Revision in the Study of the Covenant Code}}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
     \entry{vanhoye1963}{book}{}
       \name{author}{1}{}{%
         {{hash=fbf1d2e8a4c5545a337dc136a48f893b}{%
@@ -7448,6 +7686,39 @@
       \field{year}{1901}
       \true{nocite}
     \endentry
+    \entry{wright2009inventing}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5b17dedd85fed5b3d34913b3b9da9524}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \strng{fullhash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \strng{bibnamehash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \strng{authorbibnamehash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \strng{authornamehash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \strng{authorfullhash}{5b17dedd85fed5b3d34913b3b9da9524}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780195304756}
+      \field{note}{Demonstrație filologică detaliată: Cartea Legământului (Ex 20:23--23:19) depinde literar secțiune-cu-secțiune de Codul lui Hammurabi, cu 50+ paralele ordonate identic. Argumentul cel mai puternic pentru dependența literară directă}
+      \field{title}{Inventing {God's Law}: How the {Covenant Code of the Bible Used and Revised the Laws of Hammurabi}}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780195304756.001.0001
+      \endverb
+    \endentry
     \entry{wright1992}{book}{}
       \name{author}{1}{}{%
         {{hash=0c7cf96e56a4d49917a74aa311e06dfa}{%
@@ -7468,7 +7739,7 @@
       \strng{authorbibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authornamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authorfullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -7500,7 +7771,7 @@
       \strng{authorbibnamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authornamehash}{0c7cf96e56a4d49917a74aa311e06dfa}
       \strng{authorfullhash}{0c7cf96e56a4d49917a74aa311e06dfa}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
