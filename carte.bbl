@@ -355,6 +355,35 @@
       \field{year}{1981}
       \true{nocite}
     \endentry
+    \entry{amore1978twomasters}{book}{}
+      \name{author}{1}{}{%
+        {{hash=56b3710910521d7227289cbb86ff64d5}{%
+           family={Amore},
+           familyi={A\bibinitperiod},
+           given={Roy\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nashville}%
+      }
+      \list{publisher}{1}{%
+        {Abingdon Press}%
+      }
+      \strng{namehash}{56b3710910521d7227289cbb86ff64d5}
+      \strng{fullhash}{56b3710910521d7227289cbb86ff64d5}
+      \strng{bibnamehash}{56b3710910521d7227289cbb86ff64d5}
+      \strng{authorbibnamehash}{56b3710910521d7227289cbb86ff64d5}
+      \strng{authornamehash}{56b3710910521d7227289cbb86ff64d5}
+      \strng{authorfullhash}{56b3710910521d7227289cbb86ff64d5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780687429912}
+      \field{note}{Studiu comparativ sistematic al paralelelor narative și doctrinare între Buddha și Iisus}
+      \field{title}{Two Masters, One Message: The Lives and Teachings of {Gautama} and {Jesus}}
+      \field{year}{1978}
+    \endentry
     \entry{anghel_enoh}{book}{}
       \name{author}{1}{}{%
         {{hash=f23bba8ecbdd2fd92b8bbd18c1a9c36d}{%
@@ -794,6 +823,65 @@
       \field{title}{Liber de {Haeresibus}}
       \true{nocite}
     \endentry
+    \entry{broshi1992damascus}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=62426679b228fc38c617120d3d060eb6}{%
+           family={Broshi},
+           familyi={B\bibinitperiod},
+           given={Magen},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jerusalem}%
+      }
+      \list{publisher}{1}{%
+        {Israel Exploration Society}%
+      }
+      \strng{namehash}{62426679b228fc38c617120d3d060eb6}
+      \strng{fullhash}{62426679b228fc38c617120d3d060eb6}
+      \strng{bibnamehash}{62426679b228fc38c617120d3d060eb6}
+      \strng{editorbibnamehash}{62426679b228fc38c617120d3d060eb6}
+      \strng{editornamehash}{62426679b228fc38c617120d3d060eb6}
+      \strng{editorfullhash}{62426679b228fc38c617120d3d060eb6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789652210210}
+      \field{note}{Studii complete pe fragmentele 4Q266--273 și CD după descoperirea versiunilor de la Qumran}
+      \field{title}{The {Damascus Document Reconsidered}}
+      \field{year}{1992}
+    \endentry
+    \entry{brown1979beloved}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Raymond\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Paulist Press}%
+      }
+      \strng{namehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{fullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{bibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780809121748}
+      \field{note}{Argumentează formația qumranică a autorului Evangheliei a IV-a înainte de conversiunea la creștinism}
+      \field{title}{The {Community of the Beloved Disciple}: {The Life, Loves, and Hates of an Individual Church in New Testament Times}}
+      \field{year}{1979}
+    \endentry
     \entry{brown1993}{book}{}
       \name{author}{1}{}{%
         {{hash=6d1c0b16f0555fd266dc6e65e2bcea07}{%
@@ -814,7 +902,7 @@
       \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -844,7 +932,7 @@
       \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -871,7 +959,7 @@
       \strng{authorbibnamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authornamehash}{6d1c0b16f0555fd266dc6e65e2bcea07}
       \strng{authorfullhash}{6d1c0b16f0555fd266dc6e65e2bcea07}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -1371,6 +1459,66 @@
       \field{year}{1912}
       \true{nocite}
     \endentry
+    \entry{charlesworth1992jesus}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=1b08d20775afb48cde5c7f68405a8806}{%
+           family={Charlesworth},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Doubleday}%
+      }
+      \strng{namehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{fullhash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{bibnamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editorbibnamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editornamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editorfullhash}{1b08d20775afb48cde5c7f68405a8806}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780385471596}
+      \field{note}{Volum colectiv despre paralelele dintre NT și manuscrisele Qumran; capitol despre Ioan Botezătorul și esenieni}
+      \field{title}{Jesus and the {Dead Sea Scrolls}}
+      \field{year}{1992}
+    \endentry
+    \entry{charlesworth1995dssv2}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=1b08d20775afb48cde5c7f68405a8806}{%
+           family={Charlesworth},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Tübingen / Louisville}%
+      }
+      \list{publisher}{1}{%
+        {Mohr Siebeck / Westminster John Knox}%
+      }
+      \strng{namehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{fullhash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{bibnamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editorbibnamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editornamehash}{1b08d20775afb48cde5c7f68405a8806}
+      \strng{editorfullhash}{1b08d20775afb48cde5c7f68405a8806}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783161463892}
+      \field{note}{Ediție critică a Documentului Damaschin cu aparat textual complet}
+      \field{title}{The {Dead Sea Scrolls}: {Hebrew, Aramaic, and Greek Texts with English Translations}, {Volume 2}: {Damascus Document, War Scroll, and Related Documents}}
+      \field{year}{1995}
+    \endentry
     \entry{chatzidakis2005}{incollection}{}
       \name{author}{1}{}{%
         {{hash=27d4ebee8ff045bdbec2678cd00d4e4b}{%
@@ -1718,6 +1866,36 @@
       \field{volume}{157}
       \field{year}{2001}
       \true{nocite}
+    \endentry
+    \entry{derrett1966prodigal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=16dce4d11d81312f5a1d070983870a55}{%
+           family={Derrett},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi Duncan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{16dce4d11d81312f5a1d070983870a55}
+      \strng{fullhash}{16dce4d11d81312f5a1d070983870a55}
+      \strng{bibnamehash}{16dce4d11d81312f5a1d070983870a55}
+      \strng{authorbibnamehash}{16dce4d11d81312f5a1d070983870a55}
+      \strng{authornamehash}{16dce4d11d81312f5a1d070983870a55}
+      \strng{authorfullhash}{16dce4d11d81312f5a1d070983870a55}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Testament Studies}
+      \field{note}{Analiză clasică a paralelelor dintre Luca 15:11--32 și parabola budistă din Lotus Sutra cap.~4}
+      \field{number}{1}
+      \field{title}{The {Parable of the Prodigal Son}}
+      \field{volume}{14}
+      \field{year}{1966}
+      \field{pages}{56\bibrangedash 74}
+      \range{pages}{19}
     \endentry
     \entry{didahia}{book}{}
       \field{sortinit}{D}
@@ -2267,6 +2445,36 @@
       \field{year}{1988}
       \true{nocite}
     \endentry
+    \entry{fitzmyer1961qumran2cor}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=8bfb9fdd1c0af5aa7c74d7f06d1193d6}{%
+           family={Fitzmyer},
+           familyi={F\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Catholic Biblical Association of America}%
+      }
+      \strng{namehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{fullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{bibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorbibnamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authornamehash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \strng{authorfullhash}{8bfb9fdd1c0af5aa7c74d7f06d1193d6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Catholic Biblical Quarterly}
+      \field{note}{Argumentul clasic că 2~Cor 6:14--7:1 este un fragment esenian pre-paulin interpolat, cu cele 6 elemente qumranice concentrate}
+      \field{number}{3}
+      \field{title}{{Qumran} and the {Interpolated Paragraph} in {2 Cor 6:14--7:1}}
+      \field{volume}{23}
+      \field{year}{1961}
+      \field{pages}{271\bibrangedash 280}
+      \range{pages}{10}
+    \endentry
     \entry{florensky1996}{book}{}
       \name{author}{1}{}{%
         {{hash=2f61be14129a06d5ce740a4581bc069a}{%
@@ -2353,6 +2561,7 @@
       \strng{authorbibnamehash}{46839c65d117956c5a2c2b770184e159}
       \strng{authornamehash}{46839c65d117956c5a2c2b770184e159}
       \strng{authorfullhash}{46839c65d117956c5a2c2b770184e159}
+      \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
@@ -2360,6 +2569,36 @@
       \field{note}{Colecție de studii asupra rădăcinilor evreiești-esesiene ale NT, inclusiv eseul fundamental «Blessed are the Poor in Spirit» (pp.~102--114) pe Qumran 4Q525 și Fericirile matteice}
       \field{title}{Judaism and the Origins of Christianity}
       \field{year}{1987}
+    \endentry
+    \entry{flusser1988judaism}{book}{}
+      \name{author}{1}{}{%
+        {{hash=46839c65d117956c5a2c2b770184e159}{%
+           family={Flusser},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Jerusalem}%
+      }
+      \list{publisher}{1}{%
+        {Magnes Press}%
+      }
+      \strng{namehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{fullhash}{46839c65d117956c5a2c2b770184e159}
+      \strng{bibnamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authorbibnamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authornamehash}{46839c65d117956c5a2c2b770184e159}
+      \strng{authorfullhash}{46839c65d117956c5a2c2b770184e159}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789652233530}
+      \field{note}{Analiză a fundalului iudaic (esenian, fariseic, apocaliptic) al Evangheliilor și Faptelor}
+      \field{title}{Judaism and the {Origins of Christianity}}
+      \field{year}{1988}
     \endentry
     \entry{forbes1986}{article}{}
       \name{author}{1}{}{%
@@ -2459,6 +2698,41 @@
       \field{year}{1961}
       \field{pages}{419\bibrangedash 434}
       \range{pages}{16}
+    \endentry
+    \entry{garciamartinez1998dss}{book}{}
+      \name{author}{2}{}{%
+        {{hash=53d77b3c9d0dfabc4fcb4675b54029ed}{%
+           family={García\bibnamedelima Martínez},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Florentino},
+           giveni={F\bibinitperiod}}}%
+        {{hash=55a4aae70afd964b427d4e7656300758}{%
+           family={Tigchelaar},
+           familyi={T\bibinitperiod},
+           given={Eibert\bibnamedelimb J.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Leiden}%
+      }
+      \list{publisher}{1}{%
+        {Brill}%
+      }
+      \strng{namehash}{bf971a69f77aebdf443760f798835bbd}
+      \strng{fullhash}{bf971a69f77aebdf443760f798835bbd}
+      \strng{bibnamehash}{bf971a69f77aebdf443760f798835bbd}
+      \strng{authorbibnamehash}{bf971a69f77aebdf443760f798835bbd}
+      \strng{authornamehash}{bf971a69f77aebdf443760f798835bbd}
+      \strng{authorfullhash}{bf971a69f77aebdf443760f798835bbd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789004110625}
+      \field{note}{Ediție critică standard pentru studiul științific; text ebraic/aramaic cu traducere engleză pe pagini alăturate}
+      \field{title}{The {Dead Sea Scrolls Study Edition}}
+      \field{volume}{2}
+      \field{year}{1997--1998}
     \endentry
     \entry{genette1972}{book}{}
       \name{author}{1}{}{%
@@ -4663,6 +4937,35 @@
       \field{pages}{411\bibrangedash 417}
       \range{pages}{7}
     \endentry
+    \entry{mcevilley2002ancientthought}{book}{}
+      \name{author}{1}{}{%
+        {{hash=027d037c27dbbc01cc7b79ebec27372d}{%
+           family={McEvilley},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Allworth Press}%
+      }
+      \strng{namehash}{027d037c27dbbc01cc7b79ebec27372d}
+      \strng{fullhash}{027d037c27dbbc01cc7b79ebec27372d}
+      \strng{bibnamehash}{027d037c27dbbc01cc7b79ebec27372d}
+      \strng{authorbibnamehash}{027d037c27dbbc01cc7b79ebec27372d}
+      \strng{authornamehash}{027d037c27dbbc01cc7b79ebec27372d}
+      \strng{authorfullhash}{027d037c27dbbc01cc7b79ebec27372d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781581152036}
+      \field{note}{Studiu comparativ asupra contactului helenistico-indian; relevant pentru ipoteza influențelor budiste asupra Therapeutilor}
+      \field{title}{The {Shape of Ancient Thought}: {Comparative Studies in Greek and Indian Philosophies}}
+      \field{year}{2002}
+    \endentry
     \entry{mendenhall1954covenant}{article}{}
       \name{author}{1}{}{%
         {{hash=bcb231c114c58c457553c6dc8aab35df}{%
@@ -4913,6 +5216,40 @@
       \field{title}{Lord of the Banquet: The Literary and Theological Significance of the Lukan Travel Narrative}
       \field{year}{1989}
       \true{nocite}
+    \endentry
+    \entry{murphyoconnor1968paul}{incollection}{}
+      \name{editor}{2}{}{%
+        {{hash=d8b6ec26cf4f7c3cc62bb2ee0c0c20f0}{%
+           family={Murphy-O'Connor},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1b08d20775afb48cde5c7f68405a8806}{%
+           family={Charlesworth},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Crossroad}%
+      }
+      \strng{namehash}{c153c534e4405ffa24d37ba1513dc189}
+      \strng{fullhash}{c153c534e4405ffa24d37ba1513dc189}
+      \strng{bibnamehash}{c153c534e4405ffa24d37ba1513dc189}
+      \strng{editorbibnamehash}{c153c534e4405ffa24d37ba1513dc189}
+      \strng{editornamehash}{c153c534e4405ffa24d37ba1513dc189}
+      \strng{editorfullhash}{c153c534e4405ffa24d37ba1513dc189}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780824509590}
+      \field{note}{Volum colectiv despre paralelele pauline cu manuscrisele qumranice; originalmente {\textit{Paul and Qumran}} (1968)}
+      \field{title}{Paul and the {Dead Sea Scrolls}}
+      \field{year}{1990}
     \endentry
     \entry{myers1988}{book}{}
       \name{author}{1}{}{%
@@ -5440,6 +5777,35 @@
       \field{year}{1970}
       \true{nocite}
     \endentry
+    \entry{pixner1996jerusalem}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1e8ca8f4db83eca8b7a146d259299f6e}{%
+           family={Pixner},
+           familyi={P\bibinitperiod},
+           given={Bargil},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rosh Pina}%
+      }
+      \list{publisher}{1}{%
+        {Corazin Publishing}%
+      }
+      \strng{namehash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \strng{fullhash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \strng{bibnamehash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \strng{authorbibnamehash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \strng{authornamehash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \strng{authorfullhash}{1e8ca8f4db83eca8b7a146d259299f6e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789652200525}
+      \field{note}{Identificare arheologică a Porții Esenienilor din zidul sudic al Ierusalimului; conexiunea foișorului Cinei cu cartierul esenian}
+      \field{title}{With {Jesus in Jerusalem}: {His First and Last Days in Judea}}
+      \field{year}{1996}
+    \endentry
     \entry{platon_phaedo}{book}{}
       \name{author}{1}{}{%
         {{hash=e2baf3f5223080b8067f5af7843427cc}{%
@@ -5630,6 +5996,35 @@
       \field{title}{The Icon: Window on the Kingdom}
       \field{year}{1991}
       \true{nocite}
+    \endentry
+    \entry{rabin1954zadokite}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9ef3c920a1cb5bdd72f25b3049dda923}{%
+           family={Rabin},
+           familyi={R\bibinitperiod},
+           given={Chaim},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \strng{fullhash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \strng{bibnamehash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \strng{authorbibnamehash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \strng{authornamehash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \strng{authorfullhash}{9ef3c920a1cb5bdd72f25b3049dda923}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{note}{Ediție clasică cu aparat filologic; identifică paralelele cu literatura rabinică și qumranică}
+      \field{title}{The {Zadokite Documents}}
+      \field{year}{1954}
     \endentry
     \entry{radle2019}{article}{}
       \name{author}{1}{}{%
@@ -6103,6 +6498,40 @@
       \field{year}{1993}
       \true{nocite}
     \endentry
+    \entry{schechter1910zadokite}{book}{}
+      \name{author}{1}{}{%
+        {{hash=441d1d058492b20baa6faac90b55c19c}{%
+           family={Schechter},
+           familyi={S\bibinitperiod},
+           given={Solomon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{441d1d058492b20baa6faac90b55c19c}
+      \strng{fullhash}{441d1d058492b20baa6faac90b55c19c}
+      \strng{bibnamehash}{441d1d058492b20baa6faac90b55c19c}
+      \strng{authorbibnamehash}{441d1d058492b20baa6faac90b55c19c}
+      \strng{authornamehash}{441d1d058492b20baa6faac90b55c19c}
+      \strng{authorfullhash}{441d1d058492b20baa6faac90b55c19c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Editio princeps a manuscriselor din Geniza din Cairo (MS~A și MS~B); publicarea originală a Documentului Damaschin (CD) cu textul ebraic, traducere engleză paralelă și comentariu; referințele de bază la „noul legământ în ținutul Damascului" (p.~6, r.~19; p.~8, r.~21; p.~19, r.~34; p.~20, r.~12)}
+      \field{title}{Documents of {Jewish Sectaries}, {Vol. I}: {Fragments of a Zadokite Work}}
+      \field{year}{1910}
+      \verb{urlraw}
+      \verb https://archive.org/details/SchechterFragmentsOfAZadokiteWork1910
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/SchechterFragmentsOfAZadokiteWork1910
+      \endverb
+    \endentry
     \entry{schmidt2002}{article}{}
       \name{author}{1}{}{%
         {{hash=12b671e73ce9fe1c664efeaf7a509ae9}{%
@@ -6484,6 +6913,35 @@
       \field{year}{1989}
       \true{nocite}
     \endentry
+    \entry{stegemann1998library}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8527a62c60ad3e80b7f9c4880b3cbaaf}{%
+           family={Stegemann},
+           familyi={S\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Grand Rapids / Leiden}%
+      }
+      \list{publisher}{1}{%
+        {Eerdmans / Brill}%
+      }
+      \strng{namehash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \strng{fullhash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \strng{bibnamehash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \strng{authorbibnamehash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \strng{authornamehash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \strng{authorfullhash}{8527a62c60ad3e80b7f9c4880b3cbaaf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780802841995}
+      \field{note}{Sinteză asupra conexiunilor dintre comunitatea esenianã și creștinismul primar}
+      \field{title}{The {Library of Qumran}: {On the Essenes, Qumran, John the Baptist, and Jesus}}
+      \field{year}{1998}
+    \endentry
     \entry{steinberg1996}{book}{}
       \name{author}{1}{}{%
         {{hash=196ddc9ded6a96c1fcd54a8bba354bc1}{%
@@ -6551,6 +7009,34 @@
       \verb{doi}
       \verb 10.1163/1568533962581198
       \endverb
+    \endentry
+    \entry{stendahl1957scrolls}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=4d204da5cd0ac2e92c6e44ecd976cd10}{%
+           family={Stendahl},
+           familyi={S\bibinitperiod},
+           given={Krister},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Harper}%
+      }
+      \strng{namehash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \strng{fullhash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \strng{bibnamehash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \strng{editorbibnamehash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \strng{editornamehash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \strng{editorfullhash}{4d204da5cd0ac2e92c6e44ecd976cd10}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{note}{Volum de pionierat despre implicațiile manuscriselor de la Marea Moartă pentru studiul NT}
+      \field{title}{The {Scrolls and the New Testament}}
+      \field{year}{1957}
     \endentry
     \entry{sternberg1985}{book}{}
       \name{author}{1}{}{%
@@ -6794,6 +7280,66 @@
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85122852382&doi=10.25985%2fPI.15.2.06&partnerID=40&md5=3b3249560ce5db218c2055bc4e132d8e
       \endverb
     \endentry
+    \entry{taylor2003therapeutae}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9cd5b440e54558dbd253521883ca81c0}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Joan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{fullhash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{bibnamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authorbibnamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authornamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authorfullhash}{9cd5b440e54558dbd253521883ca81c0}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199259618}
+      \field{note}{Studiu complet asupra Therapeutilor; argumentează caracterul iudaic al comunității și rolul egal al therapeutridelor}
+      \field{title}{Jewish Women Philosophers of {First-Century Alexandria}: {Philo's Therapeutae Reconsidered}}
+      \field{year}{2003}
+    \endentry
+    \entry{taylor2012essenes}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9cd5b440e54558dbd253521883ca81c0}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Joan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{fullhash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{bibnamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authorbibnamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authornamehash}{9cd5b440e54558dbd253521883ca81c0}
+      \strng{authorfullhash}{9cd5b440e54558dbd253521883ca81c0}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199554485}
+      \field{note}{Reconsiderare critică a identității esenienilor de la Qumran și a relațiilor cu iudaismul sec.~I}
+      \field{title}{The {Essenes}, the {Scrolls}, and the {Dead Sea}}
+      \field{year}{2012}
+    \endentry
     \entry{taylor1933}{article}{}
       \name{author}{1}{}{%
         {{hash=ba26fd746fbd1d056f5691bdf458e010}{%
@@ -6808,6 +7354,7 @@
       \strng{authorbibnamehash}{ba26fd746fbd1d056f5691bdf458e010}
       \strng{authornamehash}{ba26fd746fbd1d056f5691bdf458e010}
       \strng{authorfullhash}{ba26fd746fbd1d056f5691bdf458e010}
+      \field{extraname}{3}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}
@@ -7222,6 +7769,40 @@
       \field{year}{2003}
       \true{nocite}
     \endentry
+    \entry{vanderkam2002meaning}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b75238948db16c341bbe595515cd14f2}{%
+           family={VanderKam},
+           familyi={V\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f2992ccf6c5ab70532ae9a5d5d970591}{%
+           family={Flint},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {HarperSanFrancisco}%
+      }
+      \strng{namehash}{dca39b361df2503895c4613d9128197a}
+      \strng{fullhash}{dca39b361df2503895c4613d9128197a}
+      \strng{bibnamehash}{dca39b361df2503895c4613d9128197a}
+      \strng{authorbibnamehash}{dca39b361df2503895c4613d9128197a}
+      \strng{authornamehash}{dca39b361df2503895c4613d9128197a}
+      \strng{authorfullhash}{dca39b361df2503895c4613d9128197a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780060684655}
+      \field{note}{Manualul standard contemporan de introducere în studiul Qumranului și implicațiilor sale pentru NT}
+      \field{title}{The {Meaning of the Dead Sea Scrolls}: {Their Significance for Understanding the Bible, Judaism, Jesus, and Christianity}}
+      \field{year}{2002}
+    \endentry
     \entry{vanhoye1963}{book}{}
       \name{author}{1}{}{%
         {{hash=fbf1d2e8a4c5545a337dc136a48f893b}{%
@@ -7292,6 +7873,36 @@
       \field{note}{Sec.~I î.Hr. Paralele cu narațiunea NT: MacDonald (2014)}
       \field{title}{Eneida}
       \true{nocite}
+    \endentry
+    \entry{vermes2011dss}{book}{}
+      \name{author}{1}{}{%
+        {{hash=da53fdb32c6874537b17e8fd3085e2e4}{%
+           family={Vermes},
+           familyi={V\bibinitperiod},
+           given={Geza},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Penguin Books}%
+      }
+      \strng{namehash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \strng{fullhash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \strng{bibnamehash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \strng{authorbibnamehash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \strng{authornamehash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \strng{authorfullhash}{da53fdb32c6874537b17e8fd3085e2e4}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{isbn}{9780141197319}
+      \field{note}{Ediția de referință accesibilă; traducere engleză a tuturor manuscriselor de la Qumran și din Geniza; Documentul Damaschin la pp.~127--142 (CD VI.19, VIII.21, XIX.33-34, XX.12)}
+      \field{title}{The {Complete Dead Sea Scrolls in English}}
+      \field{year}{2011}
     \endentry
     \entry{vitruvius}{book}{}
       \name{author}{1}{}{%
