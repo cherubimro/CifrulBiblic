@@ -495,6 +495,27 @@
       \field{title}{Studies in Matthew}
       \field{year}{1930}
     \endentry
+    \entry{bangkokpost2024monks}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9ea6dc8fcfb2cdd52e641b3ba46e2afe}{%
+           family={{Bangkok Post}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \strng{fullhash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \strng{bibnamehash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \strng{authorbibnamehash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \strng{authornamehash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \strng{authorfullhash}{9ea6dc8fcfb2cdd52e641b3ba46e2afe}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.bangkokpost.com/thailand/special-reports/3070113/how-much-do-thai-monks-earn-per-month-}}
+      \field{note}{Reportaj asupra sistemului oficial de stipendiu \textit{nittayaphat} administrat de Department of Religious Affairs; cifre confirmate de Cabinet Resolution 2011 și Hotărârea Sangha 7/2562 B.E. (2019)}
+      \field{title}{How much do {Thai} monks earn per month?}
+      \field{year}{2024}
+    \endentry
     \entry{barber2002}{book}{}
       \name{author}{1}{}{%
         {{hash=5ba9eab74e039b017457f9e6db452616}{%
@@ -1328,6 +1349,27 @@
       \true{nocite}
       \field{pages}{261\bibrangedash 276}
       \range{pages}{16}
+    \endentry
+    \entry{cta2024religion}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dddbaf1d18f5b1100dfc323377f8067c}{%
+           family={{Central Tibetan Administration, Department of Religion \& Culture}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \strng{fullhash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \strng{bibnamehash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \strng{authorbibnamehash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \strng{authornamehash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \strng{authorfullhash}{dddbaf1d18f5b1100dfc323377f8067c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://tibet.net/department/religion/}}
+      \field{note}{Program de suport pentru monahii/călugărițele refugiați din Tibet în India: Rs.~375/lună (11--30 ani, 20 ani) sau Rs.~300/lună (destituți); program început în anii 1980, peste 10.000 beneficiari}
+      \field{title}{Monk and nun sponsorship programs}
+      \field{year}{2024}
     \endentry
     \entry{eusebius_he}{book}{}
       \name{author}{1}{}{%
@@ -3842,6 +3884,29 @@
       \field{title}{Spiritual Seeing: Picturing God's Invisibility in Medieval Art}
       \field{year}{2000}
       \true{nocite}
+    \endentry
+    \entry{drukjournal2023zhung}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dfa29e7674be60eaeac8b5e39bc5e518}{%
+           family={Khenpo},
+           familyi={K\bibinitperiod},
+           given={Karma\bibnamedelima Phuntsho},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \strng{fullhash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \strng{bibnamehash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \strng{authorbibnamehash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \strng{authornamehash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \strng{authorfullhash}{dfa29e7674be60eaeac8b5e39bc5e518}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://drukjournal.bt/zhung-dratshang-the-central-monk-body-of-bhutan/}}
+      \field{note}{Prezentarea instituției monahale centrale din Bhutan; 7.373 monahi, 275 călugărițe, 461 gomchens; finanțare constituțională prin grant anual de stat}
+      \field{title}{{Zhung Dratshang}: {The} {Central} {Monk} {Body} of {Bhutan}}
+      \field{year}{2023}
     \endentry
     \entry{kline1963treaty}{book}{}
       \name{author}{1}{}{%
@@ -6830,6 +6895,27 @@
       \field{year}{2008}
       \true{nocite}
     \endentry
+    \entry{scmp2015clergy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=657dfafcec6dc5f0fa57e78b919ff6be}{%
+           family={{South China Morning Post}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \strng{fullhash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \strng{bibnamehash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \strng{authorbibnamehash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \strng{authornamehash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \strng{authorfullhash}{657dfafcec6dc5f0fa57e78b919ff6be}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.scmp.com/news/china/article/1834935/chinas-monks-priests-and-imams-earn-meagre-wages-despite-ads-decent}}
+      \field{note}{Raport despre veniturile clerului celor cinci religii oficiale din China: budism (397 yuan/lună), taoism, catolicism, protestantism, islam; medie generală 506 yuan/lună}
+      \field{title}{{China}'s monks, priests and imams earn meagre wages despite ads of decent salary}
+      \field{year}{2015}
+    \endentry
     \entry{sparavigna2016}{article}{}
       \name{author}{2}{}{%
         {{hash=7dbdddb684fc605e0eb52b54f86432a1}{%
@@ -6912,6 +6998,27 @@
       \field{title}{Herophilus: The Art of Medicine in Early {Alexandria}}
       \field{year}{1989}
       \true{nocite}
+    \endentry
+    \entry{statista2024japan}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statista.com/statistics/1329790/japan-funeral-expenditure/}}
+      \field{note}{Statistici privind costul mediu al funeralelor în Japonia (~1,19 milioane yen în 2024) și donațiile pentru preoți (ofuse): medie 490.000 yen}
+      \field{title}{Funeral expenditure in {Japan} 2013--2022; Japan Consumer Association survey}
+      \field{year}{2024}
     \endentry
     \entry{stegemann1998library}{book}{}
       \name{author}{1}{}{%
