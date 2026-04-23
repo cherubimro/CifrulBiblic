@@ -6654,6 +6654,80 @@ import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
+# ===========================================================================
+# NOTE METODOLOGICE
+# ===========================================================================
+#
+# ELEMENTE ORBITALE
+# -----------------
+# Valorile q, e, i, ω, Ω și T_peri sunt din tabelul 4 al reconstrucției
+# Yeomans &amp; Kiang (1981), MNRAS 197, 633-646, rândul 66 d.Hr. YK81 folosesc
+# integrarea numerică cu perturbații planetare, calibrată pe observațiile
+# istorice (inclusiv cronicile chineze ale apariției din 66 AD) și pe
+# apariția modernă, pentru a reconstrui orbita pe ~3500 de ani. Aceasta
+# rămâne sursa primară pentru elementele orbitale Halley în antichitate.
+#
+# PRAGUL 0.6°/zi — CALIBRARE EMPIRICĂ
+# ------------------------------------
+# Pragul este calibrat prin două constrângeri independente:
+#
+# (a) Observabilitate culturală — la praguri mai stricte, fenomenul nu intră
+#     în memoria scrisă a antichității. Sensitivity per 66 AD:
+#       &lt;0.50°/zi (strict sub diametrul Lunii) →  2 zile  (efemer, nereținut)
+#       &lt;0.55°/zi                              → 27 zile  (sub o lună sinodică)
+#       &lt;0.60°/zi                              → 33 zile  (PESTE o lună sinodică)
+#       &lt;0.65°/zi                              → 36 zile
+#       &lt;0.70°/zi                              → 38 zile
+#       &lt;1.00°/zi                              → 47 zile
+#     Pragul 0.60°/zi este cel mai restrictiv la care fenomenul depășește
+#     o lună sinodică (29.53 zile) — unitatea naturală de durată comună
+#     calendarelor iudaic, grec, roman și chinez din sec. I d.Hr.
+#
+# (b) Robustețe meteorologică — la 2 zile (0.5°/zi strict), un singur front
+#     atmosferic de iarnă (3-5 zile în Levant) poate ascunde cometa complet.
+#     La 33 zile, chiar pierzând 8-12 nopți înnorate, rămân ~20 nopți clare.
+#     Cronicile supraviețuiesc doar fenomenelor robuste la vreme.
+#
+# TRUNCHIEREA FERESTREI
+# ---------------------
+# Numărătoarea se face exclusiv pe zile din anul calendaristic al periheliului
+# (aici: 66 d.Hr.). Structura obținută pentru Halley 66 AD:
+#
+#       14 zile (pre-periheliu, 1-14 ian.)
+#     + 18 zile GAP de conjuncție solară (15 ian. - 1 feb., elongație &lt;15°)
+#     + 19 zile (post-periheliu, 2-20 feb.)
+#     = 33 zile vizibile+staționare în anul 66 d.Hr.
+#
+# Comparație inter-apariții (cu aceleași elemente orbitale și prag):
+# 10 din 31 apariții Halley au ≥33 zile &lt;0.6°/zi. Top: 141 d.Hr. și 1759
+# cu 47 zile. Cifra 33 nu este unică — reprezintă pragul minim la care
+# fenomenul traversează &quot;o lună sinodică&quot; pentru această apariție.
+#
+# INTERFERENȚA LUNARĂ — ABSENTĂ
+# -----------------------------
+# Toate 33 zile sunt neobturate de Lună:
+#   - Luna Plină 1-2 ianuarie 66 a fost la 160-170° de cometă (cer opus);
+#   - Când Luna s-a apropiat de cometă (14 ian., 10-12 feb.), era în fază
+#     nouă (0-7% iluminată) — invizibilă practic;
+#   - Structura 14+19 coincide cu jumătățile ciclului sinodic lunar:
+#     • pre-periheliu: Luna Plină → Luna Nouă (14 zile descrescătoare)
+#     • post-periheliu: Luna Nouă → Primul Pătrar (19 zile crescătoare)
+#
+# COINCIDENȚA CU CIFRA 33
+# -----------------------
+# Cifra 33 rezultă din intersecția a trei factori:
+#   1. Periheliul pe 25 ianuarie (geometrie Halley-Pământ pentru 66 AD)
+#   2. Pragul 0.6°/zi (calibrat empiric prin calendarul lunar antic)
+#   3. Trunchierea la anul calendaristic 66 d.Hr.
+#
+# Este o concordanță reală între fenomenul astronomic și cifra 33 din
+# tradiția creștină (vârsta lui Iisus), dar NU o determinare unică — 141
+# și 1759 AD produc fereastre mai lungi la același prag. Valoarea 33 este
+# pragul minim calendaristic-lunar satisfăcut de această apariție, nu un
+# maxim fizic al fenomenului.
+#
+# ===========================================================================
+
 # ---------------------------------------------------------------------------
 # CONSTANTE
 # ---------------------------------------------------------------------------
